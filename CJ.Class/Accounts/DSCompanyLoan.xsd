@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSCompanyLoan" targetNamespace="http://tempuri.org/DSCompanyLoan.xsd" xmlns:mstns="http://tempuri.org/DSCompanyLoan.xsd" xmlns="http://tempuri.org/DSCompanyLoan.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSCompanyLoan" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DSCompanyLoan" msprop:Generator_UserDSName="DSCompanyLoan">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="CompanyLoanHistory" msprop:Generator_TableClassName="CompanyLoanHistoryDataTable" msprop:Generator_TableVarName="tableCompanyLoanHistory" msprop:Generator_TablePropName="CompanyLoanHistory" msprop:Generator_RowDeletingName="CompanyLoanHistoryRowDeleting" msprop:Generator_RowChangingName="CompanyLoanHistoryRowChanging" msprop:Generator_RowEvHandlerName="CompanyLoanHistoryRowChangeEventHandler" msprop:Generator_RowDeletedName="CompanyLoanHistoryRowDeleted" msprop:Generator_UserTableName="CompanyLoanHistory" msprop:Generator_RowChangedName="CompanyLoanHistoryRowChanged" msprop:Generator_RowEvArgName="CompanyLoanHistoryRowChangeEvent" msprop:Generator_RowClassName="CompanyLoanHistoryRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TranDate" msprop:Generator_ColumnVarNameInTable="columnTranDate" msprop:Generator_ColumnPropNameInRow="TranDate" msprop:Generator_ColumnPropNameInTable="TranDateColumn" msprop:Generator_UserColumnName="TranDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="TranType" msprop:Generator_ColumnVarNameInTable="columnTranType" msprop:Generator_ColumnPropNameInRow="TranType" msprop:Generator_ColumnPropNameInTable="TranTypeColumn" msprop:Generator_UserColumnName="TranType" type="xs:string" minOccurs="0" />
+              <xs:element name="IN" msprop:Generator_ColumnVarNameInTable="columnIN" msprop:Generator_ColumnPropNameInRow="IN" msprop:Generator_ColumnPropNameInTable="INColumn" msprop:Generator_UserColumnName="IN" type="xs:double" minOccurs="0" />
+              <xs:element name="OUT" msprop:Generator_ColumnVarNameInTable="columnOUT" msprop:Generator_ColumnPropNameInRow="OUT" msprop:Generator_ColumnPropNameInTable="OUTColumn" msprop:Generator_UserColumnName="OUT" type="xs:double" minOccurs="0" />
+              <xs:element name="Balance" msprop:Generator_ColumnVarNameInTable="columnBalance" msprop:Generator_ColumnPropNameInRow="Balance" msprop:Generator_ColumnPropNameInTable="BalanceColumn" msprop:Generator_UserColumnName="Balance" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="LoanInterest" msprop:Generator_TableClassName="LoanInterestDataTable" msprop:Generator_TableVarName="tableLoanInterest" msprop:Generator_TablePropName="LoanInterest" msprop:Generator_RowDeletingName="LoanInterestRowDeleting" msprop:Generator_RowChangingName="LoanInterestRowChanging" msprop:Generator_RowEvHandlerName="LoanInterestRowChangeEventHandler" msprop:Generator_RowDeletedName="LoanInterestRowDeleted" msprop:Generator_UserTableName="LoanInterest" msprop:Generator_RowChangedName="LoanInterestRowChanged" msprop:Generator_RowEvArgName="LoanInterestRowChangeEvent" msprop:Generator_RowClassName="LoanInterestRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="FromDate" msprop:Generator_ColumnVarNameInTable="columnFromDate" msprop:Generator_ColumnPropNameInRow="FromDate" msprop:Generator_ColumnPropNameInTable="FromDateColumn" msprop:Generator_UserColumnName="FromDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ToDate" msprop:Generator_ColumnVarNameInTable="columnToDate" msprop:Generator_ColumnPropNameInRow="ToDate" msprop:Generator_ColumnPropNameInTable="ToDateColumn" msprop:Generator_UserColumnName="ToDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Days" msprop:Generator_ColumnVarNameInTable="columnDays" msprop:Generator_ColumnPropNameInRow="Days" msprop:Generator_ColumnPropNameInTable="DaysColumn" msprop:Generator_UserColumnName="Days" type="xs:int" minOccurs="0" />
+              <xs:element name="InterestOnPrincipal" msprop:Generator_ColumnVarNameInTable="columnInterestOnPrincipal" msprop:Generator_ColumnPropNameInRow="InterestOnPrincipal" msprop:Generator_ColumnPropNameInTable="InterestOnPrincipalColumn" msprop:Generator_UserColumnName="InterestOnPrincipal" type="xs:double" minOccurs="0" />
+              <xs:element name="Interest" msprop:Generator_ColumnVarNameInTable="columnInterest" msprop:Generator_ColumnPropNameInRow="Interest" msprop:Generator_ColumnPropNameInTable="InterestColumn" msprop:Generator_UserColumnName="Interest" type="xs:double" minOccurs="0" />
+              <xs:element name="IR" msprop:Generator_ColumnVarNameInTable="columnIR" msprop:Generator_ColumnPropNameInRow="IR" msprop:Generator_ColumnPropNameInTable="IRColumn" msprop:Generator_UserColumnName="IR" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

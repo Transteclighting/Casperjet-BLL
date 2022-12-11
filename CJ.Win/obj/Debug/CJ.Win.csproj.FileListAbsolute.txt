@@ -1,0 +1,1842 @@
+D:\Local\TEL\Casper Jet\CJ.Win\bin\Debug\CJ.Win.TEL.exe.config
+D:\Local\TEL\Casper Jet\CJ.Win\bin\Debug\CJ.Win.TEL.exe
+D:\Local\TEL\Casper Jet\CJ.Win\bin\Debug\CJ.Win.TEL.pdb
+D:\Local\TEL\Casper Jet\CJ.Win\bin\Debug\CJ.Class.dll
+D:\Local\TEL\Casper Jet\CJ.Win\bin\Debug\CJ.Control.dll
+D:\Local\TEL\Casper Jet\CJ.Win\bin\Debug\CJ.Report.dll
+D:\Local\TEL\Casper Jet\CJ.Win\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\Local\TEL\Casper Jet\CJ.Win\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\Local\TEL\Casper Jet\CJ.Win\bin\Debug\CrystalDecisions.Shared.dll
+D:\Local\TEL\Casper Jet\CJ.Win\bin\Debug\CrystalDecisions.Web.dll
+D:\Local\TEL\Casper Jet\CJ.Win\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\Local\TEL\Casper Jet\CJ.Win\bin\Debug\log4net.dll
+D:\Local\TEL\Casper Jet\CJ.Win\bin\Debug\System.Web.Services.dll
+D:\Local\TEL\Casper Jet\CJ.Win\bin\Debug\TEL.SMS.BO.dll
+D:\Local\TEL\Casper Jet\CJ.Win\bin\Debug\TEL.SMS.Reports.dll
+D:\Local\TEL\Casper Jet\CJ.Win\bin\Debug\TEL.SMS.UI.Win.dll
+D:\Local\TEL\Casper Jet\CJ.Win\bin\Debug\TEL.BE.Reports.dll
+D:\Local\TEL\Casper Jet\CJ.Win\bin\Debug\TEL.Report.dll
+D:\Local\TEL\Casper Jet\CJ.Win\bin\Debug\TEL.BE.dll
+D:\Local\TEL\Casper Jet\CJ.Win\bin\Debug\TEL.Common.dll
+D:\Local\TEL\Casper Jet\CJ.Win\bin\Debug\TEL.BO.dll
+D:\Local\TEL\Casper Jet\CJ.Win\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\Local\TEL\Casper Jet\CJ.Win\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\Local\TEL\Casper Jet\CJ.Win\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\Local\TEL\Casper Jet\CJ.Win\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\Local\TEL\Casper Jet\CJ.Win\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\Local\TEL\Casper Jet\CJ.Win\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\Local\TEL\Casper Jet\CJ.Win\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\Local\TEL\Casper Jet\CJ.Win\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\Local\TEL\Casper Jet\CJ.Win\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\Local\TEL\Casper Jet\CJ.Win\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\Local\TEL\Casper Jet\CJ.Win\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\Local\TEL\Casper Jet\CJ.Win\bin\Debug\FlashControlV71.dll
+D:\Local\TEL\Casper Jet\CJ.Win\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\Local\TEL\Casper Jet\CJ.Win\bin\Debug\stdole.dll
+D:\Local\TEL\Casper Jet\CJ.Win\bin\Debug\ShockwaveFlashObjects.dll
+D:\Local\TEL\Casper Jet\CJ.Win\bin\Debug\ADODB.dll
+D:\Local\TEL\Casper Jet\CJ.Win\bin\Debug\CJ.Class.pdb
+D:\Local\TEL\Casper Jet\CJ.Win\bin\Debug\CJ.Control.pdb
+D:\Local\TEL\Casper Jet\CJ.Win\bin\Debug\CJ.Report.pdb
+D:\Local\TEL\Casper Jet\CJ.Win\bin\Debug\TEL.SMS.BO.pdb
+D:\Local\TEL\Casper Jet\CJ.Win\bin\Debug\TEL.SMS.Reports.pdb
+D:\Local\TEL\Casper Jet\CJ.Win\bin\Debug\TEL.SMS.UI.Win.pdb
+D:\Local\TEL\Casper Jet\CJ.Win\bin\Debug\log4net.xml
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.csprojResolveAssemblyReference.cache
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.csproj.ResolveComReference.cache
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Accounts.frmBankGuaranty.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Accounts.frmBankGuarantys.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Accounts.frmBankInterest.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Accounts.frmBankInterests.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Accounts.frmCompanyLoan.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Accounts.frmCompanyLoanNumber.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Accounts.frmCompanyLoanPayment.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Accounts.frmCompanyLoanQuarterEnd.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Accounts.frmCompanyLoans.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Accounts.frmCustomerBankGuarantee.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Accounts.frmCustomerBankGuarantees.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Accounts.frmCustomerBulkTran.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Accounts.frmCustomerBulkTranInvRcv.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Accounts.frmCustomerCreditApproval.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Accounts.frmCustomerCreditApprovalHistory.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Accounts.frmCustomerCreditApprovals.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Accounts.frmCustomerCreditCollection.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Accounts.frmCustomerPaymentReceive.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Accounts.frmCustomerTransactions.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmDCSChecking.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmDCSCheckings.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Accounts.frmEMIBankMapping.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Accounts.frmEMIBankMappings.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Accounts.frmEMIManagement.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Accounts.frmEMIManagements.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Accounts.frmEMITenure.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Accounts.frmEMITenures.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Accounts.frmExtendedEMICharge.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Accounts.frmExtendedEMICharges.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Accounts.frmInvoiceWiseClaimSupportExeclUploader.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Accounts.frmOutletExpenses.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Accounts.frmOutletExpensesDetail.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Accounts.frmPettyCashExpense.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Accounts.frmPettyCashExpenseHead.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Accounts.frmPettyCashExpenseHeads.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Accounts.frmPettyCashExpenses.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Accounts.frmSalesInvoiceDiscountType.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Accounts.frmSalesInvoiceDiscountTypes.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Accounts.frmSpecialDiscountLimit.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Accounts.frmSpecialDiscountLimitHistory.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Accounts.frmSpecialDiscountLimits.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Accounts.frmTPVATProduct.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Accounts.frmTPVATProducts.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Accounts.frmVeriableExpenseProvision.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Admin.frmExpenseHead.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Admin.frmExpenseHeads.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Admin.frmFixedAsset.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Admin.frmFixedAssetType.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Admin.frmFixedAssetTypes.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Admin.frmFuelType.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Admin.frmFuelTypes.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Admin.frmOfficeItem.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Admin.frmOfficeItems.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Admin.frmOfficeItemSarch.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Admin.frmOfficeItemsAuthorization.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Admin.frmOfficeItemTran.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Admin.frmOfficeItemTrans.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Admin.frmVehicleDriver.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Admin.frmVehicleDrivers.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Admin.frmVehicleMaintenance.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Admin.frmVehicleMaintenanceAdmin.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Admin.frmVehicleOperationReport.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Admin.frmVehicleOperationReportAdmin.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Admin.frmVehicleOperations.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Admin.frmVehicleOperationsAdmin.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmVehicles.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmVehicle.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmVehicleUser.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmVehicleUsers.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Basic.frmBank.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Basic.frmBanks.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmBrand.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmBrands.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Basic.frmChannel.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmCompany.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmCompanys.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Basic.frmCustomerCreditLimits.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Basic.frmCustomerVarification.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Basic.frmCustomerVarifications.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Basic.frmHOCustomerTemps.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Basic.frmMarketGroup.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Basic.frmMarketGroups.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Basic.frmOutletFeasibility.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Basic.frmOutletFeasibilityQuarter.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Basic.frmOutletFeasibilitys.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Basic.frmOutletFeasibilityType.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Basic.frmOutletFeasibilityTypes.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Basic.frmOutletInvestment.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Basic.frmOutletInvestments.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Basic.frmOutletMarketInfo.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Basic.frmOutletMarketInfos.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Basic.frmOutletMarketSizeAssessment.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Basic.frmOutletRent.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Basic.frmOutletRentAreaType.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Basic.frmOutletRents.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Basic.frmOutletSiteInfo.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Basic.frmOutletSiteInfos.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmProductHierarchy.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Basic.frmProductMCSet.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Basic.frmProductPrice.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Basic.frmProductPrices.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Basic.frmProductType.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Basic.frmProductTypes.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmSBUs.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Basic.frmVATNoReset.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Basic.frmWarehouseParents.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.BEIL.frmBEILGRD.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.BEIL.frmBEILGRDs.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.BEIL.frmBEILMaterialRequisition.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.BEIL.frmBEILMaterialRequisitions.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.BEIL.frmLCMComponentEdit.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.BEIL.frmLCMComponents.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.BEIL.frmLCMStage1.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.BEIL.frmLCMStage2.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.BEIL.frmLCMStage3.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.BEIL.frmLCMTarget.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.BEIL.frmLCMTargets.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.BEIL.frmProductActual.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.BEIL.frmProductComponentUniversal.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.BEIL.frmProductComponentUniversals.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.BEIL.frmProductionLot.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.BEIL.frmProductionLotDelivery.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.BEIL.frmProductionLotDeliverys.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.BEIL.frmProductionLotDetail.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.BEIL.frmProductionLots.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.BEIL.frmProductionPlan.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.BEIL.frmProductionPlans.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.BEIL.frmProductionSummaryFilter.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.BEIL.frmSalesOrderFactory.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.BEIL.frmSalesOrderFactoryDelivery.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.BEIL.frmSalesOrderFactorys.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.BEIL.Tool_Management.frmGoodsReceiveForTool.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.BEIL.Tool_Management.frmGoodsReceiveForTools.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.BEIL.ToolManagement.frmTool.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.BEIL.Tool_Management.frmToolIssue.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.BEIL.ToolManagement.frmTools.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.BEIL.ToolManagement.frmToolStockLedger.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.BEIL.ToolManagement.frmToolType.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.BEIL.ToolManagement.frmToolTypes.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CAC.frmCACChallan.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CAC.frmCACItemSarch.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CAC.frmCACProducStockTran.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CAC.frmCACProducStockTrans.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CAC.frmCACProduct.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CAC.frmCACProductPrice.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CAC.frmCACProducts.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CAC.frmCACProject.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CAC.frmCACProjectCollection.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CAC.frmCACProjectCollectionSchedule.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CAC.frmCACProjectInvoiceWise.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CAC.frmCACProjectOtherPayment.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CAC.frmCACProjectOtherSales.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CAC.frmCACProjectPaymentMethod.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CAC.frmCACProjects.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CAC.frmCACprojectStatus.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CAC.frmCACProjectTask.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CAC.frmCACProjectTaskComplete.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CAC.frmCACProjectTasks.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CAC.frmCACProjectTaskWeight.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CAC.frmCACQuotation.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CAC.frmCACQuotations.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CAC.frmCACSMSSale.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CAC.frmCACSMSSales.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CAC.frmCACStockLedgerReport.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CAC.frmCACSubmitQuotation.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CAC.frmQuotationInvoice.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Claim.frmClaimImvoice.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Claim.frmReengineeredStockTran.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Claim.frmReplaceClaimStockTran.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Claim.frmReplaceClaimStockTranReport.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CLP.frmCLPEligibilities.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CLP.frmCLPEligibility.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CLP.frmCLPPoint.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CLP.frmCLPPointList.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.ctlChannelCSD.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.ctlCSDJob.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.ctlCSDTechnician.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Control.ctlCustomer.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.ctlEmployee.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.ctlEPSCustomer.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.ctlInterService.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.ctlJobAll.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.ctlProduct.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Control.ctlProducts.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Control.ctlSundryCustomer.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.ctlThana.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmChannelSearchCSD.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Control.frmCSDJobSearchNew.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Control.frmCSDTechnician.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Control.frmCustomerSearch.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Control.frmEmployeeSearch1.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmEPSCustomerSearch.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmInterServiceSearch.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Control.frmCSDJobSearch.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmSearchThana.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Account.frmTPBillProcess.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmTPBills.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmUpdateTPCharge.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Reception.frmForcelyStatusUpdate.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.CallCenter.frmCallCenter.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.CallCenter.frmCommunication.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.CallCenter.frmConsumerHistory.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.CallCenter.frmConsumerHistorys.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.CallCenter.frmFeedbackDateChange.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.CallCenter.frmJobDetail.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.ctlJob.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.frmBrandsMultiSelect.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmComplain.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmComplainAction.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmComplainAssign.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmComplainHappyCall.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmComplains.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.frmCSDHelpLine.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.frmCSDJobHistory.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.frmCSDJobSummeryDateWiseReport.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.frmCSDProductGroup.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.frmCSDProductGroups.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.frmCsdServiceCharge.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.frmCsdServiceCharges.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.frmCSDSMSCancel.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.frmCSDSMSHelpLines.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.frmCSDSMSHistory.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.frmCSDSMSHistoryCreate.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.frmCSDtechnicianJobsInHand.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.frmCustomerSatisfaction.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.frmCustomerSatisfactions.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.frmDailySalesCollection.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmEditComments.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.frmExchangeOfferFundTransfer.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.frmExchangeOfferJob.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.frmExchangeOfferJobAssign.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.frmExchangeOfferJobs.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.frmExchangeOfferMoneyReceiptTransfer.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.frmExchangeOfferMoneyReceiptTransfers.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.frmExchangeOfferVender.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.frmExchangeOfferVenderDeposit.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.frmExchangeOfferVenderDeposits.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.frmExchangeOfferVenderParent.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.frmExchangeOfferVenderParnets.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.frmExchangeOfferVenders.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.frmExtendedWarrantyItem.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.frmExtendedWarrantyItems.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.frmGetAPIData.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.frmGetInvoiceInfo.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.frmGetJobInfo.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmInquiry.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmInquiryCommunication.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmInquirys.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmInvSer.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmISVPartsRequisition.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmISVPartsRequisitionCancel.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmISVPartsRequisitionCommunication.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmISVPartsRequisitionHistory.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmISVPartsRequisitionIssue.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmISVPartsRequisitionProActive.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmISVPartsRequisitions.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmISVPartsRequisitionSend.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmJobSearch.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmJobSearchISV.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmJobStatus.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.frmJobStatusUpdate.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmPaidJobForInterService.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmPaidJobForInterServiceAssign.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmPaidJobforInterServiceCancel.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmPaidJobForInterServiceCommunication.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmPaidJobForInterServiceConvert.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmPaidJobForInterServiceHistory.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmPaidJobForInterServicePending.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmPaidJobForInterServiceProvided.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmPaidJobForInterServices.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmPaidJobforInterServiceScheduleView.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmPaidJobForInterServiceWIP.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.frmProductFault.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.frmProductFaults.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.frmProductSearch.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmReplaceCancel.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmReplaceDelivery.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmReplaceHappyCall.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmReplaceHistory.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmReplaceInform.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmReplaceIssue.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmReplaceRaise.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmReplaces.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmSearchLoanProduct.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmSMSCancel.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmSMSMessage.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmSMSMessages.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmSMSReGenerate.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmSpareLoans.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmSparePartSearch.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmTechnicalSupervisor.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmTechnicalSupervisors.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmTechnicalSuperVSInterService.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.frmTechnicianWiseFeedBack.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.frmTechnicianWiseFeedBackDates.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmVehicleReSchedulePreparation.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmVehicleSchedule.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmVehicleScheduleCancel.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmVehicleScheduleDone.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmVehicleScheduleHistory.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmVehicleSchedulePreparation.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmVehicleScheduleReportView.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmVehicleSchedules.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmVehicleScheduleSuspend.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Reception.frmAccessoryServiceChargeView.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Reception.frmAdvancePayment.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Reception.frmAdvancePayments.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Reception.frmBackupProduct.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Reception.frmBackupProducts.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Reception.frmCancelReason.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Reception.frmCSDGetPass.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Reception.frmCSDJobAssign.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Reception.frmInstallationItems.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Reception.frmInvoiceCalls.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Reception.frmInvoiceCallsCustomerWise.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Reception.frmJob.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Reception.frmJobNoSave.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Reception.frmJobs.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Reception.frmMAGWiseQuestioner.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Reception.frmPendingBillPay.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Reception.frmProductDeliveryToCustomer.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Reception.frmProductMovement.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Reception.frmProductMovements.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Reception.frmStatusUpdateForcelyCreate.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmStatusUpdatesForcely.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Reception.frmTechnicalAssessment.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Reception.frmViewPendingBill.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Reception.frmViewServiceCharge.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmChildStore.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmChildStores.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Store.frmCSDMaterialConsumerReportDetail.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmCSDProductType.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmCSDProductTypes.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Store.frmCSDTechnicianTransportationApprove.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Store.frmCSDTechnicianTransportations.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmInterService.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmInterServices.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmParentStore.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmParentStores.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmPartsIssueToJob.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Store.frmPartsIssueToJobs.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmPartsSupplier.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmPartsSuppliers.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmPH.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Store.frmProductCheckList.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Store.frmProductCheckLists.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmServiceCharge.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Store.frmServiceChargeCustomer.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Store.frmServiceCharges.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmSparePart.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Store.frmSparePartCashSale.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Store.frmSparePartCashSales.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmSpareParts.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmSparePartSearchR.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Store.FrmSparePartsOrder.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Store.FrmSparePartsOrders.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmSparePartsReceive.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmSparePartsReceives.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmSparePartsStockAdjustment.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Store.frmSparePartsStockAdjustments.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmSparePartStock.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Store.frmSparePartsTransfer.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Store.frmSparePartsTransfers.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Store.frmSPIssuetoInternalParty.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Store.frmSPIssuetoInternalPartys.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmSPLocation.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmSPLocations.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmSPMainCat.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmSPMainCats.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmSPReturnToSuplier.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmSPReturnToSuplieres.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmSPStockLedger.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmSPSubCat.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmSPSubCats.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmSPTranType.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmSPTranTypes.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmStore.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmStores.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmTechnician.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmTechnicians.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmWorkshop.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmWorkshopLocation.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmWorkshopLocations.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmWorkshops.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmAssignJob.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmAssignJobs.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Workshop.frmBackupSet.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Workshop.frmBackupSetIssue.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Workshop.frmChangeTechnician.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Workshop.frmCSDJobBillSend.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Workshop.frmCSDJobBillSends.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Workshop.frmCSDJobSchedule.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Workshop.frmJobUpdate.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Workshop.frmTechnicianBlock.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Workshop.frmTechnicianBlocks.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Workshop.frmTechnicianWiseJobs.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Workshop.frmViewTechnician.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmDealerExeclUploader.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Dealer.frmDealerOutlet.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Dealer.frmDealerOutlets.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Dealer.frmDealerUser.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Dealer.frmDealerUsers.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Dealer.frmSetBarcodes.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Dealer.frmStockAdjustment.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Distribution.frmAutoIndent.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Distribution.frmAutoIndents.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Distribution.frmCACInvoiceWiseCapacity.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Distribution.frmCACInvoiceWiseCapacitys.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Distribution.frmDeliveryInvoices.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Distribution.frmDutyVehicle.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Distribution.frmDutyVehicles.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Distribution.frmLogDeliveryShipment.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Distribution.frmLogDeliveryShipmentDateUpdate.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Distribution.frmLogDeliveryShipmentList.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Distribution.frmLogDeliveryShipments.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Distribution.frmOrder.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Distribution.frmOrderFromCustomer.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Distribution.frmOrders.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Distribution.frmOrdersFromCustomer.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Distribution.frmPrintWarrantyCard.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Distribution.frmProductTransferProductSerial.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Distribution.frmReplaceInvoice.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Distribution.frmReprintDeliveryGatePass.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Distribution.frmSalesInvoiceProductSerial.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Distribution.frmShipmentCostParam.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Distribution.frmShipmentCostParams.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Distribution.frmShipmentRoute.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Distribution.frmShipmentRoutes.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Distribution.frmShipmentVehicle.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Distribution.frmShipmentVehicles.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Distribution.frmTDDeliveryShipmentHO.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Distribution.frmTDDeliveryShipmentHOBill.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Distribution.frmTDDeliveryShipmentsHO.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.DMS.frmDataUploader.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.DMS.frmDMSDSR.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.DMS.frmDMSDSRRoute.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.DMS.frmDMSDSRs.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.DMS.frmDMSDSRSalary.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.DMS.frmDMSOutlets.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.DMS.frmDMSReplaceClaim.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.DMS.frmDMSRoute.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.DMS.frmDMSRoutes.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.DMS.frmDMSSalaryProcess.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.DMS.frmDMSUser.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.DMS.frmDMSUserOpt.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.DMS.frmOutletUpdate.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.DMS.frmReordering.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.DMS.frmReplaceDeliveryClaims.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.DMS.frmReportViewer.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.DMS.frmSaledateCorrection.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.DMS.frmSaledateCorrections.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.DMS.frmSalesIn.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.DMS.frmStockIn.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.DMS.frmstrikeRate.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.DMS.frmTargetIn.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.DMS.frmWDUploader.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Duty.frmDutyTran.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Duty.frmDutyTrans.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Duty.frmOutletDutyTran.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Duty.frmStockPositionVAT.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Duty.frmVATLedger.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Ecommerce.frmECHistory.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Ecommerce.frmECommerceLeadAssign.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Ecommerce.frmECommerceLeadAssigns.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Ecommerce.frmEcommerceOrder.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Ecommerce.frmEcommerceOrders.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Ecommerce.frmECOrder.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Ecommerce.frmECOrders.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Ecommerce.frmECSalesLead.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Ecommerce.frmECSalesLeadAssign.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Ecommerce.frmECSalesLeadHappyCall.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Ecommerce.frmECSalesLeads.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Ecommerce.frmECUploadFromXL.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Ecommerce.frmIPDCFileTracking.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Ecommerce.frmIPDCFileTrackingAdd.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Ecommerce.frmIPDCFileTrackingStatusHistory.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Ecommerce.frmIPDCFileTrackingStatusUpdate.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Ecommerce.frmLeadConsumerSarch.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Ecommerce.frmLeadInvoiceChallan.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Ecommerce.frmLeadInvoiceChallanHandedOver.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Ecommerce.frmLeadInvoiceChallans.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Ecommerce.frmLeadInvoices.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Ecommerce.frmOutboundCallStatusUpdate.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Ecommerce.frmPotentialCustomerEntry.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Ecommerce.frmPotentialCustomerFollowup.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Ecommerce.frmPotentialCustomerFollowups.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Ecommerce.frmProductFeature.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Ecommerce.frmProductFeatures.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Ecommerce.frmSalesLeadAssign.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Ecommerce.frmSalesLeadMgtQuestions.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Ecommerce.frmStatusUpdate.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Ecommerce.frmIPDCFilesTrackings.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.EPS.frmCompanyWiseReportView.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.EPS.frmEMICalculation.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.EPS.frmEPSCollection.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.EPS.frmEPSAdjustment.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.EPS.frmEPSCustomer.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.EPS.frmEPSCustomers.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.EPS.frmEPSOrder.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.EPS.frmEPSOrders.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmFixedAssets.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.EPS.frmEPSTD.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.ERP.frmMapERPWareHouse.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.ERP.frmMapERPWareHouses.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.ERP.frmProcessERPInvoice.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmCustomerMapping.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmCustomerMappings.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmProductMapping.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmProductMappings.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.ERP.frmUnMappedList.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmAbout.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmBarcodeSystemBE.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmCommissionProcess.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmDealerorderMonitoring.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmOutletCommissionADDDeduc.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmOutletCommissionCalculation.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmOutletCommissionProcess.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmOutletCommissionProcessNew.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmProductComponent.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmProductComponentACIndoor.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmProductComponentACIndoors.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmProductComponents.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmProductPortfolio.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmProductPortfolios.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmProductSearchForControl.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmProductSearchInCheck.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmProject.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmProjectDetail.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmProjectDetails.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmProjects.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmProjectTask.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmProjectTaskDetail.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmPurchaseRequisitionInvoice.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmSearchGiftProduct.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmSmartSMSForSingle.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmSmartSMSMessageForGroup.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmStatusUpdate.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmTransferIMEI.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmTransferToCassiopeia.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmGiftVoucherEntry.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmGiftVoucherTransfer.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmAbsentList.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmAllowanceDeductMapping.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmAllowanceDeductMappings.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmAllowanceDeducts.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmAllowanceDeductUploader.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmAnnualLeavePlan.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmAllDeductionGrade.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmAllowanceDeduct.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmAllowanceDeduction.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmAnnualLeavePlans.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmAttendDataProcessLog.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmAttendReportEmployeeWise.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmBEILDistributionSet.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmBEILDistributionSets.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmBEILEmployeeDistSet.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmBEILEmployeeDistSets.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmBlldistributionset.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmBlldistributionsets.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmBllEmployeeDistSet.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmBllEmployeeDistSets.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmDepartmentsMultiSelect.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmDesignationSearch.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmEmployeeLeaveEntry.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmEmployeeLeaves.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmEmployeeLeave.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmAttendReports.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmClassBuilder.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmHRAssessment.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmHRAssessments.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmHRAssessmentStatus.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmHRAttendInfoView.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmHRLoanType.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmHRLoanTypes.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmHROverTimeEmployee.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmHROverTimeEmployees.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmHRPayrollAddDeduct.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmHRPayrollAddDeducts.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmHRPayrollOtherBenefit.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmHRPayrollOtherBenefitPaymentType.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmHRPayrollOtherBenefitPaymentTypeName.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmHRPayrollOtherBenefitPaymentTypeNames.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmHRPayrollOtherBenefitPaymentTypes.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmHRPayrollOtherBenefits.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmHRPayrollUnmapEmpl.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmHRPositionRole.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmHRPositionRoles.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmHRPositionRoleType.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmHRPositionRoleTypes.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmHRProductionMachine.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmHRProductionMachineMapping.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmHRProductionMachineMappings.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmHRProductionMachines.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmHRRelayAdd.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmHRRelays.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmHRSection.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmHRSections.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmHRShiftMapingAdd.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmHRShiftMappings.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmHRUniformDistribution.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmHRUniformDistributions.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmLoan.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmLoanCalculator.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmLoanEarlySettle.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmLoans.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmLoanType.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmLoanTypes.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmManpowerRequisition.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmManpowerRequisitions.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmMAPProductGroup.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmMAPProductGroups.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmMedicalClaims.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmMobileBillBulkEntry.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmMobileBillDeductionApproval.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmMobileBillDeductionApprovals.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmMobileBillEdit.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmMobileBillSingleEntry.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmMobileBillExeclUploader.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmMobileBillView.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmMobileBillViewReport.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmMobileCreditLimitUpdate.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmMobileDatapacClearHistory.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmMobileNumber.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmMobileNumberAssign.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmMobileNumbers.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmOutletCommissionEmployee.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmOutStationDuty.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmOutStationDutyList.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmOverTime.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmOverTimeDetail.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmOverTimes.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmPayroll.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmPayrollCompareReport.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmPayrollEmployeeSetting.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmHRPayrollEmployeeSettingCopy.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmPayrollEmployeeSettings.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmPayrollGetEmployee.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmPayrollPrint.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmPayrolls.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmPayrollStaffTopSheet.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmPFReport.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmPosition.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmPositionAssign.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmPositionHistory.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmPositionManagement.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmPositionUnassign.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmSettings.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.Recruitment.frmHRAgency.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.Recruitment.frmHRCompany.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.Recruitment.frmHRCVs.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Inventory.frmCurrentStock.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Inventory.frmDPCorrection.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Inventory.frmGoodsReceive.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Inventory.frmGoodsReceives.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Inventory.frmGRD.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Inventory.frmLiveDemo.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Inventory.frmLiveDemos.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Inventory.frmLiveDemoStatusUpdate.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Inventory.frmLiveDemoStatusUpdates.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Inventory.frmMsgCIQty.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Inventory.frmMsgPIQty.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Inventory.frmProductSerialUpload.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Inventory.frmStockLedger.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Inventory.frmStockTransfer.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Inventory.frmStockTransfers.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Inventory.frmTransactionalSerialUploader.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Inventory.frmWarehouseCurrentStock.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.IT.frmDeductDetails.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.IT.frmITDeductList.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.IT.frmScheduler.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.MessageBoxWithDetails.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Plan.frmCustomerTarget.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Plan.frmCustomerTargets.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Plan.frmPlanBudgetTargets.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Plan.frmPlanBudgetTragetUploader.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Plan.frmPlanDealerMAGTarget.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Plan.frmPlanDealerMAGTargets.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Plan.frmPlanExecutiveActivityTargetExeclUploader.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.POS.frmAllDepotStock.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.POS.frmCPXML.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.POS.frmCPXMLs.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.POS.frmDataTransfer.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.POS.frmDCSView.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.POS.frmDiscountReason.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.POS.frmDiscountReasons.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.POS.frmDMSSalesOrder.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.POS.frmDMSSalesOrders.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.POS.frmISGMReceive.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.POS.frmPaymentMode.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.POS.frmPaymentModes.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.POS.frmPrint.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.POS.frmReverseApproval.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.POS.frmReverseApprovals.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.POS.frmReverseRemarksUpdate.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.POS.frmStockCasperCassiopeia.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.POS.frmStockRequisition.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.POS.frmStockRequisitionAuthorizationRT.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.POS.frmStockRequisitionAuthorization.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.POS.frmStockRequisitionDeliveryWH.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.POS.frmStockTransfer.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.POS.frmTDOutlet.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.POS.frmTDOutlets.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.POS.frmStockRequisitions.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.POS.frmUnsoldDefectiveAcknowledge.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.POS.frmUnsoldDefectiveProductsHO.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.POS.frmUnsoldDefectiveStatus.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Process.frmSalesDataSync.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Process.frmSalesDataSyncItem.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Process.frmTDVATProcess.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Process.frmTransferFromCassiopia.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Promotion.frmAddExchangeOffer.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Promotion.frmB2BDiscount.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Promotion.frmB2BDiscounts.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Promotion.frmBankDiscount.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Promotion.frmBankDiscountEdit.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Promotion.frmBankDiscounts.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Promotion.frmConsumerPromotionDiscountContribution.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Promotion.frmConsumerPromotionDiscountContributor.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Promotion.frmConsumerPromotionDiscountContributors.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Promotion.frmConsumerPromotions.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Promotion.frmDiscountASGBrandEMI.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Promotion.frmDiscountASGBrandEMIEdit.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Promotion.frmDiscountASGBrandEMIs.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Promotion.frmEditPromotion.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Promotion.frmExchangeOffers.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Promotion.frmGetPromoDetail.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Promotion.frmMAGBrandWiseDiscount.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Promotion.frmMAGBrandWiseDiscountEDIT.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Promotion.frmMAGBrandWiseDiscounts.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Promotion.frmPromotionalOffer.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Promotion.frmPromotionCalculator.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Promotion.frmPromotionTargetAllocator.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Promotion.frmPromoTP.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Promotion.frmPromoTPOffer.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Promotion.frmPromoTPOffers.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Promotion.frmPromoTPs.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Promotion.frmPromoWarranty.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Promotion.frmPromoWarrantyAdd.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Promotion.frmSalesPromoOffer.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Promotion.frmSalesPromoOffers.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Promotion.frmSPDiscountScratchCard.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Promotion.frmSPDiscountScratchCards.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Promotion.frmSpecialDiscountApproval.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Promotion.frmSpecialDiscountApprovals.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Promotion.frmTDSalesPromotion.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Promotion.frmPromotionCalculation.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Promotion.frmPromotionType.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Promotion.frmPromotionTypes.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Promotion.frmSalesPromo.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Promotion.frmSalesPromoModify.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Promotion.frmSalesPromotion.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Promotion.frmSalesPromotionCentral.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Promotion.frmSalesPromotions.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Promotion.frmSlab.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Claim.frmReplaceClaims.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Replace_Management.frmClaimAssess.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Replace_Management.frmClaimGenerator.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Replace_Management.frmClaimMonitorings.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Replace_Management.frmClaimReceive.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Replace_Management.frmReplacementClaims.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Replace_Management.frmReplacementClaimSettelement.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Replace_Management.frmReplacementMonitoring.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Replace_Management.frmTPorKPISettlement.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Retail.frmOutletDisplayPosition.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmOutletDisplayPositionExeclUploader.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Retail.frmOutletDisplayPositionRack.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Retail.frmOutletDisplayPositionRackView.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Retail.frmOutletDisplayPositions.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Security.frmCassiopeiaLogIn.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Security.frmDataPermission.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Security.frmDMSUsers.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Security.frmUserOther.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Security.frmUserOthers.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Security.frmUserRegistrations.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Security.frmUserRegistration.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.SMS.frmSMSSingle.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.SupplyChain.frmBEILProductBOM.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.SupplyChain.frmBEILProductBOMs.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmCommercialInvoices.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmBarcodePrint.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmCustomer.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Basic.frmCustomerCreditLimit.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmCustomers.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmEmployees.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmAttendInfos.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmAttendDatas.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmAttendData.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmShifts.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmShift.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmHolidayCalendar.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmInsertCassiopeiaTransfer.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmMain.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmBarcodeManualy.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmProduct.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmBarcodeSystem.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmProducts.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.SupplyChain.frmLCProcessingDate.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.SupplyChain.frmLCProcessings.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.SupplyChain.frmLead.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.SupplyChain.frmLeadManagement.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.SupplyChain.frmLeadManagements.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.SupplyChain.frmLeads.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.SupplyChain.frmNonLC.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.SupplyChain.frmOrderAndLCs.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.SupplyChain.frmReadyForGRD.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.SupplyChain.frmSalesTrand.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.SupplyChain.frmSCMBilling.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.SupplyChain.frmSCMBOM.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.SupplyChain.frmSCMCustomerClearance.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.SupplyChain.frmSCMLCOpen.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.SupplyChain.frmSCMLCS.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.SupplyChain.frmSCMLogAcknowledgements.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.SupplyChain.frmSCMOrderPlace.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.SupplyChain.frmSCMOrders.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.SupplyChain.frmSCMPI.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.SupplyChain.frmSCMPIBEIL.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.SupplyChain.frmSCMPIS.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmSCMPSIItemExeclUploader.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.SupplyChain.frmSCMPurchaseOrder.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.SupplyChain.frmSCMPurchaseOrders.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.SupplyChain.frmSCMRelease.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.SupplyChain.frmSCMSalesPlan.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.SupplyChain.frmSCMSalsePlans.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.SupplyChain.frmSCMShadowPrice.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.SupplyChain.frmSCMShadowPrices.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.SupplyChain.frmSCMShipments.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.SupplyChain.frmShipment.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.SupplyChain.frmShipments.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmSupplier.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmSuppliers.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmPurchaseRequisition.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmCommercialInvoice.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmPurchaseRequisitions.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmPurchaseRequisitionSearch.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmSearchProduct.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmSMSIndenting.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmAttendDataDownload.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmJobLocation.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmJobLocations.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmJobGrade.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmJobGrades.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmDepartment.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmDepartments.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmDesignation.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmDesignations.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmEmployee.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmEmployees.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmEmail.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmEmails.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.IT.frmITEquipmentFeature.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.IT.frmITEquipmentHistory.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.IT.frmITEquipmentModel.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.IT.frmITEquipment.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.IT.frmITEquipmentModels.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.IT.frmITEquipments.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmITRequisition.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmITRequisitions.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Properties.Resources.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Security.frmChangePassword.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Security.frmLogIn.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Security.frmUser.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Security.frmUsers.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.SupplyChain.frmUploaderforRMandPipeline.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Warranty.frmWarrantyCategory.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Warranty.frmWarrantyCategoryList.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Warranty.frmWarrantyClaimDistribution.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Warranty.frmWarrantyClaimDistributions.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Warranty.frmWarrantyParam.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Warranty.frmWarrantyParameter.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmWebMappingUpdate.resources
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.csproj.GenerateResource.Cache
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.TEL.exe
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.TEL.pdb
+D:\Local\TEL\Casper Jet\CJ.Win\obj\Debug\CJ.Win.SupplyChain.frmUploaderforPackQty.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\bin\Debug\CJ.Win.TEL.exe.config
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\bin\Debug\CJ.Win.TEL.exe
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\bin\Debug\CJ.Win.TEL.pdb
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\bin\Debug\CJ.Class.dll
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\bin\Debug\CJ.Control.dll
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\bin\Debug\CJ.Report.dll
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\bin\Debug\CrystalDecisions.Shared.dll
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\bin\Debug\CrystalDecisions.Web.dll
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\bin\Debug\log4net.dll
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\bin\Debug\System.Web.Services.dll
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\bin\Debug\TEL.SMS.BO.dll
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\bin\Debug\TEL.SMS.Reports.dll
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\bin\Debug\TEL.SMS.UI.Win.dll
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\bin\Debug\TEL.BE.Reports.dll
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\bin\Debug\TEL.Report.dll
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\bin\Debug\TEL.BE.dll
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\bin\Debug\TEL.Common.dll
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\bin\Debug\TEL.BO.dll
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\bin\Debug\FlashControlV71.dll
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\bin\Debug\stdole.dll
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\bin\Debug\ShockwaveFlashObjects.dll
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\bin\Debug\ADODB.dll
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\bin\Debug\CJ.Class.pdb
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\bin\Debug\CJ.Control.pdb
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\bin\Debug\CJ.Report.pdb
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\bin\Debug\TEL.SMS.BO.pdb
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\bin\Debug\TEL.SMS.Reports.pdb
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\bin\Debug\TEL.SMS.UI.Win.pdb
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\bin\Debug\log4net.xml
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.csprojResolveAssemblyReference.cache
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.csproj.ResolveComReference.cache
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Accounts.frmBankGuaranty.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Accounts.frmBankGuarantys.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Accounts.frmBankInterest.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Accounts.frmBankInterests.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Accounts.frmCompanyLoan.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Accounts.frmCompanyLoanNumber.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Accounts.frmCompanyLoanPayment.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Accounts.frmCompanyLoanQuarterEnd.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Accounts.frmCompanyLoans.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Accounts.frmCustomerBankGuarantee.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Accounts.frmCustomerBankGuarantees.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Accounts.frmCustomerBulkTran.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Accounts.frmCustomerBulkTranInvRcv.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Accounts.frmCustomerCreditApproval.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Accounts.frmCustomerCreditApprovalHistory.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Accounts.frmCustomerCreditApprovals.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Accounts.frmCustomerCreditCollection.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Accounts.frmCustomerPaymentReceive.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Accounts.frmCustomerTransactions.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmDCSChecking.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmDCSCheckings.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Accounts.frmEMIBankMapping.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Accounts.frmEMIBankMappings.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Accounts.frmEMIManagement.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Accounts.frmEMIManagements.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Accounts.frmEMITenure.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Accounts.frmEMITenures.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Accounts.frmExtendedEMICharge.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Accounts.frmExtendedEMICharges.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Accounts.frmInvoiceWiseClaimSupportExeclUploader.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Accounts.frmOutletExpenses.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Accounts.frmOutletExpensesDetail.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Accounts.frmPettyCashExpense.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Accounts.frmPettyCashExpenseHead.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Accounts.frmPettyCashExpenseHeads.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Accounts.frmPettyCashExpenses.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Accounts.frmSalesInvoiceDiscountType.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Accounts.frmSalesInvoiceDiscountTypes.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Accounts.frmSpecialDiscountLimit.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Accounts.frmSpecialDiscountLimitHistory.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Accounts.frmSpecialDiscountLimits.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Accounts.frmTPVATProduct.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Accounts.frmTPVATProducts.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Accounts.frmVeriableExpenseProvision.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Admin.frmExpenseHead.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Admin.frmExpenseHeads.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Admin.frmFixedAsset.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Admin.frmFixedAssetType.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Admin.frmFixedAssetTypes.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Admin.frmFuelType.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Admin.frmFuelTypes.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Admin.frmOfficeItem.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Admin.frmOfficeItems.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Admin.frmOfficeItemSarch.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Admin.frmOfficeItemsAuthorization.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Admin.frmOfficeItemTran.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Admin.frmOfficeItemTrans.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Admin.frmVehicleDriver.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Admin.frmVehicleDrivers.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Admin.frmVehicleMaintenance.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Admin.frmVehicleMaintenanceAdmin.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Admin.frmVehicleOperationReport.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Admin.frmVehicleOperationReportAdmin.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Admin.frmVehicleOperations.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Admin.frmVehicleOperationsAdmin.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmVehicles.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmVehicle.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmVehicleUser.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmVehicleUsers.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Basic.frmBank.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Basic.frmBanks.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmBrand.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmBrands.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Basic.frmChannel.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmCompany.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmCompanys.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Basic.frmCustomerCreditLimits.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Basic.frmCustomerVarification.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Basic.frmCustomerVarifications.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Basic.frmHOCustomerTemps.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Basic.frmMarketGroup.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Basic.frmMarketGroups.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Basic.frmOutletFeasibility.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Basic.frmOutletFeasibilityQuarter.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Basic.frmOutletFeasibilitys.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Basic.frmOutletFeasibilityType.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Basic.frmOutletFeasibilityTypes.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Basic.frmOutletInvestment.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Basic.frmOutletInvestments.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Basic.frmOutletMarketInfo.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Basic.frmOutletMarketInfos.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Basic.frmOutletMarketSizeAssessment.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Basic.frmOutletRent.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Basic.frmOutletRentAreaType.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Basic.frmOutletRents.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Basic.frmOutletSiteInfo.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Basic.frmOutletSiteInfos.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmProductHierarchy.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Basic.frmProductMCSet.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Basic.frmProductPrice.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Basic.frmProductPrices.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Basic.frmProductType.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Basic.frmProductTypes.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmSBUs.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Basic.frmVATNoReset.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Basic.frmWarehouseParents.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.BEIL.frmBEILGRD.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.BEIL.frmBEILGRDs.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.BEIL.frmBEILMaterialRequisition.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.BEIL.frmBEILMaterialRequisitions.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.BEIL.frmLCMComponentEdit.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.BEIL.frmLCMComponents.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.BEIL.frmLCMStage1.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.BEIL.frmLCMStage2.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.BEIL.frmLCMStage3.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.BEIL.frmLCMTarget.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.BEIL.frmLCMTargets.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.BEIL.frmProductActual.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.BEIL.frmProductComponentUniversal.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.BEIL.frmProductComponentUniversals.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.BEIL.frmProductionLot.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.BEIL.frmProductionLotDelivery.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.BEIL.frmProductionLotDeliverys.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.BEIL.frmProductionLotDetail.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.BEIL.frmProductionLots.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.BEIL.frmProductionPlan.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.BEIL.frmProductionPlans.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.BEIL.frmProductionSummaryFilter.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.BEIL.frmSalesOrderFactory.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.BEIL.frmSalesOrderFactoryDelivery.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.BEIL.frmSalesOrderFactorys.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.BEIL.Tool_Management.frmGoodsReceiveForTool.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.BEIL.Tool_Management.frmGoodsReceiveForTools.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.BEIL.ToolManagement.frmTool.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.BEIL.Tool_Management.frmToolIssue.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.BEIL.ToolManagement.frmTools.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.BEIL.ToolManagement.frmToolStockLedger.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.BEIL.ToolManagement.frmToolType.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.BEIL.ToolManagement.frmToolTypes.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CAC.frmCACChallan.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CAC.frmCACItemSarch.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CAC.frmCACProducStockTran.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CAC.frmCACProducStockTrans.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CAC.frmCACProduct.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CAC.frmCACProductPrice.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CAC.frmCACProducts.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CAC.frmCACProject.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CAC.frmCACProjectCollection.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CAC.frmCACProjectCollectionSchedule.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CAC.frmCACProjectInvoiceWise.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CAC.frmCACProjectOtherPayment.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CAC.frmCACProjectOtherSales.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CAC.frmCACProjectPaymentMethod.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CAC.frmCACProjects.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CAC.frmCACprojectStatus.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CAC.frmCACProjectTask.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CAC.frmCACProjectTaskComplete.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CAC.frmCACProjectTasks.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CAC.frmCACProjectTaskWeight.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CAC.frmCACQuotation.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CAC.frmCACQuotations.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CAC.frmCACSMSSale.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CAC.frmCACSMSSales.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CAC.frmCACStockLedgerReport.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CAC.frmCACSubmitQuotation.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CAC.frmQuotationInvoice.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Claim.frmClaimImvoice.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Claim.frmReengineeredStockTran.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Claim.frmReplaceClaimStockTran.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Claim.frmReplaceClaimStockTranReport.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CLP.frmCLPEligibilities.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CLP.frmCLPEligibility.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CLP.frmCLPPoint.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CLP.frmCLPPointList.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.ctlChannelCSD.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.ctlCSDJob.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.ctlCSDTechnician.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Control.ctlCustomer.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.ctlEmployee.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.ctlEPSCustomer.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.ctlInterService.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.ctlJobAll.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.ctlProduct.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Control.ctlProducts.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Control.ctlSundryCustomer.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.ctlThana.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmChannelSearchCSD.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Control.frmCSDJobSearchNew.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Control.frmCSDTechnician.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Control.frmCustomerSearch.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Control.frmEmployeeSearch1.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmEPSCustomerSearch.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmInterServiceSearch.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Control.frmCSDJobSearch.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmSearchThana.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Account.frmTPBillProcess.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmTPBills.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmUpdateTPCharge.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Reception.frmForcelyStatusUpdate.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.CallCenter.frmCallCenter.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.CallCenter.frmCommunication.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.CallCenter.frmConsumerHistory.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.CallCenter.frmConsumerHistorys.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.CallCenter.frmFeedbackDateChange.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.CallCenter.frmJobDetail.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.ctlJob.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.frmBrandsMultiSelect.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmComplain.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmComplainAction.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmComplainAssign.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmComplainHappyCall.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmComplains.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.frmCSDHelpLine.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.frmCSDJobHistory.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.frmCSDJobSummeryDateWiseReport.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.frmCSDProductGroup.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.frmCSDProductGroups.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.frmCsdServiceCharge.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.frmCsdServiceCharges.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.frmCSDSMSCancel.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.frmCSDSMSHelpLines.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.frmCSDSMSHistory.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.frmCSDSMSHistoryCreate.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.frmCSDtechnicianJobsInHand.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.frmCustomerSatisfaction.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.frmCustomerSatisfactions.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.frmDailySalesCollection.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmEditComments.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.frmExchangeOfferFundTransfer.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.frmExchangeOfferJob.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.frmExchangeOfferJobAssign.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.frmExchangeOfferJobs.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.frmExchangeOfferMoneyReceiptTransfer.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.frmExchangeOfferMoneyReceiptTransfers.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.frmExchangeOfferVender.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.frmExchangeOfferVenderDeposit.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.frmExchangeOfferVenderDeposits.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.frmExchangeOfferVenderParent.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.frmExchangeOfferVenderParnets.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.frmExchangeOfferVenders.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.frmExtendedWarrantyItem.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.frmExtendedWarrantyItems.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.frmGetAPIData.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.frmGetInvoiceInfo.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.frmGetJobInfo.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmInquiry.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmInquiryCommunication.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmInquirys.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmInvSer.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmISVPartsRequisition.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmISVPartsRequisitionCancel.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmISVPartsRequisitionCommunication.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmISVPartsRequisitionHistory.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmISVPartsRequisitionIssue.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmISVPartsRequisitionProActive.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmISVPartsRequisitions.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmISVPartsRequisitionSend.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmJobSearch.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmJobSearchISV.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmJobStatus.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.frmJobStatusUpdate.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmPaidJobForInterService.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmPaidJobForInterServiceAssign.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmPaidJobforInterServiceCancel.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmPaidJobForInterServiceCommunication.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmPaidJobForInterServiceConvert.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmPaidJobForInterServiceHistory.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmPaidJobForInterServicePending.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmPaidJobForInterServiceProvided.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmPaidJobForInterServices.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmPaidJobforInterServiceScheduleView.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmPaidJobForInterServiceWIP.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.frmProductFault.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.frmProductFaults.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.frmProductSearch.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmReplaceCancel.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmReplaceDelivery.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmReplaceHappyCall.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmReplaceHistory.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmReplaceInform.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmReplaceIssue.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmReplaceRaise.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmReplaces.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmSearchLoanProduct.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmSMSCancel.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmSMSMessage.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmSMSMessages.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmSMSReGenerate.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmSpareLoans.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmSparePartSearch.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmTechnicalSupervisor.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmTechnicalSupervisors.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmTechnicalSuperVSInterService.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.frmTechnicianWiseFeedBack.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.frmTechnicianWiseFeedBackDates.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmVehicleReSchedulePreparation.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmVehicleSchedule.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmVehicleScheduleCancel.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmVehicleScheduleDone.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmVehicleScheduleHistory.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmVehicleSchedulePreparation.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmVehicleScheduleReportView.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmVehicleSchedules.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmVehicleScheduleSuspend.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Reception.frmAccessoryServiceChargeView.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Reception.frmAdvancePayment.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Reception.frmAdvancePayments.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Reception.frmBackupProduct.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Reception.frmBackupProducts.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Reception.frmCancelReason.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Reception.frmCSDGetPass.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Reception.frmCSDJobAssign.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Reception.frmInstallationItems.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Reception.frmInvoiceCalls.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Reception.frmInvoiceCallsCustomerWise.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Reception.frmJob.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Reception.frmJobNoSave.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Reception.frmJobs.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Reception.frmMAGWiseQuestioner.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Reception.frmPendingBillPay.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Reception.frmProductDeliveryToCustomer.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Reception.frmProductMovement.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Reception.frmProductMovements.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Reception.frmStatusUpdateForcelyCreate.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmStatusUpdatesForcely.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Reception.frmTechnicalAssessment.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Reception.frmViewPendingBill.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Reception.frmViewServiceCharge.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmChildStore.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmChildStores.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Store.frmCSDMaterialConsumerReportDetail.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmCSDProductType.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmCSDProductTypes.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Store.frmCSDTechnicianTransportationApprove.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Store.frmCSDTechnicianTransportations.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmInterService.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmInterServices.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmParentStore.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmParentStores.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmPartsIssueToJob.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Store.frmPartsIssueToJobs.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmPartsSupplier.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmPartsSuppliers.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmPH.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Store.frmProductCheckList.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Store.frmProductCheckLists.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmServiceCharge.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Store.frmServiceChargeCustomer.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Store.frmServiceCharges.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmSparePart.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Store.frmSparePartCashSale.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Store.frmSparePartCashSales.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmSpareParts.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmSparePartSearchR.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Store.FrmSparePartsOrder.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Store.FrmSparePartsOrders.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmSparePartsReceive.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmSparePartsReceives.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmSparePartsStockAdjustment.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Store.frmSparePartsStockAdjustments.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmSparePartStock.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Store.frmSparePartsTransfer.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Store.frmSparePartsTransfers.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Store.frmSPIssuetoInternalParty.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Store.frmSPIssuetoInternalPartys.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmSPLocation.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmSPLocations.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmSPMainCat.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmSPMainCats.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmSPReturnToSuplier.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmSPReturnToSuplieres.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmSPStockLedger.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmSPSubCat.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmSPSubCats.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmSPTranType.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmSPTranTypes.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmStore.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmStores.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmTechnician.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmTechnicians.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmWorkshop.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmWorkshopLocation.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmWorkshopLocations.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmWorkshops.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmAssignJob.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmAssignJobs.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Workshop.frmBackupSet.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Workshop.frmBackupSetIssue.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Workshop.frmChangeTechnician.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Workshop.frmCSDJobBillSend.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Workshop.frmCSDJobBillSends.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Workshop.frmCSDJobSchedule.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Workshop.frmJobUpdate.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Workshop.frmTechnicianBlock.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Workshop.frmTechnicianBlocks.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Workshop.frmTechnicianWiseJobs.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.CSD.Workshop.frmViewTechnician.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmDealerExeclUploader.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Dealer.frmDealerOutlet.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Dealer.frmDealerOutlets.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Dealer.frmDealerUser.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Dealer.frmDealerUsers.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Dealer.frmSetBarcodes.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Dealer.frmStockAdjustment.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Distribution.frmAutoIndent.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Distribution.frmAutoIndents.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Distribution.frmCACInvoiceWiseCapacity.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Distribution.frmCACInvoiceWiseCapacitys.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Distribution.frmDeliveryInvoices.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Distribution.frmDutyVehicle.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Distribution.frmDutyVehicles.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Distribution.frmLogDeliveryShipment.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Distribution.frmLogDeliveryShipmentDateUpdate.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Distribution.frmLogDeliveryShipmentList.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Distribution.frmLogDeliveryShipments.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Distribution.frmOrder.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Distribution.frmOrderFromCustomer.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Distribution.frmOrders.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Distribution.frmOrdersFromCustomer.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Distribution.frmPrintWarrantyCard.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Distribution.frmProductTransferProductSerial.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Distribution.frmReplaceInvoice.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Distribution.frmReprintDeliveryGatePass.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Distribution.frmSalesInvoiceProductSerial.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Distribution.frmShipmentCostParam.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Distribution.frmShipmentCostParams.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Distribution.frmShipmentRoute.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Distribution.frmShipmentRoutes.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Distribution.frmShipmentVehicle.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Distribution.frmShipmentVehicles.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Distribution.frmTDDeliveryShipmentHO.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Distribution.frmTDDeliveryShipmentHOBill.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Distribution.frmTDDeliveryShipmentsHO.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.DMS.frmDataUploader.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.DMS.frmDMSDSR.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.DMS.frmDMSDSRRoute.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.DMS.frmDMSDSRs.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.DMS.frmDMSDSRSalary.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.DMS.frmDMSOutlets.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.DMS.frmDMSReplaceClaim.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.DMS.frmDMSRoute.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.DMS.frmDMSRoutes.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.DMS.frmDMSSalaryProcess.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.DMS.frmDMSUser.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.DMS.frmDMSUserOpt.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.DMS.frmOutletUpdate.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.DMS.frmReordering.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.DMS.frmReplaceDeliveryClaims.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.DMS.frmReportViewer.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.DMS.frmSaledateCorrection.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.DMS.frmSaledateCorrections.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.DMS.frmSalesIn.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.DMS.frmStockIn.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.DMS.frmstrikeRate.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.DMS.frmTargetIn.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.DMS.frmWDUploader.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Duty.frmDutyTran.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Duty.frmDutyTrans.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Duty.frmOutletDutyTran.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Duty.frmStockPositionVAT.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Duty.frmVATLedger.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Ecommerce.frmECHistory.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Ecommerce.frmECommerceLeadAssign.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Ecommerce.frmECommerceLeadAssigns.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Ecommerce.frmEcommerceOrder.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Ecommerce.frmEcommerceOrders.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Ecommerce.frmECOrder.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Ecommerce.frmECOrders.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Ecommerce.frmECSalesLead.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Ecommerce.frmECSalesLeadAssign.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Ecommerce.frmECSalesLeadHappyCall.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Ecommerce.frmECSalesLeads.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Ecommerce.frmECUploadFromXL.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Ecommerce.frmIPDCFileTracking.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Ecommerce.frmIPDCFileTrackingAdd.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Ecommerce.frmIPDCFileTrackingStatusHistory.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Ecommerce.frmIPDCFileTrackingStatusUpdate.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Ecommerce.frmLeadConsumerSarch.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Ecommerce.frmLeadInvoiceChallan.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Ecommerce.frmLeadInvoiceChallanHandedOver.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Ecommerce.frmLeadInvoiceChallans.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Ecommerce.frmLeadInvoices.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Ecommerce.frmOutboundCallStatusUpdate.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Ecommerce.frmPotentialCustomerEntry.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Ecommerce.frmPotentialCustomerFollowup.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Ecommerce.frmPotentialCustomerFollowups.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Ecommerce.frmProductFeature.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Ecommerce.frmProductFeatures.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Ecommerce.frmSalesLeadAssign.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Ecommerce.frmSalesLeadMgtQuestions.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Ecommerce.frmStatusUpdate.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Ecommerce.frmIPDCFilesTrackings.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.EPS.frmCompanyWiseReportView.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.EPS.frmEMICalculation.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.EPS.frmEPSCollection.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.EPS.frmEPSAdjustment.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.EPS.frmEPSCustomer.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.EPS.frmEPSCustomers.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.EPS.frmEPSOrder.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.EPS.frmEPSOrders.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmFixedAssets.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.EPS.frmEPSTD.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.ERP.frmMapERPWareHouse.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.ERP.frmMapERPWareHouses.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.ERP.frmProcessERPInvoice.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmCustomerMapping.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmCustomerMappings.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmProductMapping.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmProductMappings.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.ERP.frmUnMappedList.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmAbout.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmBarcodeSystemBE.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmCommissionProcess.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmDealerorderMonitoring.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmOutletCommissionADDDeduc.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmOutletCommissionCalculation.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmOutletCommissionProcess.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmOutletCommissionProcessNew.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmProductComponent.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmProductComponentACIndoor.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmProductComponentACIndoors.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmProductComponents.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmProductPortfolio.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmProductPortfolios.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmProductSearchForControl.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmProductSearchInCheck.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmProject.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmProjectDetail.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmProjectDetails.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmProjects.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmProjectTask.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmProjectTaskDetail.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmPurchaseRequisitionInvoice.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmSearchGiftProduct.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmSmartSMSForSingle.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmSmartSMSMessageForGroup.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmStatusUpdate.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmTransferIMEI.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmTransferToCassiopeia.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmGiftVoucherEntry.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmGiftVoucherTransfer.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmAbsentList.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmAllowanceDeductMapping.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmAllowanceDeductMappings.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmAllowanceDeducts.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmAllowanceDeductUploader.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmAnnualLeavePlan.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmAllDeductionGrade.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmAllowanceDeduct.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmAllowanceDeduction.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmAnnualLeavePlans.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmAttendDataProcessLog.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmAttendReportEmployeeWise.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmBEILDistributionSet.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmBEILDistributionSets.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmBEILEmployeeDistSet.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmBEILEmployeeDistSets.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmBlldistributionset.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmBlldistributionsets.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmBllEmployeeDistSet.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmBllEmployeeDistSets.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmDepartmentsMultiSelect.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmDesignationSearch.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmEmployeeLeaveEntry.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmEmployeeLeaves.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmEmployeeLeave.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmAttendReports.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmClassBuilder.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmHRAssessment.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmHRAssessments.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmHRAssessmentStatus.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmHRAttendInfoView.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmHRLoanType.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmHRLoanTypes.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmHROverTimeEmployee.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmHROverTimeEmployees.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmHRPayrollAddDeduct.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmHRPayrollAddDeducts.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmHRPayrollOtherBenefit.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmHRPayrollOtherBenefitPaymentType.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmHRPayrollOtherBenefitPaymentTypeName.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmHRPayrollOtherBenefitPaymentTypeNames.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmHRPayrollOtherBenefitPaymentTypes.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmHRPayrollOtherBenefits.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmHRPayrollUnmapEmpl.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmHRPositionRole.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmHRPositionRoles.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmHRPositionRoleType.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmHRPositionRoleTypes.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmHRProductionMachine.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmHRProductionMachineMapping.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmHRProductionMachineMappings.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmHRProductionMachines.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmHRRelayAdd.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmHRRelays.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmHRSection.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmHRSections.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmHRShiftMapingAdd.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmHRShiftMappings.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmHRUniformDistribution.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmHRUniformDistributions.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmLoan.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmLoanCalculator.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmLoanEarlySettle.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmLoans.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmLoanType.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmLoanTypes.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmManpowerRequisition.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmManpowerRequisitions.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmMAPProductGroup.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmMAPProductGroups.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmMedicalClaims.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmMobileBillBulkEntry.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmMobileBillDeductionApproval.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmMobileBillDeductionApprovals.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmMobileBillEdit.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmMobileBillSingleEntry.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmMobileBillExeclUploader.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmMobileBillView.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmMobileBillViewReport.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmMobileCreditLimitUpdate.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmMobileDatapacClearHistory.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmMobileNumber.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmMobileNumberAssign.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmMobileNumbers.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmOutletCommissionEmployee.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmOutStationDuty.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmOutStationDutyList.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmOverTime.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmOverTimeDetail.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmOverTimes.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmPayroll.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmPayrollCompareReport.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmPayrollEmployeeSetting.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmHRPayrollEmployeeSettingCopy.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmPayrollEmployeeSettings.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmPayrollGetEmployee.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmPayrollPrint.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmPayrolls.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmPayrollStaffTopSheet.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmPFReport.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmPosition.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmPositionAssign.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmPositionHistory.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmPositionManagement.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmPositionUnassign.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmSettings.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.Recruitment.frmHRAgency.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.Recruitment.frmHRCompany.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.Recruitment.frmHRCVs.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Inventory.frmCurrentStock.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Inventory.frmDPCorrection.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Inventory.frmGoodsReceive.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Inventory.frmGoodsReceives.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Inventory.frmGRD.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Inventory.frmLiveDemo.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Inventory.frmLiveDemos.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Inventory.frmLiveDemoStatusUpdate.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Inventory.frmLiveDemoStatusUpdates.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Inventory.frmMsgCIQty.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Inventory.frmMsgPIQty.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Inventory.frmProductSerialUpload.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Inventory.frmStockLedger.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Inventory.frmStockTransfer.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Inventory.frmStockTransfers.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Inventory.frmTransactionalSerialUploader.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Inventory.frmWarehouseCurrentStock.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.IT.frmDeductDetails.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.IT.frmITDeductList.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.IT.frmScheduler.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.MessageBoxWithDetails.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Plan.frmCustomerTarget.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Plan.frmCustomerTargets.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Plan.frmPlanBudgetTargets.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Plan.frmPlanBudgetTragetUploader.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Plan.frmPlanDealerMAGTarget.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Plan.frmPlanDealerMAGTargets.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Plan.frmPlanExecutiveActivityTargetExeclUploader.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.POS.frmAllDepotStock.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.POS.frmCPXML.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.POS.frmCPXMLs.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.POS.frmDataTransfer.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.POS.frmDCSView.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.POS.frmDiscountReason.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.POS.frmDiscountReasons.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.POS.frmDMSSalesOrder.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.POS.frmDMSSalesOrders.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.POS.frmISGMReceive.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.POS.frmPaymentMode.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.POS.frmPaymentModes.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.POS.frmPrint.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.POS.frmReverseApproval.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.POS.frmReverseApprovals.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.POS.frmReverseRemarksUpdate.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.POS.frmStockCasperCassiopeia.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.POS.frmStockRequisition.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.POS.frmStockRequisitionAuthorizationRT.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.POS.frmStockRequisitionAuthorization.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.POS.frmStockRequisitionDeliveryWH.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.POS.frmStockTransfer.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.POS.frmTDOutlet.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.POS.frmTDOutlets.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.POS.frmStockRequisitions.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.POS.frmUnsoldDefectiveAcknowledge.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.POS.frmUnsoldDefectiveProductsHO.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.POS.frmUnsoldDefectiveStatus.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Process.frmSalesDataSync.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Process.frmSalesDataSyncItem.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Process.frmTDVATProcess.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Process.frmTransferFromCassiopia.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Promotion.frmAddExchangeOffer.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Promotion.frmB2BDiscount.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Promotion.frmB2BDiscounts.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Promotion.frmBankDiscount.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Promotion.frmBankDiscountEdit.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Promotion.frmBankDiscounts.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Promotion.frmConsumerPromotionDiscountContribution.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Promotion.frmConsumerPromotionDiscountContributor.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Promotion.frmConsumerPromotionDiscountContributors.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Promotion.frmConsumerPromotions.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Promotion.frmDiscountASGBrandEMI.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Promotion.frmDiscountASGBrandEMIEdit.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Promotion.frmDiscountASGBrandEMIs.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Promotion.frmEditPromotion.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Promotion.frmExchangeOffers.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Promotion.frmGetPromoDetail.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Promotion.frmMAGBrandWiseDiscount.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Promotion.frmMAGBrandWiseDiscountEDIT.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Promotion.frmMAGBrandWiseDiscounts.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Promotion.frmPromotionalOffer.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Promotion.frmPromotionCalculator.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Promotion.frmPromotionTargetAllocator.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Promotion.frmPromoTP.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Promotion.frmPromoTPOffer.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Promotion.frmPromoTPOffers.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Promotion.frmPromoTPs.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Promotion.frmPromoTPSecondary.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Promotion.frmPromoTPSecondarys.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Promotion.frmPromoWarranty.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Promotion.frmPromoWarrantyAdd.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Promotion.frmSalesPromoOffer.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Promotion.frmSalesPromoOffers.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Promotion.frmSPDiscountScratchCard.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Promotion.frmSPDiscountScratchCards.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Promotion.frmSpecialDiscountApprovals.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Promotion.frmTDSalesPromotion.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Promotion.frmPromotionCalculation.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Promotion.frmPromotionType.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Promotion.frmPromotionTypes.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Promotion.frmSalesPromo.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Promotion.frmSalesPromoModify.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Promotion.frmSalesPromotion.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Promotion.frmSalesPromotionCentral.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Promotion.frmSalesPromotions.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Promotion.frmSlab.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Claim.frmReplaceClaims.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Replace_Management.frmClaimAssess.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Replace_Management.frmClaimGenerator.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Replace_Management.frmClaimMonitorings.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Replace_Management.frmClaimReceive.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Replace_Management.frmReplacementClaims.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Replace_Management.frmReplacementClaimSettelement.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Replace_Management.frmReplacementMonitoring.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Replace_Management.frmTPorKPISettlement.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Retail.frmOutletDisplayPosition.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmOutletDisplayPositionExeclUploader.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Retail.frmOutletDisplayPositionRack.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Retail.frmOutletDisplayPositionRackView.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Retail.frmOutletDisplayPositions.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Security.frmCassiopeiaLogIn.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Security.frmDataPermission.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Security.frmDMSUsers.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Security.frmUserOther.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Security.frmUserOthers.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Security.frmUserRegistrations.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Security.frmUserRegistration.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.SMS.frmSMSSingle.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.SupplyChain.frmBEILProductBOM.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.SupplyChain.frmBEILProductBOMs.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmCommercialInvoices.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmBarcodePrint.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmCustomer.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Basic.frmCustomerCreditLimit.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmCustomers.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmEmployees.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmAttendInfos.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmAttendDatas.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmAttendData.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmShifts.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmShift.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmHolidayCalendar.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmInsertCassiopeiaTransfer.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmMain.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmBarcodeManualy.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmProduct.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmBarcodeSystem.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmProducts.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.SupplyChain.frmLCProcessingDate.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.SupplyChain.frmLCProcessings.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.SupplyChain.frmLead.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.SupplyChain.frmLeadManagement.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.SupplyChain.frmLeadManagements.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.SupplyChain.frmLeads.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.SupplyChain.frmNonLC.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.SupplyChain.frmOrderAndLCs.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.SupplyChain.frmReadyForGRD.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.SupplyChain.frmSalesTrand.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.SupplyChain.frmSCMBilling.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.SupplyChain.frmSCMBOM.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.SupplyChain.frmSCMCustomerClearance.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.SupplyChain.frmSCMLCOpen.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.SupplyChain.frmSCMLCS.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.SupplyChain.frmSCMLogAcknowledgements.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.SupplyChain.frmSCMOrderPlace.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.SupplyChain.frmSCMOrders.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.SupplyChain.frmSCMPI.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.SupplyChain.frmSCMPIBEIL.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.SupplyChain.frmSCMPIS.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmSCMPSIItemExeclUploader.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.SupplyChain.frmSCMPurchaseOrder.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.SupplyChain.frmSCMPurchaseOrders.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.SupplyChain.frmSCMRelease.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.SupplyChain.frmSCMSalesPlan.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.SupplyChain.frmSCMSalsePlans.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.SupplyChain.frmSCMShadowPrice.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.SupplyChain.frmSCMShadowPrices.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.SupplyChain.frmSCMShipments.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.SupplyChain.frmShipment.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.SupplyChain.frmShipments.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmSupplier.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmSuppliers.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmPurchaseRequisition.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmCommercialInvoice.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmPurchaseRequisitions.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmPurchaseRequisitionSearch.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmSearchProduct.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmSMSIndenting.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmAttendDataDownload.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmJobLocation.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmJobLocations.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmJobGrade.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmJobGrades.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmDepartment.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmDepartments.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmDesignation.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmDesignations.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmEmployee.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.HR.frmEmployees.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmEmail.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmEmails.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.IT.frmITEquipmentFeature.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.IT.frmITEquipmentHistory.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.IT.frmITEquipmentModel.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.IT.frmITEquipment.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.IT.frmITEquipmentModels.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.IT.frmITEquipments.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmITRequisition.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmITRequisitions.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Properties.Resources.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Security.frmChangePassword.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Security.frmLogIn.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Security.frmUser.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Security.frmUsers.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.SupplyChain.frmUploaderforPackQty.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.SupplyChain.frmUploaderforRMandPipeline.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Warranty.frmWarrantyCategory.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Warranty.frmWarrantyCategoryList.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Warranty.frmWarrantyClaimDistribution.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Warranty.frmWarrantyClaimDistributions.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Warranty.frmWarrantyParam.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Warranty.frmWarrantyParameter.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.frmWebMappingUpdate.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.csproj.GenerateResource.Cache
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.TEL.exe
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.TEL.pdb
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Win\obj\Debug\CJ.Win.Promotion.frmPromoTPCalculatorSecondary.resources

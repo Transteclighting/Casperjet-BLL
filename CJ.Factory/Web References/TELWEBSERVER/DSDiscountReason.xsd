@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns="http://tempuri.org/DSDiscountReason.xsd" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:mstns="http://tempuri.org/DSDiscountReason.xsd" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://tempuri.org/DSDiscountReason.xsd" id="DSDiscountReason" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element msdata:IsDataSet="true" msdata:UseCurrentLocale="true" name="DSDiscountReason">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DiscountReason">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element msdata:Caption="PaymentModeID" minOccurs="0" name="DiscountReasonID" type="xs:int" />
+              <xs:element msdata:Caption="PaymentModeName" minOccurs="0" name="Discription" type="xs:string" />
+              <xs:element minOccurs="0" name="IsActive" type="xs:int" />
+              <xs:element minOccurs="0" name="CreateUserID" type="xs:int" />
+              <xs:element minOccurs="0" name="CreateDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="IsDownload" type="xs:int" />
+              <xs:element minOccurs="0" name="TransferType" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

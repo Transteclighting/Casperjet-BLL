@@ -1,0 +1,386 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="14.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FAD0B2F1-41AA-4BF8-9E48-A3BBD0813DD4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TEL.SMS.BO</RootNamespace>
+    <AssemblyName>TEL.SMS.BO</AssemblyName>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TEL.Common">
+      <HintPath>bin\Debug\TEL.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="TEL.SMS.BO">
+      <HintPath>bin\Debug\TEL.SMS.BO.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BE\DSChannel.cs">
+      <DependentUpon>DSChannel.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BE\DSChannel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSChannel.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BE\DSCustomer.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSCustomer.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BE\DSPerson.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSPerson.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BE\DSRollingForecast.cs">
+      <DependentUpon>DSRollingForecast.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BE\DSRollingForecast.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSRollingForecast.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BE\DSRptWarrantyAct.cs">
+      <DependentUpon>DSRptWarrantyAct.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BE\DSRptWarrantyAct.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSRptWarrantyAct.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BE\DSShowroom.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSShowroom.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BE\DSSMSDailySalesCollection.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSSMSDailySalesCollection.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BE\DSSMSGroupMessage.cs">
+      <DependentUpon>DSSMSGroupMessage.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BE\DSSMSGroupMessage.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSSMSGroupMessage.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BE\DSSMSMarketVisit.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSSMSMarketVisit.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BE\DSSMSUserUsage.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSSMSUserUsage.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BE\DSWarrantyRegister.cs">
+      <DependentUpon>DSWarrantyRegister.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BE\DSWarrantyRegister.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSWarrantyRegister.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BE\ITProduct.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ITProduct.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DA\DACustomer.cs" />
+    <Compile Include="DA\DAITProduct.cs" />
+    <Compile Include="DA\DARollingForecast.cs" />
+    <Compile Include="DA\DASMSMarketVisit.cs" />
+    <Compile Include="DA\DASMSMessageIn.cs" />
+    <Compile Include="BE\DSProduct.cs">
+      <DependentUpon>DSProduct.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BE\DSProduct.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSProduct.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BE\DSSMSGroup.cs">
+      <DependentUpon>DSSMSGroup.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BE\DSSMSGroup.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSSMSGroup.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BE\DSSMSMessage.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSSMSMessage.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BE\DSSMSMessageIn.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSSMSMessageIn.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DA\DAPerson.cs" />
+    <Compile Include="DA\DAProduct.cs" />
+    <Compile Include="DA\DASMSGroup.cs" />
+    <Compile Include="DA\DASMSMessage.cs" />
+    <Compile Include="DA\DASMSUsage.cs" />
+    <Compile Include="DA\DAWarrantyRegister.cs" />
+    <Compile Include="DA\DBController.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utility.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BE\DSChannel.xsc">
+      <DependentUpon>DSChannel.xsd</DependentUpon>
+    </None>
+    <None Include="BE\DSChannel.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSChannel.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="BE\DSChannel.xss">
+      <DependentUpon>DSChannel.xsd</DependentUpon>
+    </None>
+    <None Include="BE\DSCustomer.xsc">
+      <DependentUpon>DSCustomer.xsd</DependentUpon>
+    </None>
+    <None Include="BE\DSCustomer.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSCustomer.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="BE\DSCustomer.xss">
+      <DependentUpon>DSCustomer.xsd</DependentUpon>
+    </None>
+    <None Include="BE\DSPerson.xsc">
+      <DependentUpon>DSPerson.xsd</DependentUpon>
+    </None>
+    <None Include="BE\DSPerson.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSPerson.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="BE\DSPerson.xss">
+      <DependentUpon>DSPerson.xsd</DependentUpon>
+    </None>
+    <None Include="BE\DSProduct.xsc">
+      <DependentUpon>DSProduct.xsd</DependentUpon>
+    </None>
+    <None Include="BE\DSProduct.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSProduct.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="BE\DSProduct.xss">
+      <DependentUpon>DSProduct.xsd</DependentUpon>
+    </None>
+    <None Include="BE\DSRollingForecast.xsc">
+      <DependentUpon>DSRollingForecast.xsd</DependentUpon>
+    </None>
+    <None Include="BE\DSRollingForecast.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSRollingForecast.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="BE\DSRollingForecast.xss">
+      <DependentUpon>DSRollingForecast.xsd</DependentUpon>
+    </None>
+    <None Include="BE\DSRptWarrantyAct.xsc">
+      <DependentUpon>DSRptWarrantyAct.xsd</DependentUpon>
+    </None>
+    <None Include="BE\DSRptWarrantyAct.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSRptWarrantyAct.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="BE\DSRptWarrantyAct.xss">
+      <DependentUpon>DSRptWarrantyAct.xsd</DependentUpon>
+    </None>
+    <None Include="BE\DSShowroom.xsc">
+      <DependentUpon>DSShowroom.xsd</DependentUpon>
+    </None>
+    <None Include="BE\DSShowroom.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSShowroom.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="BE\DSShowroom.xss">
+      <DependentUpon>DSShowroom.xsd</DependentUpon>
+    </None>
+    <None Include="BE\DSSMSDailySalesCollection.xsc">
+      <DependentUpon>DSSMSDailySalesCollection.xsd</DependentUpon>
+    </None>
+    <None Include="BE\DSSMSDailySalesCollection.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSSMSDailySalesCollection.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="BE\DSSMSDailySalesCollection.xss">
+      <DependentUpon>DSSMSDailySalesCollection.xsd</DependentUpon>
+    </None>
+    <None Include="BE\DSSMSGroup.xsc">
+      <DependentUpon>DSSMSGroup.xsd</DependentUpon>
+    </None>
+    <None Include="BE\DSSMSGroup.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSSMSGroup.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="BE\DSSMSGroup.xss">
+      <DependentUpon>DSSMSGroup.xsd</DependentUpon>
+    </None>
+    <None Include="BE\DSSMSGroupMessage.xsc">
+      <DependentUpon>DSSMSGroupMessage.xsd</DependentUpon>
+    </None>
+    <None Include="BE\DSSMSGroupMessage.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSSMSGroupMessage.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="BE\DSSMSGroupMessage.xss">
+      <DependentUpon>DSSMSGroupMessage.xsd</DependentUpon>
+    </None>
+    <None Include="BE\DSSMSMarketVisit.xsc">
+      <DependentUpon>DSSMSMarketVisit.xsd</DependentUpon>
+    </None>
+    <None Include="BE\DSSMSMarketVisit.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSSMSMarketVisit.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BE\DSSMSMarketVisit.xss">
+      <DependentUpon>DSSMSMarketVisit.xsd</DependentUpon>
+    </None>
+    <None Include="BE\DSSMSMessage.xsc">
+      <DependentUpon>DSSMSMessage.xsd</DependentUpon>
+    </None>
+    <None Include="BE\DSSMSMessage.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSSMSMessage.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="BE\DSSMSMessage.xss">
+      <DependentUpon>DSSMSMessage.xsd</DependentUpon>
+    </None>
+    <None Include="BE\DSSMSMessageIn.xsc">
+      <DependentUpon>DSSMSMessageIn.xsd</DependentUpon>
+    </None>
+    <None Include="BE\DSSMSMessageIn.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSSMSMessageIn.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="BE\DSSMSMessageIn.xss">
+      <DependentUpon>DSSMSMessageIn.xsd</DependentUpon>
+    </None>
+    <None Include="BE\DSSMSUserUsage.xsc">
+      <DependentUpon>DSSMSUserUsage.xsd</DependentUpon>
+    </None>
+    <None Include="BE\DSSMSUserUsage.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSSMSUserUsage.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="BE\DSSMSUserUsage.xss">
+      <DependentUpon>DSSMSUserUsage.xsd</DependentUpon>
+    </None>
+    <None Include="BE\DSWarrantyRegister.xsc">
+      <DependentUpon>DSWarrantyRegister.xsd</DependentUpon>
+    </None>
+    <None Include="BE\DSWarrantyRegister.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSWarrantyRegister.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="BE\DSWarrantyRegister.xss">
+      <DependentUpon>DSWarrantyRegister.xsd</DependentUpon>
+    </None>
+    <None Include="BE\ITProduct.xsc">
+      <DependentUpon>ITProduct.xsd</DependentUpon>
+    </None>
+    <None Include="BE\ITProduct.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ITProduct.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BE\ITProduct.xss">
+      <DependentUpon>ITProduct.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="XML\SRXML.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

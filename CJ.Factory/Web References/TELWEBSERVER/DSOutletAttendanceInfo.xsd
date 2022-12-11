@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns="http://tempuri.org/DSOutletAttendanceInfo.xsd" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:mstns="http://tempuri.org/DSOutletAttendanceInfo.xsd" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://tempuri.org/DSOutletAttendanceInfo.xsd" id="DSOutletAttendanceInfo" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element msdata:IsDataSet="true" msdata:UseCurrentLocale="true" name="DSOutletAttendanceInfo">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="OutletAttendanceInfo">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" type="xs:int" />
+              <xs:element name="WarehouseID" type="xs:int" />
+              <xs:element minOccurs="0" name="Date" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="CreateDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="CreateUserID" type="xs:int" />
+              <xs:element minOccurs="0" name="UpdateDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="UpdateUserID" type="xs:int" />
+              <xs:element minOccurs="0" name="Status" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="OutletAttendanceInfoDetail">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" type="xs:int" />
+              <xs:element name="EmployeeID" type="xs:int" />
+              <xs:element minOccurs="0" name="TimeIn" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="TimeOut" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="Status" type="xs:int" />
+              <xs:element minOccurs="0" name="Remarks" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique msdata:PrimaryKey="true" name="Constraint1">
+      <xs:selector xpath=".//mstns:OutletAttendanceInfo" />
+      <xs:field xpath="mstns:ID" />
+      <xs:field xpath="mstns:WarehouseID" />
+    </xs:unique>
+    <xs:unique msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true" name="OutletAttendanceInfoDetail_Constraint1">
+      <xs:selector xpath=".//mstns:OutletAttendanceInfoDetail" />
+      <xs:field xpath="mstns:ID" />
+      <xs:field xpath="mstns:EmployeeID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

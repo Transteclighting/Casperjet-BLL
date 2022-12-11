@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSPermission" targetNamespace="http://tempuri.org/DSPermission.xsd" xmlns:mstns="http://tempuri.org/DSPermission.xsd" xmlns="http://tempuri.org/DSPermission.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSPermission" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DSPermission" msprop:Generator_DataSetName="DSPermission">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Permission" msprop:Generator_UserTableName="Permission" msprop:Generator_RowDeletedName="PermissionRowDeleted" msprop:Generator_RowChangedName="PermissionRowChanged" msprop:Generator_RowClassName="PermissionRow" msprop:Generator_RowChangingName="PermissionRowChanging" msprop:Generator_RowEvArgName="PermissionRowChangeEvent" msprop:Generator_RowEvHandlerName="PermissionRowChangeEventHandler" msprop:Generator_TableClassName="PermissionDataTable" msprop:Generator_TableVarName="tablePermission" msprop:Generator_RowDeletingName="PermissionRowDeleting" msprop:Generator_TablePropName="Permission">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PermissionKey" msprop:Generator_UserColumnName="PermissionKey" msprop:Generator_ColumnPropNameInRow="PermissionKey" msprop:Generator_ColumnVarNameInTable="columnPermissionKey" msprop:Generator_ColumnPropNameInTable="PermissionKeyColumn" type="xs:string" />
+              <xs:element name="PermissionName" msprop:Generator_UserColumnName="PermissionName" msprop:Generator_ColumnPropNameInRow="PermissionName" msprop:Generator_ColumnVarNameInTable="columnPermissionName" msprop:Generator_ColumnPropNameInTable="PermissionNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ParentKey" msprop:Generator_UserColumnName="ParentKey" msprop:Generator_ColumnPropNameInRow="ParentKey" msprop:Generator_ColumnVarNameInTable="columnParentKey" msprop:Generator_ColumnPropNameInTable="ParentKeyColumn" type="xs:string" default="0" minOccurs="0" />
+              <xs:element name="NavigateUrl" msprop:Generator_UserColumnName="NavigateUrl" msprop:Generator_ColumnPropNameInRow="NavigateUrl" msprop:Generator_ColumnVarNameInTable="columnNavigateUrl" msprop:Generator_ColumnPropNameInTable="NavigateUrlColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="IsLeaf" msprop:Generator_UserColumnName="IsLeaf" msprop:Generator_ColumnPropNameInRow="IsLeaf" msprop:Generator_ColumnVarNameInTable="columnIsLeaf" msprop:Generator_ColumnPropNameInTable="IsLeafColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="AvailableApplication" msprop:Generator_UserColumnName="AvailableApplication" msprop:Generator_ColumnVarNameInTable="columnAvailableApplication" msprop:Generator_ColumnPropNameInRow="AvailableApplication" msprop:Generator_ColumnPropNameInTable="AvailableApplicationColumn" type="xs:short" minOccurs="0" />
+              <xs:element name="MenuType" msprop:Generator_UserColumnName="MenuType" msprop:Generator_ColumnPropNameInRow="MenuType" msprop:Generator_ColumnVarNameInTable="columnMenuType" msprop:Generator_ColumnPropNameInTable="MenuTypeColumn" type="xs:short" default="0" />
+              <xs:element name="ReportCode" msprop:Generator_UserColumnName="ReportCode" msprop:Generator_ColumnPropNameInRow="ReportCode" msprop:Generator_ColumnVarNameInTable="columnReportCode" msprop:Generator_ColumnPropNameInTable="ReportCodeColumn" type="xs:long" minOccurs="0" />
+              <xs:element name="ReportDescription" msprop:Generator_UserColumnName="ReportDescription" msprop:Generator_ColumnPropNameInRow="ReportDescription" msprop:Generator_ColumnVarNameInTable="columnReportDescription" msprop:Generator_ColumnPropNameInTable="ReportDescriptionColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Permission" />
+      <xs:field xpath="mstns:PermissionKey" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

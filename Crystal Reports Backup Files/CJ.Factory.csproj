@@ -1,0 +1,569 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{470D5D71-F50D-4B6A-9867-5FDC72A47FC3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CJ.Factory</RootNamespace>
+    <AssemblyName>CJ.Factory</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <SccProjectName>"%24/CasperJet", BAAAAAAA</SccProjectName>
+    <SccLocalPath>..</SccLocalPath>
+    <SccAuxPath />
+    <SccProvider>MSSCCI:Microsoft Visual SourceSafe</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Email Sheduler\Email Sheduler\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Email Sheduler\Email Sheduler\bin\Debug\CrystalDecisions.Shared.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\eSoft\eSoft\eSoft\bin\Debug\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.IO.Compression.FileSystem" />
+    <Reference Include="System.IO.Log" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmDatabaseBackup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDatabaseBackup.Designer.cs">
+      <DependentUpon>frmDatabaseBackup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDataDownload.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDataDownload.Designer.cs">
+      <DependentUpon>frmDataDownload.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDataSend.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDataSend.designer.cs">
+      <DependentUpon>frmDataSend.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmProductComponentUniversal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmProductComponentUniversal.Designer.cs">
+      <DependentUpon>frmProductComponentUniversal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmProductComponentUniversals.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmProductComponentUniversals.designer.cs">
+      <DependentUpon>frmProductComponentUniversals.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmProductSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmProductSearch.Designer.cs">
+      <DependentUpon>frmProductSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\TELWEBSERVER\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="frmDatabaseBackup.resx">
+      <DependentUpon>frmDatabaseBackup.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDataDownload.resx">
+      <DependentUpon>frmDataDownload.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDataSend.resx">
+      <DependentUpon>frmDataSend.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmProductComponentUniversal.resx">
+      <DependentUpon>frmProductComponentUniversal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmProductComponentUniversals.resx">
+      <DependentUpon>frmProductComponentUniversals.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmProductSearch.resx">
+      <DependentUpon>frmProductSearch.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Web References\TELWEBSERVER\DSBank.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSBank.xsd" />
+    <None Include="Web References\TELWEBSERVER\DSBarcode.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSBarcode.xsd" />
+    <None Include="Web References\TELWEBSERVER\DSBarcodeDetail.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSBarcodeDetail.xsd" />
+    <None Include="Web References\TELWEBSERVER\DSBasicData.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSBasicData.xsd" />
+    <None Include="Web References\TELWEBSERVER\DSBrand.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSBrand.xsd" />
+    <None Include="Web References\TELWEBSERVER\DSCalendarWeek.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSCalendarWeek.xsd" />
+    <None Include="Web References\TELWEBSERVER\DSChannel.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSChannel.xsd" />
+    <None Include="Web References\TELWEBSERVER\DSCLP.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSCLP.xsd" />
+    <None Include="Web References\TELWEBSERVER\DSConsumerBalanceTran.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSConsumerBalanceTran.xsd" />
+    <None Include="Web References\TELWEBSERVER\DSCustmerCreditApprval.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSCustmerCreditApprval.xsd" />
+    <None Include="Web References\TELWEBSERVER\DSCustomer.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSCustomer.xsd" />
+    <None Include="Web References\TELWEBSERVER\DSCustomerCreditApprovalCollection.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSCustomerCreditApprovalCollection.xsd" />
+    <None Include="Web References\TELWEBSERVER\DSCustomerTemp.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSCustomerTemp.xsd" />
+    <None Include="Web References\TELWEBSERVER\DSCustomerTransaction.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSCustomerTransaction.xsd" />
+    <None Include="Web References\TELWEBSERVER\DSCustomerType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSCustomerType.xsd" />
+    <None Include="Web References\TELWEBSERVER\DSDataMonitoring.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSDataMonitoring.xsd" />
+    <None Include="Web References\TELWEBSERVER\DSDataRange.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSDataRange.xsd" />
+    <None Include="Web References\TELWEBSERVER\DSDayPlan.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSDayPlan.xsd" />
+    <None Include="Web References\TELWEBSERVER\DSDayStartEndLog.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSDayStartEndLog.xsd" />
+    <None Include="Web References\TELWEBSERVER\DSDBBackupLog.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSDBBackupLog.xsd" />
+    <None Include="Web References\TELWEBSERVER\DSDCSs.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSDCSs.xsd" />
+    <None Include="Web References\TELWEBSERVER\DSDiscountReason.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSDiscountReason.xsd" />
+    <None Include="Web References\TELWEBSERVER\DSDutyTranISGM.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSDutyTranISGM.xsd" />
+    <None Include="Web References\TELWEBSERVER\DSEcommerceOrder.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSEcommerceOrder.xsd" />
+    <None Include="Web References\TELWEBSERVER\DSEmployee.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSEmployee.xsd" />
+    <None Include="Web References\TELWEBSERVER\DSExchangeOfferJob.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSExchangeOfferJob.xsd" />
+    <None Include="Web References\TELWEBSERVER\DSExchangeOfferMR.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSExchangeOfferMR.xsd" />
+    <None Include="Web References\TELWEBSERVER\DSExchangeOfferVender.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSExchangeOfferVender.xsd" />
+    <None Include="Web References\TELWEBSERVER\DSExchangeOfferVenderTran.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSExchangeOfferVenderTran.xsd" />
+    <None Include="Web References\TELWEBSERVER\DSExtendedWarranty.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSExtendedWarranty.xsd" />
+    <None Include="Web References\TELWEBSERVER\DSFinishedGoodsPrice.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSFinishedGoodsPrice.xsd" />
+    <None Include="Web References\TELWEBSERVER\DSGeoLocation.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSGeoLocation.xsd" />
+    <None Include="Web References\TELWEBSERVER\DSInitialTransaction.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSInitialTransaction.xsd" />
+    <None Include="Web References\TELWEBSERVER\DSInvoiceReverse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSInvoiceReverse.xsd" />
+    <None Include="Web References\TELWEBSERVER\DSISGM.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSISGM.xsd" />
+    <None Include="Web References\TELWEBSERVER\DSMarketGroup.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSMarketGroup.xsd" />
+    <None Include="Web References\TELWEBSERVER\DSOfficeItem.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSOfficeItem.xsd" />
+    <None Include="Web References\TELWEBSERVER\DSOfficeItemTran.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSOfficeItemTran.xsd" />
+    <None Include="Web References\TELWEBSERVER\DSOutletAttendanceInfo.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSOutletAttendanceInfo.xsd" />
+    <None Include="Web References\TELWEBSERVER\DSOutletDisplayPosition.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSOutletDisplayPosition.xsd" />
+    <None Include="Web References\TELWEBSERVER\DSPaymentMode.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSPaymentMode.xsd" />
+    <None Include="Web References\TELWEBSERVER\DSPBLLAndroidDashboard.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSPBLLAndroidDashboard.xsd" />
+    <None Include="Web References\TELWEBSERVER\DSPBLLAreaWiseAndroidDashboard.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSPBLLAreaWiseAndroidDashboard.xsd" />
+    <None Include="Web References\TELWEBSERVER\DSPBLLTerritoryWiseAndroidDashboard.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSPBLLTerritoryWiseAndroidDashboard.xsd" />
+    <None Include="Web References\TELWEBSERVER\DSPerformanceUI.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSPerformanceUI.xsd" />
+    <None Include="Web References\TELWEBSERVER\DSPermission.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSPermission.xsd" />
+    <None Include="Web References\TELWEBSERVER\DSPettyCash.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSPettyCash.xsd" />
+    <None Include="Web References\TELWEBSERVER\DSPlanCustomerTarget.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSPlanCustomerTarget.xsd" />
+    <None Include="Web References\TELWEBSERVER\DSPlanExecutiveWeekTarget.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSPlanExecutiveWeekTarget.xsd" />
+    <None Include="Web References\TELWEBSERVER\DSPlanMAGWeekTargetQty.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSPlanMAGWeekTargetQty.xsd" />
+    <None Include="Web References\TELWEBSERVER\DSPosCustomerHostory.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSPosCustomerHostory.xsd" />
+    <None Include="Web References\TELWEBSERVER\DSPotentialCustomer.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSPotentialCustomer.xsd" />
+    <None Include="Web References\TELWEBSERVER\DSProduct.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSProduct.xsd" />
+    <None Include="Web References\TELWEBSERVER\DSProductComponent.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSProductComponent.xsd" />
+    <None Include="Web References\TELWEBSERVER\DSProductGroups.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSProductGroups.xsd" />
+    <None Include="Web References\TELWEBSERVER\DSProductPrice.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSProductPrice.xsd" />
+    <None Include="Web References\TELWEBSERVER\DSProductStock.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSProductStock.xsd" />
+    <None Include="Web References\TELWEBSERVER\DSProductStockDMS.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSProductStockDMS.xsd" />
+    <None Include="Web References\TELWEBSERVER\DSProductTransaction.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSProductTransaction.xsd" />
+    <None Include="Web References\TELWEBSERVER\DSProductTransactionType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSProductTransactionType.xsd" />
+    <None Include="Web References\TELWEBSERVER\DSPromoDiscount.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSPromoDiscount.xsd" />
+    <None Include="Web References\TELWEBSERVER\DSPromotion.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSPromotion.xsd" />
+    <None Include="Web References\TELWEBSERVER\DSPSalesTarget.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSPSalesTarget.xsd" />
+    <None Include="Web References\TELWEBSERVER\DSPTerritorySalesTarget.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSPTerritorySalesTarget.xsd" />
+    <None Include="Web References\TELWEBSERVER\DSPTOBLL.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSPTOBLL.xsd" />
+    <None Include="Web References\TELWEBSERVER\DSReceivableData.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSReceivableData.xsd" />
+    <None Include="Web References\TELWEBSERVER\DSReceivableOutletData.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSReceivableOutletData.xsd" />
+    <None Include="Web References\TELWEBSERVER\DSRequisition.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSRequisition.xsd" />
+    <None Include="Web References\TELWEBSERVER\DSRetailConsumer.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSRetailConsumer.xsd" />
+    <None Include="Web References\TELWEBSERVER\DSSalesInvoice.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSSalesInvoice.xsd" />
+    <None Include="Web References\TELWEBSERVER\DSSalesInvoiceEcommerce.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSSalesInvoiceEcommerce.xsd" />
+    <None Include="Web References\TELWEBSERVER\DSSalesLead.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSSalesLead.xsd" />
+    <None Include="Web References\TELWEBSERVER\DSSalesOrder.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSSalesOrder.xsd" />
+    <None Include="Web References\TELWEBSERVER\DSSalesPromotionType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSSalesPromotionType.xsd" />
+    <None Include="Web References\TELWEBSERVER\DSSBU.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSSBU.xsd" />
+    <None Include="Web References\TELWEBSERVER\DSShowroom.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSShowroom.xsd" />
+    <None Include="Web References\TELWEBSERVER\DSStock.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSStock.xsd" />
+    <None Include="Web References\TELWEBSERVER\DSThisSystem.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSThisSystem.xsd" />
+    <None Include="Web References\TELWEBSERVER\DSTPVatProduct.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSTPVatProduct.xsd" />
+    <None Include="Web References\TELWEBSERVER\DSUnsoldDefectiveProduct.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSUnsoldDefectiveProduct.xsd" />
+    <None Include="Web References\TELWEBSERVER\DSUser.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSUser.xsd" />
+    <None Include="Web References\TELWEBSERVER\DSWarehouse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSWarehouse.xsd" />
+    <None Include="Web References\TELWEBSERVER\DSWarranty.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSWarranty.xsd" />
+    <None Include="Web References\TELWEBSERVER\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\TELWEBSERVER\Service.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://localhost:53002/Service.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\TELWEBSERVER\</RelPath>
+      <UpdateFromURL>http://localhost:53002/Service.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>CJ_Factory_TELWEBSERVER_Service</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web References\TELWEBSERVER\Service.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CJ.Class\CJ.Class.csproj">
+      <Project>{2344ac43-0fa4-41bb-8416-b9c875fb491c}</Project>
+      <Name>CJ.Class</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CJ.Control\CJ.Control.csproj">
+      <Project>{15559f63-7594-4e28-a3ad-f1affc12d431}</Project>
+      <Name>CJ.Control</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CJ.Report\CJ.Report.csproj">
+      <Project>{1cb1d426-dde5-47d8-8aa5-d82ee3b70ef3}</Project>
+      <Name>CJ.Report</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CBU.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SKD _new1.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AC Indoor.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

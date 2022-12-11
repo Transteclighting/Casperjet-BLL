@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns="http://tempuri.org/DSInitialTransaction.xsd" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:mstns="http://tempuri.org/DSInitialTransaction.xsd" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://tempuri.org/DSInitialTransaction.xsd" id="DSInitialTransaction" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element msdata:IsDataSet="true" msdata:UseCurrentLocale="true" name="DSInitialTransaction">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ProductStockTran">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="TranID" type="xs:long" />
+              <xs:element minOccurs="0" name="LastUpdateUserID" type="xs:int" />
+              <xs:element minOccurs="0" name="CreateDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="LastUpdateDate" type="xs:dateTime" />
+              <xs:element msdata:Caption="POId" minOccurs="0" name="POID" type="xs:long" />
+              <xs:element minOccurs="0" name="TranNo" type="xs:string" />
+              <xs:element minOccurs="0" name="TranDate" type="xs:dateTime" />
+              <xs:element msdata:Caption="TranTypeId" minOccurs="0" name="TranTypeID" type="xs:int" />
+              <xs:element minOccurs="0" name="FromWHID" type="xs:long" />
+              <xs:element msdata:Caption="ToWHId" minOccurs="0" name="ToWHID" type="xs:long" />
+              <xs:element minOccurs="0" name="ToChannelID" type="xs:long" />
+              <xs:element msdata:Caption="FromChannelId" minOccurs="0" name="FromChannelID" type="xs:long" />
+              <xs:element msdata:Caption="UserId" minOccurs="0" name="UserID" type="xs:long" />
+              <xs:element minOccurs="0" name="Status" type="xs:short" />
+              <xs:element minOccurs="0" name="Remarks" type="xs:string" />
+              <xs:element minOccurs="0" name="IsDownload" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ProductStockSerial">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="ProductID" type="xs:int" />
+              <xs:element minOccurs="0" name="ProductSerialNo" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ProductStock">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="ProductID" type="xs:int" />
+              <xs:element minOccurs="0" name="WarehouseID" type="xs:int" />
+              <xs:element minOccurs="0" name="CurrentStock" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ProductStockTranItem">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="TranID" type="xs:long" />
+              <xs:element minOccurs="0" name="ProductID" type="xs:long" />
+              <xs:element minOccurs="0" name="Qty" type="xs:long" />
+              <xs:element minOccurs="0" name="StockPrice" type="xs:double" />
+              <xs:element minOccurs="0" name="Status" type="xs:short" />
+              <xs:element minOccurs="0" name="RefTranID" type="xs:int" />
+              <xs:element minOccurs="0" name="LCProductQty" type="xs:int" />
+              <xs:element minOccurs="0" name="LCShortQty" type="xs:int" />
+              <xs:element minOccurs="0" name="LCDamagedQty" type="xs:int" />
+              <xs:element minOccurs="0" name="LCMinorDefectiveQty" type="xs:int" />
+              <xs:element minOccurs="0" name="LCRemarks" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

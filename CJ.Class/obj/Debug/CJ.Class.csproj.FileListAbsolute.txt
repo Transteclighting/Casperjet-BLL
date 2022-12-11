@@ -1,0 +1,11 @@
+D:\Local\TEL\Casper Jet\CJ.Class\bin\Debug\CJ.Class.dll.config
+D:\Local\TEL\Casper Jet\CJ.Class\bin\Debug\CJ.Class.dll
+D:\Local\TEL\Casper Jet\CJ.Class\bin\Debug\CJ.Class.pdb
+D:\Local\TEL\Casper Jet\CJ.Class\obj\Debug\CJ.Class.dll
+D:\Local\TEL\Casper Jet\CJ.Class\obj\Debug\CJ.Class.pdb
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Class\bin\Debug\CJ.Class.dll.config
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Class\bin\Debug\CJ.Class.dll
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Class\bin\Debug\CJ.Class.pdb
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Class\obj\Debug\CJ.Class.csprojResolveAssemblyReference.cache
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Class\obj\Debug\CJ.Class.dll
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Class\obj\Debug\CJ.Class.pdb

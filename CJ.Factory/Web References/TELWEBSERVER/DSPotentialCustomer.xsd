@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns="http://tempuri.org/DSPotentialCustomer.xsd" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" xmlns:mstns="http://tempuri.org/DSPotentialCustomer.xsd" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://tempuri.org/DSPotentialCustomer.xsd" id="DSPotentialCustomer" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element msdata:IsDataSet="true" msdata:UseCurrentLocale="true" name="DSPotentialCustomer">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element msprop:Generator_UserTableName="DSPotentialCustomer" msprop:Generator_TablePropName="_DSPotentialCustomer" name="DSPotentialCustomer">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" type="xs:int" />
+              <xs:element name="Outlet" type="xs:int" />
+              <xs:element minOccurs="0" name="CompanyName" type="xs:string" />
+              <xs:element minOccurs="0" name="Name" type="xs:string" />
+              <xs:element minOccurs="0" name="VisitDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="Designation" type="xs:string" />
+              <xs:element minOccurs="0" name="MobileNo" type="xs:string" />
+              <xs:element minOccurs="0" name="TelephoneNo" type="xs:string" />
+              <xs:element minOccurs="0" name="Address" type="xs:string" />
+              <xs:element minOccurs="0" name="Email" type="xs:string" />
+              <xs:element minOccurs="0" name="Remarks" type="xs:string" />
+              <xs:element minOccurs="0" name="CreateDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="CreateUserID" type="xs:int" />
+              <xs:element minOccurs="0" name="UpdateDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="UpdateUserID" type="xs:int" />
+              <xs:element minOccurs="0" name="Status" type="xs:int" />
+              <xs:element minOccurs="0" name="IsDownload" type="xs:int" />
+              <xs:element minOccurs="0" name="LeadNo" type="xs:string" />
+              <xs:element minOccurs="0" name="LeadDate" type="xs:dateTime" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique msdata:PrimaryKey="true" name="Constraint1">
+      <xs:selector xpath=".//mstns:DSPotentialCustomer" />
+      <xs:field xpath="mstns:ID" />
+      <xs:field xpath="mstns:Outlet" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

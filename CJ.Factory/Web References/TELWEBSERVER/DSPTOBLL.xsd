@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns="http://tempuri.org/DSPTOBLL.xsd" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:mstns="http://tempuri.org/DSPTOBLL.xsd" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://tempuri.org/DSPTOBLL.xsd" id="DSPTOBLL" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element msdata:IsDataSet="true" msdata:UseCurrentLocale="true" name="DSPTOBLL">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="TOBLL">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="CurrentMonthSS" type="xs:string" />
+              <xs:element minOccurs="0" name="MTDSales" type="xs:string" />
+              <xs:element minOccurs="0" name="LMMTDSales" type="xs:string" />
+              <xs:element minOccurs="0" name="Areaid" type="xs:string" />
+              <xs:element minOccurs="0" name="AreaName" type="xs:string" />
+              <xs:element minOccurs="0" name="PriGth" type="xs:string" />
+              <xs:element minOccurs="0" name="PMTarget" type="xs:string" />
+              <xs:element minOccurs="0" name="PriAch" type="xs:string" />
+              <xs:element minOccurs="0" name="SecAch" type="xs:string" />
+              <xs:element minOccurs="0" name="LMMTDSec" type="xs:string" />
+              <xs:element minOccurs="0" name="SecGth" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

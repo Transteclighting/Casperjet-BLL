@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns="http://tempuri.org/DSPromoDiscount.xsd" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:mstns="http://tempuri.org/DSPromoDiscount.xsd" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://tempuri.org/DSPromoDiscount.xsd" id="DSPromoDiscount" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element msdata:IsDataSet="true" msdata:UseCurrentLocale="true" name="DSPromoDiscount">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="PromoDiscountSpecial">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SpecialDiscountID" type="xs:int" />
+              <xs:element minOccurs="0" name="ApprovalNumber" type="xs:string" />
+              <xs:element minOccurs="0" name="ChannelID" type="xs:int" />
+              <xs:element minOccurs="0" name="CustomerID" type="xs:int" />
+              <xs:element minOccurs="0" name="Type" type="xs:int" />
+              <xs:element minOccurs="0" name="ConsumerID" type="xs:int" />
+              <xs:element minOccurs="0" name="WarehouseID" type="xs:int" />
+              <xs:element minOccurs="0" name="Amount" type="xs:double" />
+              <xs:element minOccurs="0" name="IsApplicableB2BDiscount" type="xs:int" />
+              <xs:element minOccurs="0" name="Status" type="xs:int" />
+              <xs:element minOccurs="0" name="CreateUserID" type="xs:int" />
+              <xs:element minOccurs="0" name="CreateDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="ApproveUserID" type="xs:int" />
+              <xs:element minOccurs="0" name="ApproveDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="Reason" type="xs:string" />
+              <xs:element minOccurs="0" name="ApproveRemarks" type="xs:string" />
+              <xs:element minOccurs="0" name="AuthorityID" type="xs:int" />
+              <xs:element minOccurs="0" name="ProductID" type="xs:int" />
+              <xs:element minOccurs="0" name="EMITenureID" type="xs:int" />
+              <xs:element minOccurs="0" name="Terminal" type="xs:int" />
+              <xs:element minOccurs="0" name="DiscountType" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

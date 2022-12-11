@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns="http://tempuri.org/DSCustomerTransaction.xsd" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:mstns="http://tempuri.org/DSCustomerTransaction.xsd" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://tempuri.org/DSCustomerTransaction.xsd" id="DSCustomerTransaction" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element msdata:IsDataSet="true" msdata:UseCurrentLocale="true" name="DSCustomerTransaction">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="CustomerTran">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="TranID" type="xs:int" />
+              <xs:element minOccurs="0" name="TranNo" type="xs:string" />
+              <xs:element minOccurs="0" name="CustomerID" type="xs:int" />
+              <xs:element minOccurs="0" name="TranDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="TranTypeID" type="xs:int" />
+              <xs:element minOccurs="0" name="Amount" type="xs:double" />
+              <xs:element minOccurs="0" name="InstrumentNo" type="xs:string" />
+              <xs:element minOccurs="0" name="InstrumentDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="InstrumentType" type="xs:int" />
+              <xs:element minOccurs="0" name="InstrumentStatus" type="xs:int" />
+              <xs:element minOccurs="0" name="BranchID" type="xs:int" />
+              <xs:element minOccurs="0" name="BranchName" type="xs:string" />
+              <xs:element minOccurs="0" name="EntryUserID" type="xs:int" />
+              <xs:element minOccurs="0" name="EntryDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="Remarks" type="xs:string" />
+              <xs:element minOccurs="0" name="IsDownload" type="xs:int" />
+              <xs:element minOccurs="0" name="TranSide" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="InvoiceWisePayment">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="RecordID" type="xs:long" />
+              <xs:element minOccurs="0" name="CustomerTranID" type="xs:long" />
+              <xs:element minOccurs="0" name="InvoiceID" type="xs:long" />
+              <xs:element minOccurs="0" name="CustomerID" type="xs:long" />
+              <xs:element minOccurs="0" name="Amount" type="xs:double" />
+              <xs:element minOccurs="0" name="CreateDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="CreateUserID" type="xs:int" />
+              <xs:element minOccurs="0" name="InvoiceNo" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

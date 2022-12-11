@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSDCS" targetNamespace="http://tempuri.org/DSDCS.xsd" xmlns:mstns="http://tempuri.org/DSDCS.xsd" xmlns="http://tempuri.org/DSDCS.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSDCS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DSDCS" msprop:Generator_DataSetName="DSDCS">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DepositDetail" msprop:Generator_UserTableName="DepositDetail" msprop:Generator_RowDeletedName="DepositDetailRowDeleted" msprop:Generator_RowChangedName="DepositDetailRowChanged" msprop:Generator_RowClassName="DepositDetailRow" msprop:Generator_RowChangingName="DepositDetailRowChanging" msprop:Generator_RowEvArgName="DepositDetailRowChangeEvent" msprop:Generator_RowEvHandlerName="DepositDetailRowChangeEventHandler" msprop:Generator_TableClassName="DepositDetailDataTable" msprop:Generator_TableVarName="tableDepositDetail" msprop:Generator_RowDeletingName="DepositDetailRowDeleting" msprop:Generator_TablePropName="DepositDetail">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="BankBranch" msprop:Generator_UserColumnName="BankBranch" msprop:Generator_ColumnPropNameInRow="BankBranch" msprop:Generator_ColumnVarNameInTable="columnBankBranch" msprop:Generator_ColumnPropNameInTable="BankBranchColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Amout" msprop:Generator_UserColumnName="Amout" msprop:Generator_ColumnPropNameInRow="Amout" msprop:Generator_ColumnVarNameInTable="columnAmout" msprop:Generator_ColumnPropNameInTable="AmoutColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="DepositType" msprop:Generator_UserColumnName="DepositType" msprop:Generator_ColumnPropNameInRow="DepositType" msprop:Generator_ColumnVarNameInTable="columnDepositType" msprop:Generator_ColumnPropNameInTable="DepositTypeColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="InstrumnetDetail" msprop:Generator_UserTableName="InstrumnetDetail" msprop:Generator_RowDeletedName="InstrumnetDetailRowDeleted" msprop:Generator_RowChangedName="InstrumnetDetailRowChanged" msprop:Generator_RowClassName="InstrumnetDetailRow" msprop:Generator_RowChangingName="InstrumnetDetailRowChanging" msprop:Generator_RowEvArgName="InstrumnetDetailRowChangeEvent" msprop:Generator_RowEvHandlerName="InstrumnetDetailRowChangeEventHandler" msprop:Generator_TableClassName="InstrumnetDetailDataTable" msprop:Generator_TableVarName="tableInstrumnetDetail" msprop:Generator_RowDeletingName="InstrumnetDetailRowDeleting" msprop:Generator_TablePropName="InstrumnetDetail">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="InvoiceNo" msprop:Generator_UserColumnName="InvoiceNo" msprop:Generator_ColumnPropNameInRow="InvoiceNo" msprop:Generator_ColumnVarNameInTable="columnInvoiceNo" msprop:Generator_ColumnPropNameInTable="InvoiceNoColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="InstrumentNo" msprop:Generator_UserColumnName="InstrumentNo" msprop:Generator_ColumnPropNameInRow="InstrumentNo" msprop:Generator_ColumnVarNameInTable="columnInstrumentNo" msprop:Generator_ColumnPropNameInTable="InstrumentNoColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="InstrumentType" msprop:Generator_UserColumnName="InstrumentType" msprop:Generator_ColumnPropNameInRow="InstrumentType" msprop:Generator_ColumnVarNameInTable="columnInstrumentType" msprop:Generator_ColumnPropNameInTable="InstrumentTypeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="InstrumentDate" msprop:Generator_UserColumnName="InstrumentDate" msprop:Generator_ColumnPropNameInRow="InstrumentDate" msprop:Generator_ColumnVarNameInTable="columnInstrumentDate" msprop:Generator_ColumnPropNameInTable="InstrumentDateColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Amount" msprop:Generator_UserColumnName="Amount" msprop:Generator_ColumnPropNameInRow="Amount" msprop:Generator_ColumnVarNameInTable="columnAmount" msprop:Generator_ColumnPropNameInTable="AmountColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="BankBranch" msprop:Generator_UserColumnName="BankBranch" msprop:Generator_ColumnVarNameInTable="columnBankBranch" msprop:Generator_ColumnPropNameInRow="BankBranch" msprop:Generator_ColumnPropNameInTable="BankBranchColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="TranDetail" msprop:Generator_UserTableName="TranDetail" msprop:Generator_RowDeletedName="TranDetailRowDeleted" msprop:Generator_RowChangedName="TranDetailRowChanged" msprop:Generator_RowClassName="TranDetailRow" msprop:Generator_RowChangingName="TranDetailRowChanging" msprop:Generator_RowEvArgName="TranDetailRowChangeEvent" msprop:Generator_RowEvHandlerName="TranDetailRowChangeEventHandler" msprop:Generator_TableClassName="TranDetailDataTable" msprop:Generator_TableVarName="tableTranDetail" msprop:Generator_RowDeletingName="TranDetailRowDeleting" msprop:Generator_TablePropName="TranDetail">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TranType" msprop:Generator_UserColumnName="TranType" msprop:Generator_ColumnVarNameInTable="columnTranType" msprop:Generator_ColumnPropNameInRow="TranType" msprop:Generator_ColumnPropNameInTable="TranTypeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="InstrumentType" msprop:Generator_UserColumnName="InstrumentType" msprop:Generator_ColumnVarNameInTable="columnInstrumentType" msprop:Generator_ColumnPropNameInRow="InstrumentType" msprop:Generator_ColumnPropNameInTable="InstrumentTypeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="InstrumentDate" msprop:Generator_UserColumnName="InstrumentDate" msprop:Generator_ColumnVarNameInTable="columnInstrumentDate" msprop:Generator_ColumnPropNameInRow="InstrumentDate" msprop:Generator_ColumnPropNameInTable="InstrumentDateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Description" msprop:Generator_UserColumnName="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CrAmount" msprop:Generator_UserColumnName="CrAmount" msprop:Generator_ColumnVarNameInTable="columnCrAmount" msprop:Generator_ColumnPropNameInRow="CrAmount" msprop:Generator_ColumnPropNameInTable="CrAmountColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="DrAmount" msprop:Generator_UserColumnName="DrAmount" msprop:Generator_ColumnVarNameInTable="columnDrAmount" msprop:Generator_ColumnPropNameInRow="DrAmount" msprop:Generator_ColumnPropNameInTable="DrAmountColumn" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

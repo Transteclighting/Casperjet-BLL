@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSInvoicePayment" targetNamespace="http://tempuri.org/DSInvoicePayment.xsd" xmlns:mstns="http://tempuri.org/DSInvoicePayment.xsd" xmlns="http://tempuri.org/DSInvoicePayment.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSInvoicePayment" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="DSInvoicePayment" msprop:Generator_UserDSName="DSInvoicePayment">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="InvoicePayment" msprop:Generator_UserTableName="InvoicePayment" msprop:Generator_RowEvArgName="InvoicePaymentRowChangeEvent" msprop:Generator_TableVarName="tableInvoicePayment" msprop:Generator_TablePropName="InvoicePayment" msprop:Generator_RowDeletingName="InvoicePaymentRowDeleting" msprop:Generator_RowChangingName="InvoicePaymentRowChanging" msprop:Generator_RowDeletedName="InvoicePaymentRowDeleted" msprop:Generator_RowEvHandlerName="InvoicePaymentRowChangeEventHandler" msprop:Generator_TableClassName="InvoicePaymentDataTable" msprop:Generator_RowChangedName="InvoicePaymentRowChanged" msprop:Generator_RowClassName="InvoicePaymentRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PaymentModeID" msprop:Generator_ColumnVarNameInTable="columnPaymentModeID" msprop:Generator_ColumnPropNameInRow="PaymentModeID" msprop:Generator_ColumnPropNameInTable="PaymentModeIDColumn" msprop:Generator_UserColumnName="PaymentModeID" type="xs:int" minOccurs="0" />
+              <xs:element name="Amount" msprop:Generator_ColumnVarNameInTable="columnAmount" msprop:Generator_ColumnPropNameInRow="Amount" msprop:Generator_ColumnPropNameInTable="AmountColumn" msprop:Generator_UserColumnName="Amount" type="xs:double" minOccurs="0" />
+              <xs:element name="BankID" msprop:Generator_ColumnVarNameInTable="columnBankID" msprop:Generator_ColumnPropNameInRow="BankID" msprop:Generator_ColumnPropNameInTable="BankIDColumn" msprop:Generator_UserColumnName="BankID" type="xs:int" minOccurs="0" />
+              <xs:element name="CardType" msprop:Generator_ColumnVarNameInTable="columnCardType" msprop:Generator_ColumnPropNameInRow="CardType" msprop:Generator_ColumnPropNameInTable="CardTypeColumn" msprop:Generator_UserColumnName="CardType" type="xs:int" minOccurs="0" />
+              <xs:element name="POSMachineID" msprop:Generator_ColumnVarNameInTable="columnPOSMachineID" msprop:Generator_ColumnPropNameInRow="POSMachineID" msprop:Generator_ColumnPropNameInTable="POSMachineIDColumn" msprop:Generator_UserColumnName="POSMachineID" type="xs:int" minOccurs="0" />
+              <xs:element name="IsEMI" msprop:Generator_ColumnVarNameInTable="columnIsEMI" msprop:Generator_ColumnPropNameInRow="IsEMI" msprop:Generator_ColumnPropNameInTable="IsEMIColumn" msprop:Generator_UserColumnName="IsEMI" type="xs:int" minOccurs="0" />
+              <xs:element name="NoOfInstallment" msprop:Generator_ColumnVarNameInTable="columnNoOfInstallment" msprop:Generator_ColumnPropNameInRow="NoOfInstallment" msprop:Generator_ColumnPropNameInTable="NoOfInstallmentColumn" msprop:Generator_UserColumnName="NoOfInstallment" type="xs:int" minOccurs="0" />
+              <xs:element name="InstrumentNo" msprop:Generator_ColumnVarNameInTable="columnInstrumentNo" msprop:Generator_ColumnPropNameInRow="InstrumentNo" msprop:Generator_ColumnPropNameInTable="InstrumentNoColumn" msprop:Generator_UserColumnName="InstrumentNo" type="xs:string" minOccurs="0" />
+              <xs:element name="InstrumentDate" msprop:Generator_ColumnVarNameInTable="columnInstrumentDate" msprop:Generator_ColumnPropNameInRow="InstrumentDate" msprop:Generator_ColumnPropNameInTable="InstrumentDateColumn" msprop:Generator_UserColumnName="InstrumentDate" type="xs:dateTime" />
+              <xs:element name="CardCategory" msprop:Generator_ColumnVarNameInTable="columnCardCategory" msprop:Generator_ColumnPropNameInRow="CardCategory" msprop:Generator_ColumnPropNameInTable="CardCategoryColumn" msprop:Generator_UserColumnName="CardCategory" type="xs:int" minOccurs="0" />
+              <xs:element name="ApprovalNo" msprop:Generator_ColumnVarNameInTable="columnApprovalNo" msprop:Generator_ColumnPropNameInRow="ApprovalNo" msprop:Generator_ColumnPropNameInTable="ApprovalNoColumn" msprop:Generator_UserColumnName="ApprovalNo" type="xs:string" minOccurs="0" />
+              <xs:element name="PaymentModeName" msprop:Generator_ColumnVarNameInTable="columnPaymentModeName" msprop:Generator_ColumnPropNameInRow="PaymentModeName" msprop:Generator_ColumnPropNameInTable="PaymentModeNameColumn" msprop:Generator_UserColumnName="PaymentModeName" type="xs:string" minOccurs="0" />
+              <xs:element name="BankName" msprop:Generator_ColumnVarNameInTable="columnBankName" msprop:Generator_ColumnPropNameInRow="BankName" msprop:Generator_ColumnPropNameInTable="BankNameColumn" msprop:Generator_UserColumnName="BankName" type="xs:string" minOccurs="0" />
+              <xs:element name="CardTypeName" msprop:Generator_ColumnVarNameInTable="columnCardTypeName" msprop:Generator_ColumnPropNameInRow="CardTypeName" msprop:Generator_ColumnPropNameInTable="CardTypeNameColumn" msprop:Generator_UserColumnName="CardTypeName" type="xs:string" minOccurs="0" />
+              <xs:element name="POSMachineName" msprop:Generator_ColumnVarNameInTable="columnPOSMachineName" msprop:Generator_ColumnPropNameInRow="POSMachineName" msprop:Generator_ColumnPropNameInTable="POSMachineNameColumn" msprop:Generator_UserColumnName="POSMachineName" type="xs:string" minOccurs="0" />
+              <xs:element name="CardCategoryName" msprop:Generator_ColumnVarNameInTable="columnCardCategoryName" msprop:Generator_ColumnPropNameInRow="CardCategoryName" msprop:Generator_ColumnPropNameInTable="CardCategoryNameColumn" msprop:Generator_UserColumnName="CardCategoryName" type="xs:string" minOccurs="0" />
+              <xs:element name="ProductID" msprop:Generator_ColumnVarNameInTable="columnProductID" msprop:Generator_ColumnPropNameInRow="ProductID" msprop:Generator_ColumnPropNameInTable="ProductIDColumn" msprop:Generator_UserColumnName="ProductID" type="xs:int" minOccurs="0" />
+              <xs:element name="ProductName" msprop:Generator_ColumnVarNameInTable="columnProductName" msprop:Generator_ColumnPropNameInRow="ProductName" msprop:Generator_ColumnPropNameInTable="ProductNameColumn" msprop:Generator_UserColumnName="ProductName" type="xs:string" minOccurs="0" />
+              <xs:element name="SalesQty" msprop:Generator_ColumnVarNameInTable="columnSalesQty" msprop:Generator_ColumnPropNameInRow="SalesQty" msprop:Generator_ColumnPropNameInTable="SalesQtyColumn" msprop:Generator_UserColumnName="SalesQty" type="xs:int" minOccurs="0" />
+              <xs:element name="ExtendedEMICharge" msprop:Generator_ColumnVarNameInTable="columnExtendedEMICharge" msprop:Generator_ColumnPropNameInRow="ExtendedEMICharge" msprop:Generator_ColumnPropNameInTable="ExtendedEMIChargeColumn" msprop:Generator_UserColumnName="ExtendedEMICharge" type="xs:double" minOccurs="0" />
+              <xs:element name="BankDiscount" msprop:Generator_ColumnVarNameInTable="columnBankDiscount" msprop:Generator_ColumnPropNameInRow="BankDiscount" msprop:Generator_ColumnPropNameInTable="BankDiscountColumn" msprop:Generator_UserColumnName="BankDiscount" type="xs:double" minOccurs="0" />
+              <xs:element name="BGID" msprop:Generator_ColumnVarNameInTable="columnBGID" msprop:Generator_ColumnPropNameInRow="BGID" msprop:Generator_ColumnPropNameInTable="BGIDColumn" msprop:Generator_UserColumnName="BGID" type="xs:int" minOccurs="0" />
+              <xs:element name="CreditApprovalID" msprop:Generator_ColumnVarNameInTable="columnCreditApprovalID" msprop:Generator_ColumnPropNameInRow="CreditApprovalID" msprop:Generator_ColumnPropNameInTable="CreditApprovalIDColumn" msprop:Generator_UserColumnName="CreditApprovalID" type="xs:int" minOccurs="0" />
+              <xs:element name="AdvancePaymentID" msprop:Generator_ColumnVarNameInTable="columnAdvancePaymentID" msprop:Generator_ColumnPropNameInRow="AdvancePaymentID" msprop:Generator_ColumnPropNameInTable="AdvancePaymentIDColumn" msprop:Generator_UserColumnName="AdvancePaymentID" type="xs:int" minOccurs="0" />
+              <xs:element name="BankDiscountID" msprop:Generator_ColumnVarNameInTable="columnBankDiscountID" msprop:Generator_ColumnPropNameInRow="BankDiscountID" msprop:Generator_ColumnPropNameInTable="BankDiscountIDColumn" msprop:Generator_UserColumnName="BankDiscountID" type="xs:int" minOccurs="0" />
+              <xs:element name="ExtendedEMIChargeID" msprop:Generator_ColumnVarNameInTable="columnExtendedEMIChargeID" msprop:Generator_ColumnPropNameInRow="ExtendedEMIChargeID" msprop:Generator_ColumnPropNameInTable="ExtendedEMIChargeIDColumn" msprop:Generator_UserColumnName="ExtendedEMIChargeID" type="xs:int" minOccurs="0" />
+              <xs:element name="SDApprovalNo" msprop:Generator_ColumnVarNameInTable="columnSDApprovalNo" msprop:Generator_ColumnPropNameInRow="SDApprovalNo" msprop:Generator_ColumnPropNameInTable="SDApprovalNoColumn" msprop:Generator_UserColumnName="SDApprovalNo" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSBLLDailySales" targetNamespace="http://tempuri.org/DSBLLDailySales.xsd" xmlns:mstns="http://tempuri.org/DSBLLDailySales.xsd" xmlns="http://tempuri.org/DSBLLDailySales.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSBLLDailySales" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DSBLLDailySales" msprop:Generator_DataSetName="DSBLLDailySales">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DailySales" msprop:Generator_UserTableName="DailySales" msprop:Generator_RowDeletedName="DailySalesRowDeleted" msprop:Generator_RowChangedName="DailySalesRowChanged" msprop:Generator_RowClassName="DailySalesRow" msprop:Generator_RowChangingName="DailySalesRowChanging" msprop:Generator_RowEvArgName="DailySalesRowChangeEvent" msprop:Generator_RowEvHandlerName="DailySalesRowChangeEventHandler" msprop:Generator_TableClassName="DailySalesDataTable" msprop:Generator_TableVarName="tableDailySales" msprop:Generator_RowDeletingName="DailySalesRowDeleting" msprop:Generator_TablePropName="DailySales">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Type" msprop:Generator_UserColumnName="Type" msprop:Generator_ColumnPropNameInRow="Type" msprop:Generator_ColumnVarNameInTable="columnType" msprop:Generator_ColumnPropNameInTable="TypeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ID" msprop:Generator_UserColumnName="ID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInTable="IDColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Date" msprop:Generator_UserColumnName="Date" msprop:Generator_ColumnPropNameInRow="Date" msprop:Generator_ColumnVarNameInTable="columnDate" msprop:Generator_ColumnPropNameInTable="DateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PriTarValue" msprop:Generator_UserColumnName="PriTarValue" msprop:Generator_ColumnPropNameInRow="PriTarValue" msprop:Generator_ColumnVarNameInTable="columnPriTarValue" msprop:Generator_ColumnPropNameInTable="PriTarValueColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="PriActValue" msprop:Generator_UserColumnName="PriActValue" msprop:Generator_ColumnPropNameInRow="PriActValue" msprop:Generator_ColumnVarNameInTable="columnPriActValue" msprop:Generator_ColumnPropNameInTable="PriActValueColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="SecTarValue" msprop:Generator_UserColumnName="SecTarValue" msprop:Generator_ColumnPropNameInRow="SecTarValue" msprop:Generator_ColumnVarNameInTable="columnSecTarValue" msprop:Generator_ColumnPropNameInTable="SecTarValueColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="SecActValue" msprop:Generator_UserColumnName="SecActValue" msprop:Generator_ColumnPropNameInRow="SecActValue" msprop:Generator_ColumnVarNameInTable="columnSecActValue" msprop:Generator_ColumnPropNameInTable="SecActValueColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="CollTarValue" msprop:Generator_UserColumnName="CollTarValue" msprop:Generator_ColumnPropNameInRow="CollTarValue" msprop:Generator_ColumnVarNameInTable="columnCollTarValue" msprop:Generator_ColumnPropNameInTable="CollTarValueColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="CollActValue" msprop:Generator_UserColumnName="CollActValue" msprop:Generator_ColumnPropNameInRow="CollActValue" msprop:Generator_ColumnVarNameInTable="columnCollActValue" msprop:Generator_ColumnPropNameInTable="CollActValueColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="CollCash" msprop:Generator_UserColumnName="CollCash" msprop:Generator_ColumnVarNameInTable="columnCollCash" msprop:Generator_ColumnPropNameInRow="CollCash" msprop:Generator_ColumnPropNameInTable="CollCashColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="CollAdj" msprop:Generator_UserColumnName="CollAdj" msprop:Generator_ColumnVarNameInTable="columnCollAdj" msprop:Generator_ColumnPropNameInRow="CollAdj" msprop:Generator_ColumnPropNameInTable="CollAdjColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="WeekNo" msprop:Generator_UserColumnName="WeekNo" msprop:Generator_ColumnPropNameInRow="WeekNo" msprop:Generator_ColumnVarNameInTable="columnWeekNo" msprop:Generator_ColumnPropNameInTable="WeekNoColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

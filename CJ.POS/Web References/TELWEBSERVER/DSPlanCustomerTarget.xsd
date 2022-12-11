@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns="http://tempuri.org/DSPlanCustomerTarget.xsd" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:mstns="http://tempuri.org/DSPlanCustomerTarget.xsd" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://tempuri.org/DSPlanCustomerTarget.xsd" id="DSPlanCustomerTarget" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element msdata:IsDataSet="true" msdata:UseCurrentLocale="true" name="DSPlanCustomerTarget">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="PlanCustomerTarget">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="VersionNo" type="xs:int" />
+              <xs:element name="TYear" type="xs:int" />
+              <xs:element name="TMonth" type="xs:int" />
+              <xs:element name="WeekNo" type="xs:int" />
+              <xs:element name="CustomerID" type="xs:int" />
+              <xs:element minOccurs="0" name="OldCustomer" type="xs:int" />
+              <xs:element minOccurs="0" name="NewCustomer" type="xs:int" />
+              <xs:element minOccurs="0" name="IsDownload" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique msdata:PrimaryKey="true" name="Constraint1">
+      <xs:selector xpath=".//mstns:PlanCustomerTarget" />
+      <xs:field xpath="mstns:VersionNo" />
+      <xs:field xpath="mstns:CustomerID" />
+      <xs:field xpath="mstns:WeekNo" />
+      <xs:field xpath="mstns:TMonth" />
+      <xs:field xpath="mstns:TYear" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSTargetvsActual" targetNamespace="http://tempuri.org/DSTargetvsActual.xsd" xmlns:mstns="http://tempuri.org/DSTargetvsActual.xsd" xmlns="http://tempuri.org/DSTargetvsActual.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSTargetvsActual" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DSTargetvsActual" msprop:Generator_UserDSName="DSTargetvsActual">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="MAGWeekPositionTargetvsActual" msprop:Generator_TableClassName="MAGWeekPositionTargetvsActualDataTable" msprop:Generator_TableVarName="tableMAGWeekPositionTargetvsActual" msprop:Generator_TablePropName="MAGWeekPositionTargetvsActual" msprop:Generator_RowDeletingName="MAGWeekPositionTargetvsActualRowDeleting" msprop:Generator_RowChangingName="MAGWeekPositionTargetvsActualRowChanging" msprop:Generator_RowEvHandlerName="MAGWeekPositionTargetvsActualRowChangeEventHandler" msprop:Generator_RowDeletedName="MAGWeekPositionTargetvsActualRowDeleted" msprop:Generator_UserTableName="MAGWeekPositionTargetvsActual" msprop:Generator_RowChangedName="MAGWeekPositionTargetvsActualRowChanged" msprop:Generator_RowEvArgName="MAGWeekPositionTargetvsActualRowChangeEvent" msprop:Generator_RowClassName="MAGWeekPositionTargetvsActualRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SEName" msprop:Generator_ColumnVarNameInTable="columnSEName" msprop:Generator_ColumnPropNameInRow="SEName" msprop:Generator_ColumnPropNameInTable="SENameColumn" msprop:Generator_UserColumnName="SEName" type="xs:string" minOccurs="0" />
+              <xs:element name="SECode" msprop:Generator_ColumnVarNameInTable="columnSECode" msprop:Generator_ColumnPropNameInRow="SECode" msprop:Generator_ColumnPropNameInTable="SECodeColumn" msprop:Generator_UserColumnName="SECode" type="xs:string" minOccurs="0" />
+              <xs:element name="ABMCode" msprop:Generator_ColumnVarNameInTable="columnABMCode" msprop:Generator_ColumnPropNameInRow="ABMCode" msprop:Generator_ColumnPropNameInTable="ABMCodeColumn" msprop:Generator_UserColumnName="ABMCode" type="xs:string" minOccurs="0" />
+              <xs:element name="ABMName" msprop:Generator_ColumnVarNameInTable="columnABMName" msprop:Generator_ColumnPropNameInRow="ABMName" msprop:Generator_ColumnPropNameInTable="ABMNameColumn" msprop:Generator_UserColumnName="ABMName" type="xs:string" minOccurs="0" />
+              <xs:element name="BMCode" msprop:Generator_ColumnVarNameInTable="columnBMCode" msprop:Generator_ColumnPropNameInRow="BMCode" msprop:Generator_ColumnPropNameInTable="BMCodeColumn" msprop:Generator_UserColumnName="BMCode" type="xs:string" minOccurs="0" />
+              <xs:element name="BMName" msprop:Generator_ColumnVarNameInTable="columnBMName" msprop:Generator_ColumnPropNameInRow="BMName" msprop:Generator_ColumnPropNameInTable="BMNameColumn" msprop:Generator_UserColumnName="BMName" type="xs:string" minOccurs="0" />
+              <xs:element name="PGName" msprop:Generator_ColumnVarNameInTable="columnPGName" msprop:Generator_ColumnPropNameInRow="PGName" msprop:Generator_ColumnPropNameInTable="PGNameColumn" msprop:Generator_UserColumnName="PGName" type="xs:string" minOccurs="0" />
+              <xs:element name="MAGName" msprop:Generator_ColumnVarNameInTable="columnMAGName" msprop:Generator_ColumnPropNameInRow="MAGName" msprop:Generator_ColumnPropNameInTable="MAGNameColumn" msprop:Generator_UserColumnName="MAGName" type="xs:string" minOccurs="0" />
+              <xs:element name="BrandName" msprop:Generator_ColumnVarNameInTable="columnBrandName" msprop:Generator_ColumnPropNameInRow="BrandName" msprop:Generator_ColumnPropNameInTable="BrandNameColumn" msprop:Generator_UserColumnName="BrandName" type="xs:string" minOccurs="0" />
+              <xs:element name="ChannelName" msprop:Generator_ColumnVarNameInTable="columnChannelName" msprop:Generator_ColumnPropNameInRow="ChannelName" msprop:Generator_ColumnPropNameInTable="ChannelNameColumn" msprop:Generator_UserColumnName="ChannelName" type="xs:string" minOccurs="0" />
+              <xs:element name="TargetQty" msprop:Generator_ColumnVarNameInTable="columnTargetQty" msprop:Generator_ColumnPropNameInRow="TargetQty" msprop:Generator_ColumnPropNameInTable="TargetQtyColumn" msprop:Generator_UserColumnName="TargetQty" type="xs:int" minOccurs="0" />
+              <xs:element name="SalesQty" msprop:Generator_ColumnVarNameInTable="columnSalesQty" msprop:Generator_ColumnPropNameInRow="SalesQty" msprop:Generator_ColumnPropNameInTable="SalesQtyColumn" msprop:Generator_UserColumnName="SalesQty" type="xs:int" minOccurs="0" />
+              <xs:element name="TargetValue" msprop:Generator_ColumnVarNameInTable="columnTargetValue" msprop:Generator_ColumnPropNameInRow="TargetValue" msprop:Generator_ColumnPropNameInTable="TargetValueColumn" msprop:Generator_UserColumnName="TargetValue" type="xs:double" minOccurs="0" />
+              <xs:element name="NetSales" msprop:Generator_ColumnVarNameInTable="columnNetSales" msprop:Generator_ColumnPropNameInRow="NetSales" msprop:Generator_ColumnPropNameInTable="NetSalesColumn" msprop:Generator_UserColumnName="NetSales" type="xs:double" minOccurs="0" />
+              <xs:element name="Week" msprop:Generator_ColumnVarNameInTable="columnWeek" msprop:Generator_ColumnPropNameInRow="Week" msprop:Generator_ColumnPropNameInTable="WeekColumn" msprop:Generator_UserColumnName="Week" type="xs:int" minOccurs="0" />
+              <xs:element name="Month" msprop:Generator_ColumnVarNameInTable="columnMonth" msprop:Generator_ColumnPropNameInRow="Month" msprop:Generator_ColumnPropNameInTable="MonthColumn" msprop:Generator_UserColumnName="Month" type="xs:int" minOccurs="0" />
+              <xs:element name="Year" msprop:Generator_ColumnVarNameInTable="columnYear" msprop:Generator_ColumnPropNameInRow="Year" msprop:Generator_ColumnPropNameInTable="YearColumn" msprop:Generator_UserColumnName="Year" type="xs:int" minOccurs="0" />
+              <xs:element name="ShowroomCode" msprop:Generator_ColumnVarNameInTable="columnShowroomCode" msprop:Generator_ColumnPropNameInRow="ShowroomCode" msprop:Generator_ColumnPropNameInTable="ShowroomCodeColumn" msprop:Generator_UserColumnName="ShowroomCode" type="xs:string" minOccurs="0" />
+              <xs:element name="PGCategory" msprop:Generator_ColumnVarNameInTable="columnPGCategory" msprop:Generator_ColumnPropNameInRow="PGCategory" msprop:Generator_ColumnPropNameInTable="PGCategoryColumn" msprop:Generator_UserColumnName="PGCategory" type="xs:string" minOccurs="0" />
+              <xs:element name="SystemDate" msprop:Generator_ColumnVarNameInTable="columnSystemDate" msprop:Generator_ColumnPropNameInRow="SystemDate" msprop:Generator_ColumnPropNameInTable="SystemDateColumn" msprop:Generator_UserColumnName="SystemDate" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

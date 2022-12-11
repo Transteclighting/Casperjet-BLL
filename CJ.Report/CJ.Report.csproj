@@ -1,0 +1,3928 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="14.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1CB1D426-DDE5-47D8-8AA5-D82EE3B70EF3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CJ.Report</RootNamespace>
+    <AssemblyName>CJ.Report</AssemblyName>
+    <StartupObject>
+    </StartupObject>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\WINDOWS\assembly\GAC_MSIL\System.Web.Services\2.0.0.0__b03f5f7f11d50a3a\System.Web.Services.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Apps\DSSales.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSSales.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\rptSalesTrend.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptSalesTrend.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BEIL\rptLCMDefectiveComponent.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptLCMDefectiveComponent.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BEIL\rptProductionSummary.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptProductionSummary.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BEIL\rptToolReceived.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptToolReceived.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BEIL\rptToolsIssue.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptToolsIssue.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BEIL\rptToolStockLedger.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptToolStockLedger.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CSD\rptAdvancePayment.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptAdvancePayment.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CSD\rptCSDJobSummeryDateWise.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CSD\rptCSDTechnicalAssessment.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptCSDTechnicalAssessment.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DMS\rptDMSDSRSalary.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptDMSDSRSalary.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DMS\rptReplecementMonitoringBLL.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptReplecementMonitoringBLL.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DMS\rptTokenWiseProductList.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptTokenWiseProductList.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="HR\rptCarOfficer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptCarOfficer.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="HR\rptDailyAttendanceAndOvertimeRegister.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptDailyAttendanceAndOvertimeRegister.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="HR\rptDriverOfficer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptDriverOfficer.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="HR\rptHRUniformDistribution.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptHRUniformDistribution.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="HR\rptHRUniformDistributionSummeryreport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptHRUniformDistributionSummeryreport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="HR\rptLeaveRegisterAndLeaveBook.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptLeaveRegisterAndLeaveBook.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="HR\rptLunchOfficer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptLunchOfficer.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="HR\rptPayRegisterAndPaySlip.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptPayRegisterAndPaySlip.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="HR\rptPayrollOfficerBankPart_new.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptPayrollOfficerBankPart_new.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="HR\rptPayrollOfficerBankPart_TEL_Old.cs">
+      <DependentUpon>rptPayrollOfficerBankPart_TEL_Old.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="HR\rptServantOfficer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptServantOfficer.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="HR\rptServiceBook.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptServiceBook.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="POS\rptConsumerAccountBalanceThermal.cs">
+      <DependentUpon>rptConsumerAccountBalanceThermal.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="POS\rptCurrentStock.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptCurrentStock.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="POS\rptCurrentStockNew.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptCurrentStockNew.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="POS\rptDCSThermal.cs">
+      <DependentUpon>rptDCSThermal.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="POS\rptDMSSalesOrder.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptDMSSalesOrder.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="POS\rptMAGWeekPositionTargetVsActual.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptMAGWeekPositionTargetVsActual.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="POS\rptMushak63Thermal.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptMushak63Thermal.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="POS\rptMushak63_Exempted.cs">
+      <DependentUpon>rptMushak63_Exempted.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="POS\rptMushak65_Exempted.cs">
+      <DependentUpon>rptMushak65_Exempted.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="POS\rptNewMushak63.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptNewMushak63.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="POS\rptNewMushak63_Exempted.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptNewMushak63_Exempted.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="POS\rptNewMushak65.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptNewMushak65.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="POS\rptNewMushak65_Exempted.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptNewMushak65_Exempted.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="POS\rptRetailDeliveryChallanThermal.cs">
+      <DependentUpon>rptRetailDeliveryChallanThermal.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="POS\rptRetailDeliveryChallan.cs">
+      <DependentUpon>rptRetailDeliveryChallan.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="POS\rptPOSInvoice.cs">
+      <DependentUpon>rptPOSInvoice.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="POS\rptRetailDeliveryGatePass.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptRetailDeliveryGatePass.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="POS\rptRetailInvoiceThermal.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptRetailInvoiceThermal.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="POS\rptSamsungSmartWarrantyCertificate.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptSamsungSmartWarrantyCertificate.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="POS\rptWarehouseCurrentStock.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptWarehouseCurrentStock.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="POS\rptWarrantyCardThermal1.cs">
+      <DependentUpon>rptWarrantyCardThermal.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="rptCompanyLoanHistory.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptCompanyLoanHistory.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CSD\rptCSDMaterialConsumerReportDetail.cs">
+      <DependentUpon>rptCSDMaterialConsumerReportDetail.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="CSD\rptCSDTechnicianTransportation.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptCSDTechnicianTransportation.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CSD\rptSparePartsOrder.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptSparePartsOrder.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CSD\rptSparePartsStockAdjustment.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptSparePartsStockAdjustment.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="HR\rptHRAttendInfoView1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptHRAttendInfoView.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="HR\rptPayrollOfficerBankPart_BEIL.cs">
+      <DependentUpon>rptPayrollOfficerBankPart_BEIL.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="HR\rptPayrollOfficerBankPart_BEIL_E.cs">
+      <DependentUpon>rptPayrollOfficerBankPart_BEIL_E.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="HR\rptPayrollOfficerCashPartlegal_BEIL.cs">
+      <DependentUpon>rptPayrollOfficerCashPartlegal_BEIL.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="HR\rptPayrollOfficerCashPartlegal_BEIL_E.cs">
+      <DependentUpon>rptPayrollOfficerCashPartlegal_BEIL_E.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="HR\rptPayrollStaff_BEIL.cs">
+      <DependentUpon>rptPayrollStaff_BEIL.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="HR\rptPayrollStaff_BEIL_E.cs">
+      <DependentUpon>rptPayrollStaff_BEIL_E.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="HR\rptPayrollSupervisor_BEIL.cs">
+      <DependentUpon>rptPayrollSupervisor_BEIL.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="HR\rptPayrollTDStaff_TEL.cs">
+      <DependentUpon>rptPayrollTDStaff_TEL.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="HR\rptPayrollOfficerBankPart_TEL_E.cs">
+      <SubType>Component</SubType>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptPayrollOfficerBankPart_TEL_E.rpt</DependentUpon>
+    </Compile>
+    <Compile Include="HR\rptPayrollOfficerCashPartlegal_TEL_E.cs">
+      <SubType>Component</SubType>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptPayrollOfficerCashPartlegal_TEL_E.rpt</DependentUpon>
+    </Compile>
+    <Compile Include="HR\rptPayrollStaff_TEL_E.cs">
+      <SubType>Component</SubType>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptPayrollStaff_TEL_E.rpt</DependentUpon>
+    </Compile>
+    <Compile Include="HR\rptPaySlipStaffSup_BEIL.cs">
+      <DependentUpon>rptPaySlipStaffSup_BEIL.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="HR\ViewAttend.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ViewAttend.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="POS\rptOutletDisplayPositionRack.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptOutletDisplayPositionRack.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="POS\rptPettyCashExpenses.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptPettyCashExpenses.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="POS\rptRetailInvoiceNew.cs">
+      <DependentUpon>rptRetailInvoiceNew.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="POS\rptTDShipmentBill.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptTDShipmentBill.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="POS\rptUnsoldDefectiveProductList.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptUnsoldDefectiveProductList.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptCACChallan.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptCACChallan.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptCACStockLedger.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptCACStockLedger.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptCACStockLedgerProductWise.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptCACStockLedgerProductWise.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptStockPositionForVAT.cs">
+      <DependentUpon>rptStockPositionForVAT.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="rptDefectiveProductReport.cs">
+      <DependentUpon>rptDefectiveProductReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="rptHRAttendReportWFH.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptHRAttendReportWFH.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptHROverTimeEmployeeWise.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptHROverTimeEmployeeWise.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptLCRequisition.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptLCRequisition.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptNewVATLedgerNew.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptNewVATLedgerNew.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptNewVatReportMushak6.7.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptNewVatReportMushak6.7.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptOutletFeasibilityDataEntry.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptOutletFeasibilityDataEntry.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptOutletFeasibilitySalesProjection.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptOutletFeasibilitySalesProjection.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptProductComponentACHeader.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptProductComponentACHeader.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptProductComponentACIndoorNew.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptProductComponentACIndoorNew.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptProductComponentACIndoorNewHeader.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptProductComponentACIndoorNewHeader.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptProductComponentACNew.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptProductComponentACNew.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptProductComponentACNewHeader.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptProductComponentACNewHeader.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptProductComponentHeader.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptProductComponentHeader.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptProductComponentNew.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptProductComponentNew.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptProductComponentNewHeader.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptProductComponentNewHeader.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptProductComponentRefHeader.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptProductComponentRefHeader.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptProductComponentRefNew.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptProductComponentRefNew.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptProductComponentRefNewHeader.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptProductComponentRefNewHeader.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptProductReturnBLL.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptProductReturnBLL.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptTaskDetail.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptTradePromotion.cs">
+      <DependentUpon>rptTradePromotion.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="rptProductComponentACIndoor.cs">
+      <SubType>Component</SubType>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptProductComponentACIndoor.rpt</DependentUpon>
+    </Compile>
+    <Compile Include="CSD\ptSparePartsInternalChallan.cs">
+      <DependentUpon>ptSparePartsInternalChallan.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="CSD\rptChallan.cs">
+      <DependentUpon>rptChallan.rpt</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CSD\rptGatePass.cs">
+      <SubType>Component</SubType>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptGatePass.rpt</DependentUpon>
+    </Compile>
+    <Compile Include="CSD\rptGatePassDetail.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptGatePassDetail.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CSD\rptInterServiceBill.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptInterServiceBill.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CSD\rptJobBillList.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptJobBillList.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CSD\rptReturnToSupplier.cs">
+      <SubType>Component</SubType>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptReturnToSupplier.rpt</DependentUpon>
+    </Compile>
+    <Compile Include="CSD\rptSparePartCashSales.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptSparePartCashSales.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CSD\rptSparePartsReceive.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptSparePartsReceive.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CSD\rptSparePartsTransfer.cs">
+      <SubType>Component</SubType>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptSparePartsTransfer.rpt</DependentUpon>
+    </Compile>
+    <Compile Include="CSD\rptSPStockPosition.cs">
+      <DependentUpon>rptSPStockPosition.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="CSD\rptBackupProductSupportFrm.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptBackupProductSupportFrm.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CSD\rptBillCard.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptBillCard.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CSD\rptDailySalesCollection.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptDailySalesCollection.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CSD\rptJobRepairingEstimate.cs">
+      <DependentUpon>rptJobRepairingEstimate.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="CSD\rptClaimCard.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptClaimCard.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CSD\rptJobCard.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptJobCard.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CSD\rptSaprePartsStock.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptSaprePartsStock.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CSD\rptSparePartsCashSales.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptSparePartsCashSales.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CSD\rptSPStockLedger.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptSPStockLedger.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CSD\rptTechnicianWisefeedBackDate.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptTechnicianWisefeedBackDate.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CSD\rptTechnicianWiseJobs.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptTechnicianWiseJobs.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="HR\rptPayrollSupervisor_TEL.cs">
+      <DependentUpon>rptPayrollSupervisor_TEL.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="HR\rptPayrollStaff_TEL.cs">
+      <DependentUpon>rptPayrollStaff_TEL.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="HR\rptPayrollOfficerCashPartlegal_TEL.cs">
+      <DependentUpon>rptPayrollOfficerCashPartlegal_TEL.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="HR\rptPayrollOfficerBankPart_TEL.cs">
+      <DependentUpon>rptPayrollOfficerBankPart_TEL.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="HR\rptManPowerRequisition.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptManPowerRequisition.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="HR\rptPayrollOfficerCashPartlegal.cs">
+      <DependentUpon>rptPayrollOfficerCashPartlegal.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="HR\rptPaySlipStaffSup.cs">
+      <DependentUpon>rptPaySlipStaffSup.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="HR\rptPayrollOfficerCashPartWithDept.cs">
+      <DependentUpon>rptPayrollOfficerCashPartWithDept.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="HR\rptPayrollStaffTopSheet.cs">
+      <DependentUpon>rptPayrollStaffTopSheet.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="HR\rptPayrollSupervisor.cs">
+      <DependentUpon>rptPayrollSupervisor.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="HR\rptPayrollOfficerCashPart.cs">
+      <DependentUpon>rptPayrollOfficerCashPart.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="HR\rptPayrollOfficerBankPart.cs">
+      <DependentUpon>rptPayrollOfficerBankPart.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="HR\rptLoanReport.cs">
+      <DependentUpon>rptLoanReport.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="HR\rptLoansSchedule.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptLoansSchedule.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="HR\rptPayrollStaff.cs">
+      <DependentUpon>rptPayrollStaff.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="HR\rptMobileBillbyDepartment.cs">
+      <DependentUpon>rptMobileBillbyDepartment.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="HR\rptMobileBillView.cs">
+      <DependentUpon>rptMobileBillView.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HR\rptMobileBillView.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptMobileBillView.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HR\rptMobileBillViewReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptMobileBillViewReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="HR\rptPayrollCompareReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptPayrollCompareReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="HR\rptPaySlip.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptPaySlip.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="HR\rptPFReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptPFReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="POS\rptStockLedgerforNewVat.cs">
+      <DependentUpon>rptStockLedgerforNewVat.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="POS\rptMushak65.cs">
+      <DependentUpon>rptMushak65.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="POS\rptECommerceInvoice.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptECommerceInvoice.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="POS\rptExchangeOfferMR.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptExchangeOfferMR.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="POS\rptHRAttendanceOutlet.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptHRAttendanceOutlet.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="POS\rptLeadTGTvsActual.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptLeadTGTvsActual.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="POS\rptMAGWiseTGTvsActual.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptMAGWiseTGTvsActual.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="POS\rptMushak63.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptMushak63.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptConsumerPromotion.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptConsumerPromotion.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptItemWiseVAT.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptItemWiseVAT.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptLoanEMIPrint.cs">
+      <DependentUpon>rptLoanEMIPrint.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="frmPrintPreviewWithoutExport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrintPreviewWithoutExport.Designer.cs">
+      <DependentUpon>frmPrintPreviewWithoutExport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPrintPreviewWithoutPrintExport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrintPreviewWithoutPrintExport.Designer.cs">
+      <DependentUpon>frmPrintPreviewWithoutPrintExport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HR\rptPayroll.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptPayroll.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="POS\rptCustomerCreditCollectionMoneyReceipt .cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptCustomerCreditCollectionMoneyReceipt .rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="POS\rptEmpTGTvsAchByWeek.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptEmpTGTvsAchByWeek.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="POS\rptOfficeItemRequisitionView.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptOfficeItemRequisitionView.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="POS\rptPOSCustomerTGTvsAch.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptPOSCustomerTGTvsAch.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="POS\rptRetailInvoiceDummy.cs">
+      <DependentUpon>rptRetailInvoiceDummy.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="POS\rptSalesTrandReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptSalesTrandReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptCustomerCreditApproval.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptCustomerCreditApproval.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptCustomerView.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptCustomerView.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="POS\rptEmpTGTvsAchValue.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptEmpTGTvsAchValue.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptOverTime.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptOverTime.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptOverTimeSummary.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptOverTimeSummary.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptProductComponentAC.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptProductComponentAC.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptProductComponentRef.cs">
+      <DependentUpon>rptProductComponentRef.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="DMS\rptASGwiseTGTPriandSecQty.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptASGwiseTGTPriandSecQty.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DMS\rptSecondarySalesinTO.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptSecondarySalesinTO.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DMS\rptSecondaySalesinTOSummary.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptSecondaySalesinTOSummary.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="POS\rptStockLedger.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptStockLedger.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="POS\rptStockMovement.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptStockMovement.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptEmployeeWiseCommission.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptEmployeeWiseCommission.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptProductPriceList.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptProductPriceList.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptReplaceClaimStockTran.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptReplaceClaimStockTran.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptReplaceClaimTranStockReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptReplaceClaimTranStockReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptSalesOrderAutoPrintBLL.cs">
+      <DependentUpon>rptSalesOrderAutoPrintBLL.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="DMS\rptDMSDefectiveStockPosition .cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptDMSDefectiveStockPosition .rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DMS\rptDMSDefectiveStockPositionAd.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptDMSDefectiveStockPositionAd.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DMS\rptDMSDefectiveStockPositionAdSummary.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptDMSDefectiveStockPositionAdSummary.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DMS\rptDMSDefectiveStockPositionSummary.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptDMSDefectiveStockPositionSummary.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DMS\rptDMSSalesSummaryAreaWise.cs">
+      <DependentUpon>rptDMSSalesSummaryAreaWise.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="DMS\rptDMSStockPositionAd.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptDMSStockPositionAd.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DMS\rptDMSStockPositionAdSummary.cs">
+      <SubType>Component</SubType>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptDMSStockPositionAdSummary.rpt</DependentUpon>
+    </Compile>
+    <Compile Include="DMS\rptDMSStockPositionSummary.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptDMSStockPositionSummary.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DMS\rptDMSTP.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptDMSTP.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DMS\rptDMSTPSummary.cs">
+      <SubType>Component</SubType>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptDMSTPSummary.rpt</DependentUpon>
+    </Compile>
+    <Compile Include="DMS\rptRouteSalesTransaction.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptRouteSalesTransaction.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DMS\rptRouteSalesTransactionLog.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptRouteSalesTransactionLog.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DMS\rtpDMSTargetAchievement.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rtpDMSTargetAchievement.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DSQRCode.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSQRCode.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\rptPOSInvoiceRegisterDetail.cs">
+      <DependentUpon>rptPOSInvoiceRegisterDetail.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="POS\rptASGWiseSaleForApps.cs">
+      <DependentUpon>rptASGWiseSaleForApps.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="POS\rptPOSStockPositionASG.cs">
+      <DependentUpon>rptPOSStockPositionASG.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="POS\rptPOSStockPositionOutlet.cs">
+      <DependentUpon>rptPOSStockPositionOutlet.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="POS\rptConsumerAccountBalance.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptConsumerAccountBalance.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="POS\rptCreditCardDetail.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptCreditCardDetail.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="POS\rptDCS.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptDCS.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="POS\rptPOSInvoiceRegister.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptPOSInvoiceRegister.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="POS\rptPOSSaleQtyNValue.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptPOSSaleQtyNValue.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="POS\rptPOSSalesStatement.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptPOSSalesStatement.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="POS\rptProductBarcode.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptProductBarcode.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="POS\rptStockRequisitionView.cs">
+      <DependentUpon>rptStockRequisitionView.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="rptCustomerMoneyCollectionPOS.cs">
+      <DependentUpon>rptCustomerMoneyCollectionPOS.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="rptAttendanceReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptAttendanceReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptCustomerOutstandingTypeWise.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptCustomerOutstandingTypeWise.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptFootallSaleVSConv.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptFootallSaleVSConv.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptFootFallReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptFootFallReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptFootFallSalesLeadReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptFootFallSalesLeadReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptFootFallVSSalesReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptFootFallVSSalesReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptReplaceClaimDeliveryItem.cs">
+      <SubType>Component</SubType>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptReplaceClaimDeliveryItem.rpt</DependentUpon>
+    </Compile>
+    <Compile Include="rptReplaceClaimDeliveryItemVerified.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptReplaceClaimDeliveryItemVerified.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptSalesInvoiceAutoPrintSTBL.cs">
+      <DependentUpon>rptSalesInvoiceAutoPrintSTBL.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="crtECStockReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crtECStockReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CSD\rptComplainDetail.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptComplainDetail.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CSD\rptPaidJobScheduleView.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptPaidJobScheduleView.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CSD\rptReplacedProductAcknowledgement.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptReplacedProductAcknowledgement.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CSD\rptReplaceHistory.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptReplaceHistory.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CSD\rptReplaceRaiseForm.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptReplaceRaiseForm.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CSD\rptVehicleSchedule.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptVehicleSchedule.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DMS\rptDMSActivityLog.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptDMSActivityLog.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DMS\rptDMSDetailSalesSummary.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptDMSDetailSalesSummary.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DMS\rptDMSJourneyPlan.cs">
+      <SubType>Component</SubType>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptDMSJourneyPlan.rpt</DependentUpon>
+    </Compile>
+    <Compile Include="DMS\rptDMSOpeningStock.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptDMSOpeningStock.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DMS\rptDMSSalesAchivement.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptDMSSalesAchivement.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DMS\rptDMSSalesSummaryOutletWaise.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptDMSSalesSummaryOutletWaise.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DMS\rptDMSSalesSummaryReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptDMSSalesSummaryReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DMS\rptDMSSalesSummarySMDPOuletWise.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptDMSSalesSummarySMDPOuletWise.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DMS\rptDMSSalesSummarySMDPWaise.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptDMSSalesSummarySMDPWaise.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DMS\rptDMSStockPositionAdmin.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptDMSStockPositionAdmin.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DMS\rptDMSStockPositionAll.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptDMSStockPositionAll.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DMS\rptDMSTertiarySales.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptDMSTertiarySales.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DMS\rptDMSTicketGenerate.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptDMSTicketGenerate.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DMS\rptDMSUniqueBilledOutlet.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptDMSUniqueBilledOutlet.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DMS\rptSalesBetweendateSMDPNSKU.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptSalesBetweendateSMDPNSKU.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Light\rptCurrentStockPosition.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptCurrentStockPosition.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Light\rptMonthDistributorWiseTargetvsAch.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptMonthDistributorWiseTargetvsAch.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Light\rptMonthTerritoryWiseTargetvsAch.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptMonthTerritoryWiseTargetvsAch.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Light\rptMonthWiseAreaWiseTargetvsAch.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptMonthWiseAreaWiseTargetvsAch.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Light\rptSKUWiseSalesQty.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptSKUWiseSalesQty.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="POS\rptGoodsTransferBarcode.cs">
+      <DependentUpon>rptGoodsTransferBarcode.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="POS\rptGoodsTransferNoteAutoNote.cs">
+      <DependentUpon>rptGoodsTransferNoteAutoNote.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="POS\rptISGM.cs">
+      <DependentUpon>rptISGM.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="POS\rptPOSStockPosition.cs">
+      <DependentUpon>rptPOSStockPosition.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="POS\rptRequisitionAuthorize.cs">
+      <DependentUpon>rptRequisitionAuthorize.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="POS\rptRetailInvoice.cs">
+      <DependentUpon>rptRetailInvoice.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="POS\rptSalesPromotion.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptSalesPromotion.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="POS\rptWarrantyCard.cs">
+      <DependentUpon>rptWarrantyCard.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="rptBudgetVsSalesAnalysisCountrySummery.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptBudgetVsSalesAnalysisCountrySummery.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptCrosstabWarehouseLogisticsStock.cs">
+      <SubType>Component</SubType>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptCrosstabWarehouseLogisticsStock.rpt</DependentUpon>
+    </Compile>
+    <Compile Include="rptCustomerGoodsReceiveEPS.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptCustomerGoodsReceiveEPS.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptCustomerTransactionforDate .cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptCustomerTransactionforDate .rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptCustTranLedgertelbll.cs">
+      <SubType>Component</SubType>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptCustTranLedgertelbll.rpt</DependentUpon>
+    </Compile>
+    <Compile Include="rptDCS.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptDCS.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptDCSSub.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptDCSSub.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptECOrder.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptECOrder.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptEPSEMIPrint.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptEPSEMIPrint.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptEPSMonthlyInstallment.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptEPSMonthlyInstallment.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptExchangeOfferMoneyReceipt.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptExchangeOfferMoneyReceipt.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptGiftVoucher.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptGiftVoucher.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptGoodsReceiveNote.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptGoodsReceiveNote.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptInvoiceRegisterVatGrossSale.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptInvoiceRegisterVatGrossSale.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptInvoicesAndCollectionesRegister.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptInvoicesAndCollectionesRegister.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptInvoiceVatChallan.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptInvoiceVatChallan.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptInvoiceWiseOutstandingRegister.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptInvoiceWiseOutstandingRegister.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptMonthlyCollectionChannelWise.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptMonthlyCollectionChannelWise.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptNetSalesWithGrossMarginCustomerWise.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptNetSalesWithGrossMarginCustomerWise.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptOfficialPriceListDistribution.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptOfficialPriceListDistribution.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptOutstandingAgeingCustomerWise.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptOutstandingAgeingCustomerWise.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptProductComponent.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptProductComponent.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptProductDetailwithHaierkey.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptProductDetailwithHaierkey.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptProductPackingWithNSPRSP.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptProductPackingWithNSPRSP.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CSD\rptProductPerformanceReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptProductPerformanceReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptProductSalesQtyNValue.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptProductSalesQtyNValue.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptReplaceClaimInvoice.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptReplaceClaimInvoice.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptSalesBetweendateCustomerNSKU.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptSalesBetweendateCustomerNSKU.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptSalesBetweendateCustomerTypeNSKU.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptSalesBetweendateCustomerTypeNSKU.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptSalesInvoiceAutoPrintEPS.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptSalesInvoiceAutoPrintEPS.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptSalesNPurchaseReg.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptSalesNPurchaseReg.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptSalesPlan.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptSalesPlan.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptSalesregisterMusok17.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptSalesregisterMusok17.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptSalesReportSKUwiseforTD.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptSalesReportSKUwiseforTD.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptSalesReportSKUwiseTD.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptSalesReportSKUwiseTD.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptSalesSummeryChannelWise.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptSalesSummeryChannelWise.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptSalesVatDayWise.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptSalesVatDayWise.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptSCMPSIView.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptSCMPSIView.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptSKUStockWarehouseWiseDis.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptSKUStockWarehouseWiseDis.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptStockAGWHPQty.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptStockAGWHPQty.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptStockASGWHQty.cs">
+      <DependentUpon>rptStockASGWHQty.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="rptStockASGWHPQty.cs">
+      <DependentUpon>rptStockASGWHPQty.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="rptStockSKUWHPQty.cs">
+      <DependentUpon>rptStockSKUWHPQty.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="crtEMICalculation.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crtEMICalculation.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DMS\rptDMSSalesSummary.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptDMSSalesSummary.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DMS\rptDMSStockPosition.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptDMSStockPosition.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DMS\rptDMSStockSatement.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptDMSStockSatement.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DMS\rptDMStockLedger.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptDMStockLedger.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptChannelASGWiseProfitability.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptChannelASGWiseProfitability.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptCustomerBalanceStatementCustomerWise.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptCustomerBalanceStatementCustomerWise.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptCustomerGoodsReceiveBLL.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptCustomerGoodsReceiveBLL.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptCustomerMoneyCollectionBLL.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptCustomerMoneyCollectionBLL.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptCustomerTransactionLedger.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptCustomerTransactionLedger.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptEPSCollectionReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptEPSCollectionReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptGoodsMonvementSummeryAGWise.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptGoodsMonvementSummeryAGWise.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptGoodsMonvementSummeryASGWise.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptGoodsMonvementSummeryASGWise.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptHRAttendInfoEmployee.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptHRAttendInfoEmployee.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptInvoiceRegisterDetail.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptInvoiceRegisterDetail.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptInvoiceRegisterReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptInvoiceRegisterReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptInvoiceRegistorDetailERP.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptInvoiceRegistorDetailERP.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptMonthlySalesVsCollectionAreaWise.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptMonthlySalesVsCollectionAreaWise.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptMonthlySalesVsCollectionChannelWise.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptMonthlySalesVsCollectionChannelWise.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptMonthlySalesVsCollectionCustomerWise.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptMonthlySalesVsCollectionCustomerWise.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptMonthlySalesVsCollectionParentCustomerWise.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptMonthlySalesVsCollectionParentCustomerWise.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptMonthlySalesVsCollectionSBUWise.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptMonthlySalesVsCollectionSBUWise.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptMonthlySalesVsCollectionTerritoryWise.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptMonthlySalesVsCollectionTerritoryWise.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptPendingInvoiceStatus.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptPendingInvoiceStatus.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptPurchaseAccountsMusok16.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptPurchaseAccountsMusok16.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptSalesBetweendateAreaNSKU.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptSalesBetweendateAreaNSKU.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptSalesBetweendateCountrySummeryNSKU.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptSalesBetweendateCountrySummeryNSKU.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptSalesBetweendateTerritoryNSKU.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptSalesBetweendateTerritoryNSKU.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptSalesInvoiceAutoPrintBLL.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptSalesInvoiceAutoPrintBLL.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptStock610SKUWHP.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptStock610SKUWHP.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptStockAGWHQty.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptStockAGWHQty.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptStockAGWHP.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptStockAGWHP.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptStockASGWH.cs">
+      <DependentUpon>rptStockASGWH.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="ReportFactory.cs" />
+    <Compile Include="rptCustomerMoneyCollection.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptCustomerMoneyCollection.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptCustomerOutstanding.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptCustomerOutstanding.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptDailySalesReportAreaWise.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptDailySalesReportAreaWise.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptDailySalesReportChannelWise.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptDailySalesReportChannelWise.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptDailySalesReportCustomerWise.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptDailySalesReportCustomerWise.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptDailySalesReportTerritoryWise.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptDailySalesReportTerritoryWise.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptGoodsMonvementSummeryFinal.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptGoodsMonvementSummeryFinal.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptHRAttendDayWise.cs">
+      <DependentUpon>rptHRAttendDayWise.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="rptHRAttendDeptWise.cs">
+      <DependentUpon>rptHRAttendDeptWise.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="crtSMSIdenting.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crtSMSIdenting.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="frmPrintPreview.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrintPreview.Designer.cs">
+      <DependentUpon>frmPrintPreview.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSMSIndentingReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSMSIndentingReport.Designer.cs">
+      <DependentUpon>frmSMSIndentingReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Apps\rptSalesTrend.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptSalesTrend.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BEIL\rptLCMDefectiveComponent.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptLCMDefectiveComponent.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BEIL\rptProductionSummary.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptProductionSummary.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BEIL\rptToolReceived.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptToolReceived.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BEIL\rptToolsIssue.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptToolsIssue.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BEIL\rptToolStockLedger.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptToolStockLedger.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CSD\rptAdvancePayment.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptAdvancePayment.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CSD\rptCSDTechnicalAssessment.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptCSDTechnicalAssessment.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DMS\rptReplecementMonitoringBLL.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptReplecementMonitoringBLL.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DMS\rptTokenWiseProductList.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptTokenWiseProductList.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HR\rptCarOfficer.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptCarOfficer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HR\rptDailyAttendanceAndOvertimeRegister.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptDailyAttendanceAndOvertimeRegister.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HR\rptDriverOfficer.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptDriverOfficer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HR\rptHRUniformDistribution.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptHRUniformDistribution.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HR\rptHRUniformDistributionSummeryreport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptHRUniformDistributionSummeryreport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HR\rptLeaveRegisterAndLeaveBook.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptLeaveRegisterAndLeaveBook.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HR\rptLunchOfficer.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptLunchOfficer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HR\rptPayRegisterAndPaySlip.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptPayRegisterAndPaySlip.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HR\rptPayrollOfficerBankPart_new.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptPayrollOfficerBankPart_new.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HR\rptPayrollOfficerBankPart_TEL_Old.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptPayrollOfficerBankPart_TEL_Old.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HR\rptServantOfficer.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptServantOfficer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HR\rptServiceBook.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptServiceBook.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POS\rptConsumerAccountBalanceThermal.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptConsumerAccountBalanceThermal.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POS\rptCurrentStock.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptCurrentStock.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POS\rptCurrentStockNew.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptCurrentStockNew.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POS\rptDCSThermal.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptDCSThermal.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POS\rptDMSSalesOrder.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptDMSSalesOrder.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POS\rptMAGWeekPositionTargetVsActual.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptMAGWeekPositionTargetVsActual.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POS\rptMushak63Thermal.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptMushak63Thermal.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POS\rptMushak63_Exempted.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptMushak63_Exempted.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POS\rptMushak65_Exempted.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptMushak65_Exempted.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POS\rptNewMushak63.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptNewMushak63.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POS\rptNewMushak63_Exempted.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptNewMushak63_Exempted.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POS\rptNewMushak65.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptNewMushak65.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POS\rptNewMushak65_Exempted.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptNewMushak65_Exempted.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POS\rptRetailDeliveryChallanThermal.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptRetailDeliveryChallanThermal.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POS\rptRetailDeliveryChallan.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptRetailDeliveryChallan.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POS\rptPOSInvoice.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptPOSInvoice.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POS\rptRetailDeliveryGatePass.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptRetailDeliveryGatePass.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POS\rptRetailInvoiceThermal.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptRetailInvoiceThermal.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POS\rptSamsungSmartWarrantyCertificate.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptSamsungSmartWarrantyCertificate.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POS\rptWarehouseCurrentStock.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptWarehouseCurrentStock.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POS\rptWarrantyCardThermal.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptWarrantyCardThermal1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptCompanyLoanHistory.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptCompanyLoanHistory.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CSD\rptCSDMaterialConsumerReportDetail.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptCSDMaterialConsumerReportDetail.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CSD\rptCSDTechnicianTransportation.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptCSDTechnicianTransportation.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CSD\rptSparePartsOrder.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptSparePartsOrder.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CSD\rptSparePartsStockAdjustment.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptSparePartsStockAdjustment.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HR\rptHRAttendInfoView.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptHRAttendInfoView1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HR\rptPayrollOfficerBankPart_BEIL.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptPayrollOfficerBankPart_BEIL.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HR\rptPayrollOfficerBankPart_BEIL_E.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptPayrollOfficerBankPart_BEIL_E.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HR\rptPayrollOfficerCashPartlegal_BEIL.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptPayrollOfficerCashPartlegal_BEIL.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HR\rptPayrollOfficerCashPartlegal_BEIL_E.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptPayrollOfficerCashPartlegal_BEIL_E.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HR\rptPayrollStaff_BEIL.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptPayrollStaff_BEIL.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HR\rptPayrollStaff_BEIL_E.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptPayrollStaff_BEIL_E.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HR\rptPayrollSupervisor_BEIL.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptPayrollSupervisor_BEIL.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HR\rptPayrollTDStaff_TEL.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptPayrollTDStaff_TEL.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HR\rptPayrollOfficerBankPart_TEL_E.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptPayrollOfficerBankPart_TEL_E.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HR\rptPayrollOfficerCashPartlegal_TEL_E.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptPayrollOfficerCashPartlegal_TEL_E.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HR\rptPayrollStaff_TEL_E.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptPayrollStaff_TEL_E.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HR\rptPaySlipStaffSup_BEIL.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptPaySlipStaffSup_BEIL.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HR\ViewAttend.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ViewAttend.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POS\rptOutletDisplayPositionRack.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptOutletDisplayPositionRack.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POS\rptPettyCashExpenses.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptPettyCashExpenses.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POS\rptRetailInvoiceNew.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptRetailInvoiceNew.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POS\rptTDShipmentBill.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptTDShipmentBill.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POS\rptUnsoldDefectiveProductList.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptUnsoldDefectiveProductList.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptCACChallan.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptCACChallan.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptCACStockLedger.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptCACStockLedger.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptCACStockLedgerProductWise.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptCACStockLedgerProductWise.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptStockPositionForVAT.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptStockPositionForVAT.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptDefectiveProductReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptDefectiveProductReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptHRAttendReportWFH.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptHRAttendReportWFH.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptHROverTimeEmployeeWise.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptHROverTimeEmployeeWise.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptLCRequisition.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptLCRequisition.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptNewVATLedgerNew.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptNewVATLedgerNew.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptNewVatReportMushak6.7.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptNewVatReportMushak6.7.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptOutletFeasibilityDataEntry.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptOutletFeasibilityDataEntry.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptOutletFeasibilitySalesProjection.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptOutletFeasibilitySalesProjection.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptProductComponentACHeader.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptProductComponentACHeader.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptProductComponentACIndoorNew.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptProductComponentACIndoorNew.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptProductComponentACIndoorNewHeader.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptProductComponentACIndoorNewHeader.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptProductComponentACNew.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptProductComponentACNew.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptProductComponentACNewHeader.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptProductComponentACNewHeader.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptProductComponentHeader.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptProductComponentHeader.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptProductComponentNew.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptProductComponentNew.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptProductComponentNewHeader.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptProductComponentNewHeader.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptProductComponentRefHeader.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptProductComponentRefHeader.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptProductComponentRefNew.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptProductComponentRefNew.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptProductComponentRefNewHeader.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptProductComponentRefNewHeader.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptProductReturnBLL.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptProductReturnBLL.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptTradePromotion.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptTradePromotion.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptProductComponentACIndoor.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptProductComponentACIndoor.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CSD\ptSparePartsInternalChallan.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ptSparePartsInternalChallan.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CSD\rptChallan.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptChallan.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CSD\rptGatePass.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptGatePass.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CSD\rptGatePassDetail.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptGatePassDetail.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CSD\rptInterServiceBill.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptInterServiceBill.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CSD\rptJobBillList.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptJobBillList.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CSD\rptReturnToSupplier.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptReturnToSupplier.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CSD\rptSparePartCashSales.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptSparePartCashSales.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CSD\rptSparePartsReceive.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptSparePartsReceive.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CSD\rptSparePartsTransfer.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptSparePartsTransfer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CSD\rptSPStockPosition.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptSPStockPosition.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CSD\rptBackupProductSupportFrm.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptBackupProductSupportFrm.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CSD\rptBillCard.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptBillCard.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CSD\rptDailySalesCollection.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptDailySalesCollection.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CSD\rptJobRepairingEstimate.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptJobRepairingEstimate.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CSD\rptClaimCard.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptClaimCard.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CSD\rptJobCard.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptJobCard.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CSD\rptSaprePartsStock.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptSaprePartsStock.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CSD\rptSparePartsCashSales.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptSparePartsCashSales.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CSD\rptSPStockLedger.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptSPStockLedger.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CSD\rptTechnicianWisefeedBackDate.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptTechnicianWisefeedBackDate.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CSD\rptTechnicianWiseJobs.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptTechnicianWiseJobs.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HR\rptPayrollSupervisor_TEL.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptPayrollSupervisor_TEL.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HR\rptPayrollStaff_TEL.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptPayrollStaff_TEL.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HR\rptPayrollOfficerCashPartlegal_TEL.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptPayrollOfficerCashPartlegal_TEL.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HR\rptPayrollOfficerBankPart_TEL.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptPayrollOfficerBankPart_TEL.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HR\rptManPowerRequisition.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptManPowerRequisition.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HR\rptPayrollOfficerCashPartlegal.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptPayrollOfficerCashPartlegal.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HR\rptPaySlipStaffSup.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptPaySlipStaffSup.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HR\rptPayrollOfficerCashPartWithDept.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptPayrollOfficerCashPartWithDept.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HR\rptPayrollStaffTopSheet.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptPayrollStaffTopSheet.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HR\rptPayrollSupervisor.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptPayrollSupervisor.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HR\rptPayrollOfficerCashPart.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptPayrollOfficerCashPart.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HR\rptPayrollOfficerBankPart.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptPayrollOfficerBankPart.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HR\rptLoanReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptLoanReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HR\rptLoansSchedule.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptLoansSchedule.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HR\rptPayrollStaff.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptPayrollStaff.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HR\rptMobileBillbyDepartment.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptMobileBillbyDepartment.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HR\rptMobileBillViewReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptMobileBillViewReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HR\rptPayrollCompareReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptPayrollCompareReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HR\rptPaySlip.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptPaySlip.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HR\rptPFReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptPFReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POS\rptStockLedgerforNewVat.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptStockLedgerforNewVat.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POS\rptMushak65.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptMushak65.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POS\rptECommerceInvoice.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptECommerceInvoice.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POS\rptExchangeOfferMR.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptExchangeOfferMR.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POS\rptHRAttendanceOutlet.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptHRAttendanceOutlet.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POS\rptLeadTGTvsActual.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptLeadTGTvsActual.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POS\rptMAGWiseTGTvsActual.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptMAGWiseTGTvsActual.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POS\rptMushak63.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptMushak63.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptConsumerPromotion.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptConsumerPromotion.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptItemWiseVAT.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptItemWiseVAT.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptLoanEMIPrint.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptLoanEMIPrint.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DMS\rptDMSDSRSalary.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptDMSDSRSalary.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrintPreviewWithoutExport.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmPrintPreviewWithoutExport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrintPreviewWithoutPrintExport.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmPrintPreviewWithoutPrintExport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HR\rptPayroll.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptPayroll.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POS\rptCustomerCreditCollectionMoneyReceipt .rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptCustomerCreditCollectionMoneyReceipt .cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POS\rptEmpTGTvsAchByWeek.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptEmpTGTvsAchByWeek.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POS\rptOfficeItemRequisitionView.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptOfficeItemRequisitionView.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POS\rptPOSCustomerTGTvsAch.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptPOSCustomerTGTvsAch.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POS\rptRetailInvoiceDummy.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptRetailInvoiceDummy.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POS\rptSalesTrandReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptSalesTrandReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptCustomerCreditApproval.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptCustomerCreditApproval.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptCustomerView.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptCustomerView.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POS\rptEmpTGTvsAchValue.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptEmpTGTvsAchValue.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptOverTime.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptOverTime.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptOverTimeSummary.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptOverTimeSummary.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptProductComponentAC.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptProductComponentAC.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptProductComponentRef.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptProductComponentRef.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DMS\rptASGwiseTGTPriandSecQty.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptASGwiseTGTPriandSecQty.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DMS\rptSecondarySalesinTO.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptSecondarySalesinTO.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DMS\rptSecondaySalesinTOSummary.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptSecondaySalesinTOSummary.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POS\rptStockLedger.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptStockLedger.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POS\rptStockMovement.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptStockMovement.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptEmployeeWiseCommission.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptEmployeeWiseCommission.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptProductPriceList.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptProductPriceList.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptReplaceClaimStockTran.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptReplaceClaimStockTran.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptReplaceClaimTranStockReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptReplaceClaimTranStockReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptSalesOrderAutoPrintBLL.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptSalesOrderAutoPrintBLL.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DMS\rptDMSDefectiveStockPosition .rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptDMSDefectiveStockPosition .cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DMS\rptDMSDefectiveStockPositionAd.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptDMSDefectiveStockPositionAd.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DMS\rptDMSDefectiveStockPositionAdSummary.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptDMSDefectiveStockPositionAdSummary.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DMS\rptDMSDefectiveStockPositionSummary.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptDMSDefectiveStockPositionSummary.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DMS\rptDMSSalesSummaryAreaWise.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptDMSSalesSummaryAreaWise.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DMS\rptDMSStockPositionAd.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptDMSStockPositionAd.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DMS\rptDMSStockPositionAdSummary.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptDMSStockPositionAdSummary.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DMS\rptDMSStockPositionSummary.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptDMSStockPositionSummary.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DMS\rptDMSTP.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptDMSTP.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DMS\rptDMSTPSummary.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptDMSTPSummary.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DMS\rptRouteSalesTransaction.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptRouteSalesTransaction.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DMS\rptRouteSalesTransactionLog.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptRouteSalesTransactionLog.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DMS\rtpDMSTargetAchievement.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rtpDMSTargetAchievement.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POS\rptPOSInvoiceRegisterDetail.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptPOSInvoiceRegisterDetail.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POS\rptASGWiseSaleForApps.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptASGWiseSaleForApps.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POS\rptPOSStockPositionASG.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptPOSStockPositionASG.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POS\rptPOSStockPositionOutlet.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptPOSStockPositionOutlet.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POS\rptConsumerAccountBalance.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptConsumerAccountBalance.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POS\rptCreditCardDetail.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptCreditCardDetail.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POS\rptDCS.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptDCS.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POS\rptPOSInvoiceRegister.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptPOSInvoiceRegister.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POS\rptPOSSaleQtyNValue.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptPOSSaleQtyNValue.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POS\rptPOSSalesStatement.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptPOSSalesStatement.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POS\rptProductBarcode.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptProductBarcode.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POS\rptStockRequisitionView.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptStockRequisitionView.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptCustomerMoneyCollectionPOS.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptCustomerMoneyCollectionPOS.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptAttendanceReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptAttendanceReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptCustomerOutstandingTypeWise.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptCustomerOutstandingTypeWise.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptFootallSaleVSConv.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptFootallSaleVSConv.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptFootFallReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptFootFallReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptFootFallSalesLeadReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptFootFallSalesLeadReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptFootFallVSSalesReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptFootFallVSSalesReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptReplaceClaimDeliveryItem.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptReplaceClaimDeliveryItem.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptReplaceClaimDeliveryItemVerified.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptReplaceClaimDeliveryItemVerified.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptSalesInvoiceAutoPrintSTBL.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptSalesInvoiceAutoPrintSTBL.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="crtECStockReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crtECStockReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CSD\rptComplainDetail.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptComplainDetail.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CSD\rptPaidJobScheduleView.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptPaidJobScheduleView.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CSD\rptReplacedProductAcknowledgement.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptReplacedProductAcknowledgement.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CSD\rptReplaceHistory.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptReplaceHistory.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CSD\rptReplaceRaiseForm.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptReplaceRaiseForm.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CSD\rptVehicleSchedule.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptVehicleSchedule.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DMS\rptDMSActivityLog.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptDMSActivityLog.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DMS\rptDMSDetailSalesSummary.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptDMSDetailSalesSummary.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DMS\rptDMSJourneyPlan.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptDMSJourneyPlan.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DMS\rptDMSOpeningStock.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptDMSOpeningStock.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DMS\rptDMSSalesAchivement.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptDMSSalesAchivement.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DMS\rptDMSSalesSummaryOutletWaise.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptDMSSalesSummaryOutletWaise.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DMS\rptDMSSalesSummaryReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptDMSSalesSummaryReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DMS\rptDMSSalesSummarySMDPOuletWise.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptDMSSalesSummarySMDPOuletWise.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DMS\rptDMSSalesSummarySMDPWaise.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptDMSSalesSummarySMDPWaise.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DMS\rptDMSStockPositionAdmin.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptDMSStockPositionAdmin.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DMS\rptDMSStockPositionAll.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptDMSStockPositionAll.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DMS\rptDMSTertiarySales.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptDMSTertiarySales.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DMS\rptDMSTicketGenerate.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptDMSTicketGenerate.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DMS\rptDMSUniqueBilledOutlet.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptDMSUniqueBilledOutlet.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DMS\rptSalesBetweendateSMDPNSKU.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptSalesBetweendateSMDPNSKU.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Light\rptCurrentStockPosition.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptCurrentStockPosition.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Light\rptMonthDistributorWiseTargetvsAch.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptMonthDistributorWiseTargetvsAch.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Light\rptMonthTerritoryWiseTargetvsAch.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptMonthTerritoryWiseTargetvsAch.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Light\rptMonthWiseAreaWiseTargetvsAch.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptMonthWiseAreaWiseTargetvsAch.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Light\rptSKUWiseSalesQty.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptSKUWiseSalesQty.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POS\rptGoodsTransferBarcode.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptGoodsTransferBarcode.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POS\rptGoodsTransferNoteAutoNote.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptGoodsTransferNoteAutoNote.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POS\rptISGM.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptISGM.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POS\rptPOSStockPosition.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptPOSStockPosition.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POS\rptRequisitionAuthorize.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptRequisitionAuthorize.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POS\rptRetailInvoice.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptRetailInvoice.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POS\rptSalesPromotion.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptSalesPromotion.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POS\rptWarrantyCard.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptWarrantyCard.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptBudgetVsSalesAnalysisCountrySummery.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptBudgetVsSalesAnalysisCountrySummery.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptCrosstabWarehouseLogisticsStock.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptCrosstabWarehouseLogisticsStock.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptCustomerGoodsReceiveEPS.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptCustomerGoodsReceiveEPS.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptCustomerTransactionforDate .rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptCustomerTransactionforDate .cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptCustTranLedgertelbll.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptCustTranLedgertelbll.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptDCS.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptDCS.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptDCSSub.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptDCSSub.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptECOrder.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptECOrder.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptEPSEMIPrint.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptEPSEMIPrint.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptEPSMonthlyInstallment.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptEPSMonthlyInstallment.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptExchangeOfferMoneyReceipt.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptExchangeOfferMoneyReceipt.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptGiftVoucher.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptGiftVoucher.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptGoodsReceiveNote.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptGoodsReceiveNote.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptInvoiceRegisterVatGrossSale.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptInvoiceRegisterVatGrossSale.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptInvoicesAndCollectionesRegister.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptInvoicesAndCollectionesRegister.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptInvoiceVatChallan.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptInvoiceVatChallan.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptInvoiceWiseOutstandingRegister.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptInvoiceWiseOutstandingRegister.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptMonthlyCollectionChannelWise.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptMonthlyCollectionChannelWise.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptNetSalesWithGrossMarginCustomerWise.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptNetSalesWithGrossMarginCustomerWise.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptOfficialPriceListDistribution.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptOfficialPriceListDistribution.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptOutstandingAgeingCustomerWise.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptOutstandingAgeingCustomerWise.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptProductComponent.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptProductComponent.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptProductDetailwithHaierkey.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptProductDetailwithHaierkey.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptProductPackingWithNSPRSP.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptProductPackingWithNSPRSP.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CSD\rptProductPerformanceReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptProductPerformanceReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptProductSalesQtyNValue.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptProductSalesQtyNValue.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptReplaceClaimInvoice.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptReplaceClaimInvoice.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptSalesBetweendateCustomerNSKU.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptSalesBetweendateCustomerNSKU.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptSalesBetweendateCustomerTypeNSKU.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptSalesBetweendateCustomerTypeNSKU.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptSalesInvoiceAutoPrintEPS.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptSalesInvoiceAutoPrintEPS.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptSalesNPurchaseReg.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptSalesNPurchaseReg.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptSalesPlan.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptSalesPlan.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptSalesregisterMusok17.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptSalesregisterMusok17.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptSalesReportSKUwiseforTD.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptSalesReportSKUwiseforTD.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptSalesReportSKUwiseTD.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptSalesReportSKUwiseTD.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptSalesSummeryChannelWise.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptSalesSummeryChannelWise.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptSalesVatDayWise.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptSalesVatDayWise.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptSCMPSIView.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptSCMPSIView.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptSKUStockWarehouseWiseDis.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptSKUStockWarehouseWiseDis.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptStockAGWHPQty.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptStockAGWHPQty.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptStockASGWHQty.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptStockASGWHQty.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptStockASGWHPQty.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptStockASGWHPQty.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptStockSKUWHPQty.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptStockSKUWHPQty.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="crtEMICalculation.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crtEMICalculation.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DMS\rptDMSSalesSummary.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptDMSSalesSummary.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DMS\rptDMSStockPosition.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptDMSStockPosition.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DMS\rptDMSStockSatement.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptDMSStockSatement.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DMS\rptDMStockLedger.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptDMStockLedger.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptChannelASGWiseProfitability.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptChannelASGWiseProfitability.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptCustomerBalanceStatementCustomerWise.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptCustomerBalanceStatementCustomerWise.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptCustomerGoodsReceiveBLL.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptCustomerGoodsReceiveBLL.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptCustomerMoneyCollectionBLL.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptCustomerMoneyCollectionBLL.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptCustomerTransactionLedger.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptCustomerTransactionLedger.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptEPSCollectionReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptEPSCollectionReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptGoodsMonvementSummeryAGWise.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptGoodsMonvementSummeryAGWise.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptGoodsMonvementSummeryASGWise.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptGoodsMonvementSummeryASGWise.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptHRAttendInfoEmployee.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptHRAttendInfoEmployee.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptInvoiceRegisterDetail.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptInvoiceRegisterDetail.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptInvoiceRegisterReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptInvoiceRegisterReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptInvoiceRegistorDetailERP.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptInvoiceRegistorDetailERP.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptMonthlySalesVsCollectionAreaWise.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptMonthlySalesVsCollectionAreaWise.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptMonthlySalesVsCollectionChannelWise.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptMonthlySalesVsCollectionChannelWise.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptMonthlySalesVsCollectionCustomerWise.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptMonthlySalesVsCollectionCustomerWise.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptMonthlySalesVsCollectionParentCustomerWise.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptMonthlySalesVsCollectionParentCustomerWise.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptMonthlySalesVsCollectionSBUWise.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptMonthlySalesVsCollectionSBUWise.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptMonthlySalesVsCollectionTerritoryWise.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptMonthlySalesVsCollectionTerritoryWise.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptPendingInvoiceStatus.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptPendingInvoiceStatus.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptPurchaseAccountsMusok16.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptPurchaseAccountsMusok16.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptSalesBetweendateAreaNSKU.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptSalesBetweendateAreaNSKU.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptSalesBetweendateCountrySummeryNSKU.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptSalesBetweendateCountrySummeryNSKU.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptSalesBetweendateTerritoryNSKU.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptSalesBetweendateTerritoryNSKU.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptSalesInvoiceAutoPrintBLL.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptSalesInvoiceAutoPrintBLL.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptStock610SKUWHP.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptStock610SKUWHP.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptStockAGWHQty.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptStockAGWHQty.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptStockAGWHP.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptStockAGWHP.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptStockASGWH.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptStockASGWH.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptCustomerMoneyCollection.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptCustomerMoneyCollection.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptCustomerOutstanding.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptCustomerOutstanding.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptDailySalesReportAreaWise.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptDailySalesReportAreaWise.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptDailySalesReportChannelWise.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptDailySalesReportChannelWise.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptDailySalesReportCustomerWise.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptDailySalesReportCustomerWise.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptDailySalesReportTerritoryWise.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptDailySalesReportTerritoryWise.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptGoodsMonvementSummeryFinal.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptGoodsMonvementSummeryFinal.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptHRAttendDayWise.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptHRAttendDayWise.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptHRAttendDeptWise.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptHRAttendDeptWise.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="crtSMSIdenting.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crtSMSIdenting.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrintPreview.resx">
+      <DependentUpon>frmPrintPreview.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSMSIndentingReport.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSMSIndentingReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptASGWiseNationalSales.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptASGWiseNationalSales.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptCustomerGoodsReceive.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptCustomerGoodsReceive.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptDeliveryNote.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptDeliveryNote.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptHRAttendEmpWise.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptHRAttendEmpWise.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptHRAttendInfo.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptHRAttendInfo.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptITRequisition.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptITRequisition.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptOutstandingPosition.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptOutstandingPosition.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptProducts.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptProducts.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptPurchaseRequisition.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptPurchaseRequisition.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptSalesInvoiceAutoPrint.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptSalesInvoiceAutoPrint.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptSalesInvoiceRetailAutoPrint.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptSalesInvoiceRetailAutoPrint.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptSMSIndentings.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptSMSIndentings.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptStockASGWHP.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptStockASGWHP.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptStockSKUWHQty.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptStockSKUWHQty.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptStockSKUWHP.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptStockSKUWHP.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptStockSKUwiseforTD.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptStockSKUwiseforTD.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptStockTransactionRegisterAGWise.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptStockTransactionRegisterAGWise.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptStockTransactionRegisterASGWise.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptStockTransactionRegisterASGWise.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptStockTransactionRegisterSKUWise.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptStockTransactionRegisterSKUWise.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptTotalVAT.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptTotalVAT.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptTransferVatChallan11.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptTransferVatChallan11.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptTransferVatChallan11KA.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptTransferVatChallan11KA.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptVatChallan.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptVatChallan.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptVatChallan11.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptVatChallan11.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptVatChallan11KA.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptVatChallan11KA.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptVATComparison.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptVATComparison.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptVATLedgerNew.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptVATLedgerNew.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptVATLedger.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptVATLedger.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptVatReportMushak6.7.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptVatReportMushak6.7.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptVehicleGatepass.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptVehicleGatepass.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptVehicleOperation.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptVehicleOperation.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptVehicleOprSummary.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptVehicleOprSummary.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptWarrantyCard_Dealer.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptWarrantyCard_Dealer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptWeeklySalesNCollCustomerwise.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptWeeklySalesNCollCustomerwise.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptYearlySKUWiseSalesQuantitySBUWise.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptYearlySKUWiseSalesQuantitySBUWise.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptYearlyWattageWiseSalesQuantityAreaWise.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptYearlyWattageWiseSalesQuantityAreaWise.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptYearlyWattageWiseSalesQuantityCountrySummeryWise.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptYearlyWattageWiseSalesQuantityCountrySummeryWise.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptYearlyWattageWiseSalesQuantitySBUWise.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptYearlyWattageWiseSalesQuantitySBUWise.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptYearlyWattageWiseSalesQuantityTerritoryWise.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptYearlyWattageWiseSalesQuantityTerritoryWise.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptSalesInvoiceAutoPrintECommerce.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptSalesInvoiceAutoPrintECommerce.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SamsungReport\rptSamsungPrimarySalesStock.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptSamsungPrimarySalesStock.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SamsungReport\rptSamsungProductSalesOutletWise.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptSamsungProductSalesOutletWise.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SamsungReport\rptSamsungSecondarySalesStock.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptSamsungSecondarySalesStock.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WeekwiseSalesNational.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>WeekwiseSalesNational.cs</LastGenOutput>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Apps\DSSales.xsc">
+      <DependentUpon>DSSales.xsd</DependentUpon>
+    </None>
+    <None Include="Apps\DSSales.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSSales.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Apps\DSSales.xss">
+      <DependentUpon>DSSales.xsd</DependentUpon>
+    </None>
+    <None Include="DSQRCode.xsc">
+      <DependentUpon>DSQRCode.xsd</DependentUpon>
+    </None>
+    <None Include="DSQRCode.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSQRCode.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DSQRCode.xss">
+      <DependentUpon>DSQRCode.xsd</DependentUpon>
+    </None>
+    <None Include="HR\rptMobileBillView.xsc">
+      <DependentUpon>rptMobileBillView.xsd</DependentUpon>
+    </None>
+    <None Include="HR\rptMobileBillView.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>rptMobileBillView.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="HR\rptMobileBillView.xss">
+      <DependentUpon>rptMobileBillView.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="rptASGWiseNationalSales.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptASGWiseNationalSales.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptCustomerGoodsReceive.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptCustomerGoodsReceive.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptDeliveryNote.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptDeliveryNote.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptHRAttendEmpWise.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptHRAttendEmpWise.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptHRAttendInfo.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptHRAttendInfo.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptITRequisition.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptITRequisition.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptOutstandingPosition.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptOutstandingPosition.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptProducts.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptProducts.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptPurchaseRequisition.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptPurchaseRequisition.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptSalesInvoiceAutoPrint.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptSalesInvoiceAutoPrint.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptSalesInvoiceRetailAutoPrint.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptSalesInvoiceRetailAutoPrint.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptSMSIndentings.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptSMSIndentings.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptStockASGWHP.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptStockASGWHP.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptStockSKUWHQty.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptStockSKUWHQty.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptStockSKUWHP.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptStockSKUWHP.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptStockSKUwiseforTD.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptStockSKUwiseforTD.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptStockTransactionRegisterAGWise.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptStockTransactionRegisterAGWise.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptStockTransactionRegisterASGWise.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptStockTransactionRegisterASGWise.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptStockTransactionRegisterSKUWise.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptStockTransactionRegisterSKUWise.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptTotalVAT.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptTotalVAT.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptTransferVatChallan11.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptTransferVatChallan11.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptTransferVatChallan11KA.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptTransferVatChallan11KA.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptVatChallan.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptVatChallan.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptVatChallan11.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptVatChallan11.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptVatChallan11KA.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptVatChallan11KA.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptVATComparison.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptVATComparison.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptVATLedgerNew.cs">
+      <DependentUpon>rptVATLedgerNew.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="rptVATLedger.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptVATLedger.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptVatReportMushak6.7.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptVatReportMushak6.7.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptVehicleGatepass.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptVehicleGatepass.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptVehicleOperation.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptVehicleOperation.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptVehicleOprSummary.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptVehicleOprSummary.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptWarrantyCard_Dealer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptWarrantyCard_Dealer.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptWeeklySalesNCollCustomerwise.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptWeeklySalesNCollCustomerwise.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptYearlySKUWiseSalesQuantitySBUWise.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptYearlySKUWiseSalesQuantitySBUWise.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptYearlyWattageWiseSalesQuantityAreaWise.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptYearlyWattageWiseSalesQuantityAreaWise.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptYearlyWattageWiseSalesQuantityCountrySummeryWise.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptYearlyWattageWiseSalesQuantityCountrySummeryWise.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptYearlyWattageWiseSalesQuantitySBUWise.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptYearlyWattageWiseSalesQuantitySBUWise.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptYearlyWattageWiseSalesQuantityTerritoryWise.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptYearlyWattageWiseSalesQuantityTerritoryWise.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptSalesInvoiceAutoPrintECommerce.cs">
+      <DependentUpon>rptSalesInvoiceAutoPrintECommerce.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="SamsungReport\rptSamsungPrimarySalesStock.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptSamsungPrimarySalesStock.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SamsungReport\rptSamsungProductSalesOutletWise.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptSamsungProductSalesOutletWise.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SamsungReport\rptSamsungSecondarySalesStock.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptSamsungSecondarySalesStock.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WeekwiseSalesNational.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>WeekwiseSalesNational.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CJ.Class\CJ.Class.csproj">
+      <Project>{2344AC43-0FA4-41BB-8416-B9C875FB491C}</Project>
+      <Name>CJ.Class</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>

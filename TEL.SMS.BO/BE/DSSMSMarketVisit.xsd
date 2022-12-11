@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSSMSMarketVisit" targetNamespace="http://tempuri.org/DSSMSMarketVisit.xsd" xmlns:mstns="http://tempuri.org/DSSMSMarketVisit.xsd" xmlns="http://tempuri.org/DSSMSMarketVisit.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSSMSMarketVisit" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DSSMSMarketVisit" msprop:Generator_DataSetName="DSSMSMarketVisit">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="MarketVisit" msprop:Generator_UserTableName="MarketVisit" msprop:Generator_RowDeletedName="MarketVisitRowDeleted" msprop:Generator_TableClassName="MarketVisitDataTable" msprop:Generator_RowChangedName="MarketVisitRowChanged" msprop:Generator_RowClassName="MarketVisitRow" msprop:Generator_RowChangingName="MarketVisitRowChanging" msprop:Generator_RowEvArgName="MarketVisitRowChangeEvent" msprop:Generator_RowEvHandlerName="MarketVisitRowChangeEventHandler" msprop:Generator_TablePropName="MarketVisit" msprop:Generator_TableVarName="tableMarketVisit" msprop:Generator_RowDeletingName="MarketVisitRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="VisitDateTime" msprop:Generator_UserColumnName="VisitDateTime" msprop:Generator_ColumnPropNameInRow="VisitDateTime" msprop:Generator_ColumnVarNameInTable="columnVisitDateTime" msprop:Generator_ColumnPropNameInTable="VisitDateTimeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="VisitorName" msprop:Generator_UserColumnName="VisitorName" msprop:Generator_ColumnPropNameInRow="VisitorName" msprop:Generator_ColumnVarNameInTable="columnVisitorName" msprop:Generator_ColumnPropNameInTable="VisitorNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="MobileNo" msprop:Generator_UserColumnName="MobileNo" msprop:Generator_ColumnPropNameInRow="MobileNo" msprop:Generator_ColumnVarNameInTable="columnMobileNo" msprop:Generator_ColumnPropNameInTable="MobileNoColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CustomerID" msprop:Generator_UserColumnName="CustomerID" msprop:Generator_ColumnPropNameInRow="CustomerID" msprop:Generator_ColumnVarNameInTable="columnCustomerID" msprop:Generator_ColumnPropNameInTable="CustomerIDColumn" type="xs:long" minOccurs="0" />
+              <xs:element name="CustomerName" msprop:Generator_UserColumnName="CustomerName" msprop:Generator_ColumnPropNameInRow="CustomerName" msprop:Generator_ColumnVarNameInTable="columnCustomerName" msprop:Generator_ColumnPropNameInTable="CustomerNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="VisitCount" msprop:Generator_UserColumnName="VisitCount" msprop:Generator_ColumnPropNameInRow="VisitCount" msprop:Generator_ColumnVarNameInTable="columnVisitCount" msprop:Generator_ColumnPropNameInTable="VisitCountColumn" type="xs:long" minOccurs="0" />
+              <xs:element name="GapCount" msprop:Generator_UserColumnName="GapCount" msprop:Generator_ColumnPropNameInRow="GapCount" msprop:Generator_ColumnVarNameInTable="columnGapCount" msprop:Generator_ColumnPropNameInTable="GapCountColumn" type="xs:long" minOccurs="0" />
+              <xs:element name="CompetitorCount" msprop:Generator_UserColumnName="CompetitorCount" msprop:Generator_ColumnPropNameInRow="CompetitorCount" msprop:Generator_ColumnVarNameInTable="columnCompetitorCount" msprop:Generator_ColumnPropNameInTable="CompetitorCountColumn" type="xs:long" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

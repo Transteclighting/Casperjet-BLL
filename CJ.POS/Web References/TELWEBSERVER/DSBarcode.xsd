@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns="http://tempuri.org/DSBarcode.xsd" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:mstns="http://tempuri.org/DSBarcode.xsd" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://tempuri.org/DSBarcode.xsd" id="DSBarcode" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element msdata:IsDataSet="true" msdata:UseCurrentLocale="true" name="DSBarcode">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Barcode">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="WarehouseID" type="xs:int" />
+              <xs:element minOccurs="0" name="ProductID" type="xs:int" />
+              <xs:element minOccurs="0" name="Barcode" type="xs:string" />
+              <xs:element minOccurs="0" name="Status" type="xs:int" />
+              <xs:element minOccurs="0" name="InTranID" type="xs:int" />
+              <xs:element minOccurs="0" name="OutTranID" type="xs:int" />
+              <xs:element minOccurs="0" name="IsActive" type="xs:int" />
+              <xs:element minOccurs="0" name="TransferType" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

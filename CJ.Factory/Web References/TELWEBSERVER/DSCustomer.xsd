@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns="http://tempuri.org/DSCustomer.xsd" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:mstns="http://tempuri.org/DSCustomer.xsd" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://tempuri.org/DSCustomer.xsd" id="DSCustomer" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element msdata:IsDataSet="true" msdata:UseCurrentLocale="true" name="DSCustomer">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Customer">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="CustomerID" type="xs:int" />
+              <xs:element minOccurs="0" name="CustomerCode" type="xs:string" />
+              <xs:element minOccurs="0" name="CustomerName" type="xs:string" />
+              <xs:element minOccurs="0" name="CustomerAddress" type="xs:string" />
+              <xs:element minOccurs="0" name="CustomerTelephone" type="xs:string" />
+              <xs:element minOccurs="0" name="Email" type="xs:string" />
+              <xs:element minOccurs="0" name="CustomerFax" type="xs:string" />
+              <xs:element minOccurs="0" name="CellPhoneNumber" type="xs:string" />
+              <xs:element minOccurs="0" name="ContactPerson" type="xs:string" />
+              <xs:element minOccurs="0" name="ContactDesignation" type="xs:string" />
+              <xs:element minOccurs="0" name="IsActive" type="xs:int" />
+              <xs:element minOccurs="0" name="CustTypeID" type="xs:int" />
+              <xs:element minOccurs="0" name="MarketGroupID" type="xs:int" />
+              <xs:element minOccurs="0" name="GeoLocationID" type="xs:int" />
+              <xs:element minOccurs="0" name="Status" type="xs:short" />
+              <xs:element minOccurs="0" name="EnrollmentDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="ParentCustomerID" type="xs:int" />
+              <xs:element minOccurs="0" name="ParentCustomerCode" type="xs:string" />
+              <xs:element minOccurs="0" name="ParentCustomerNae" type="xs:string" />
+              <xs:element minOccurs="0" name="EntryDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="EntryUserID" type="xs:int" />
+              <xs:element minOccurs="0" name="UpdateDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="UpdateUserID" type="xs:int" />
+              <xs:element minOccurs="0" name="CurrentBalance" type="xs:double" />
+              <xs:element minOccurs="0" name="TaxNumber" type="xs:string" />
+              <xs:element minOccurs="0" name="BGAmount" type="xs:double" />
+              <xs:element minOccurs="0" name="CreditLimit" type="xs:double" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="CustomerCreditLimit">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="CreditLimitID" type="xs:int" />
+              <xs:element minOccurs="0" name="CustomerID" type="xs:int" />
+              <xs:element minOccurs="0" name="MinCreditLimit" type="xs:double" />
+              <xs:element minOccurs="0" name="EffectiveDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="ExpiryDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="UserID" type="xs:int" />
+              <xs:element minOccurs="0" name="MaxCreditLimit" type="xs:double" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

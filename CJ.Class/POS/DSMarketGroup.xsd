@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSMarketGroup" targetNamespace="http://tempuri.org/DSMarketGroup.xsd" xmlns:mstns="http://tempuri.org/DSMarketGroup.xsd" xmlns="http://tempuri.org/DSMarketGroup.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSMarketGroup" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DSMarketGroup" msprop:Generator_DataSetName="DSMarketGroup">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="MarketGroup" msprop:Generator_UserTableName="MarketGroup" msprop:Generator_RowDeletedName="MarketGroupRowDeleted" msprop:Generator_RowChangedName="MarketGroupRowChanged" msprop:Generator_RowClassName="MarketGroupRow" msprop:Generator_RowChangingName="MarketGroupRowChanging" msprop:Generator_RowEvArgName="MarketGroupRowChangeEvent" msprop:Generator_RowEvHandlerName="MarketGroupRowChangeEventHandler" msprop:Generator_TableClassName="MarketGroupDataTable" msprop:Generator_TableVarName="tableMarketGroup" msprop:Generator_RowDeletingName="MarketGroupRowDeleting" msprop:Generator_TablePropName="MarketGroup">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MarketGroupID" msprop:Generator_UserColumnName="MarketGroupID" msprop:Generator_ColumnVarNameInTable="columnMarketGroupID" msprop:Generator_ColumnPropNameInRow="MarketGroupID" msprop:Generator_ColumnPropNameInTable="MarketGroupIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Pos" msprop:Generator_UserColumnName="Pos" msprop:Generator_ColumnPropNameInRow="Pos" msprop:Generator_ColumnVarNameInTable="columnPos" msprop:Generator_ColumnPropNameInTable="PosColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="MarketGroupCode" msprop:Generator_UserColumnName="MarketGroupCode" msprop:Generator_ColumnVarNameInTable="columnMarketGroupCode" msprop:Generator_ColumnPropNameInRow="MarketGroupCode" msprop:Generator_ColumnPropNameInTable="MarketGroupCodeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="MarketGroupDesc" msprop:Generator_UserColumnName="MarketGroupDesc" msprop:Generator_ColumnVarNameInTable="columnMarketGroupDesc" msprop:Generator_ColumnPropNameInRow="MarketGroupDesc" msprop:Generator_ColumnPropNameInTable="MarketGroupDescColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="MarketGroupType" msprop:Generator_UserColumnName="MarketGroupType" msprop:Generator_ColumnVarNameInTable="columnMarketGroupType" msprop:Generator_ColumnPropNameInRow="MarketGroupType" msprop:Generator_ColumnPropNameInTable="MarketGroupTypeColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="ParentID" msprop:Generator_UserColumnName="ParentID" msprop:Generator_ColumnVarNameInTable="columnParentID" msprop:Generator_ColumnPropNameInRow="ParentID" msprop:Generator_ColumnPropNameInTable="ParentIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="ParentCode" msprop:Generator_UserColumnName="ParentCode" msprop:Generator_ColumnPropNameInRow="ParentCode" msprop:Generator_ColumnVarNameInTable="columnParentCode" msprop:Generator_ColumnPropNameInTable="ParentCodeColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="ParentName" msprop:Generator_UserColumnName="ParentName" msprop:Generator_ColumnPropNameInRow="ParentName" msprop:Generator_ColumnVarNameInTable="columnParentName" msprop:Generator_ColumnPropNameInTable="ParentNameColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="EmployeeID" msprop:Generator_UserColumnName="EmployeeID" msprop:Generator_ColumnVarNameInTable="columnEmployeeID" msprop:Generator_ColumnPropNameInRow="EmployeeID" msprop:Generator_ColumnPropNameInTable="EmployeeIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="EmployeeCode" msprop:Generator_UserColumnName="EmployeeCode" msprop:Generator_ColumnPropNameInRow="EmployeeCode" msprop:Generator_ColumnVarNameInTable="columnEmployeeCode" msprop:Generator_ColumnPropNameInTable="EmployeeCodeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="EmployeeName" msprop:Generator_UserColumnName="EmployeeName" msprop:Generator_ColumnPropNameInRow="EmployeeName" msprop:Generator_ColumnVarNameInTable="columnEmployeeName" msprop:Generator_ColumnPropNameInTable="EmployeeNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="MobileNo" msprop:Generator_UserColumnName="MobileNo" msprop:Generator_ColumnVarNameInTable="columnMobileNo" msprop:Generator_ColumnPropNameInRow="MobileNo" msprop:Generator_ColumnPropNameInTable="MobileNoColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ChannelID" msprop:Generator_UserColumnName="ChannelID" msprop:Generator_ColumnPropNameInRow="ChannelID" msprop:Generator_ColumnVarNameInTable="columnChannelID" msprop:Generator_ColumnPropNameInTable="ChannelIDColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

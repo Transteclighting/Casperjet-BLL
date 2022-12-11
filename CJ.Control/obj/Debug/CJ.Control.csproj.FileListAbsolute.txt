@@ -1,0 +1,42 @@
+D:\Local\TEL\Casper Jet\CJ.Control\bin\Debug\CJ.Control.dll
+D:\Local\TEL\Casper Jet\CJ.Control\bin\Debug\CJ.Control.pdb
+D:\Local\TEL\Casper Jet\CJ.Control\bin\Debug\CJ.Class.dll
+D:\Local\TEL\Casper Jet\CJ.Control\bin\Debug\CJ.Class.pdb
+D:\Local\TEL\Casper Jet\CJ.Control\obj\Debug\CJ.Control.csprojResolveAssemblyReference.cache
+D:\Local\TEL\Casper Jet\CJ.Control\obj\Debug\CJ.Control.ctlClaims.resources
+D:\Local\TEL\Casper Jet\CJ.Control\obj\Debug\CJ.Win.Control.ctlCustomer.resources
+D:\Local\TEL\Casper Jet\CJ.Control\obj\Debug\CJ.Control.ctlProduct.resources
+D:\Local\TEL\Casper Jet\CJ.Control\obj\Debug\CJ.Control.ctlRetailConsumer.resources
+D:\Local\TEL\Casper Jet\CJ.Control\obj\Debug\CJ.Win.Control.ctlSundryCustomer.resources
+D:\Local\TEL\Casper Jet\CJ.Control\obj\Debug\CJ.Control.frmClaims.resources
+D:\Local\TEL\Casper Jet\CJ.Control\obj\Debug\CJ.Control.frmConsumer.resources
+D:\Local\TEL\Casper Jet\CJ.Control\obj\Debug\CJ.Win.Control.frmCustomerSearch.resources
+D:\Local\TEL\Casper Jet\CJ.Control\obj\Debug\CJ.Control.frmProductSearch.resources
+D:\Local\TEL\Casper Jet\CJ.Control\obj\Debug\CJ.Control.frmReatilConsumerSearchRT.resources
+D:\Local\TEL\Casper Jet\CJ.Control\obj\Debug\CJ.Control.frmReatilConsumerSearch.resources
+D:\Local\TEL\Casper Jet\CJ.Control\obj\Debug\CJ.Control.frmSearchProduct.resources
+D:\Local\TEL\Casper Jet\CJ.Control\obj\Debug\CJ.Win.Control.frmSundryCustomerSearch.resources
+D:\Local\TEL\Casper Jet\CJ.Control\obj\Debug\CJ.Control.csproj.GenerateResource.Cache
+D:\Local\TEL\Casper Jet\CJ.Control\obj\Debug\CJ.Control.dll
+D:\Local\TEL\Casper Jet\CJ.Control\obj\Debug\CJ.Control.pdb
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Control\bin\Debug\CJ.Control.dll
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Control\bin\Debug\CJ.Control.pdb
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Control\bin\Debug\CJ.Class.dll
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Control\bin\Debug\CJ.Class.pdb
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Control\obj\Debug\CJ.Control.csprojResolveAssemblyReference.cache
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Control\obj\Debug\CJ.Control.ctlClaims.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Control\obj\Debug\CJ.Win.Control.ctlCustomer.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Control\obj\Debug\CJ.Control.ctlProduct.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Control\obj\Debug\CJ.Control.ctlRetailConsumer.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Control\obj\Debug\CJ.Win.Control.ctlSundryCustomer.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Control\obj\Debug\CJ.Control.frmClaims.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Control\obj\Debug\CJ.Control.frmConsumer.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Control\obj\Debug\CJ.Win.Control.frmCustomerSearch.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Control\obj\Debug\CJ.Control.frmProductSearch.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Control\obj\Debug\CJ.Control.frmReatilConsumerSearchRT.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Control\obj\Debug\CJ.Control.frmReatilConsumerSearch.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Control\obj\Debug\CJ.Control.frmSearchProduct.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Control\obj\Debug\CJ.Win.Control.frmSundryCustomerSearch.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Control\obj\Debug\CJ.Control.csproj.GenerateResource.Cache
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Control\obj\Debug\CJ.Control.dll
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Control\obj\Debug\CJ.Control.pdb

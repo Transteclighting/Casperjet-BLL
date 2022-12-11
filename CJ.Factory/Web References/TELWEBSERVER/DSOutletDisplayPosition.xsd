@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns="http://tempuri.org/DSOutletDisplayPosition.xsd" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:mstns="http://tempuri.org/DSOutletDisplayPosition.xsd" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://tempuri.org/DSOutletDisplayPosition.xsd" id="DSOutletDisplayPosition" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element msdata:IsDataSet="true" msdata:UseCurrentLocale="true" name="DSOutletDisplayPosition">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="OutletDisplayPosition">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DisplayPositionID" type="xs:int" />
+              <xs:element minOccurs="0" name="PositionCode" type="xs:string" />
+              <xs:element minOccurs="0" name="PositionName" type="xs:string" />
+              <xs:element minOccurs="0" name="MAGID" type="xs:int" />
+              <xs:element minOccurs="0" name="WHID" type="xs:int" />
+              <xs:element minOccurs="0" name="CreateDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="CreateUserID" type="xs:int" />
+              <xs:element minOccurs="0" name="UpdateDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="UpdateUserID" type="xs:int" />
+              <xs:element minOccurs="0" name="ProductID" type="xs:int" />
+              <xs:element minOccurs="0" name="ProductSerialNo" type="xs:string" />
+              <xs:element minOccurs="0" name="Status" type="xs:int" />
+              <xs:element minOccurs="0" name="IsActive" type="xs:int" />
+              <xs:element minOccurs="0" name="IsDownload" type="xs:int" />
+              <xs:element minOccurs="0" name="AssignProductID" type="xs:int" />
+              <xs:element minOccurs="0" name="AssignDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="AssignUserID" type="xs:int" />
+              <xs:element minOccurs="0" name="RackID" type="xs:int" />
+              <xs:element minOccurs="0" name="SaleAfter" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="BlankRemarks" type="xs:string" />
+              <xs:element minOccurs="0" name="OpenForAll" type="xs:boolean" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DisplayPositionHistory">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="HistoryID" type="xs:int" />
+              <xs:element minOccurs="0" name="DisplayPositionID" type="xs:int" />
+              <xs:element minOccurs="0" name="Type" type="xs:int" />
+              <xs:element minOccurs="0" name="ProductSerialNo" type="xs:string" />
+              <xs:element minOccurs="0" name="CreateDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="CreateUserID" type="xs:int" />
+              <xs:element minOccurs="0" name="IsDownload" type="xs:int" />
+              <xs:element minOccurs="0" name="BlankRemarks" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="OutletDisplayPositionRack">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="RackID" type="xs:int" />
+              <xs:element minOccurs="0" name="RackName" type="xs:string" />
+              <xs:element minOccurs="0" name="CreateDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="CreateUserID" type="xs:int" />
+              <xs:element minOccurs="0" name="UpdateDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="UpdateUserID" type="xs:int" />
+              <xs:element minOccurs="0" name="IsActive" type="xs:int" />
+              <xs:element minOccurs="0" name="Sort" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique msdata:PrimaryKey="true" name="OutletDisplayPositionKey1">
+      <xs:selector xpath=".//mstns:OutletDisplayPosition" />
+      <xs:field xpath="mstns:DisplayPositionID" />
+    </xs:unique>
+    <xs:unique msdata:PrimaryKey="true" name="DisplayPositionHistoryKey1">
+      <xs:selector xpath=".//mstns:DisplayPositionHistory" />
+      <xs:field xpath="mstns:HistoryID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

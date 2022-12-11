@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns="http://tempuri.org/DSProductTransaction.xsd" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:mstns="http://tempuri.org/DSProductTransaction.xsd" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://tempuri.org/DSProductTransaction.xsd" id="DSProductTransaction" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element msdata:IsDataSet="true" msdata:UseCurrentLocale="true" name="DSProductTransaction">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ProductStockTran">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="TranId" type="xs:long" />
+              <xs:element minOccurs="0" name="TranNo" type="xs:string" />
+              <xs:element minOccurs="0" name="TranDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="FromWHId" type="xs:long" />
+              <xs:element msdata:Caption="FromWHId" minOccurs="0" name="LastFromWHId" type="xs:long" />
+              <xs:element msdata:Caption="Column1" minOccurs="0" name="FromWHCode" type="xs:string" />
+              <xs:element msdata:Caption="Column2" minOccurs="0" name="FromWHName" type="xs:string" />
+              <xs:element minOccurs="0" name="ToWHId" type="xs:long" />
+              <xs:element msdata:Caption="ToWHId" minOccurs="0" name="LastToWHId" type="xs:long" />
+              <xs:element msdata:Caption="Column1" minOccurs="0" name="ToWHCode" type="xs:string" />
+              <xs:element msdata:Caption="Column2" minOccurs="0" name="ToWHName" type="xs:string" />
+              <xs:element minOccurs="0" name="TranTypeId" type="xs:int" />
+              <xs:element minOccurs="0" name="TranTypeCode" type="xs:string" />
+              <xs:element msdata:Caption="Column1" minOccurs="0" name="TranTypeName" type="xs:string" />
+              <xs:element msdata:Caption="TranTypeId" minOccurs="0" name="TranTypeSide" type="xs:short" />
+              <xs:element minOccurs="0" name="UserId" type="xs:long" />
+              <xs:element minOccurs="0" name="UserName" type="xs:string" />
+              <xs:element minOccurs="0" name="CreateDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="LastUpdateDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="LastUpdateUserId" type="xs:long" />
+              <xs:element minOccurs="0" name="FromChannelId" type="xs:long" />
+              <xs:element msdata:Caption="FromChannelId" minOccurs="0" name="LastFromChannelId" type="xs:long" />
+              <xs:element msdata:Caption="Column1" minOccurs="0" name="FromChannelCode" type="xs:string" />
+              <xs:element msdata:Caption="Column2" minOccurs="0" name="FromChannelName" type="xs:string" />
+              <xs:element minOccurs="0" name="POId" type="xs:long" />
+              <xs:element minOccurs="0" name="Status" type="xs:short" />
+              <xs:element minOccurs="0" name="Remarks" type="xs:string" />
+              <xs:element minOccurs="0" name="ToChannelID" type="xs:long" />
+              <xs:element msdata:Caption="ToChannelID" minOccurs="0" name="LastToChannelID" type="xs:long" />
+              <xs:element msdata:Caption="Column1" minOccurs="0" name="ToChannelCode" type="xs:string" />
+              <xs:element msdata:Caption="Column2" minOccurs="0" name="ToChannelName" type="xs:string" />
+              <xs:element minOccurs="0" name="TranTypeSystem" type="xs:short" />
+              <xs:element minOccurs="0" name="PrintID" type="xs:int" />
+              <xs:element minOccurs="0" name="PrintHeader" type="xs:string" />
+              <xs:element minOccurs="0" name="IsDownload" type="xs:int" />
+              <xs:element minOccurs="0" name="ProductSerialNo" type="xs:string" />
+              <xs:element minOccurs="0" name="DeliveryPerson" type="xs:string" />
+              <xs:element minOccurs="0" name="DeliveryPersonContactNo" type="xs:string" />
+              <xs:element minOccurs="0" name="VehicleNo" type="xs:string" />
+              <xs:element minOccurs="0" name="DeliveryMode" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ProductStockTranItem">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="TranID" type="xs:long" />
+              <xs:element minOccurs="0" name="ProductID" type="xs:long" />
+              <xs:element minOccurs="0" name="Qty" type="xs:long" />
+              <xs:element minOccurs="0" name="StockPrice" type="xs:double" />
+              <xs:element minOccurs="0" name="Status" type="xs:short" />
+              <xs:element minOccurs="0" name="ProductCode" type="xs:string" />
+              <xs:element minOccurs="0" name="TranNo" type="xs:string" />
+              <xs:element msdata:Caption="StockPrice" minOccurs="0" name="LastStockPrice" type="xs:double" />
+              <xs:element minOccurs="0" name="LastQty" type="xs:long" />
+              <xs:element minOccurs="0" name="ProductDescription" type="xs:string" />
+              <xs:element minOccurs="0" name="PrintID" type="xs:int" />
+              <xs:element minOccurs="0" name="PrintHeader" type="xs:string" />
+              <xs:element minOccurs="0" name="MOQ" type="xs:long" />
+              <xs:element minOccurs="0" name="TradePrice" type="xs:double" />
+              <xs:element minOccurs="0" name="VAT" type="xs:double" />
+              <xs:element minOccurs="0" name="LSRatio" type="xs:long" />
+              <xs:element minOccurs="0" name="MSRatio" type="xs:long" />
+              <xs:element minOccurs="0" name="Barcode" type="xs:string" />
+              <xs:element minOccurs="0" name="DutyTranNo" type="xs:string" />
+              <xs:element minOccurs="0" name="DutyPrice" type="xs:double" />
+              <xs:element minOccurs="0" name="DutyRate" type="xs:double" />
+              <xs:element minOccurs="0" name="WH" type="xs:string" />
+              <xs:element minOccurs="0" name="RSP" type="xs:double" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Barcode">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="WarehouseID" type="xs:int" />
+              <xs:element minOccurs="0" name="ProductID" type="xs:int" />
+              <xs:element minOccurs="0" name="Barcode" type="xs:string" />
+              <xs:element minOccurs="0" name="Status" type="xs:int" />
+              <xs:element minOccurs="0" name="InTranID" type="xs:int" />
+              <xs:element minOccurs="0" name="OutTranID" type="xs:int" />
+              <xs:element minOccurs="0" name="IsActive" type="xs:int" />
+              <xs:element minOccurs="0" name="TransferType" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DutyTran">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="DutyTranID" type="xs:int" />
+              <xs:element minOccurs="0" name="DutyTranDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="DutyTranNo" type="xs:string" />
+              <xs:element minOccurs="0" name="WHID" type="xs:int" />
+              <xs:element minOccurs="0" name="ChallanTypeID" type="xs:int" />
+              <xs:element minOccurs="0" name="DocumentNo" type="xs:int" />
+              <xs:element minOccurs="0" name="RefID" type="xs:int" />
+              <xs:element minOccurs="0" name="DutyTypeID" type="xs:int" />
+              <xs:element minOccurs="0" name="DutyTranTypeID" type="xs:int" />
+              <xs:element minOccurs="0" name="WarehouseName" type="xs:string" />
+              <xs:element minOccurs="0" name="WarehouseAddress" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DutyTranDetail">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="DutyTranID" type="xs:int" />
+              <xs:element minOccurs="0" name="ProductID" type="xs:int" />
+              <xs:element minOccurs="0" name="ProductName" type="xs:string" />
+              <xs:element minOccurs="0" name="Qty" type="xs:int" />
+              <xs:element minOccurs="0" name="DutyPrice" type="xs:double" />
+              <xs:element minOccurs="0" name="DutyRate" type="xs:double" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ProductTransferProductSerial">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="TranID" type="xs:int" />
+              <xs:element minOccurs="0" name="ProductID" type="xs:int" />
+              <xs:element minOccurs="0" name="SerialNo" type="xs:int" />
+              <xs:element minOccurs="0" name="TradePrice" type="xs:double" />
+              <xs:element minOccurs="0" name="VAT" type="xs:double" />
+              <xs:element minOccurs="0" name="IsVATPaidProduct" type="xs:int" />
+              <xs:element minOccurs="0" name="ProductSerialNo" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="VatPaidProductSerial">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="ID" type="xs:int" />
+              <xs:element minOccurs="0" name="ProductID" type="xs:int" />
+              <xs:element minOccurs="0" name="WHID" type="xs:int" />
+              <xs:element minOccurs="0" name="ProductSerialNo" type="xs:string" />
+              <xs:element minOccurs="0" name="TranNo" type="xs:string" />
+              <xs:element minOccurs="0" name="TranDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="Status" type="xs:int" />
+              <xs:element minOccurs="0" name="TP" type="xs:double" />
+              <xs:element minOccurs="0" name="VAT" type="xs:double" />
+              <xs:element minOccurs="0" name="TranType" type="xs:int" />
+              <xs:element minOccurs="0" name="RefTranNo" type="xs:string" />
+              <xs:element minOccurs="0" name="RefTranDate" type="xs:dateTime" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

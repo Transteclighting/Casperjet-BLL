@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSExtendedWarranty" targetNamespace="http://tempuri.org/DSExtendedWarranty.xsd" xmlns:mstns="http://tempuri.org/DSExtendedWarranty.xsd" xmlns="http://tempuri.org/DSExtendedWarranty.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSExtendedWarranty" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DSExtendedWarranty" msprop:Generator_UserDSName="DSExtendedWarranty">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ExtendedWarranty" msprop:Generator_TableClassName="ExtendedWarrantyDataTable" msprop:Generator_TableVarName="tableExtendedWarranty" msprop:Generator_TablePropName="ExtendedWarranty" msprop:Generator_RowDeletingName="ExtendedWarrantyRowDeleting" msprop:Generator_RowChangingName="ExtendedWarrantyRowChanging" msprop:Generator_RowEvHandlerName="ExtendedWarrantyRowChangeEventHandler" msprop:Generator_RowDeletedName="ExtendedWarrantyRowDeleted" msprop:Generator_UserTableName="ExtendedWarranty" msprop:Generator_RowChangedName="ExtendedWarrantyRowChanged" msprop:Generator_RowEvArgName="ExtendedWarrantyRowChangeEvent" msprop:Generator_RowClassName="ExtendedWarrantyRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msdata:Caption="VenderID" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_UserColumnName="ID" type="xs:int" />
+              <xs:element name="WarehouseID" msprop:Generator_ColumnVarNameInTable="columnWarehouseID" msprop:Generator_ColumnPropNameInRow="WarehouseID" msprop:Generator_ColumnPropNameInTable="WarehouseIDColumn" msprop:Generator_UserColumnName="WarehouseID" type="xs:int" minOccurs="0" />
+              <xs:element name="SmartWarrantyID" msprop:Generator_ColumnVarNameInTable="columnSmartWarrantyID" msprop:Generator_ColumnPropNameInRow="SmartWarrantyID" msprop:Generator_ColumnPropNameInTable="SmartWarrantyIDColumn" msprop:Generator_UserColumnName="SmartWarrantyID" type="xs:int" minOccurs="0" />
+              <xs:element name="ConsumerID" msprop:Generator_ColumnVarNameInTable="columnConsumerID" msprop:Generator_ColumnPropNameInRow="ConsumerID" msprop:Generator_ColumnPropNameInTable="ConsumerIDColumn" msprop:Generator_UserColumnName="ConsumerID" type="xs:int" minOccurs="0" />
+              <xs:element name="IssueDate" msprop:Generator_ColumnVarNameInTable="columnIssueDate" msprop:Generator_ColumnPropNameInRow="IssueDate" msprop:Generator_ColumnPropNameInTable="IssueDateColumn" msprop:Generator_UserColumnName="IssueDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ProductID" msprop:Generator_ColumnVarNameInTable="columnProductID" msprop:Generator_ColumnPropNameInRow="ProductID" msprop:Generator_ColumnPropNameInTable="ProductIDColumn" msprop:Generator_UserColumnName="ProductID" type="xs:int" minOccurs="0" />
+              <xs:element name="ProductSerialNo" msprop:Generator_ColumnVarNameInTable="columnProductSerialNo" msprop:Generator_ColumnPropNameInRow="ProductSerialNo" msprop:Generator_ColumnPropNameInTable="ProductSerialNoColumn" msprop:Generator_UserColumnName="ProductSerialNo" type="xs:string" minOccurs="0" />
+              <xs:element name="CertificateNo" msprop:Generator_ColumnVarNameInTable="columnCertificateNo" msprop:Generator_ColumnPropNameInRow="CertificateNo" msprop:Generator_ColumnPropNameInTable="CertificateNoColumn" msprop:Generator_UserColumnName="CertificateNo" type="xs:string" minOccurs="0" />
+              <xs:element name="InvoiceNo" msprop:Generator_ColumnVarNameInTable="columnInvoiceNo" msprop:Generator_ColumnPropNameInRow="InvoiceNo" msprop:Generator_ColumnPropNameInTable="InvoiceNoColumn" msprop:Generator_UserColumnName="InvoiceNo" type="xs:string" minOccurs="0" />
+              <xs:element name="InvoiceDate" msprop:Generator_ColumnVarNameInTable="columnInvoiceDate" msprop:Generator_ColumnPropNameInRow="InvoiceDate" msprop:Generator_ColumnPropNameInTable="InvoiceDateColumn" msprop:Generator_UserColumnName="InvoiceDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ExtendedWarrantyStartDate" msprop:Generator_ColumnVarNameInTable="columnExtendedWarrantyStartDate" msprop:Generator_ColumnPropNameInRow="ExtendedWarrantyStartDate" msprop:Generator_ColumnPropNameInTable="ExtendedWarrantyStartDateColumn" msprop:Generator_UserColumnName="ExtendedWarrantyStartDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ExtendedWarrantyEndDate" msprop:Generator_ColumnVarNameInTable="columnExtendedWarrantyEndDate" msprop:Generator_ColumnPropNameInRow="ExtendedWarrantyEndDate" msprop:Generator_ColumnPropNameInTable="ExtendedWarrantyEndDateColumn" msprop:Generator_UserColumnName="ExtendedWarrantyEndDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="PaymentModeID" msprop:Generator_ColumnVarNameInTable="columnPaymentModeID" msprop:Generator_ColumnPropNameInRow="PaymentModeID" msprop:Generator_ColumnPropNameInTable="PaymentModeIDColumn" msprop:Generator_UserColumnName="PaymentModeID" type="xs:int" minOccurs="0" />
+              <xs:element name="Amount" msprop:Generator_ColumnVarNameInTable="columnAmount" msprop:Generator_ColumnPropNameInRow="Amount" msprop:Generator_ColumnPropNameInTable="AmountColumn" msprop:Generator_UserColumnName="Amount" type="xs:double" minOccurs="0" />
+              <xs:element name="BankID" msprop:Generator_ColumnVarNameInTable="columnBankID" msprop:Generator_ColumnPropNameInRow="BankID" msprop:Generator_ColumnPropNameInTable="BankIDColumn" msprop:Generator_UserColumnName="BankID" type="xs:int" minOccurs="0" />
+              <xs:element name="CardType" msprop:Generator_ColumnVarNameInTable="columnCardType" msprop:Generator_ColumnPropNameInRow="CardType" msprop:Generator_ColumnPropNameInTable="CardTypeColumn" msprop:Generator_UserColumnName="CardType" type="xs:int" minOccurs="0" />
+              <xs:element name="POSMachineID" msprop:Generator_ColumnVarNameInTable="columnPOSMachineID" msprop:Generator_ColumnPropNameInRow="POSMachineID" msprop:Generator_ColumnPropNameInTable="POSMachineIDColumn" msprop:Generator_UserColumnName="POSMachineID" type="xs:int" minOccurs="0" />
+              <xs:element name="InstrumentNo" msprop:Generator_ColumnVarNameInTable="columnInstrumentNo" msprop:Generator_ColumnPropNameInRow="InstrumentNo" msprop:Generator_ColumnPropNameInTable="InstrumentNoColumn" msprop:Generator_UserColumnName="InstrumentNo" type="xs:string" minOccurs="0" />
+              <xs:element name="InstrumentDate" msprop:Generator_ColumnVarNameInTable="columnInstrumentDate" msprop:Generator_ColumnPropNameInRow="InstrumentDate" msprop:Generator_ColumnPropNameInTable="InstrumentDateColumn" msprop:Generator_UserColumnName="InstrumentDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="CardCategory" msprop:Generator_ColumnVarNameInTable="columnCardCategory" msprop:Generator_ColumnPropNameInRow="CardCategory" msprop:Generator_ColumnPropNameInTable="CardCategoryColumn" msprop:Generator_UserColumnName="CardCategory" type="xs:int" minOccurs="0" />
+              <xs:element name="ApprovalNo" msprop:Generator_ColumnVarNameInTable="columnApprovalNo" msprop:Generator_ColumnPropNameInRow="ApprovalNo" msprop:Generator_ColumnPropNameInTable="ApprovalNoColumn" msprop:Generator_UserColumnName="ApprovalNo" type="xs:string" minOccurs="0" />
+              <xs:element name="CreateDate" msprop:Generator_ColumnVarNameInTable="columnCreateDate" msprop:Generator_ColumnPropNameInRow="CreateDate" msprop:Generator_ColumnPropNameInTable="CreateDateColumn" msprop:Generator_UserColumnName="CreateDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="CreateUserID" msprop:Generator_ColumnVarNameInTable="columnCreateUserID" msprop:Generator_ColumnPropNameInRow="CreateUserID" msprop:Generator_ColumnPropNameInTable="CreateUserIDColumn" msprop:Generator_UserColumnName="CreateUserID" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="ExchangeOfferVenderKey1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:ExtendedWarranty" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

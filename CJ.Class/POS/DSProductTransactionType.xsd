@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSProductTransactionType" targetNamespace="http://tempuri.org/DSProductTransactionType.xsd" xmlns:mstns="http://tempuri.org/DSProductTransactionType.xsd" xmlns="http://tempuri.org/DSProductTransactionType.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSProductTransactionType" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DSProductTransactionType" msprop:Generator_DataSetName="DSProductTransactionType">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ProductStockTranType" msprop:Generator_UserTableName="ProductStockTranType" msprop:Generator_RowDeletedName="ProductStockTranTypeRowDeleted" msprop:Generator_RowChangedName="ProductStockTranTypeRowChanged" msprop:Generator_RowClassName="ProductStockTranTypeRow" msprop:Generator_RowChangingName="ProductStockTranTypeRowChanging" msprop:Generator_RowEvArgName="ProductStockTranTypeRowChangeEvent" msprop:Generator_RowEvHandlerName="ProductStockTranTypeRowChangeEventHandler" msprop:Generator_TableClassName="ProductStockTranTypeDataTable" msprop:Generator_TableVarName="tableProductStockTranType" msprop:Generator_RowDeletingName="ProductStockTranTypeRowDeleting" msprop:Generator_TablePropName="ProductStockTranType">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TranTypeID" msprop:Generator_UserColumnName="TranTypeID" msprop:Generator_ColumnVarNameInTable="columnTranTypeID" msprop:Generator_ColumnPropNameInRow="TranTypeID" msprop:Generator_ColumnPropNameInTable="TranTypeIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="TranTypeCode" msprop:Generator_UserColumnName="TranTypeCode" msprop:Generator_ColumnVarNameInTable="columnTranTypeCode" msprop:Generator_ColumnPropNameInRow="TranTypeCode" msprop:Generator_ColumnPropNameInTable="TranTypeCodeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="TranTypeName" msprop:Generator_UserColumnName="TranTypeName" msprop:Generator_ColumnVarNameInTable="columnTranTypeName" msprop:Generator_ColumnPropNameInRow="TranTypeName" msprop:Generator_ColumnPropNameInTable="TranTypeNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="TransactionSide" msprop:Generator_UserColumnName="TransactionSide" msprop:Generator_ColumnVarNameInTable="columnTransactionSide" msprop:Generator_ColumnPropNameInRow="TransactionSide" msprop:Generator_ColumnPropNameInTable="TransactionSideColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="IsSystem" msprop:Generator_UserColumnName="IsSystem" msprop:Generator_ColumnVarNameInTable="columnIsSystem" msprop:Generator_ColumnPropNameInRow="IsSystem" msprop:Generator_ColumnPropNameInTable="IsSystemColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Status" msprop:Generator_UserColumnName="Status" msprop:Generator_ColumnVarNameInTable="columnStatus" msprop:Generator_ColumnPropNameInRow="Status" msprop:Generator_ColumnPropNameInTable="StatusColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="TransferType" msprop:Generator_UserColumnName="TransferType" msprop:Generator_ColumnPropNameInRow="TransferType" msprop:Generator_ColumnVarNameInTable="columnTransferType" msprop:Generator_ColumnPropNameInTable="TransferTypeColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

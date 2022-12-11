@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSShowroom" targetNamespace="http://tempuri.org/DSShowroom.xsd" xmlns:mstns="http://tempuri.org/DSShowroom.xsd" xmlns="http://tempuri.org/DSShowroom.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSShowroom" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DSShowroom" msprop:Generator_DataSetName="DSShowroom">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Showroom" msprop:Generator_UserTableName="Showroom" msprop:Generator_RowDeletedName="ShowroomRowDeleted" msprop:Generator_TableClassName="ShowroomDataTable" msprop:Generator_RowChangedName="ShowroomRowChanged" msprop:Generator_RowClassName="ShowroomRow" msprop:Generator_RowChangingName="ShowroomRowChanging" msprop:Generator_RowEvArgName="ShowroomRowChangeEvent" msprop:Generator_RowEvHandlerName="ShowroomRowChangeEventHandler" msprop:Generator_TablePropName="Showroom" msprop:Generator_TableVarName="tableShowroom" msprop:Generator_RowDeletingName="ShowroomRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ShowroomID" msprop:Generator_UserColumnName="ShowroomID" msprop:Generator_ColumnPropNameInRow="ShowroomID" msprop:Generator_ColumnVarNameInTable="columnShowroomID" msprop:Generator_ColumnPropNameInTable="ShowroomIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="PositionNo" msdata:Caption="Column1" msprop:Generator_UserColumnName="PositionNo" msprop:Generator_ColumnPropNameInRow="PositionNo" msprop:Generator_ColumnVarNameInTable="columnPositionNo" msprop:Generator_ColumnPropNameInTable="PositionNoColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="ShowroomCode" msdata:Caption="Column2" msprop:Generator_UserColumnName="ShowroomCode" msprop:Generator_ColumnPropNameInRow="ShowroomCode" msprop:Generator_ColumnVarNameInTable="columnShowroomCode" msprop:Generator_ColumnPropNameInTable="ShowroomCodeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ShowroomName" msdata:Caption="Column1" msprop:Generator_UserColumnName="ShowroomName" msprop:Generator_ColumnPropNameInRow="ShowroomName" msprop:Generator_ColumnVarNameInTable="columnShowroomName" msprop:Generator_ColumnPropNameInTable="ShowroomNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ShowroomType" msdata:Caption="Column2" msprop:Generator_UserColumnName="ShowroomType" msprop:Generator_ColumnPropNameInRow="ShowroomType" msprop:Generator_ColumnVarNameInTable="columnShowroomType" msprop:Generator_ColumnPropNameInTable="ShowroomTypeColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="ShowroomAddress" msdata:Caption="Column1" msprop:Generator_UserColumnName="ShowroomAddress" msprop:Generator_ColumnPropNameInRow="ShowroomAddress" msprop:Generator_ColumnVarNameInTable="columnShowroomAddress" msprop:Generator_ColumnPropNameInTable="ShowroomAddressColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Telephone" msdata:Caption="Column2" msprop:Generator_UserColumnName="Telephone" msprop:Generator_ColumnPropNameInRow="Telephone" msprop:Generator_ColumnVarNameInTable="columnTelephone" msprop:Generator_ColumnPropNameInTable="TelephoneColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Email" msdata:Caption="Column1" msprop:Generator_UserColumnName="Email" msprop:Generator_ColumnPropNameInRow="Email" msprop:Generator_ColumnVarNameInTable="columnEmail" msprop:Generator_ColumnPropNameInTable="EmailColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="WarehouseID" msdata:Caption="Column2" msprop:Generator_UserColumnName="WarehouseID" msprop:Generator_ColumnPropNameInRow="WarehouseID" msprop:Generator_ColumnVarNameInTable="columnWarehouseID" msprop:Generator_ColumnPropNameInTable="WarehouseIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="ManagerID" msdata:Caption="Column1" msprop:Generator_UserColumnName="ManagerID" msprop:Generator_ColumnPropNameInRow="ManagerID" msprop:Generator_ColumnVarNameInTable="columnManagerID" msprop:Generator_ColumnPropNameInTable="ManagerIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="IsActive" msdata:Caption="Column2" msprop:Generator_UserColumnName="IsActive" msprop:Generator_ColumnPropNameInRow="IsActive" msprop:Generator_ColumnVarNameInTable="columnIsActive" msprop:Generator_ColumnPropNameInTable="IsActiveColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="DistanceType" msdata:Caption="Column1" msprop:Generator_UserColumnName="DistanceType" msprop:Generator_ColumnPropNameInRow="DistanceType" msprop:Generator_ColumnVarNameInTable="columnDistanceType" msprop:Generator_ColumnPropNameInTable="DistanceTypeColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="CustomerID" msdata:Caption="Column2" msprop:Generator_UserColumnName="CustomerID" msprop:Generator_ColumnPropNameInRow="CustomerID" msprop:Generator_ColumnVarNameInTable="columnCustomerID" msprop:Generator_ColumnPropNameInTable="CustomerIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="ChannelID" msdata:Caption="Column1" msprop:Generator_UserColumnName="ChannelID" msprop:Generator_ColumnPropNameInRow="ChannelID" msprop:Generator_ColumnVarNameInTable="columnChannelID" msprop:Generator_ColumnPropNameInTable="ChannelIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="MobileNo" msdata:Caption="Column2" msprop:Generator_UserColumnName="MobileNo" msprop:Generator_ColumnPropNameInRow="MobileNo" msprop:Generator_ColumnVarNameInTable="columnMobileNo" msprop:Generator_ColumnPropNameInTable="MobileNoColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="IsPOSActive" msdata:Caption="Column1" msprop:Generator_UserColumnName="IsPOSActive" msprop:Generator_ColumnPropNameInRow="IsPOSActive" msprop:Generator_ColumnVarNameInTable="columnIsPOSActive" msprop:Generator_ColumnPropNameInTable="IsPOSActiveColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

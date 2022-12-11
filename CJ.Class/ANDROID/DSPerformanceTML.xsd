@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSPerformanceTML" targetNamespace="http://tempuri.org/DSPerformanceTML.xsd" xmlns:mstns="http://tempuri.org/DSPerformanceTML.xsd" xmlns="http://tempuri.org/DSPerformanceTML.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSPerformanceTML" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DSPerformanceTML" msprop:Generator_DataSetName="DSPerformanceTML">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Performance" msprop:Generator_UserTableName="Performance" msprop:Generator_RowDeletedName="PerformanceRowDeleted" msprop:Generator_RowChangedName="PerformanceRowChanged" msprop:Generator_RowClassName="PerformanceRow" msprop:Generator_RowChangingName="PerformanceRowChanging" msprop:Generator_RowEvArgName="PerformanceRowChangeEvent" msprop:Generator_RowEvHandlerName="PerformanceRowChangeEventHandler" msprop:Generator_TableClassName="PerformanceDataTable" msprop:Generator_TableVarName="tablePerformance" msprop:Generator_RowDeletingName="PerformanceRowDeleting" msprop:Generator_TablePropName="Performance">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Channel" msprop:Generator_UserColumnName="Channel" msprop:Generator_ColumnVarNameInTable="columnChannel" msprop:Generator_ColumnPropNameInRow="Channel" msprop:Generator_ColumnPropNameInTable="ChannelColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="AGName" msprop:Generator_UserColumnName="AGName" msprop:Generator_ColumnVarNameInTable="columnAGName" msprop:Generator_ColumnPropNameInRow="AGName" msprop:Generator_ColumnPropNameInTable="AGNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="TargetQty" msprop:Generator_UserColumnName="TargetQty" msprop:Generator_ColumnVarNameInTable="columnTargetQty" msprop:Generator_ColumnPropNameInRow="TargetQty" msprop:Generator_ColumnPropNameInTable="TargetQtyColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="TargetValue" msprop:Generator_UserColumnName="TargetValue" msprop:Generator_ColumnVarNameInTable="columnTargetValue" msprop:Generator_ColumnPropNameInRow="TargetValue" msprop:Generator_ColumnPropNameInTable="TargetValueColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="MTDQty" msprop:Generator_UserColumnName="MTDQty" msprop:Generator_ColumnVarNameInTable="columnMTDQty" msprop:Generator_ColumnPropNameInRow="MTDQty" msprop:Generator_ColumnPropNameInTable="MTDQtyColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="MTDValue" msprop:Generator_UserColumnName="MTDValue" msprop:Generator_ColumnVarNameInTable="columnMTDValue" msprop:Generator_ColumnPropNameInRow="MTDValue" msprop:Generator_ColumnPropNameInTable="MTDValueColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="Acheivement" msprop:Generator_UserColumnName="Acheivement" msprop:Generator_ColumnVarNameInTable="columnAcheivement" msprop:Generator_ColumnPropNameInRow="Acheivement" msprop:Generator_ColumnPropNameInTable="AcheivementColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="LMTDQty" msprop:Generator_UserColumnName="LMTDQty" msprop:Generator_ColumnVarNameInTable="columnLMTDQty" msprop:Generator_ColumnPropNameInRow="LMTDQty" msprop:Generator_ColumnPropNameInTable="LMTDQtyColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="LMTDValue" msprop:Generator_UserColumnName="LMTDValue" msprop:Generator_ColumnVarNameInTable="columnLMTDValue" msprop:Generator_ColumnPropNameInRow="LMTDValue" msprop:Generator_ColumnPropNameInTable="LMTDValueColumn" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

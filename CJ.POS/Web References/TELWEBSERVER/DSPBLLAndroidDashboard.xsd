@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns="http://tempuri.org/DSPBLLAndroidDashboard.xsd" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:mstns="http://tempuri.org/DSPBLLAndroidDashboard.xsd" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://tempuri.org/DSPBLLAndroidDashboard.xsd" id="DSPBLLAndroidDashboard" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element msdata:IsDataSet="true" msdata:UseCurrentLocale="true" name="DSPBLLAndroidDashboard">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="BLLAndroidDashboard">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="Area" type="xs:string" />
+              <xs:element minOccurs="0" name="Territory" type="xs:string" />
+              <xs:element minOccurs="0" name="CustomerCode" type="xs:string" />
+              <xs:element minOccurs="0" name="CustomerName" type="xs:string" />
+              <xs:element minOccurs="0" name="CurrentOutstanding" type="xs:string" />
+              <xs:element minOccurs="0" name="TGTPrimaryValue" type="xs:string" />
+              <xs:element minOccurs="0" name="MTDPriSalesValue" type="xs:string" />
+              <xs:element minOccurs="0" name="Ach" type="xs:string" />
+              <xs:element minOccurs="0" name="TGTSecondaryValue" type="xs:string" />
+              <xs:element minOccurs="0" name="MTDSecSalesValue" type="xs:string" />
+              <xs:element minOccurs="0" name="CurrentStockValue" type="xs:string" />
+              <xs:element minOccurs="0" name="Ach1" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

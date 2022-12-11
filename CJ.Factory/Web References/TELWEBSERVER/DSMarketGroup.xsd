@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns="http://tempuri.org/DSMarketGroup.xsd" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:mstns="http://tempuri.org/DSMarketGroup.xsd" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://tempuri.org/DSMarketGroup.xsd" id="DSMarketGroup" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element msdata:IsDataSet="true" msdata:UseCurrentLocale="true" name="DSMarketGroup">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="MarketGroup">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="MarketGroupID" type="xs:int" />
+              <xs:element minOccurs="0" name="Pos" type="xs:int" />
+              <xs:element minOccurs="0" name="MarketGroupCode" type="xs:string" />
+              <xs:element minOccurs="0" name="MarketGroupDesc" type="xs:string" />
+              <xs:element minOccurs="0" name="MarketGroupType" type="xs:int" />
+              <xs:element minOccurs="0" name="ParentID" type="xs:int" />
+              <xs:element minOccurs="0" name="ParentCode" type="xs:int" />
+              <xs:element minOccurs="0" name="ParentName" type="xs:int" />
+              <xs:element minOccurs="0" name="EmployeeID" type="xs:int" />
+              <xs:element minOccurs="0" name="EmployeeCode" type="xs:string" />
+              <xs:element minOccurs="0" name="EmployeeName" type="xs:string" />
+              <xs:element minOccurs="0" name="MobileNo" type="xs:string" />
+              <xs:element minOccurs="0" name="ChannelID" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

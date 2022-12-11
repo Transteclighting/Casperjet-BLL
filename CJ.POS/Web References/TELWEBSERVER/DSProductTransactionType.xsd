@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns="http://tempuri.org/DSProductTransactionType.xsd" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:mstns="http://tempuri.org/DSProductTransactionType.xsd" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://tempuri.org/DSProductTransactionType.xsd" id="DSProductTransactionType" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element msdata:IsDataSet="true" msdata:UseCurrentLocale="true" name="DSProductTransactionType">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ProductStockTranType">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="TranTypeID" type="xs:int" />
+              <xs:element minOccurs="0" name="TranTypeCode" type="xs:string" />
+              <xs:element minOccurs="0" name="TranTypeName" type="xs:string" />
+              <xs:element minOccurs="0" name="TransactionSide" type="xs:int" />
+              <xs:element minOccurs="0" name="IsSystem" type="xs:int" />
+              <xs:element minOccurs="0" name="Status" type="xs:int" />
+              <xs:element minOccurs="0" name="TransferType" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

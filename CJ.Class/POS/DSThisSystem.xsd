@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSThisSystem" targetNamespace="http://tempuri.org/DSThisSystem.xsd" xmlns:mstns="http://tempuri.org/DSThisSystem.xsd" xmlns="http://tempuri.org/DSThisSystem.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSThisSystem" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="DSThisSystem" msprop:Generator_UserDSName="DSThisSystem">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ThisSystem" msprop:Generator_TableClassName="ThisSystemDataTable" msprop:Generator_RowEvArgName="ThisSystemRowChangeEvent" msprop:Generator_TableVarName="tableThisSystem" msprop:Generator_TablePropName="ThisSystem" msprop:Generator_RowDeletingName="ThisSystemRowDeleting" msprop:Generator_RowChangingName="ThisSystemRowChanging" msprop:Generator_RowEvHandlerName="ThisSystemRowChangeEventHandler" msprop:Generator_RowDeletedName="ThisSystemRowDeleted" msprop:Generator_UserTableName="ThisSystem" msprop:Generator_RowChangedName="ThisSystemRowChanged" msprop:Generator_RowClassName="ThisSystemRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="HCMobileNo" msprop:Generator_ColumnVarNameInTable="columnHCMobileNo" msprop:Generator_ColumnPropNameInRow="HCMobileNo" msprop:Generator_ColumnPropNameInTable="HCMobileNoColumn" msprop:Generator_UserColumnName="HCMobileNo" type="xs:string" minOccurs="0" />
+              <xs:element name="HCPhoneNo" msprop:Generator_ColumnVarNameInTable="columnHCPhoneNo" msprop:Generator_ColumnPropNameInRow="HCPhoneNo" msprop:Generator_ColumnPropNameInTable="HCPhoneNoColumn" msprop:Generator_UserColumnName="HCPhoneNo" type="xs:string" minOccurs="0" />
+              <xs:element name="HCEmail" msprop:Generator_ColumnVarNameInTable="columnHCEmail" msprop:Generator_ColumnPropNameInRow="HCEmail" msprop:Generator_ColumnPropNameInTable="HCEmailColumn" msprop:Generator_UserColumnName="HCEmail" type="xs:string" minOccurs="0" />
+              <xs:element name="VATRegistrationNo" msprop:Generator_ColumnVarNameInTable="columnVATRegistrationNo" msprop:Generator_ColumnPropNameInRow="VATRegistrationNo" msprop:Generator_ColumnPropNameInTable="VATRegistrationNoColumn" msprop:Generator_UserColumnName="VATRegistrationNo" type="xs:string" minOccurs="0" />
+              <xs:element name="POSVersionNo" msprop:Generator_ColumnVarNameInTable="columnPOSVersionNo" msprop:Generator_ColumnPropNameInRow="POSVersionNo" msprop:Generator_ColumnPropNameInTable="POSVersionNoColumn" msprop:Generator_UserColumnName="POSVersionNo" type="xs:string" minOccurs="0" />
+              <xs:element name="IsNewVat" msprop:Generator_ColumnVarNameInTable="columnIsNewVat" msprop:Generator_ColumnPropNameInRow="IsNewVat" msprop:Generator_ColumnPropNameInTable="IsNewVatColumn" msprop:Generator_UserColumnName="IsNewVat" type="xs:int" minOccurs="0" />
+              <xs:element name="NewVatActivationDate" msprop:Generator_ColumnVarNameInTable="columnNewVatActivationDate" msprop:Generator_ColumnPropNameInRow="NewVatActivationDate" msprop:Generator_ColumnPropNameInTable="NewVatActivationDateColumn" msprop:Generator_UserColumnName="NewVatActivationDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="IsActiveSalesOrder" msprop:Generator_ColumnVarNameInTable="columnIsActiveSalesOrder" msprop:Generator_ColumnPropNameInRow="IsActiveSalesOrder" msprop:Generator_ColumnPropNameInTable="IsActiveSalesOrderColumn" msprop:Generator_UserColumnName="IsActiveSalesOrder" type="xs:int" minOccurs="0" />
+              <xs:element name="CentralRegisteredPersonAddress" msprop:Generator_ColumnVarNameInTable="columnCentralRegisteredPersonAddress" msprop:Generator_ColumnPropNameInRow="CentralRegisteredPersonAddress" msprop:Generator_ColumnPropNameInTable="CentralRegisteredPersonAddressColumn" msprop:Generator_UserColumnName="CentralRegisteredPersonAddress" type="xs:string" minOccurs="0" />
+              <xs:element name="IsThermalPrintEnable" msprop:Generator_ColumnVarNameInTable="columnIsThermalPrintEnable" msprop:Generator_ColumnPropNameInRow="IsThermalPrintEnable" msprop:Generator_ColumnPropNameInTable="IsThermalPrintEnableColumn" msprop:Generator_UserColumnName="IsThermalPrintEnable" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

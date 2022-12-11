@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns="http://tempuri.org/DSProduct.xsd" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:mstns="http://tempuri.org/DSProduct.xsd" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://tempuri.org/DSProduct.xsd" id="DSProduct" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element msdata:IsDataSet="true" msdata:UseCurrentLocale="true" name="DSProduct">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Product">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="ProductID" type="xs:int" />
+              <xs:element minOccurs="0" name="ProductCode" type="xs:string" />
+              <xs:element minOccurs="0" name="ProductName" type="xs:string" />
+              <xs:element minOccurs="0" name="ProductModel" type="xs:string" />
+              <xs:element minOccurs="0" name="ProductDesc" type="xs:string" />
+              <xs:element minOccurs="0" name="SmallUnitOfMeasure" type="xs:string" />
+              <xs:element minOccurs="0" name="LargeUnitOfMeasure" type="xs:string" />
+              <xs:element minOccurs="0" name="UOMConversionFactor" type="xs:double" />
+              <xs:element minOccurs="0" name="EntryDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="LastUpdateDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="ProductGroupID" type="xs:int" />
+              <xs:element minOccurs="0" name="ProductType" type="xs:int" />
+              <xs:element minOccurs="0" name="BrandID" type="xs:int" />
+              <xs:element minOccurs="0" name="IsActive" type="xs:int" />
+              <xs:element minOccurs="0" name="HSCodeID" type="xs:int" />
+              <xs:element minOccurs="0" name="MidUnitOfMeasure" type="xs:string" />
+              <xs:element minOccurs="0" name="LSRatio" type="xs:int" />
+              <xs:element minOccurs="0" name="MSRatio" type="xs:int" />
+              <xs:element minOccurs="0" name="SupplyType" type="xs:int" />
+              <xs:element minOccurs="0" name="VatApplicable" type="xs:int" />
+              <xs:element minOccurs="0" name="ProductSBUs" type="xs:string" />
+              <xs:element msdata:Caption="MSRatio" minOccurs="0" name="UploadStatus" type="xs:short" />
+              <xs:element msdata:Caption="SupplyType" minOccurs="0" name="UploadDate" type="xs:dateTime" />
+              <xs:element msdata:Caption="VatApplicable" minOccurs="0" name="DownloadDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="SubBrandID" type="xs:long" />
+              <xs:element minOccurs="0" name="ProductCodeInNumber" type="xs:long" />
+              <xs:element minOccurs="0" name="InventoryCategory" type="xs:int" />
+              <xs:element minOccurs="0" name="ItemCategory" type="xs:int" />
+              <xs:element minOccurs="0" name="PGCode" type="xs:string" />
+              <xs:element minOccurs="0" name="PGName" type="xs:string" />
+              <xs:element minOccurs="0" name="PGID" type="xs:int" />
+              <xs:element minOccurs="0" name="MAGID" type="xs:int" />
+              <xs:element minOccurs="0" name="MAGCode" type="xs:string" />
+              <xs:element minOccurs="0" name="MAGName" type="xs:string" />
+              <xs:element minOccurs="0" name="ASGID" type="xs:int" />
+              <xs:element minOccurs="0" name="ASGCode" type="xs:string" />
+              <xs:element minOccurs="0" name="ASGName" type="xs:string" />
+              <xs:element minOccurs="0" name="AGID" type="xs:int" />
+              <xs:element minOccurs="0" name="AGCode" type="xs:string" />
+              <xs:element minOccurs="0" name="AGName" type="xs:string" />
+              <xs:element minOccurs="0" name="BrandCode" type="xs:string" />
+              <xs:element minOccurs="0" name="BrandDesc" type="xs:string" />
+              <xs:element minOccurs="0" name="Flag" type="xs:string" />
+              <xs:element minOccurs="0" name="StockQty" type="xs:int" />
+              <xs:element minOccurs="0" name="TransferType" type="xs:int" />
+              <xs:element minOccurs="0" name="PetName" type="xs:string" />
+              <xs:element minOccurs="0" name="IsBarcodeItem" type="xs:int" />
+              <xs:element minOccurs="0" name="FeatureTypeID" type="xs:int" />
+              <xs:element minOccurs="0" name="VATType" type="xs:int" />
+              <xs:element minOccurs="0" name="IsVatApplicableonNetPrice" type="xs:int" />
+              <xs:element minOccurs="0" name="CostPrice" type="xs:double" />
+              <xs:element minOccurs="0" name="RSP" type="xs:double" />
+              <xs:element minOccurs="0" name="NSP" type="xs:double" />
+              <xs:element minOccurs="0" name="VAT" type="xs:double" />
+              <xs:element minOccurs="0" name="TradePrice" type="xs:double" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ProductFeatureType">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="FeatureTypeID" type="xs:int" />
+              <xs:element minOccurs="0" name="FeatureTypeName" type="xs:string" />
+              <xs:element minOccurs="0" name="IsActive" type="xs:int" />
+              <xs:element minOccurs="0" name="CreateDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="CreateUserID" type="xs:int" />
+              <xs:element minOccurs="0" name="UpdateDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="UpdateUserID" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

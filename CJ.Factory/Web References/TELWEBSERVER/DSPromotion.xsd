@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns="http://tempuri.org/DSPromotion.xsd" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:mstns="http://tempuri.org/DSPromotion.xsd" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://tempuri.org/DSPromotion.xsd" id="DSPromotion" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element msdata:IsDataSet="true" msdata:UseCurrentLocale="true" name="DSPromotion">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="SalesPromotion">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="SalesPromotionID" type="xs:int" />
+              <xs:element minOccurs="0" name="SalesPromotionNo" type="xs:int" />
+              <xs:element minOccurs="0" name="SalesPromotionName" type="xs:string" />
+              <xs:element minOccurs="0" name="FromDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="Todate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="IsActive" type="xs:int" />
+              <xs:element minOccurs="0" name="TransferType" type="xs:int" />
+              <xs:element minOccurs="0" name="Remarks" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="SPProduct">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="SalesPromotionID" type="xs:int" />
+              <xs:element minOccurs="0" name="ProductID" type="xs:int" />
+              <xs:element minOccurs="0" name="Qty" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="SPChannel">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="SalesPromotionID" type="xs:int" />
+              <xs:element minOccurs="0" name="ChannelID" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="SPWarehouse">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="SalesPromotionID" type="xs:int" />
+              <xs:element minOccurs="0" name="WarehouseID" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="SPSlab">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="CPSID" type="xs:int" />
+              <xs:element minOccurs="0" name="SalesPromotionID" type="xs:int" />
+              <xs:element minOccurs="0" name="SlabNo" type="xs:int" />
+              <xs:element minOccurs="0" name="SlabName" type="xs:string" />
+              <xs:element minOccurs="0" name="IsActive" type="xs:int" />
+              <xs:element minOccurs="0" name="DiscountType" type="xs:int" />
+              <xs:element minOccurs="0" name="Discount" type="xs:double" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="SPSlabReatio">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="CPSID" type="xs:int" />
+              <xs:element minOccurs="0" name="ProductID" type="xs:int" />
+              <xs:element minOccurs="0" name="Qty" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="SPFreeProduct">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="CPSID" type="xs:int" />
+              <xs:element msdata:Caption="GiftItemID" minOccurs="0" name="ProductID" type="xs:int" />
+              <xs:element minOccurs="0" name="Qty" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="SalesPromotionDetail">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="SalesPromotionID" type="xs:int" />
+              <xs:element minOccurs="0" name="ProductID" type="xs:int" />
+              <xs:element minOccurs="0" name="SalesQty" type="xs:int" />
+              <xs:element minOccurs="0" name="FreeProductID" type="xs:int" />
+              <xs:element minOccurs="0" name="FreeQty" type="xs:int" />
+              <xs:element minOccurs="0" name="Discount" type="xs:double" />
+              <xs:element minOccurs="0" name="TransferType" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="SalesPromotionCustType">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="SalesPromotionID" type="xs:int" />
+              <xs:element minOccurs="0" name="CustTypeID" type="xs:int" />
+              <xs:element minOccurs="0" name="TransferType" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="SalesPromotionMarketGroup">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="SalesPromotionID" type="xs:int" />
+              <xs:element minOccurs="0" name="MarketGroupID" type="xs:int" />
+              <xs:element minOccurs="0" name="TransferType" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="SPDiscount">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="SalesPromoDiscountID" type="xs:int" />
+              <xs:element minOccurs="0" name="SalesPromotionID" type="xs:int" />
+              <xs:element minOccurs="0" name="ProductGroupType" type="xs:int" />
+              <xs:element minOccurs="0" name="ProductGroupID" type="xs:int" />
+              <xs:element minOccurs="0" name="DiscountType" type="xs:int" />
+              <xs:element minOccurs="0" name="DiscountPercentage" type="xs:double" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="SPType">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="SalesPromotionID" type="xs:int" />
+              <xs:element minOccurs="0" name="SalesPromotionTypeID" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Promo">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="ConsumerPromoID" type="xs:int" />
+              <xs:element minOccurs="0" name="ConsumerPromoNo" type="xs:string" />
+              <xs:element minOccurs="0" name="ConsumerPromoName" type="xs:string" />
+              <xs:element minOccurs="0" name="FromDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="ToDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="CreateDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="CreateUserID" type="xs:int" />
+              <xs:element minOccurs="0" name="Remarks" type="xs:string" />
+              <xs:element minOccurs="0" name="IsActive" type="xs:int" />
+              <xs:element minOccurs="0" name="UpdateDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="UpdateUserID" type="xs:int" />
+              <xs:element minOccurs="0" name="Status" type="xs:int" />
+              <xs:element minOccurs="0" name="ApprovedUserID" type="xs:int" />
+              <xs:element minOccurs="0" name="ApprovedDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="TransferType" type="xs:int" />
+              <xs:element minOccurs="0" name="IsApplicableOnOfferPrice" type="xs:int" />
+              <xs:element minOccurs="0" name="OfferType" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="PromoProductFor">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="ConsumerPromoID" type="xs:int" />
+              <xs:element minOccurs="0" name="GroupTypeID" type="xs:int" />
+              <xs:element minOccurs="0" name="ProductID" type="xs:int" />
+              <xs:element minOccurs="0" name="TargetQty" type="xs:int" />
+              <xs:element minOccurs="0" name="RegularSalesQty" type="xs:int" />
+              <xs:element minOccurs="0" name="ProductGroupID" type="xs:int" />
+              <xs:element minOccurs="0" name="BrandID" type="xs:int" />
+              <xs:element minOccurs="0" name="DiscountRatio" type="xs:double" />
+              <xs:element minOccurs="0" name="ProductName" type="xs:string" />
+              <xs:element minOccurs="0" name="BrandName" type="xs:string" />
+              <xs:element minOccurs="0" name="ProductGroupName" type="xs:string" />
+              <xs:element minOccurs="0" name="IsApplicableOnAllSKU" type="xs:int" />
+              <xs:element minOccurs="0" name="ApplicableProductID" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="PromoWarehouse">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="ConsumerPromoID" type="xs:int" />
+              <xs:element minOccurs="0" name="WarehouseID" type="xs:int" />
+              <xs:element minOccurs="0" name="OutletCode" type="xs:string" />
+              <xs:element minOccurs="0" name="Email" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="PromoType">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="ConsumerPromoID" type="xs:int" />
+              <xs:element minOccurs="0" name="ConsumerPromoTypeID" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="PromoSalesType">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="ConsumerPromoID" type="xs:int" />
+              <xs:element minOccurs="0" name="SalesType" type="xs:int" />
+              <xs:element minOccurs="0" name="CustomerType" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="PromoSlab">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="ConsumerPromoID" type="xs:int" />
+              <xs:element minOccurs="0" name="SlabID" type="xs:int" />
+              <xs:element minOccurs="0" name="SlabName" type="xs:string" />
+              <xs:element minOccurs="0" name="IsActive" type="xs:int" />
+              <xs:element minOccurs="0" name="CreateDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="CreateUserID" type="xs:int" />
+              <xs:element minOccurs="0" name="UpdateDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="UpdateUserID" type="xs:int" />
+              <xs:element minOccurs="0" name="MinInvoiceQty" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="PromoSlabRatio">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="ConsumerPromoID" type="xs:int" />
+              <xs:element minOccurs="0" name="SlabID" type="xs:int" />
+              <xs:element minOccurs="0" name="ProductID" type="xs:int" />
+              <xs:element minOccurs="0" name="Qty" type="xs:int" />
+              <xs:element minOccurs="0" name="GroupTypeID" type="xs:int" />
+              <xs:element minOccurs="0" name="ProductGroupID" type="xs:int" />
+              <xs:element minOccurs="0" name="BrandID" type="xs:int" />
+              <xs:element minOccurs="0" name="MinQty" type="xs:int" />
+              <xs:element minOccurs="0" name="SlabNo" type="xs:string" />
+              <xs:element minOccurs="0" name="SlabDetail" type="xs:string" />
+              <xs:element minOccurs="0" name="BrandName" type="xs:string" />
+              <xs:element minOccurs="0" name="ProductGroupName" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="PromoOffer">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="ConsumerPromoID" type="xs:int" />
+              <xs:element minOccurs="0" name="SlabID" type="xs:int" />
+              <xs:element minOccurs="0" name="OfferID" type="xs:int" />
+              <xs:element minOccurs="0" name="OfferName" type="xs:string" />
+              <xs:element minOccurs="0" name="Description" type="xs:string" />
+              <xs:element minOccurs="0" name="CreateDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="CreateUserID" type="xs:int" />
+              <xs:element minOccurs="0" name="IsActive" type="xs:int" />
+              <xs:element minOccurs="0" name="SlabName" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="PromoOfferDetail">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="ConsumerPromoID" type="xs:int" />
+              <xs:element minOccurs="0" name="SlabID" type="xs:int" />
+              <xs:element minOccurs="0" name="OfferID" type="xs:int" />
+              <xs:element minOccurs="0" name="OfferType" type="xs:int" />
+              <xs:element minOccurs="0" name="OfferProductID" type="xs:int" />
+              <xs:element minOccurs="0" name="OfferQty" type="xs:int" />
+              <xs:element minOccurs="0" name="Discount" type="xs:double" />
+              <xs:element minOccurs="0" name="EMITenureID" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="PromoDiscountContribution">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="ConsumerPromoID" type="xs:int" />
+              <xs:element minOccurs="0" name="DiscountContributorID" type="xs:int" />
+              <xs:element minOccurs="0" name="Amount" type="xs:double" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="PromoDiscount">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="DiscountID" type="xs:int" />
+              <xs:element minOccurs="0" name="BankID" type="xs:int" />
+              <xs:element minOccurs="0" name="AGID" type="xs:int" />
+              <xs:element minOccurs="0" name="BrandID" type="xs:int" />
+              <xs:element minOccurs="0" name="DiscountPercent" type="xs:double" />
+              <xs:element minOccurs="0" name="IsActive" type="xs:int" />
+              <xs:element minOccurs="0" name="Status" type="xs:int" />
+              <xs:element minOccurs="0" name="FromDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="ToDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="CreateUserID" type="xs:int" />
+              <xs:element minOccurs="0" name="CreateDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="ApproveUserID" type="xs:int" />
+              <xs:element minOccurs="0" name="ApproveDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="UpdateUserID" type="xs:int" />
+              <xs:element minOccurs="0" name="UpdateDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="EMITenureID" type="xs:int" />
+              <xs:element minOccurs="0" name="EffectiveDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="CustomerID" type="xs:int" />
+              <xs:element minOccurs="0" name="SalesType" type="xs:int" />
+              <xs:element minOccurs="0" name="MAGID" type="xs:int" />
+              <xs:element minOccurs="0" name="Remarks" type="xs:string" />
+              <xs:element minOccurs="0" name="Tenure" type="xs:int" />
+              <xs:element minOccurs="0" name="ChargePercent" type="xs:double" />
+              <xs:element minOccurs="0" name="ApprovalNumber" type="xs:string" />
+              <xs:element minOccurs="0" name="Type" type="xs:int" />
+              <xs:element minOccurs="0" name="ConsumerID" type="xs:int" />
+              <xs:element minOccurs="0" name="WarehouseID" type="xs:int" />
+              <xs:element minOccurs="0" name="Amount" type="xs:double" />
+              <xs:element minOccurs="0" name="IsApplicableB2BDiscount" type="xs:int" />
+              <xs:element minOccurs="0" name="ApproveRemarks" type="xs:string" />
+              <xs:element minOccurs="0" name="Reason" type="xs:string" />
+              <xs:element minOccurs="0" name="IsSystem" type="xs:int" />
+              <xs:element minOccurs="0" name="DiscountTypeName" type="xs:string" />
+              <xs:element minOccurs="0" name="SalesTypeDiscountType" type="xs:string" />
+              <xs:element minOccurs="0" name="DiscountContributorName" type="xs:string" />
+              <xs:element minOccurs="0" name="DiscountType" type="xs:string" />
+              <xs:element minOccurs="0" name="ProductID" type="xs:int" />
+              <xs:element minOccurs="0" name="Terminal" type="xs:int" />
+              <xs:element minOccurs="0" name="AuthorityID" type="xs:int" />
+              <xs:element minOccurs="0" name="PaymentModeID" type="xs:int" />
+              <xs:element minOccurs="0" name="MaxDiscountAmount" type="xs:double" />
+              <xs:element minOccurs="0" name="IsBankDiscount" type="xs:int" />
+              <xs:element minOccurs="0" name="IsMandatoryInstrumentNo" type="xs:int" />
+              <xs:element minOccurs="0" name="CardType" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="SalesInvoicePromoDetail">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="InvoiceNo" type="xs:string" />
+              <xs:element minOccurs="0" name="ProductID" type="xs:int" />
+              <xs:element minOccurs="0" name="DataID" type="xs:int" />
+              <xs:element minOccurs="0" name="TableName" type="xs:string" />
+              <xs:element minOccurs="0" name="IsTableData" type="xs:int" />
+              <xs:element minOccurs="0" name="TranSide" type="xs:int" />
+              <xs:element minOccurs="0" name="Amount" type="xs:double" />
+              <xs:element minOccurs="0" name="FreeProductID" type="xs:int" />
+              <xs:element minOccurs="0" name="FreeProductType" type="xs:int" />
+              <xs:element minOccurs="0" name="FreeQty" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="SPHeader">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="FileName" type="xs:string" />
+              <xs:element minOccurs="0" name="Description" type="xs:string" />
+              <xs:element minOccurs="0" name="WarehouseID" type="xs:int" />
+              <xs:element minOccurs="0" name="Type" type="xs:string" />
+              <xs:element minOccurs="0" name="TableName" type="xs:string" />
+              <xs:element minOccurs="0" name="CreateUserId" type="xs:int" />
+              <xs:element minOccurs="0" name="CreateDate" type="xs:dateTime" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

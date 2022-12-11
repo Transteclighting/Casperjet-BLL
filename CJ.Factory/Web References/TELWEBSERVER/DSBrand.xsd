@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns="http://tempuri.org/DSBrand.xsd" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:mstns="http://tempuri.org/DSBrand.xsd" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://tempuri.org/DSBrand.xsd" id="DSBrand" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element msdata:IsDataSet="true" msdata:UseCurrentLocale="true" name="DSBrand">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Brand">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element msdata:Caption="Brand ID" minOccurs="0" name="BrandID" type="xs:long" />
+              <xs:element msdata:Caption="Brand Code" minOccurs="0" name="BrandCode" type="xs:string" />
+              <xs:element msdata:Caption="Brand Desc" minOccurs="0" name="BrandDesc" type="xs:string" />
+              <xs:element minOccurs="0" name="BrandLevel" type="xs:long" />
+              <xs:element minOccurs="0" name="ParentID" type="xs:long" />
+              <xs:element minOccurs="0" name="BrandPos" type="xs:long" />
+              <xs:element minOccurs="0" name="RowStatus" type="xs:short" />
+              <xs:element minOccurs="0" name="UploadStatus" type="xs:short" />
+              <xs:element msdata:Caption="TUploadDate" minOccurs="0" name="UploadDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="DownloadDate" type="xs:dateTime" />
+              <xs:element msdata:Caption="Is Active" minOccurs="0" name="IsActive" type="xs:string" />
+              <xs:element minOccurs="0" name="TransferType" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

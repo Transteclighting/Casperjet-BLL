@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSOutletSaleValue" targetNamespace="http://tempuri.org/DSOutletSaleValue.xsd" xmlns:mstns="http://tempuri.org/DSOutletSaleValue.xsd" xmlns="http://tempuri.org/DSOutletSaleValue.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSOutletSaleValue" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DSOutletSaleValue" msprop:Generator_DataSetName="DSOutletSaleValue">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="SalesValue" msprop:Generator_UserTableName="SalesValue" msprop:Generator_RowDeletedName="SalesValueRowDeleted" msprop:Generator_RowChangedName="SalesValueRowChanged" msprop:Generator_RowClassName="SalesValueRow" msprop:Generator_RowChangingName="SalesValueRowChanging" msprop:Generator_RowEvArgName="SalesValueRowChangeEvent" msprop:Generator_RowEvHandlerName="SalesValueRowChangeEventHandler" msprop:Generator_TableClassName="SalesValueDataTable" msprop:Generator_TableVarName="tableSalesValue" msprop:Generator_RowDeletingName="SalesValueRowDeleting" msprop:Generator_TablePropName="SalesValue">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="OutletCode" msprop:Generator_UserColumnName="OutletCode" msprop:Generator_ColumnPropNameInRow="OutletCode" msprop:Generator_ColumnVarNameInTable="columnOutletCode" msprop:Generator_ColumnPropNameInTable="OutletCodeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Value" msprop:Generator_UserColumnName="Value" msprop:Generator_ColumnPropNameInRow="Value" msprop:Generator_ColumnVarNameInTable="columnValue" msprop:Generator_ColumnPropNameInTable="ValueColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="AreaName" msprop:Generator_UserColumnName="AreaName" msprop:Generator_ColumnVarNameInTable="columnAreaName" msprop:Generator_ColumnPropNameInRow="AreaName" msprop:Generator_ColumnPropNameInTable="AreaNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ZoneName" msprop:Generator_UserColumnName="ZoneName" msprop:Generator_ColumnVarNameInTable="columnZoneName" msprop:Generator_ColumnPropNameInRow="ZoneName" msprop:Generator_ColumnPropNameInTable="ZoneNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CustomerName" msprop:Generator_UserColumnName="CustomerName" msprop:Generator_ColumnPropNameInRow="CustomerName" msprop:Generator_ColumnVarNameInTable="columnCustomerName" msprop:Generator_ColumnPropNameInTable="CustomerNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CustomerShortName" msprop:Generator_UserColumnName="CustomerShortName" msprop:Generator_ColumnPropNameInRow="CustomerShortName" msprop:Generator_ColumnVarNameInTable="columnCustomerShortName" msprop:Generator_ColumnPropNameInTable="CustomerShortNameColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

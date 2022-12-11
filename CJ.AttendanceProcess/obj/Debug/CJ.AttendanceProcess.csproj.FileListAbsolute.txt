@@ -1,0 +1,12 @@
+D:\Local\TEL\Casper Jet\CJ.AttendanceProcess\bin\Debug\CJ.AttendanceProcess.exe.config
+D:\Local\TEL\Casper Jet\CJ.AttendanceProcess\bin\Debug\CJ.AttendanceProcess.exe
+D:\Local\TEL\Casper Jet\CJ.AttendanceProcess\bin\Debug\CJ.AttendanceProcess.pdb
+D:\Local\TEL\Casper Jet\CJ.AttendanceProcess\bin\Debug\CJ.Class.dll
+D:\Local\TEL\Casper Jet\CJ.AttendanceProcess\bin\Debug\Newtonsoft.Json.Net20.dll
+D:\Local\TEL\Casper Jet\CJ.AttendanceProcess\bin\Debug\CJ.Class.pdb
+D:\Local\TEL\Casper Jet\CJ.AttendanceProcess\obj\Debug\CJ.AttendanceProcess.Form1.resources
+D:\Local\TEL\Casper Jet\CJ.AttendanceProcess\obj\Debug\CJ.AttendanceProcess.Properties.Resources.resources
+D:\Local\TEL\Casper Jet\CJ.AttendanceProcess\obj\Debug\CJ.AttendanceProcess.csproj.GenerateResource.Cache
+D:\Local\TEL\Casper Jet\CJ.AttendanceProcess\obj\Debug\CJ.AttendanceProcess.exe
+D:\Local\TEL\Casper Jet\CJ.AttendanceProcess\obj\Debug\CJ.AttendanceProcess.pdb
+D:\Local\TEL\Casper Jet\CJ.AttendanceProcess\obj\Debug\CJ.AttendanceProcess.csprojResolveAssemblyReference.cache

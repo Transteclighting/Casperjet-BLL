@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns="http://tempuri.org/DSProductComponent.xsd" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:mstns="http://tempuri.org/DSProductComponent.xsd" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://tempuri.org/DSProductComponent.xsd" id="DSProductComponent" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element msdata:IsDataSet="true" msdata:UseCurrentLocale="true" name="DSProductComponent">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ProductComponent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="ProductComponentID" type="xs:int" />
+              <xs:element minOccurs="0" name="ProductID" type="xs:int" />
+              <xs:element minOccurs="0" name="ProductSerial" type="xs:string" />
+              <xs:element minOccurs="0" name="PanelSerial" type="xs:string" />
+              <xs:element minOccurs="0" name="SSBSerial" type="xs:string" />
+              <xs:element minOccurs="0" name="PSUSerial" type="xs:string" />
+              <xs:element minOccurs="0" name="BarcodeSerial" type="xs:string" />
+              <xs:element minOccurs="0" name="CreateUserID" type="xs:int" />
+              <xs:element msdata:DataType="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" minOccurs="0" name="CreateDate" type="xs:anyType" />
+              <xs:element minOccurs="0" name="UpdateUserID" type="xs:int" />
+              <xs:element msdata:DataType="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" minOccurs="0" name="UpdateDate" type="xs:anyType" />
+              <xs:element minOccurs="0" name="CBSerial" type="xs:string" />
+              <xs:element minOccurs="0" name="CompressorSerial" type="xs:string" />
+              <xs:element minOccurs="0" name="IsIndoorItem" type="xs:int" />
+              <xs:element minOccurs="0" name="ACIndoorPCBSerial" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ProductComponentSerialUniversal">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="ID" type="xs:int" />
+              <xs:element minOccurs="0" name="SetID" type="xs:int" />
+              <xs:element minOccurs="0" name="ProductID" type="xs:int" />
+              <xs:element minOccurs="0" name="ComponentID" type="xs:int" />
+              <xs:element minOccurs="0" name="SerialNo" type="xs:string" />
+              <xs:element msdata:DataType="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" minOccurs="0" name="CreateDate" type="xs:anyType" />
+              <xs:element minOccurs="0" name="CreateUserID" type="xs:int" />
+              <xs:element msdata:DataType="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" minOccurs="0" name="UpdateDate" type="xs:anyType" />
+              <xs:element minOccurs="0" name="UpdateUserID" type="xs:int" />
+              <xs:element minOccurs="0" name="ProductionType" type="xs:int" />
+              <xs:element minOccurs="0" name="IsIndoorItem" type="xs:int" />
+              <xs:element minOccurs="0" name="LocationID" type="xs:int" />
+              <xs:element minOccurs="0" name="Status" type="xs:int" />
+              <xs:element minOccurs="0" name="Remarks" type="xs:string" />
+              <xs:element minOccurs="0" name="DefectiveID" type="xs:int" />
+              <xs:element minOccurs="0" name="Symtom" type="xs:int" />
+              <xs:element minOccurs="0" name="Rootcause" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ProductComponentUniversal">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="ProductComponentUniversalID" type="xs:int" />
+              <xs:element minOccurs="0" name="ComponentID" type="xs:int" />
+              <xs:element minOccurs="0" name="ASGID" type="xs:int" />
+              <xs:element minOccurs="0" name="ComponentName" type="xs:string" />
+              <xs:element minOccurs="0" name="CreateUserID" type="xs:int" />
+              <xs:element msdata:DataType="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" minOccurs="0" name="CreateDate" type="xs:anyType" />
+              <xs:element minOccurs="0" name="IsActive" type="xs:int" />
+              <xs:element minOccurs="0" name="UpdateUserID" type="xs:int" />
+              <xs:element msdata:DataType="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" minOccurs="0" name="UpdateDate" type="xs:anyType" />
+              <xs:element minOccurs="0" name="Sort" type="xs:int" />
+              <xs:element minOccurs="0" name="ProductionType" type="xs:int" />
+              <xs:element minOccurs="0" name="IsIndoorItem" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

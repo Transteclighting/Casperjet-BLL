@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="14.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{15559F63-7594-4E28-A3AD-F1AFFC12D431}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CJ.Control</RootNamespace>
+    <AssemblyName>CJ.Control</AssemblyName>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CalenderControlAll.cs" />
+    <Compile Include="CalenderControlAll.Designer.cs">
+      <DependentUpon>CalenderControlAll.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CheckedComboBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ctlClaims.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ctlClaims.Designer.cs">
+      <DependentUpon>ctlClaims.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ctlCustomer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ctlCustomer.designer.cs">
+      <DependentUpon>ctlCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ctlProduct.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ctlProduct.Designer.cs">
+      <DependentUpon>ctlProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ctlRetailConsumer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ctlRetailConsumer.Designer.cs">
+      <DependentUpon>ctlRetailConsumer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ctlSundryCustomer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ctlSundryCustomer.designer.cs">
+      <DependentUpon>ctlSundryCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmClaims.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmClaims.Designer.cs">
+      <DependentUpon>frmClaims.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmConsumer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConsumer.Designer.cs">
+      <DependentUpon>frmConsumer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCustomerSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCustomerSearch.designer.cs">
+      <DependentUpon>frmCustomerSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmProductSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmProductSearch.Designer.cs">
+      <DependentUpon>frmProductSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmReatilConsumerSearchRT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReatilConsumerSearchRT.Designer.cs">
+      <DependentUpon>frmReatilConsumerSearchRT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmReatilConsumerSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReatilConsumerSearch.Designer.cs">
+      <DependentUpon>frmReatilConsumerSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSearchProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSearchProduct.designer.cs">
+      <DependentUpon>frmSearchProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSundryCustomerSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSundryCustomerSearch.designer.cs">
+      <DependentUpon>frmSundryCustomerSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GridDateControl.cs" />
+    <Compile Include="GridDateControl.Designer.cs">
+      <DependentUpon>GridDateControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GridTimeControl.cs" />
+    <Compile Include="GridTimeControl.Designer.cs">
+      <DependentUpon>GridTimeControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ctlClaims.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ctlClaims.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ctlCustomer.resx">
+      <DependentUpon>ctlCustomer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ctlProduct.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ctlProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ctlRetailConsumer.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ctlRetailConsumer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ctlSundryCustomer.resx">
+      <DependentUpon>ctlSundryCustomer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmClaims.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmClaims.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConsumer.resx">
+      <DependentUpon>frmConsumer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCustomerSearch.resx">
+      <DependentUpon>frmCustomerSearch.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmProductSearch.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmProductSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReatilConsumerSearchRT.resx">
+      <DependentUpon>frmReatilConsumerSearchRT.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReatilConsumerSearch.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmReatilConsumerSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSearchProduct.resx">
+      <DependentUpon>frmSearchProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSundryCustomerSearch.resx">
+      <DependentUpon>frmSundryCustomerSearch.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CJ.Class\CJ.Class.csproj">
+      <Project>{2344AC43-0FA4-41BB-8416-B9C875FB491C}</Project>
+      <Name>CJ.Class</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSChannel" targetNamespace="http://tempuri.org/DSChannel.xsd" xmlns:mstns="http://tempuri.org/DSChannel.xsd" xmlns="http://tempuri.org/DSChannel.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSChannel" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DSChannel" msprop:Generator_DataSetName="DSChannel">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Channel" msprop:Generator_UserTableName="Channel" msprop:Generator_RowDeletedName="ChannelRowDeleted" msprop:Generator_RowChangedName="ChannelRowChanged" msprop:Generator_RowClassName="ChannelRow" msprop:Generator_RowChangingName="ChannelRowChanging" msprop:Generator_RowEvArgName="ChannelRowChangeEvent" msprop:Generator_RowEvHandlerName="ChannelRowChangeEventHandler" msprop:Generator_TableClassName="ChannelDataTable" msprop:Generator_TableVarName="tableChannel" msprop:Generator_RowDeletingName="ChannelRowDeleting" msprop:Generator_TablePropName="Channel">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MainChannelID" msprop:Generator_UserColumnName="MainChannelID" msprop:Generator_ColumnPropNameInRow="MainChannelID" msprop:Generator_ColumnVarNameInTable="columnMainChannelID" msprop:Generator_ColumnPropNameInTable="MainChannelIDColumn" type="xs:long" minOccurs="0" />
+              <xs:element name="MainChannelDescription" msprop:Generator_UserColumnName="MainChannelDescription" msprop:Generator_ColumnVarNameInTable="columnMainChannelDescription" msprop:Generator_ColumnPropNameInRow="MainChannelDescription" msprop:Generator_ColumnPropNameInTable="MainChannelDescriptionColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

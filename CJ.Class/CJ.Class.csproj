@@ -1,0 +1,2725 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="14.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2344AC43-0FA4-41BB-8416-B9C875FB491C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CJ.Class</RootNamespace>
+    <AssemblyName>CJ.Class</AssemblyName>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Accessibility" />
+    <Reference Include="log4net, Version=1.2.0.30714, Culture=neutral, PublicKeyToken=b32731d11ce58905">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Release\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>G:\Shyam Document\Microsoft.VisualBasic.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Data.SqlXml" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.DirectoryServices.Protocols" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Linq, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Linq.4.3.0\lib\netstandard1.6\System.Linq.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Management" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Net, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System.Runtime.Remoting" />
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Mobile" />
+    <Reference Include="System.Web.RegularExpressions" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Accounts\BankGuaranty.cs" />
+    <Compile Include="Accounts\BankInterest.cs" />
+    <Compile Include="Accounts\CompanyLoan.cs" />
+    <Compile Include="Accounts\CompanyLoanHistory.cs" />
+    <Compile Include="Accounts\CompanyLoanInterest.cs" />
+    <Compile Include="Accounts\CompanyLoanQuarterEnd.cs" />
+    <Compile Include="Accounts\CustomerBankGuarantee.cs" />
+    <Compile Include="Accounts\CustomerCreditApproval.cs" />
+    <Compile Include="Accounts\CustomerCreditApprovalCollection.cs" />
+    <Compile Include="Accounts\CustomerCreditApprovalInvoice.cs" />
+    <Compile Include="Accounts\DCSChecking.cs" />
+    <Compile Include="Accounts\DSCompanyLoan.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSCompanyLoan.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Accounts\DSInvoiceWisePayment.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSInvoiceWisePayment.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Accounts\EMIBankMapping.cs" />
+    <Compile Include="Accounts\EMIExtendedCharge.cs" />
+    <Compile Include="Accounts\EMITenure.cs" />
+    <Compile Include="Accounts\InvoiceWiseClaimSupport.cs" />
+    <Compile Include="Accounts\PettyCashExpense.cs" />
+    <Compile Include="Accounts\PromoDiscountSpecialAuthorityLimit.cs" />
+    <Compile Include="Accounts\PromoDiscountSpecialAuthorityLimitHistory.cs" />
+    <Compile Include="Accounts\SalesInvoiceDiscountType.cs" />
+    <Compile Include="Accounts\TPVATProduct.cs" />
+    <Compile Include="Accounts\VeriableExpenseProvision.cs" />
+    <Compile Include="Admin\FixedAsset.cs" />
+    <Compile Include="Admin\FixedAssetHistory.cs" />
+    <Compile Include="Admin\FixedAssetType.cs" />
+    <Compile Include="Admin\OfficeItems.cs" />
+    <Compile Include="Admin\OfficeItemTranDetails.cs" />
+    <Compile Include="Admin\Vehicle.cs" />
+    <Compile Include="Admin\VehicleDriver.cs" />
+    <Compile Include="Admin\VehicleExpenseHead.cs" />
+    <Compile Include="Admin\VehicleFuelType.cs" />
+    <Compile Include="Admin\VehicleOperation.cs" />
+    <Compile Include="Admin\VehicleOperationAdmin.cs" />
+    <Compile Include="Admin\VehicleUser.cs" />
+    <Compile Include="ADOController.cs" />
+    <Compile Include="ANDROID\BLL.cs" />
+    <Compile Include="ANDROID\DMS.cs" />
+    <Compile Include="ANDROID\DSBLLRouteWiseSales.cs">
+      <DependentUpon>DSBLLRouteWiseSales.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ANDROID\DSBLLRouteWiseSales.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSBLLRouteWiseSales.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ANDROID\DSPBLLAndroidDashboard.cs">
+      <DependentUpon>DSPBLLAndroidDashboard.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ANDROID\DSPBLLAndroidDashboard.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSPBLLAndroidDashboard.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ANDROID\DSPBLLAreaWiseAndroidDashboard.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSPBLLAreaWiseAndroidDashboard.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ANDROID\DSPBLLTerritoryWiseAndroidDashboard.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSPBLLTerritoryWiseAndroidDashboard.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ANDROID\DSPerformanceTML.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSPerformanceTML.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ANDROID\DSPerformanceUI.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSPerformanceUI.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ANDROID\DSProductPrice.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSProductPrice.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ANDROID\DSProductStock.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSProductStock.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ANDROID\DSProductStockDMS.cs">
+      <DependentUpon>DSProductStockDMS.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ANDROID\DSProductStockDMS.Designer.cs">
+      <DependentUpon>DSProductStockDMS.xsd</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="ANDROID\DSPSalesTarget.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSPSalesTarget.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ANDROID\DSPTerritorySalesTarget.cs">
+      <DependentUpon>DSPTerritorySalesTarget.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ANDROID\DSPTerritorySalesTarget.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSPTerritorySalesTarget.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ANDROID\DSPTOBLL.cs">
+      <DependentUpon>DSPTOBLL.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ANDROID\DSPTOBLL.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSPTOBLL.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ANDROID\DSSalesTrend.cs">
+      <DependentUpon>DSSalesTrend.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ANDROID\DSSalesTrend.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSSalesTrend.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ANDROID\TargetVsAch.cs" />
+    <Compile Include="ANDROID\TEL.cs" />
+    <Compile Include="ANDROID\TML.cs" />
+    <Compile Include="AppLogger.cs" />
+    <Compile Include="AutoIndent.cs" />
+    <Compile Include="AutoIndentDetail.cs" />
+    <Compile Include="BankBranch.cs" />
+    <Compile Include="BasicData\Area.cs" />
+    <Compile Include="BasicData\OutletFeasibility.cs" />
+    <Compile Include="BasicData\OutletFeasibilityQuarter.cs" />
+    <Compile Include="BasicData\OutletFeasibilityType.cs" />
+    <Compile Include="BasicData\OutletInvestment.cs" />
+    <Compile Include="BasicData\OutletMarketInfo.cs" />
+    <Compile Include="BasicData\OutletMarketSizeAssessment.cs" />
+    <Compile Include="BasicData\OutletRentAreaType.cs" />
+    <Compile Include="BasicData\OutletRent.cs" />
+    <Compile Include="BasicData\OutletRentHistory.cs" />
+    <Compile Include="BasicData\OutletSiteInfo.cs" />
+    <Compile Include="BasicData\OutletSiteInfoOther.cs" />
+    <Compile Include="BasicData\ProductPrice.cs" />
+    <Compile Include="BasicData\Showroom.cs" />
+    <Compile Include="BEIL\BEILMaterialRequisition.cs" />
+    <Compile Include="BEIL\DSProductComponent.cs">
+      <DependentUpon>DSProductComponent.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BEIL\DSProductComponent.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSProductComponent.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BEIL\LCMComponent.cs" />
+    <Compile Include="BEIL\ProductionActual.cs" />
+    <Compile Include="BEIL\ProductionLot.cs" />
+    <Compile Include="BEIL\ProductionLotDelivery.cs" />
+    <Compile Include="BEIL\ProductionPlan.cs" />
+    <Compile Include="BEIL\SalesOrderFactory.cs" />
+    <Compile Include="BEIL\SalesOrderFactoryDelivery.cs" />
+    <Compile Include="BEIL\Tool.cs" />
+    <Compile Include="BEIL\ToolTran.cs" />
+    <Compile Include="BEIL\ToolType.cs" />
+    <Compile Include="Brand.cs" />
+    <Compile Include="CACProject.cs" />
+    <Compile Include="CACProjectCollection.cs" />
+    <Compile Include="CACProjectCollectionSchedule.cs" />
+    <Compile Include="CACProjectInvoiceWise.cs" />
+    <Compile Include="CACProjectOtherPayment.cs" />
+    <Compile Include="CACProjectPaymentMethod.cs" />
+    <Compile Include="CACProjectSecurity.cs" />
+    <Compile Include="CACProjectTask.cs" />
+    <Compile Include="CACProjectTaskComplete.cs" />
+    <Compile Include="CACProjectTaskWeight.cs" />
+    <Compile Include="CACSMSSale.cs" />
+    <Compile Include="CacStockChallan.cs" />
+    <Compile Include="CacStockLedger.cs" />
+    <Compile Include="CacStockLedgerProductWise.cs" />
+    <Compile Include="CalendarWeek.cs" />
+    <Compile Include="Claim\ReplaceClaim.cs" />
+    <Compile Include="ClassToDataSet.cs" />
+    <Compile Include="CLP\CLPEligibility.cs" />
+    <Compile Include="CLP\CLPPoint.cs" />
+    <Compile Include="CLP\CLPTran.cs" />
+    <Compile Include="CollectionBaseCustom.cs" />
+    <Compile Include="Country.cs" />
+    <Compile Include="CSD\Accounts\CSDTPBill.cs" />
+    <Compile Include="CSD\Accounts\CSDTPBillDetails.cs" />
+    <Compile Include="CSD\Communication.cs" />
+    <Compile Include="CSD\CourierService.cs" />
+    <Compile Include="CSD\CSDAssignTechHistory.cs" />
+    <Compile Include="CSD\CSDBackupProduct.cs" />
+    <Compile Include="CSD\CSDBackupProductTran.cs" />
+    <Compile Include="CSD\CsdChallan.cs" />
+    <Compile Include="CSD\CSDCompany.cs" />
+    <Compile Include="CSD\CSDCustomerSatisfaction.cs" />
+    <Compile Include="CSD\CSDFeedbackDateHistory.cs" />
+    <Compile Include="CSD\CSDJobCheckList.cs" />
+    <Compile Include="CSD\CSDJobClaimCardPrint.cs" />
+    <Compile Include="CSD\CSDJobScheduleHistory.cs" />
+    <Compile Include="CSD\CSDJobStatus.cs" />
+    <Compile Include="CSD\CSDJobSubStatus.cs" />
+    <Compile Include="CSD\CSDJobSummaryDateWise.cs" />
+    <Compile Include="CSD\CSDMaterialConsumerReportDetail.cs" />
+    <Compile Include="CSD\CSDPendingParts.cs" />
+    <Compile Include="CSD\CSDProductFault.cs" />
+    <Compile Include="CSD\CSDProductGroup.cs" />
+    <Compile Include="CSD\CSDProductGroupCharge.cs" />
+    <Compile Include="CSD\CSDProductReplace.cs" />
+    <Compile Include="CSD\ChannelFromCassandra.cs" />
+    <Compile Include="CSD\Complain.cs" />
+    <Compile Include="CSD\ComplainCategory.cs" />
+    <Compile Include="CSD\ComplainRpt.cs" />
+    <Compile Include="CSD\ComplainType.cs" />
+    <Compile Include="CSD\CourierFromCassandra.cs" />
+    <Compile Include="CSD\CSDMapping.cs" />
+    <Compile Include="CSD\CSDProductType.cs" />
+    <Compile Include="CSD\CsdReturnToSupplier.cs" />
+    <Compile Include="CSD\CSDServiceCharge.cs" />
+    <Compile Include="CSD\CSDServiceChargeCustomer.cs" />
+    <Compile Include="CSD\CSDServiceChargeProduct.cs" />
+    <Compile Include="CSD\CSDSMS.cs" />
+    <Compile Include="CSD\CSDSMSHelpline.cs" />
+    <Compile Include="CSD\CSDSMSHistory.cs" />
+    <Compile Include="CSD\CSDSMSModel.cs" />
+    <Compile Include="CSD\CsdSpStockLedger.cs" />
+    <Compile Include="CSD\CSDTechnicalAssessment.cs" />
+    <Compile Include="CSD\CSDTechnician.cs" />
+    <Compile Include="CSD\CSDTechnicianBlock.cs" />
+    <Compile Include="CSD\CSDTechnicianSkill.cs" />
+    <Compile Include="CSD\CSDTechnicianTransportationcs.cs" />
+    <Compile Include="CSD\CSDWorkshopType.cs" />
+    <Compile Include="CSD\District.cs" />
+    <Compile Include="CSD\DsDailySalesCollection.cs">
+      <DependentUpon>DsDailySalesCollection.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CSD\DsDailySalesCollection.Designer.cs">
+      <DependentUpon>DsDailySalesCollection.xsd</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="CSD\DSInvoiceCalls.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSInvoiceCalls.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CSD\ExchangeOfferJob.cs" />
+    <Compile Include="CSD\ExchangeOfferMR.cs" />
+    <Compile Include="CSD\ExchangeOfferVenderTran.cs" />
+    <Compile Include="CSD\Helpline.cs" />
+    <Compile Include="CSD\Inquiry.cs" />
+    <Compile Include="CSD\InquiryCategory.cs" />
+    <Compile Include="CSD\InquiryReferOutlet.cs" />
+    <Compile Include="CSD\InquiryResponse.cs" />
+    <Compile Include="CSD\InquirySaleNoExecuted.cs" />
+    <Compile Include="CSD\InterService.cs" />
+    <Compile Include="CSD\InvSer.cs" />
+    <Compile Include="CSD\IssuePartsCassandra.cs" />
+    <Compile Include="CSD\Job.cs" />
+    <Compile Include="CSD\CSDJob.cs" />
+    <Compile Include="CSD\JobBill.cs" />
+    <Compile Include="CSD\JobBillHistory.cs" />
+    <Compile Include="CSD\JobFeedbackDate.cs" />
+    <Compile Include="CSD\JobHistory.cs" />
+    <Compile Include="CSD\JobInfoSearch.cs" />
+    <Compile Include="CSD\LoanProductCassandra.cs" />
+    <Compile Include="CSD\PaidJobForInterService.cs" />
+    <Compile Include="CSD\PaidJobForInterServiceHistory.cs" />
+    <Compile Include="CSD\ProductAccessory.cs" />
+    <Compile Include="CSD\ProductChallan.cs" />
+    <Compile Include="CSD\ProductFault.cs" />
+    <Compile Include="CSD\Products.cs" />
+    <Compile Include="CSD\ProductFaultFromCassandra.cs" />
+    <Compile Include="CSD\Replace.cs" />
+    <Compile Include="CSD\ReplaceHistory.cs" />
+    <Compile Include="CSD\ReplaceJobFromCassandra.cs" />
+    <Compile Include="CSD\ServiceJob.cs" />
+    <Compile Include="CSD\SMSIndividual.cs" />
+    <Compile Include="CSD\SMSMaker.cs" />
+    <Compile Include="CSD\SpareLoan.cs" />
+    <Compile Include="CSD\SpareParts.cs" />
+    <Compile Include="CSD\SparePartStockCassandra.cs" />
+    <Compile Include="CSD\SparePartsTransaction.cs" />
+    <Compile Include="CSD\CSDProductCheckList.cs" />
+    <Compile Include="CSD\Store\CSDEstimatedSpareParts.cs" />
+    <Compile Include="CSD\Store\CsdSparePartOrder.cs" />
+    <Compile Include="CSD\Store\CsdSparePartOrderItem.cs" />
+    <Compile Include="CSD\Store\CSDSparePartUse.cs" />
+    <Compile Include="CSD\Store\CSDSparePartUSP.cs" />
+    <Compile Include="CSD\Store\InterServiceR.cs" />
+    <Compile Include="CSD\Store\PartsSupplier.cs" />
+    <Compile Include="CSD\Store\PH.cs" />
+    <Compile Include="CSD\ProactiveCall.cs" />
+    <Compile Include="CSD\Store\SparePartLocation.cs" />
+    <Compile Include="CSD\Store\SparePartsCategory.cs" />
+    <Compile Include="CSD\Store\SparePartsR.cs" />
+    <Compile Include="CSD\Store\SparePartStock.cs" />
+    <Compile Include="CSD\Store\SPPriceHistory.cs" />
+    <Compile Include="CSD\Store\SPTran.cs" />
+    <Compile Include="CSD\Store\SPTranItem.cs" />
+    <Compile Include="CSD\Store\SPTranType.cs" />
+    <Compile Include="CSD\Store\Store.cs" />
+    <Compile Include="CSD\Store\Technician.cs" />
+    <Compile Include="CSD\Store\Workshop.cs" />
+    <Compile Include="CSD\TechnicalSupervisor.cs" />
+    <Compile Include="CSD\VehicleSchedule.cs" />
+    <Compile Include="CSD\VehicleScheduleHistory.cs" />
+    <Compile Include="CustomerCreditLimit.cs" />
+    <Compile Include="CustomerTransaction.cs" />
+    <Compile Include="CustomerType.cs" />
+    <Compile Include="DataTransfer\DataSend.cs" />
+    <Compile Include="DataTransfer\DataTransfer.cs" />
+    <Compile Include="DataTreeNode.cs" />
+    <Compile Include="DateTimeInWord.cs" />
+    <Compile Include="DayPlanOutletWise.cs" />
+    <Compile Include="DCS\DSDCS.cs">
+      <DependentUpon>DSDCS.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DCS\DSDCS.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSDCS.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DCS\OutletDeposit.cs" />
+    <Compile Include="DCS\OutletDepositInvoice.cs" />
+    <Compile Include="DCS\OutletTran.cs" />
+    <Compile Include="Dealer\DealerOutlet.cs" />
+    <Compile Include="Dealer\DealerUser.cs" />
+    <Compile Include="Dealer\StockAdjustment.cs" />
+    <Compile Include="Distribution\CACInvoiceWiseCapacity.cs" />
+    <Compile Include="Distribution\DSDeliveryShipment.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSDeliveryShipment.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Distribution\LightingActivityTracking.cs" />
+    <Compile Include="Distribution\rptProductReturn.cs" />
+    <Compile Include="Distribution\ShipmentCostParam.cs" />
+    <Compile Include="Distribution\ShipmentMapRoute.cs" />
+    <Compile Include="Distribution\VehicleShipment.cs" />
+    <Compile Include="DMS\ASGPriandSecQty.cs" />
+    <Compile Include="DMS\CampaignOutlet.cs" />
+    <Compile Include="DMS\ClaimMonitoring.cs" />
+    <Compile Include="DMS\clsSalesdate.cs" />
+    <Compile Include="DMS\DealerStock.cs" />
+    <Compile Include="DMS\DMSClusterOutlet.cs" />
+    <Compile Include="DMS\DMSDSR.cs" />
+    <Compile Include="DMS\DMSJourneyPlan.cs" />
+    <Compile Include="DMS\DMSOrder.cs" />
+    <Compile Include="DMS\DMSProductTarget.cs" />
+    <Compile Include="DMS\DMSReplaceClaim.cs" />
+    <Compile Include="DMS\DMSRoute.cs" />
+    <Compile Include="DMS\DMSStockPosition.cs" />
+    <Compile Include="DMS\DMSTargetAchievement.cs" />
+    <Compile Include="DMS\DMSTargetTO.cs" />
+    <Compile Include="DMS\DMSUser.cs" />
+    <Compile Include="DMS\DSR.cs" />
+    <Compile Include="DMS\DSROutlet.cs" />
+    <Compile Include="DMS\DSRTargetChasing.cs" />
+    <Compile Include="DMS\ElectricMarket.cs" />
+    <Compile Include="DMS\IMEIChecking.cs" />
+    <Compile Include="DMS\Market.cs" />
+    <Compile Include="DMS\Outlet.cs" />
+    <Compile Include="DMS\ProductTran.cs" />
+    <Compile Include="DMS\ReOrdering.cs" />
+    <Compile Include="DMS\DMSReplaceClaimItem.cs" />
+    <Compile Include="DMS\Route.cs" />
+    <Compile Include="DMS\rptActivityLog.cs" />
+    <Compile Include="DMS\rptJourneyPlan.cs" />
+    <Compile Include="DMS\rptMiscTicketGenerate.cs" />
+    <Compile Include="DMS\rptRouteSalesTran.cs" />
+    <Compile Include="DMS\rptSales.cs" />
+    <Compile Include="DMS\rptSalesAchivement.cs" />
+    <Compile Include="DMS\rptStockLedger.cs" />
+    <Compile Include="DMS\rptTertiarySales.cs" />
+    <Compile Include="DMS\rptTP.cs" />
+    <Compile Include="DMS\SecondarySalesDayWise.cs" />
+    <Compile Include="DMS\StockIn.cs" />
+    <Compile Include="DMS\TranType.cs" />
+    <Compile Include="DMS\UniqueBilledOutlet.cs" />
+    <Compile Include="DSOrderItem.cs">
+      <DependentUpon>DSOrderItem.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DSOrderItem.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSOrderItem.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DSOutletCommission.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSOutletCommission.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DSPermissionData.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSPermissionData.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Duty\DSDutyTran.cs">
+      <DependentUpon>DSDutyTran.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Duty\DSDutyTran.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSDutyTran.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Duty\DSDutyTranDetail.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSDutyTranDetail.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Duty\DSDutyTranReport.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSDutyTranReport.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Duty\DutyTran.cs" />
+    <Compile Include="Duty\DutyTranType.cs" />
+    <Compile Include="Duty\rptDutyTran.cs" />
+    <Compile Include="EcommerceOrder.cs" />
+    <Compile Include="Ecommerce\InvoiceEcom.cs" />
+    <Compile Include="ECOrder.cs" />
+    <Compile Include="ECProductStock.cs" />
+    <Compile Include="ECSalesLead.cs" />
+    <Compile Include="EncryptDecryptOperation.cs" />
+    <Compile Include="EnumReader.cs" />
+    <Compile Include="EPS\EMICalculation.cs" />
+    <Compile Include="EPS\EPSCustomer.cs" />
+    <Compile Include="EPS\EPSCustomerTransaction.cs" />
+    <Compile Include="EPS\EPSSalesInvoice.cs" />
+    <Compile Include="EPS\EPSSalesOrder.cs" />
+    <Compile Include="ERP\CustomerMapping.cs" />
+    <Compile Include="ERP\ERPInvoiceProcess.cs" />
+    <Compile Include="ERP\MapERPWareHouse.cs" />
+    <Compile Include="ERP\ProductMapping.cs" />
+    <Compile Include="ExchangeOffer.cs" />
+    <Compile Include="FootFallCust\FootFallCustomer.cs" />
+    <Compile Include="FootFallCust\FootFallManagement.cs" />
+    <Compile Include="GeoLocation.cs" />
+    <Compile Include="GiftVoucher\GiftVoucher.cs" />
+    <Compile Include="HRProductionMachineMapping.cs" />
+    <Compile Include="HR\AllowanceDeduction.cs" />
+    <Compile Include="HR\AnnualLeavePlan.cs" />
+    <Compile Include="HR\BlldistributionSet.cs" />
+    <Compile Include="HR\DSAttendance.cs">
+      <DependentUpon>DSAttendance.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HR\DSAttendance.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSAttendance.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HR\DSGetEmployee.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSGetEmployee.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HR\DSPosition.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSPosition.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HR\EmployeeAllowance.cs" />
+    <Compile Include="HR\HRAssessment.cs" />
+    <Compile Include="HR\HRAttendanceDataProcessLog.cs" />
+    <Compile Include="HR\HRAttendanceSMS.cs" />
+    <Compile Include="HR\HRAttendDataView.cs" />
+    <Compile Include="HR\HRAttendInfoView.cs" />
+    <Compile Include="HR\HRDivision.cs" />
+    <Compile Include="HR\HRLoanType.cs" />
+    <Compile Include="HR\HRManpowerRequisition.cs" />
+    <Compile Include="HR\HROverTime.cs" />
+    <Compile Include="HR\HROverTimeEmployee.cs" />
+    <Compile Include="HR\HRPayrollSetting.cs" />
+    <Compile Include="HR\HRPositionAssignHistory.cs" />
+    <Compile Include="HR\HRPositionManagement.cs" />
+    <Compile Include="HR\HRProductionMachine.cs" />
+    <Compile Include="HR\HRRecruitment.cs" />
+    <Compile Include="HR\HRRelay.cs" />
+    <Compile Include="HR\HRShiftMapping.cs" />
+    <Compile Include="HR\HRUniformDistribution.cs" />
+    <Compile Include="HR\Loan.cs" />
+    <Compile Include="HR\LoanCalculator.cs" />
+    <Compile Include="HR\LoanDisbursment.cs" />
+    <Compile Include="HR\LoanSchedule.cs" />
+    <Compile Include="HR\LoanType.cs" />
+    <Compile Include="HR\MapERPBEILHRDistributionSet.cs" />
+    <Compile Include="HR\MapERPBEILHREmployeeDistributionSet.cs" />
+    <Compile Include="HR\MapERPHRAccpacCJAllowanceID.cs" />
+    <Compile Include="HR\MapERPHREmployeeDistributionSet.cs" />
+    <Compile Include="HR\MapProductGroup.cs" />
+    <Compile Include="HR\MapProductGroupItem.cs" />
+    <Compile Include="HR\MedicalClaim.cs" />
+    <Compile Include="HR\MobileBill.cs" />
+    <Compile Include="HR\MobileBillDeductHistory.cs" />
+    <Compile Include="HR\MobileDatapac.cs" />
+    <Compile Include="HR\MobileDatapacClearHistory.cs" />
+    <Compile Include="HR\MobileNumber.cs" />
+    <Compile Include="HR\MobileNumberAssign.cs" />
+    <Compile Include="HR\OutletCommissionEmployee.cs" />
+    <Compile Include="HR\OutStationDuty.cs" />
+    <Compile Include="HR\OverTime.cs" />
+    <Compile Include="HR\Payroll.cs" />
+    <Compile Include="HR\PayrollAddDeduct.cs" />
+    <Compile Include="HR\HRPositionRole.cs" />
+    <Compile Include="HR\PFSchedule.cs" />
+    <Compile Include="HR\Setting.cs" />
+    <Compile Include="InboxItem.cs" />
+    <Compile Include="IPDCFileTracking.cs" />
+    <Compile Include="IT\ITSupportLog.cs" />
+    <Compile Include="IT\ProjectApproval.cs" />
+    <Compile Include="LeadChallan.cs" />
+    <Compile Include="Light\rptCurrentStock.cs" />
+    <Compile Include="Light\rptMonthAreaTargetvsAch.cs" />
+    <Compile Include="Light\rptMonthDistributorTargetvsAch.cs" />
+    <Compile Include="Light\rptMonthTerritoryTargetvsAch.cs" />
+    <Compile Include="Light\rptMonthWiseAreaTerritoryDistributorWiseTargetvsAchievement.cs" />
+    <Compile Include="Light\SecondarySalesColl.cs" />
+    <Compile Include="Light\SecondarySalesSKUWise.cs" />
+    <Compile Include="Light\SKUWiseSalesQty.cs" />
+    <Compile Include="Light\SKUWiseSecondarySales.cs" />
+    <Compile Include="LiveDemo.cs" />
+    <Compile Include="M\MCustomer.cs" />
+    <Compile Include="OutletCommissionDetail.cs" />
+    <Compile Include="OutletDisplayPosition.cs" />
+    <Compile Include="PlanBudgetTarget.cs" />
+    <Compile Include="PlanDealerMAGTarget.cs" />
+    <Compile Include="Plan\DSHROtherBenifit.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSHROtherBenifit.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Plan\HRPayrollOtherBenefit.cs" />
+    <Compile Include="Plan\HRPayrollOtherBenefitPaymentType.cs" />
+    <Compile Include="Plan\PlanBudgetTragetVersion.cs" />
+    <Compile Include="Plan\PlanCustomerTarget.cs" />
+    <Compile Include="Plan\PlanExecutiveActivityTarget.cs" />
+    <Compile Include="Plan\PlanExecutiveWeekTarget.cs" />
+    <Compile Include="Plan\PlanMAGWeekQtyTarget.cs" />
+    <Compile Include="Plan\PlanPGMonthValueTarget.cs" />
+    <Compile Include="POS\BnakAccount.cs" />
+    <Compile Include="POS\ConsumerBalanceTran.cs" />
+    <Compile Include="POS\DataMonitoring.cs" />
+    <Compile Include="POS\DataTran.cs" />
+    <Compile Include="POS\DayPlan.cs" />
+    <Compile Include="POS\DayStartEndLog.cs" />
+    <Compile Include="POS\DBBackupLog.cs" />
+    <Compile Include="POS\DCS.cs" />
+    <Compile Include="POS\DCSInstrument.cs" />
+    <Compile Include="POS\DiscountReason.cs" />
+    <Compile Include="POS\DMSSecondarySalesOrder.cs" />
+    <Compile Include="POS\DSBank.cs">
+      <DependentUpon>DSBank.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\DSBank.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSBank.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\DSBarcode.cs">
+      <DependentUpon>DSBarcode.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\DSBarcode.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSBarcode.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\DSBarcodeDetail.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSBarcodeDetail.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\DSBasicData.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSBasicData.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\DSBrand.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSBrand.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\DSCalendarWeek.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSCalendarWeek.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\DSChannel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSChannel.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\DSCLP.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSCLP.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\DSConsumerBalanceTran.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSConsumerBalanceTran.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\DSCustmerCreditApprval.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSCustmerCreditApprval.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\DSCustomer.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSCustomer.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\DSCustomerCreditApprovalCollection.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSCustomerCreditApprovalCollection.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\DSCustomerTemp.cs">
+      <DependentUpon>DSCustomerTemp.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\DSCustomerTemp.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSCustomerTemp.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\DSCustomerTransaction.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSCustomerTransaction.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\DSCustomerType.cs">
+      <DependentUpon>DSCustomerType.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\DSCustomerType.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSCustomerType.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\DSDataMonitoring.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSDataMonitoring.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\DSDataRange.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSDataRange.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\DSDayPlan.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSDayPlan.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\DSDayStartEndLog.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSDayStartEndLog.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\DSDBBackupLog.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSDBBackupLog.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\DSDCS.cs">
+      <DependentUpon>DSDCS.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\DSDCS.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSDCS.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\DSDCSs.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSDCSs.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\DSDiscountReason.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSDiscountReason.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\DSDutyTranISGM.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSDutyTranISGM.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\DSEcommerceOrder.cs">
+      <DependentUpon>DSEcommerceOrder.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\DSEcommerceOrder.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSEcommerceOrder.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\DSEmployee.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSEmployee.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\DSError.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSError.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\DSExchangeOfferJob.cs">
+      <DependentUpon>DSExchangeOfferJob.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\DSExchangeOfferJob.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSExchangeOfferJob.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\DSExchangeOfferMR.cs">
+      <DependentUpon>DSExchangeOfferMR.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\DSExchangeOfferMR.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSExchangeOfferMR.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\DSExchangeOfferVender.cs">
+      <DependentUpon>DSExchangeOfferVender.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\DSExchangeOfferVender.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSExchangeOfferVender.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\DSExchangeOfferVenderTran.cs">
+      <DependentUpon>DSExchangeOfferVenderTran.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\DSExchangeOfferVenderTran.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSExchangeOfferVenderTran.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\DSExtendedWarranty.cs">
+      <DependentUpon>DSExtendedWarranty.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\DSExtendedWarranty.Designer.cs">
+      <DependentUpon>DSExtendedWarranty.xsd</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="POS\DSFinishedGoodsPrice.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSFinishedGoodsPrice.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\DSGeoLocation.cs">
+      <DependentUpon>DSGeoLocation.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\DSGeoLocation.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSGeoLocation.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\DSGiftProduct.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSGiftProduct.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\DSInitialTransaction.cs">
+      <DependentUpon>DSInitialTransaction.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\DSInitialTransaction.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSInitialTransaction.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\DSInvoicePayment.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSInvoicePayment.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\DSInvoiceReverse.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSInvoiceReverse.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\DSISGM.cs">
+      <DependentUpon>DSISGM.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\DSISGM.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSISGM.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\DSMarketGroup.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSMarketGroup.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\DSOfficeItem.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSOfficeItem.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\DSOfficeItemTran.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSOfficeItemTran.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\DSOutletAttendanceInfo.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSOutletAttendanceInfo.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\DSOutletDisplayPosition.cs">
+      <DependentUpon>DSOutletDisplayPosition.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\DSOutletDisplayPosition.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSOutletDisplayPosition.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\DSPaymentMode.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSPaymentMode.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\DSPettyCash.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSPettyCash.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\DSPlanCustomerTarget.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSPlanCustomerTarget.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\DSPlanExecutiveWeekTarget.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSPlanExecutiveWeekTarget.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\DSPlanMAGWeekTargetQty.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSPlanMAGWeekTargetQty.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\DSPosCustomerHostory.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSPosCustomerHostory.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\DSPotentialCustomer.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSPotentialCustomer.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\DSProduct.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSProduct.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\DSProductDetail.cs">
+      <DependentUpon>DSProductDetail.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\DSProductDetail.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSProductDetail.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\DSProductGroups.cs">
+      <DependentUpon>DSProductGroups.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\DSProductGroups.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSProductGroups.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\DSProductTransaction.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSProductTransaction.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\DSProductTransactionType.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSProductTransactionType.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\DSPromotion.cs">
+      <DependentUpon>DSPromotion.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\DSPromotion.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSPromotion.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\DSReceivableData.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSReceivableData.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\DSReceivableOutletData.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSReceivableOutletData.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\DSRequisition.cs">
+      <DependentUpon>DSRequisition.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\DSRequisition.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSRequisition.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\DSRetailConsumer.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSRetailConsumer.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\DSSalesInvoice.cs">
+      <DependentUpon>DSSalesInvoice.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\DSSalesInvoice.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSSalesInvoice.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\DSSalesInvoiceDetail.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSSalesInvoiceDetail.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\DSSalesInvoiceDiscount.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSSalesInvoiceDiscount.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\DSSalesInvoiceEcommerce.cs">
+      <DependentUpon>DSSalesInvoiceEcommerce.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\DSSalesInvoiceEcommerce.Designer.cs">
+      <DependentUpon>DSSalesInvoiceEcommerce.xsd</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="POS\DSSalesLead.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSSalesLead.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\DSSalesOrder.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSSalesOrder.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\DSSalesPromotionType.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSSalesPromotionType.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\DSSBU.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSSBU.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\DSShowroom.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSShowroom.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\DSStock.cs">
+      <DependentUpon>DSStock.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\DSStock.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSStock.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\DSTargetvsActual.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSTargetvsActual.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\DSThisSystem.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSThisSystem.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\DSTPVatProduct.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSTPVatProduct.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\DSUnsoldDefectiveProduct.cs">
+      <DependentUpon>DSUnsoldDefectiveProduct.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\DSUnsoldDefectiveProduct.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSUnsoldDefectiveProduct.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\DSUser.cs">
+      <DependentUpon>DSUser.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\DSUser.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSUser.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\DSWarehouse.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSWarehouse.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\DSWarranty.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSWarranty.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POS\ExtendedWarranty.cs" />
+    <Compile Include="POS\MapHOBranchTran.cs" />
+    <Compile Include="POS\OutletAttendanceInfo.cs" />
+    <Compile Include="POS\PaymentMode.cs" />
+    <Compile Include="POS\PettyCashExpenseHead.cs" />
+    <Compile Include="POS\POSDashboard.cs" />
+    <Compile Include="POS\POSInvoiceReverse.cs" />
+    <Compile Include="POS\PosPettyCashExpense.cs" />
+    <Compile Include="POS\POSRequisition.cs" />
+    <Compile Include="POS\POSWarehouse.cs" />
+    <Compile Include="POS\PotentialCustomer.cs" />
+    <Compile Include="POS\ProductISGM.cs" />
+    <Compile Include="POS\PromoXML.cs" />
+    <Compile Include="POS\RetailConsumer.cs" />
+    <Compile Include="POS\RetailSalesInvoice.cs" />
+    <Compile Include="POS\SalesInvoiceOthersInfo.cs" />
+    <Compile Include="POS\SalesLead.cs" />
+    <Compile Include="POS\ShowroomAsset.cs" />
+    <Compile Include="POS\SystemInfo.cs" />
+    <Compile Include="POS\TDDeiveryShipment.cs" />
+    <Compile Include="POS\UnsoldDefectiveProduct.cs" />
+    <Compile Include="POS\UnsoldDefectiveProductHistory.cs" />
+    <Compile Include="Process\Outgoing.cs" />
+    <Compile Include="Process\SalesDataSync.cs" />
+    <Compile Include="ProductComponent.cs" />
+    <Compile Include="ProductFeature.cs" />
+    <Compile Include="ProductPortfolio.cs" />
+    <Compile Include="ProductStockTranType.cs" />
+    <Compile Include="ProductTransaction.cs" />
+    <Compile Include="Project.cs" />
+    <Compile Include="Promotion\ConsumerPromotion.cs" />
+    <Compile Include="Promotion\ConsumerPromotionOffer.cs" />
+    <Compile Include="Promotion\ConsumerPromotionProductFor.cs" />
+    <Compile Include="Promotion\ConsumerPromotionSlabRatio.cs" />
+    <Compile Include="Promotion\DiscountASGBrandEMI.cs" />
+    <Compile Include="Promotion\DSConsumerPromo.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSConsumerPromo.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Promotion\DSPromoDiscount.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSPromoDiscount.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Promotion\DSPromoExchangeOffer.cs">
+      <DependentUpon>DSPromoExchangeOffer.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Promotion\DSPromoExchangeOffer.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSPromoExchangeOffer.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Promotion\DSPromoExchgangeOffer.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSPromoExchangeOffer.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Promotion\DSPromotionAllocate.Designer.cs" />
+    <Compile Include="Promotion\DSPromoWarranty.cs">
+      <DependentUpon>DSPromoWarranty.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Promotion\DSPromoWarranty.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSPromoWarranty.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Promotion\ExchangeOfferDetils.cs" />
+    <Compile Include="Promotion\ExchangeOffers.cs" />
+    <Compile Include="Promotion\PromoDiscountB2B.cs" />
+    <Compile Include="Promotion\PromoDiscountBank.cs" />
+    <Compile Include="Promotion\DSPromotionContribution.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSPromotionContribution.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Promotion\EMITenure.cs" />
+    <Compile Include="Promotion\PromoDiscountContributor.cs" />
+    <Compile Include="Promotion\PromoDiscountMAGBrand.cs" />
+    <Compile Include="Promotion\PromoDiscountSpecial.cs" />
+    <Compile Include="Promotion\PromotionEngine.cs" />
+    <Compile Include="Promotion\PromoWarranty.cs" />
+    <Compile Include="Promotion\PromoWarrantyDetail.cs" />
+    <Compile Include="Promotion\SalesPromotionType.cs" />
+    <Compile Include="Promotion\SPChannel.cs" />
+    <Compile Include="Promotion\SPCustomerType.cs" />
+    <Compile Include="Promotion\SPDiscountSlab.cs" />
+    <Compile Include="Promotion\SPFlatSlab.cs" />
+    <Compile Include="Promotion\SPForQty.cs" />
+    <Compile Include="Promotion\SPFreeGift.cs" />
+    <Compile Include="Promotion\SPFreeProduct.cs" />
+    <Compile Include="Promotion\SPProduct.cs" />
+    <Compile Include="Promotion\SPProductGroup.cs" />
+    <Compile Include="Promotion\SPromotion.cs" />
+    <Compile Include="Promotion\SPSlabRatio.cs" />
+    <Compile Include="Promotion\SPType.cs" />
+    <Compile Include="Promotion\SPWarehouse.cs" />
+    <Compile Include="ProvisionParam.cs" />
+    <Compile Include="Claim\ReplaceClaimStock.cs" />
+    <Compile Include="Claim\ReplaceClaimTran.cs" />
+    <Compile Include="Quotation.cs" />
+    <Compile Include="QuotationHistory.cs" />
+    <Compile Include="QuotationInvoice.cs" />
+    <Compile Include="ReportLog.cs" />
+    <Compile Include="Report\ChannelASGwiseProfitability .cs" />
+    <Compile Include="Report\CustomerBalanceStatementCustomerWise.cs" />
+    <Compile Include="Report\CustomerTransactionLedger.cs" />
+    <Compile Include="Report\CustTranLedgerTELNBLL.cs" />
+    <Compile Include="Report\EPSMonthlyCollection.cs" />
+    <Compile Include="Report\FootFallReport.cs" />
+    <Compile Include="Report\FootFallReportSalesConv.cs" />
+    <Compile Include="Report\FootFallVSSales.cs" />
+    <Compile Include="Report\InvoiceRegisterWithVatGrosssale.cs" />
+    <Compile Include="Report\InvoiceWiseOutstandingRegister.cs" />
+    <Compile Include="Report\InvoiceWisePaymentRegister.cs" />
+    <Compile Include="Report\CSD\ProductPerformanceReport.cs" />
+    <Compile Include="Report\RptAreaWiseSalesTO.cs" />
+    <Compile Include="Report\RptAttendanceReport.cs" />
+    <Compile Include="Report\RptCustomerTransaction.cs" />
+    <Compile Include="Report\rptECStockReport.cs" />
+    <Compile Include="Report\rptFootfallSalesLead.cs" />
+    <Compile Include="Report\rptMonthlyCollection.cs" />
+    <Compile Include="Report\PendingInvoiceStatus.cs" />
+    <Compile Include="Report\ProductSalesQtyandValueCountrySummary.cs" />
+    <Compile Include="Report\ProductSalesQtyandValueCustomerWise.cs" />
+    <Compile Include="Report\PurchaseRegisterM16.cs" />
+    <Compile Include="Report\rptEPSCollection.cs" />
+    <Compile Include="Report\rptInvoiceRegister.cs" />
+    <Compile Include="Report\rptInvoiceRegisterERP.cs" />
+    <Compile Include="Report\rptNetSalesMarginCustomer.cs" />
+    <Compile Include="Report\RptOficialPriceList.cs" />
+    <Compile Include="Report\RptOutssandingAgeingCustomerWise.cs" />
+    <Compile Include="Report\rptProductTransaction.cs" />
+    <Compile Include="Report\RptProductWiseSalesQtyNValue.cs" />
+    <Compile Include="Report\rptReplaceClaimDelivery.cs" />
+    <Compile Include="Report\RptReplacementReportSKUFaultWise.cs" />
+    <Compile Include="Report\RptSalesAndCollReportCustomerWise.cs" />
+    <Compile Include="Report\RptSalesNPurchaseRegister.cs" />
+    <Compile Include="Report\RptSalesRegisterM17.cs" />
+    <Compile Include="Report\RptSalesSKUwiseforTD.cs" />
+    <Compile Include="Report\rptSalesSummaryChannel.cs" />
+    <Compile Include="Report\rptSalesVsBudgetCountry.cs" />
+    <Compile Include="Report\rptSalesVSCollection.cs" />
+    <Compile Include="Report\rptSalesvsCollectionParentCustomer.cs" />
+    <Compile Include="Report\rptSamsungSalesStock.cs" />
+    <Compile Include="Report\RptStockLedger.cs" />
+    <Compile Include="Report\RptStockSKUNWirehouseWise.cs" />
+    <Compile Include="Report\RptStockSKUwiseforTD.cs" />
+    <Compile Include="Report\rptTDSalesPlan.cs" />
+    <Compile Include="Report\rptVatProductStockStatement.cs" />
+    <Compile Include="Report\RptVehicleOperationReport.cs" />
+    <Compile Include="Report\RptVehicleOperationReportAdmin.cs" />
+    <Compile Include="Report\RptVehicleOperationSummary.cs" />
+    <Compile Include="Report\rptWarehouseStockReport.cs" />
+    <Compile Include="Report\RptWarehouseWiseStockReport.cs" />
+    <Compile Include="Report\rptWarrantyCardPrint.cs" />
+    <Compile Include="Report\RptWeekwiseSalesNational.cs" />
+    <Compile Include="Report\rptWarehouseCurrentStock.cs" />
+    <Compile Include="Report\rptYearlySBUSummary.cs" />
+    <Compile Include="Report\rptYearlySKUArea.cs" />
+    <Compile Include="Report\rptYearlySKUNational.cs" />
+    <Compile Include="Report\rptYearlySKUTerritory.cs" />
+    <Compile Include="Report\SamsungPrimarySalesStock.cs" />
+    <Compile Include="Report\SamsungSecondarySalesStock.cs" />
+    <Compile Include="Report\StockMovement.cs" />
+    <Compile Include="Report\StockTransactionRegister.cs" />
+    <Compile Include="Report\VATReports.cs" />
+    <Compile Include="Report\WarehouseStock.cs" />
+    <Compile Include="HR\EmployeeLeave.cs" />
+    <Compile Include="HR\HolidayCalendar.cs" />
+    <Compile Include="HR\HRShift.cs" />
+    <Compile Include="HR\AttendData.cs" />
+    <Compile Include="Channel.cs" />
+    <Compile Include="CommercialInvoice.cs" />
+    <Compile Include="Company.cs" />
+    <Compile Include="Customer.cs" />
+    <Compile Include="DBController.cs" />
+    <Compile Include="IT\ITAsset.cs" />
+    <Compile Include="IT\ITEquipmentTran.cs" />
+    <Compile Include="IT\ITEquipmentTypeFeature.cs" />
+    <Compile Include="IT\Email.cs" />
+    <Compile Include="HR\Department.cs" />
+    <Compile Include="HR\Designation.cs" />
+    <Compile Include="Dictionary.cs" />
+    <Compile Include="DSPermission.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSPermission.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HR\Employee.cs" />
+    <Compile Include="InsertCassiStockTransfer.cs" />
+    <Compile Include="Invoice.cs" />
+    <Compile Include="IT\ITEquipment.cs" />
+    <Compile Include="IT\ITRequisition.cs" />
+    <Compile Include="HR\JobGrade.cs" />
+    <Compile Include="HR\JobLocation.cs" />
+    <Compile Include="Library\Library.cs" />
+    <Compile Include="Library\Registry.cs" />
+    <Compile Include="MarketGroup.cs" />
+    <Compile Include="PDSAHash.cs" />
+    <Compile Include="Product.cs" />
+    <Compile Include="ProductBarcode.cs" />
+    <Compile Include="ProductBarcodePrint.cs" />
+    <Compile Include="ProductDetail.cs" />
+    <Compile Include="ProductGroup.cs" />
+    <Compile Include="ProductStock.cs" />
+    <Compile Include="ProductTransferProductSerail.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PurchaseRequisition.cs" />
+    <Compile Include="Report\DailySalesReport.cs" />
+    <Compile Include="Report\rptASGWiseNatioalSale.cs" />
+    <Compile Include="Report\rptHRAttendInfo.cs" />
+    <Compile Include="Report\rptHRAttendSummary.cs" />
+    <Compile Include="Report\rptOutstandingPositionReport.cs" />
+    <Compile Include="Report\rptPurchaseRequisitionReport.cs" />
+    <Compile Include="Report\rptSalesInvoice.cs" />
+    <Compile Include="Report\rptSMSIndenting.cs" />
+    <Compile Include="Report\RptStockPosition.cs" />
+    <Compile Include="RptASWWiseNational.cs" />
+    <Compile Include="SalesInvoice.cs" />
+    <Compile Include="SalesInvoiceInfo.cs" />
+    <Compile Include="SalesInvoiceProductSerial.cs" />
+    <Compile Include="SalesLeadManagementQC.cs" />
+    <Compile Include="SalesLeadManagementQCQuestion.cs" />
+    <Compile Include="SalesOrder.cs" />
+    <Compile Include="SalesOrderPromotion.cs" />
+    <Compile Include="SalesPromotion.cs" />
+    <Compile Include="SBU.cs" />
+    <Compile Include="SMSIndenting.cs" />
+    <Compile Include="CSD\SpareLoanItem.cs" />
+    <Compile Include="SMSMessage.cs" />
+    <Compile Include="StockCasperCassiopeia.cs" />
+    <Compile Include="StockManager.cs" />
+    <Compile Include="SundryCustomer.cs" />
+    <Compile Include="Supplier.cs" />
+    <Compile Include="SupplyChain\BEILProductBOM.cs" />
+    <Compile Include="SupplyChain\DSBOM.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSBOM.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SupplyChain\DSLCRequisition.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSLCRequisition.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SupplyChain\DSPSIOpeningStock.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSPSIOpeningStock.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SupplyChain\Lead.cs" />
+    <Compile Include="SupplyChain\SCMBOM.cs" />
+    <Compile Include="SupplyChain\SCMBOMGRD.cs" />
+    <Compile Include="SupplyChain\SCMBOMItem.cs" />
+    <Compile Include="SupplyChain\SCMBOMStock.cs" />
+    <Compile Include="SupplyChain\SCMLCProcessing.cs" />
+    <Compile Include="SupplyChain\SCMOrder.cs" />
+    <Compile Include="SupplyChain\SCMPI.cs" />
+    <Compile Include="SupplyChain\SCMProcessHistory.cs" />
+    <Compile Include="SupplyChain\SCMPurchaseOrder.cs" />
+    <Compile Include="SupplyChain\SCMSalesPlan.cs" />
+    <Compile Include="SupplyChain\SCMShipment.cs" />
+    <Compile Include="TDOldStock.cs" />
+    <Compile Include="TDSalesPlan.cs" />
+    <Compile Include="TDSalesPlanWeekly.cs" />
+    <Compile Include="TDtSalesPlanCalendar.cs" />
+    <Compile Include="test.cs" />
+    <Compile Include="TMLSMDPstock.cs" />
+    <Compile Include="TMLSMSIndenting.cs" />
+    <Compile Include="TP.cs" />
+    <Compile Include="TransferIMEI.cs" />
+    <Compile Include="User.cs" />
+    <Compile Include="UserOther.cs" />
+    <Compile Include="UserPermission.cs" />
+    <Compile Include="UserRegistration.cs" />
+    <Compile Include="Utility.cs" />
+    <Compile Include="Warehouse.cs" />
+    <Compile Include="Warranty\WarrantyCategory.cs" />
+    <Compile Include="Warranty\WarrantyClaimDistribution.cs" />
+    <Compile Include="Warranty\WarrantyParam.cs" />
+    <Compile Include="Warranty\WarrantyProduct.cs" />
+    <Compile Include="Web.UI.Class\CustomerDetail.cs" />
+    <Compile Include="Web.UI.Class\WUIUtility.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Accounts\DSCompanyLoan.xsc">
+      <DependentUpon>DSCompanyLoan.xsd</DependentUpon>
+    </None>
+    <None Include="Accounts\DSCompanyLoan.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSCompanyLoan.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Accounts\DSCompanyLoan.xss">
+      <DependentUpon>DSCompanyLoan.xsd</DependentUpon>
+    </None>
+    <None Include="Accounts\DSInvoiceWisePayment.xsc">
+      <DependentUpon>DSInvoiceWisePayment.xsd</DependentUpon>
+    </None>
+    <None Include="Accounts\DSInvoiceWisePayment.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSInvoiceWisePayment.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Accounts\DSInvoiceWisePayment.xss">
+      <DependentUpon>DSInvoiceWisePayment.xsd</DependentUpon>
+    </None>
+    <None Include="ANDROID\DSBLLRouteWiseSales.xsc">
+      <DependentUpon>DSBLLRouteWiseSales.xsd</DependentUpon>
+    </None>
+    <None Include="ANDROID\DSBLLRouteWiseSales.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSBLLRouteWiseSales.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="ANDROID\DSBLLRouteWiseSales.xss">
+      <DependentUpon>DSBLLRouteWiseSales.xsd</DependentUpon>
+    </None>
+    <None Include="ANDROID\DSPBLLAndroidDashboard.xsc">
+      <DependentUpon>DSPBLLAndroidDashboard.xsd</DependentUpon>
+    </None>
+    <None Include="ANDROID\DSPBLLAndroidDashboard.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSPBLLAndroidDashboard.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="ANDROID\DSPBLLAndroidDashboard.xss">
+      <DependentUpon>DSPBLLAndroidDashboard.xsd</DependentUpon>
+    </None>
+    <None Include="ANDROID\DSPBLLAreaWiseAndroidDashboard.xsc">
+      <DependentUpon>DSPBLLAreaWiseAndroidDashboard.xsd</DependentUpon>
+    </None>
+    <None Include="ANDROID\DSPBLLAreaWiseAndroidDashboard.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSPBLLAreaWiseAndroidDashboard.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="ANDROID\DSPBLLAreaWiseAndroidDashboard.xss">
+      <DependentUpon>DSPBLLAreaWiseAndroidDashboard.xsd</DependentUpon>
+    </None>
+    <None Include="ANDROID\DSPBLLTerritoryWiseAndroidDashboard.xsc">
+      <DependentUpon>DSPBLLTerritoryWiseAndroidDashboard.xsd</DependentUpon>
+    </None>
+    <None Include="ANDROID\DSPBLLTerritoryWiseAndroidDashboard.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSPBLLTerritoryWiseAndroidDashboard.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="ANDROID\DSPBLLTerritoryWiseAndroidDashboard.xss">
+      <DependentUpon>DSPBLLTerritoryWiseAndroidDashboard.xsd</DependentUpon>
+    </None>
+    <None Include="ANDROID\DSPerformanceTML.xsc">
+      <DependentUpon>DSPerformanceTML.xsd</DependentUpon>
+    </None>
+    <None Include="ANDROID\DSPerformanceTML.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSPerformanceTML.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="ANDROID\DSPerformanceTML.xss">
+      <DependentUpon>DSPerformanceTML.xsd</DependentUpon>
+    </None>
+    <None Include="ANDROID\DSPerformanceUI.xsc">
+      <DependentUpon>DSPerformanceUI.xsd</DependentUpon>
+    </None>
+    <None Include="ANDROID\DSPerformanceUI.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSPerformanceUI.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="ANDROID\DSPerformanceUI.xss">
+      <DependentUpon>DSPerformanceUI.xsd</DependentUpon>
+    </None>
+    <None Include="ANDROID\DSProductPrice.xsc">
+      <DependentUpon>DSProductPrice.xsd</DependentUpon>
+    </None>
+    <None Include="ANDROID\DSProductPrice.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSProductPrice.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="ANDROID\DSProductPrice.xss">
+      <DependentUpon>DSProductPrice.xsd</DependentUpon>
+    </None>
+    <None Include="ANDROID\DSProductStock.xsc">
+      <DependentUpon>DSProductStock.xsd</DependentUpon>
+    </None>
+    <None Include="ANDROID\DSProductStock.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSProductStock.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="ANDROID\DSProductStock.xss">
+      <DependentUpon>DSProductStock.xsd</DependentUpon>
+    </None>
+    <None Include="ANDROID\DSProductStockDMS.xsc">
+      <DependentUpon>DSProductStockDMS.xsd</DependentUpon>
+    </None>
+    <None Include="ANDROID\DSProductStockDMS.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSProductStockDMS.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ANDROID\DSProductStockDMS.xss">
+      <DependentUpon>DSProductStockDMS.xsd</DependentUpon>
+    </None>
+    <None Include="ANDROID\DSPSalesTarget.xsc">
+      <DependentUpon>DSPSalesTarget.xsd</DependentUpon>
+    </None>
+    <None Include="ANDROID\DSPSalesTarget.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSPSalesTarget.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="ANDROID\DSPSalesTarget.xss">
+      <DependentUpon>DSPSalesTarget.xsd</DependentUpon>
+    </None>
+    <None Include="ANDROID\DSPTerritorySalesTarget.xsc">
+      <DependentUpon>DSPTerritorySalesTarget.xsd</DependentUpon>
+    </None>
+    <None Include="ANDROID\DSPTerritorySalesTarget.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSPTerritorySalesTarget.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="ANDROID\DSPTerritorySalesTarget.xss">
+      <DependentUpon>DSPTerritorySalesTarget.xsd</DependentUpon>
+    </None>
+    <None Include="ANDROID\DSPTOBLL.xsc">
+      <DependentUpon>DSPTOBLL.xsd</DependentUpon>
+    </None>
+    <None Include="ANDROID\DSPTOBLL.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSPTOBLL.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="ANDROID\DSPTOBLL.xss">
+      <DependentUpon>DSPTOBLL.xsd</DependentUpon>
+    </None>
+    <None Include="ANDROID\DSSalesTrend.xsc">
+      <DependentUpon>DSSalesTrend.xsd</DependentUpon>
+    </None>
+    <None Include="ANDROID\DSSalesTrend.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSSalesTrend.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="ANDROID\DSSalesTrend.xss">
+      <DependentUpon>DSSalesTrend.xsd</DependentUpon>
+    </None>
+    <None Include="app.config" />
+    <None Include="BEIL\DSProductComponent.xsc">
+      <DependentUpon>DSProductComponent.xsd</DependentUpon>
+    </None>
+    <None Include="BEIL\DSProductComponent.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSProductComponent.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="BEIL\DSProductComponent.xss">
+      <DependentUpon>DSProductComponent.xsd</DependentUpon>
+    </None>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="CSD\DsDailySalesCollection.xsc">
+      <DependentUpon>DsDailySalesCollection.xsd</DependentUpon>
+    </None>
+    <None Include="CSD\DsDailySalesCollection.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DsDailySalesCollection.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CSD\DsDailySalesCollection.xss">
+      <DependentUpon>DsDailySalesCollection.xsd</DependentUpon>
+    </None>
+    <None Include="CSD\DSInvoiceCalls.xsc">
+      <DependentUpon>DSInvoiceCalls.xsd</DependentUpon>
+    </None>
+    <None Include="CSD\DSInvoiceCalls.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSInvoiceCalls.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="CSD\DSInvoiceCalls.xss">
+      <DependentUpon>DSInvoiceCalls.xsd</DependentUpon>
+    </None>
+    <None Include="DCS\DSDCS.xsc">
+      <DependentUpon>DSDCS.xsd</DependentUpon>
+    </None>
+    <None Include="DCS\DSDCS.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSDCS.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DCS\DSDCS.xss">
+      <DependentUpon>DSDCS.xsd</DependentUpon>
+    </None>
+    <None Include="Distribution\DSDeliveryShipment.xsc">
+      <DependentUpon>DSDeliveryShipment.xsd</DependentUpon>
+    </None>
+    <None Include="Distribution\DSDeliveryShipment.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSDeliveryShipment.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Distribution\DSDeliveryShipment.xss">
+      <DependentUpon>DSDeliveryShipment.xsd</DependentUpon>
+    </None>
+    <None Include="DSOrderItem.xsc">
+      <DependentUpon>DSOrderItem.xsd</DependentUpon>
+    </None>
+    <None Include="DSOrderItem.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSOrderItem.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DSOrderItem.xss">
+      <DependentUpon>DSOrderItem.xsd</DependentUpon>
+    </None>
+    <None Include="DSOutletCommission.xsc">
+      <DependentUpon>DSOutletCommission.xsd</DependentUpon>
+    </None>
+    <None Include="DSOutletCommission.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSOutletCommission.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DSOutletCommission.xss">
+      <DependentUpon>DSOutletCommission.xsd</DependentUpon>
+    </None>
+    <None Include="DSPermission.xsc">
+      <DependentUpon>DSPermission.xsd</DependentUpon>
+    </None>
+    <None Include="DSPermission.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSPermission.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DSPermission.xss">
+      <DependentUpon>DSPermission.xsd</DependentUpon>
+    </None>
+    <None Include="DSPermissionData.xsc">
+      <DependentUpon>DSPermissionData.xsd</DependentUpon>
+    </None>
+    <None Include="DSPermissionData.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSPermissionData.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DSPermissionData.xss">
+      <DependentUpon>DSPermissionData.xsd</DependentUpon>
+    </None>
+    <None Include="Duty\DSDutyTran.xsc">
+      <DependentUpon>DSDutyTran.xsd</DependentUpon>
+    </None>
+    <None Include="Duty\DSDutyTran.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSDutyTran.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Duty\DSDutyTran.xss">
+      <DependentUpon>DSDutyTran.xsd</DependentUpon>
+    </None>
+    <None Include="Duty\DSDutyTranDetail.xsc">
+      <DependentUpon>DSDutyTranDetail.xsd</DependentUpon>
+    </None>
+    <None Include="Duty\DSDutyTranDetail.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSDutyTranDetail.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Duty\DSDutyTranDetail.xss">
+      <DependentUpon>DSDutyTranDetail.xsd</DependentUpon>
+    </None>
+    <None Include="Duty\DSDutyTranReport.xsc">
+      <DependentUpon>DSDutyTranReport.xsd</DependentUpon>
+    </None>
+    <None Include="Duty\DSDutyTranReport.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSDutyTranReport.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Duty\DSDutyTranReport.xss">
+      <DependentUpon>DSDutyTranReport.xsd</DependentUpon>
+    </None>
+    <None Include="HR\DSAttendance.xsc">
+      <DependentUpon>DSAttendance.xsd</DependentUpon>
+    </None>
+    <None Include="HR\DSAttendance.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSAttendance.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="HR\DSAttendance.xss">
+      <DependentUpon>DSAttendance.xsd</DependentUpon>
+    </None>
+    <None Include="HR\DSGetEmployee.xsc">
+      <DependentUpon>DSGetEmployee.xsd</DependentUpon>
+    </None>
+    <None Include="HR\DSGetEmployee.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSGetEmployee.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="HR\DSGetEmployee.xss">
+      <DependentUpon>DSGetEmployee.xsd</DependentUpon>
+    </None>
+    <None Include="HR\DSPosition.xsc">
+      <DependentUpon>DSPosition.xsd</DependentUpon>
+    </None>
+    <None Include="HR\DSPosition.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSPosition.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="HR\DSPosition.xss">
+      <DependentUpon>DSPosition.xsd</DependentUpon>
+    </None>
+    <None Include="Log4Net.config" />
+    <None Include="packages.config" />
+    <None Include="Plan\DSHROtherBenifit.xsc">
+      <DependentUpon>DSHROtherBenifit.xsd</DependentUpon>
+    </None>
+    <None Include="Plan\DSHROtherBenifit.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSHROtherBenifit.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Plan\DSHROtherBenifit.xss">
+      <DependentUpon>DSHROtherBenifit.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSBank.xsc">
+      <DependentUpon>DSBank.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSBank.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSBank.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="POS\DSBank.xss">
+      <DependentUpon>DSBank.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSBarcode.xsc">
+      <DependentUpon>DSBarcode.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSBarcode.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSBarcode.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="POS\DSBarcode.xss">
+      <DependentUpon>DSBarcode.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSBarcodeDetail.xsc">
+      <DependentUpon>DSBarcodeDetail.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSBarcodeDetail.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSBarcodeDetail.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="POS\DSBarcodeDetail.xss">
+      <DependentUpon>DSBarcodeDetail.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSBasicData.xsc">
+      <DependentUpon>DSBasicData.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSBasicData.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSBasicData.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="POS\DSBasicData.xss">
+      <DependentUpon>DSBasicData.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSBrand.xsc">
+      <DependentUpon>DSBrand.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSBrand.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSBrand.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="POS\DSBrand.xss">
+      <DependentUpon>DSBrand.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSCalendarWeek.xsc">
+      <DependentUpon>DSCalendarWeek.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSCalendarWeek.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSCalendarWeek.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="POS\DSCalendarWeek.xss">
+      <DependentUpon>DSCalendarWeek.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSChannel.xsc">
+      <DependentUpon>DSChannel.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSChannel.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSChannel.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="POS\DSChannel.xss">
+      <DependentUpon>DSChannel.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSCLP.xsc">
+      <DependentUpon>DSCLP.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSCLP.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSCLP.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="POS\DSCLP.xss">
+      <DependentUpon>DSCLP.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSConsumerBalanceTran.xsc">
+      <DependentUpon>DSConsumerBalanceTran.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSConsumerBalanceTran.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSConsumerBalanceTran.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="POS\DSConsumerBalanceTran.xss">
+      <DependentUpon>DSConsumerBalanceTran.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSCustmerCreditApprval.xsc">
+      <DependentUpon>DSCustmerCreditApprval.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSCustmerCreditApprval.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSCustmerCreditApprval.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="POS\DSCustmerCreditApprval.xss">
+      <DependentUpon>DSCustmerCreditApprval.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSCustomer.xsc">
+      <DependentUpon>DSCustomer.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSCustomer.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSCustomer.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="POS\DSCustomer.xss">
+      <DependentUpon>DSCustomer.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSCustomerCreditApprovalCollection.xsc">
+      <DependentUpon>DSCustomerCreditApprovalCollection.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSCustomerCreditApprovalCollection.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSCustomerCreditApprovalCollection.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="POS\DSCustomerCreditApprovalCollection.xss">
+      <DependentUpon>DSCustomerCreditApprovalCollection.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSCustomerTemp.xsc">
+      <DependentUpon>DSCustomerTemp.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSCustomerTemp.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSCustomerTemp.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="POS\DSCustomerTemp.xss">
+      <DependentUpon>DSCustomerTemp.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSCustomerTransaction.xsc">
+      <DependentUpon>DSCustomerTransaction.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSCustomerTransaction.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSCustomerTransaction.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="POS\DSCustomerTransaction.xss">
+      <DependentUpon>DSCustomerTransaction.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSCustomerType.xsc">
+      <DependentUpon>DSCustomerType.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSCustomerType.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSCustomerType.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="POS\DSCustomerType.xss">
+      <DependentUpon>DSCustomerType.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSDataMonitoring.xsc">
+      <DependentUpon>DSDataMonitoring.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSDataMonitoring.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSDataMonitoring.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="POS\DSDataMonitoring.xss">
+      <DependentUpon>DSDataMonitoring.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSDataRange.xsc">
+      <DependentUpon>DSDataRange.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSDataRange.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSDataRange.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="POS\DSDataRange.xss">
+      <DependentUpon>DSDataRange.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSDayPlan.xsc">
+      <DependentUpon>DSDayPlan.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSDayPlan.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSDayPlan.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="POS\DSDayPlan.xss">
+      <DependentUpon>DSDayPlan.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSDayStartEndLog.xsc">
+      <DependentUpon>DSDayStartEndLog.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSDayStartEndLog.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSDayStartEndLog.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="POS\DSDayStartEndLog.xss">
+      <DependentUpon>DSDayStartEndLog.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSDBBackupLog.xsc">
+      <DependentUpon>DSDBBackupLog.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSDBBackupLog.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSDBBackupLog.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="POS\DSDBBackupLog.xss">
+      <DependentUpon>DSDBBackupLog.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSDCS.xsc">
+      <DependentUpon>DSDCS.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSDCS.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSDCS.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="POS\DSDCS.xss">
+      <DependentUpon>DSDCS.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSDCSs.xsc">
+      <DependentUpon>DSDCSs.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSDCSs.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSDCSs.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="POS\DSDCSs.xss">
+      <DependentUpon>DSDCSs.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSDiscountReason.xsc">
+      <DependentUpon>DSDiscountReason.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSDiscountReason.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSDiscountReason.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="POS\DSDiscountReason.xss">
+      <DependentUpon>DSDiscountReason.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSDutyTranISGM.xsc">
+      <DependentUpon>DSDutyTranISGM.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSDutyTranISGM.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSDutyTranISGM.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="POS\DSDutyTranISGM.xss">
+      <DependentUpon>DSDutyTranISGM.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSEcommerceOrder.xsc">
+      <DependentUpon>DSEcommerceOrder.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSEcommerceOrder.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSEcommerceOrder.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="POS\DSEcommerceOrder.xss">
+      <DependentUpon>DSEcommerceOrder.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSEmployee.xsc">
+      <DependentUpon>DSEmployee.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSEmployee.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSEmployee.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="POS\DSEmployee.xss">
+      <DependentUpon>DSEmployee.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSError.xsc">
+      <DependentUpon>DSError.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSError.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSError.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="POS\DSError.xss">
+      <DependentUpon>DSError.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSExchangeOfferJob.xsc">
+      <DependentUpon>DSExchangeOfferJob.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSExchangeOfferJob.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSExchangeOfferJob.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="POS\DSExchangeOfferJob.xss">
+      <DependentUpon>DSExchangeOfferJob.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSExchangeOfferMR.xsc">
+      <DependentUpon>DSExchangeOfferMR.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSExchangeOfferMR.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSExchangeOfferMR.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="POS\DSExchangeOfferMR.xss">
+      <DependentUpon>DSExchangeOfferMR.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSExchangeOfferVender.xsc">
+      <DependentUpon>DSExchangeOfferVender.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSExchangeOfferVender.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSExchangeOfferVender.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="POS\DSExchangeOfferVender.xss">
+      <DependentUpon>DSExchangeOfferVender.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSExchangeOfferVenderTran.xsc">
+      <DependentUpon>DSExchangeOfferVenderTran.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSExchangeOfferVenderTran.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSExchangeOfferVenderTran.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="POS\DSExchangeOfferVenderTran.xss">
+      <DependentUpon>DSExchangeOfferVenderTran.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSExtendedWarranty.xsc">
+      <DependentUpon>DSExtendedWarranty.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSExtendedWarranty.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSExtendedWarranty.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="POS\DSExtendedWarranty.xss">
+      <DependentUpon>DSExtendedWarranty.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSFinishedGoodsPrice.xsc">
+      <DependentUpon>DSFinishedGoodsPrice.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSFinishedGoodsPrice.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSFinishedGoodsPrice.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="POS\DSFinishedGoodsPrice.xss">
+      <DependentUpon>DSFinishedGoodsPrice.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSGeoLocation.xsc">
+      <DependentUpon>DSGeoLocation.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSGeoLocation.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSGeoLocation.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="POS\DSGeoLocation.xss">
+      <DependentUpon>DSGeoLocation.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSGiftProduct.xsc">
+      <DependentUpon>DSGiftProduct.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSGiftProduct.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSGiftProduct.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="POS\DSGiftProduct.xss">
+      <DependentUpon>DSGiftProduct.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSInitialTransaction.xsc">
+      <DependentUpon>DSInitialTransaction.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSInitialTransaction.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSInitialTransaction.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="POS\DSInitialTransaction.xss">
+      <DependentUpon>DSInitialTransaction.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSInvoicePayment.xsc">
+      <DependentUpon>DSInvoicePayment.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSInvoicePayment.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSInvoicePayment.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="POS\DSInvoicePayment.xss">
+      <DependentUpon>DSInvoicePayment.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSInvoiceReverse.xsc">
+      <DependentUpon>DSInvoiceReverse.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSInvoiceReverse.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSInvoiceReverse.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="POS\DSInvoiceReverse.xss">
+      <DependentUpon>DSInvoiceReverse.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSISGM.xsc">
+      <DependentUpon>DSISGM.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSISGM.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSISGM.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="POS\DSISGM.xss">
+      <DependentUpon>DSISGM.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSMarketGroup.xsc">
+      <DependentUpon>DSMarketGroup.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSMarketGroup.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSMarketGroup.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="POS\DSMarketGroup.xss">
+      <DependentUpon>DSMarketGroup.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSOfficeItem.xsc">
+      <DependentUpon>DSOfficeItem.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSOfficeItem.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSOfficeItem.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="POS\DSOfficeItem.xss">
+      <DependentUpon>DSOfficeItem.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSOfficeItemTran.xsc">
+      <DependentUpon>DSOfficeItemTran.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSOfficeItemTran.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSOfficeItemTran.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="POS\DSOfficeItemTran.xss">
+      <DependentUpon>DSOfficeItemTran.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSOutletAttendanceInfo.xsc">
+      <DependentUpon>DSOutletAttendanceInfo.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSOutletAttendanceInfo.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSOutletAttendanceInfo.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="POS\DSOutletAttendanceInfo.xss">
+      <DependentUpon>DSOutletAttendanceInfo.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSOutletDisplayPosition.xsc">
+      <DependentUpon>DSOutletDisplayPosition.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSOutletDisplayPosition.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSOutletDisplayPosition.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="POS\DSOutletDisplayPosition.xss">
+      <DependentUpon>DSOutletDisplayPosition.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSPaymentMode.xsc">
+      <DependentUpon>DSPaymentMode.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSPaymentMode.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSPaymentMode.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="POS\DSPaymentMode.xss">
+      <DependentUpon>DSPaymentMode.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSPettyCash.xsc">
+      <DependentUpon>DSPettyCash.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSPettyCash.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSPettyCash.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="POS\DSPettyCash.xss">
+      <DependentUpon>DSPettyCash.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSPlanCustomerTarget.xsc">
+      <DependentUpon>DSPlanCustomerTarget.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSPlanCustomerTarget.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSPlanCustomerTarget.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="POS\DSPlanCustomerTarget.xss">
+      <DependentUpon>DSPlanCustomerTarget.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSPlanExecutiveWeekTarget.xsc">
+      <DependentUpon>DSPlanExecutiveWeekTarget.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSPlanExecutiveWeekTarget.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSPlanExecutiveWeekTarget.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="POS\DSPlanExecutiveWeekTarget.xss">
+      <DependentUpon>DSPlanExecutiveWeekTarget.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSPlanMAGWeekTargetQty.xsc">
+      <DependentUpon>DSPlanMAGWeekTargetQty.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSPlanMAGWeekTargetQty.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSPlanMAGWeekTargetQty.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="POS\DSPlanMAGWeekTargetQty.xss">
+      <DependentUpon>DSPlanMAGWeekTargetQty.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSPosCustomerHostory.xsc">
+      <DependentUpon>DSPosCustomerHostory.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSPosCustomerHostory.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSPosCustomerHostory.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="POS\DSPosCustomerHostory.xss">
+      <DependentUpon>DSPosCustomerHostory.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSPotentialCustomer.xsc">
+      <DependentUpon>DSPotentialCustomer.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSPotentialCustomer.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSPotentialCustomer.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="POS\DSPotentialCustomer.xss">
+      <DependentUpon>DSPotentialCustomer.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSProduct.xsc">
+      <DependentUpon>DSProduct.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSProduct.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSProduct.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="POS\DSProduct.xss">
+      <DependentUpon>DSProduct.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSProductDetail.xsc">
+      <DependentUpon>DSProductDetail.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSProductDetail.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSProductDetail.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="POS\DSProductDetail.xss">
+      <DependentUpon>DSProductDetail.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSProductGroups.xsc">
+      <DependentUpon>DSProductGroups.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSProductGroups.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSProductGroups.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="POS\DSProductGroups.xss">
+      <DependentUpon>DSProductGroups.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSProductTransaction.xsc">
+      <DependentUpon>DSProductTransaction.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSProductTransaction.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSProductTransaction.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="POS\DSProductTransaction.xss">
+      <DependentUpon>DSProductTransaction.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSProductTransactionType.xsc">
+      <DependentUpon>DSProductTransactionType.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSProductTransactionType.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSProductTransactionType.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="POS\DSProductTransactionType.xss">
+      <DependentUpon>DSProductTransactionType.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSPromotion.xsc">
+      <DependentUpon>DSPromotion.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSPromotion.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSPromotion.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="POS\DSPromotion.xss">
+      <DependentUpon>DSPromotion.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSReceivableData.xsc">
+      <DependentUpon>DSReceivableData.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSReceivableData.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSReceivableData.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="POS\DSReceivableData.xss">
+      <DependentUpon>DSReceivableData.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSReceivableOutletData.xsc">
+      <DependentUpon>DSReceivableOutletData.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSReceivableOutletData.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSReceivableOutletData.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="POS\DSReceivableOutletData.xss">
+      <DependentUpon>DSReceivableOutletData.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSRequisition.xsc">
+      <DependentUpon>DSRequisition.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSRequisition.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSRequisition.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="POS\DSRequisition.xss">
+      <DependentUpon>DSRequisition.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSRetailConsumer.xsc">
+      <DependentUpon>DSRetailConsumer.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSRetailConsumer.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSRetailConsumer.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="POS\DSRetailConsumer.xss">
+      <DependentUpon>DSRetailConsumer.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSSalesInvoice.xsc">
+      <DependentUpon>DSSalesInvoice.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSSalesInvoice.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSSalesInvoice.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="POS\DSSalesInvoice.xss">
+      <DependentUpon>DSSalesInvoice.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSSalesInvoiceDetail.xsc">
+      <DependentUpon>DSSalesInvoiceDetail.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSSalesInvoiceDetail.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSSalesInvoiceDetail.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="POS\DSSalesInvoiceDetail.xss">
+      <DependentUpon>DSSalesInvoiceDetail.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSSalesInvoiceDiscount.xsc">
+      <DependentUpon>DSSalesInvoiceDiscount.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSSalesInvoiceDiscount.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSSalesInvoiceDiscount.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="POS\DSSalesInvoiceDiscount.xss">
+      <DependentUpon>DSSalesInvoiceDiscount.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSSalesInvoiceEcommerce.xsc">
+      <DependentUpon>DSSalesInvoiceEcommerce.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSSalesInvoiceEcommerce.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSSalesInvoiceEcommerce.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="POS\DSSalesInvoiceEcommerce.xss">
+      <DependentUpon>DSSalesInvoiceEcommerce.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSSalesLead.xsc">
+      <DependentUpon>DSSalesLead.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSSalesLead.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSSalesLead.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="POS\DSSalesLead.xss">
+      <DependentUpon>DSSalesLead.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSSalesOrder.xsc">
+      <DependentUpon>DSSalesOrder.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSSalesOrder.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSSalesOrder.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="POS\DSSalesOrder.xss">
+      <DependentUpon>DSSalesOrder.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSSalesPromotionType.xsc">
+      <DependentUpon>DSSalesPromotionType.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSSalesPromotionType.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSSalesPromotionType.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="POS\DSSalesPromotionType.xss">
+      <DependentUpon>DSSalesPromotionType.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSSBU.xsc">
+      <DependentUpon>DSSBU.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSSBU.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSSBU.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="POS\DSSBU.xss">
+      <DependentUpon>DSSBU.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSShowroom.xsc">
+      <DependentUpon>DSShowroom.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSShowroom.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSShowroom.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="POS\DSShowroom.xss">
+      <DependentUpon>DSShowroom.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSStock.xsc">
+      <DependentUpon>DSStock.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSStock.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSStock.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="POS\DSStock.xss">
+      <DependentUpon>DSStock.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSTargetvsActual.xsc">
+      <DependentUpon>DSTargetvsActual.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSTargetvsActual.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSTargetvsActual.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="POS\DSTargetvsActual.xss">
+      <DependentUpon>DSTargetvsActual.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSThisSystem.xsc">
+      <DependentUpon>DSThisSystem.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSThisSystem.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSThisSystem.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="POS\DSThisSystem.xss">
+      <DependentUpon>DSThisSystem.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSTPVatProduct.xsc">
+      <DependentUpon>DSTPVatProduct.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSTPVatProduct.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSTPVatProduct.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="POS\DSTPVatProduct.xss">
+      <DependentUpon>DSTPVatProduct.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSUnsoldDefectiveProduct.xsc">
+      <DependentUpon>DSUnsoldDefectiveProduct.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSUnsoldDefectiveProduct.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSUnsoldDefectiveProduct.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="POS\DSUnsoldDefectiveProduct.xss">
+      <DependentUpon>DSUnsoldDefectiveProduct.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSUser.xsc">
+      <DependentUpon>DSUser.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSUser.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSUser.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="POS\DSUser.xss">
+      <DependentUpon>DSUser.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSWarehouse.xsc">
+      <DependentUpon>DSWarehouse.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSWarehouse.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSWarehouse.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="POS\DSWarehouse.xss">
+      <DependentUpon>DSWarehouse.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSWarranty.xsc">
+      <DependentUpon>DSWarranty.xsd</DependentUpon>
+    </None>
+    <None Include="POS\DSWarranty.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSWarranty.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="POS\DSWarranty.xss">
+      <DependentUpon>DSWarranty.xsd</DependentUpon>
+    </None>
+    <None Include="Promotion\DSConsumerPromo.xsc">
+      <DependentUpon>DSConsumerPromo.xsd</DependentUpon>
+    </None>
+    <None Include="Promotion\DSConsumerPromo.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSConsumerPromo.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Promotion\DSConsumerPromo.xss">
+      <DependentUpon>DSConsumerPromo.xsd</DependentUpon>
+    </None>
+    <None Include="Promotion\DSPromoDiscount.xsc">
+      <DependentUpon>DSPromoDiscount.xsd</DependentUpon>
+    </None>
+    <None Include="Promotion\DSPromoDiscount.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSPromoDiscount.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Promotion\DSPromoDiscount.xss">
+      <DependentUpon>DSPromoDiscount.xsd</DependentUpon>
+    </None>
+    <None Include="Promotion\DSPromoExchangeOffer.xsc">
+      <DependentUpon>DSPromoExchangeOffer.xsd</DependentUpon>
+    </None>
+    <None Include="Promotion\DSPromoExchangeOffer.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSPromoExchangeOffer.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Promotion\DSPromoExchangeOffer.xss">
+      <DependentUpon>DSPromoExchangeOffer.xsd</DependentUpon>
+    </None>
+    <None Include="Promotion\DSPromotionContribution.xsc">
+      <DependentUpon>DSPromotionContribution.xsd</DependentUpon>
+    </None>
+    <None Include="Promotion\DSPromotionContribution.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSPromotionContribution.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Promotion\DSPromotionContribution.xss">
+      <DependentUpon>DSPromotionContribution.xsd</DependentUpon>
+    </None>
+    <None Include="Promotion\DSPromoWarranty.xsc">
+      <DependentUpon>DSPromoWarranty.xsd</DependentUpon>
+    </None>
+    <None Include="Promotion\DSPromoWarranty.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSPromoWarranty.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Promotion\DSPromoWarranty.xss">
+      <DependentUpon>DSPromoWarranty.xsd</DependentUpon>
+    </None>
+    <None Include="SupplyChain\DSBOM.xsc">
+      <DependentUpon>DSBOM.xsd</DependentUpon>
+    </None>
+    <None Include="SupplyChain\DSBOM.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSBOM.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="SupplyChain\DSBOM.xss">
+      <DependentUpon>DSBOM.xsd</DependentUpon>
+    </None>
+    <None Include="SupplyChain\DSLCRequisition.xsc">
+      <DependentUpon>DSLCRequisition.xsd</DependentUpon>
+    </None>
+    <None Include="SupplyChain\DSLCRequisition.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSLCRequisition.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="SupplyChain\DSLCRequisition.xss">
+      <DependentUpon>DSLCRequisition.xsd</DependentUpon>
+    </None>
+    <None Include="SupplyChain\DSPSIOpeningStock.xsc">
+      <DependentUpon>DSPSIOpeningStock.xsd</DependentUpon>
+    </None>
+    <None Include="SupplyChain\DSPSIOpeningStock.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSPSIOpeningStock.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="SupplyChain\DSPSIOpeningStock.xss">
+      <DependentUpon>DSPSIOpeningStock.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ProductBarcodeData.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Ecommerce\SalesInvoiceEcomExchangeOffer.cs" />
+    <Content Include="Ecommerce\SalesInvoiceEcom.cs" />
+    <Content Include="Ecommerce\SalesInvoiceEcomPayments.cs" />
+    <Content Include="Ecommerce\SalesInvoiceEcomProducts.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

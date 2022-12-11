@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns="http://tempuri.org/DSPermission.xsd" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:mstns="http://tempuri.org/DSPermission.xsd" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://tempuri.org/DSPermission.xsd" id="DSPermission" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element msdata:IsDataSet="true" msdata:UseCurrentLocale="true" name="DSPermission">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Permission">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PermissionKey" type="xs:string" />
+              <xs:element minOccurs="0" name="PermissionName" type="xs:string" />
+              <xs:element minOccurs="0" default="0" name="ParentKey" type="xs:string" />
+              <xs:element minOccurs="0" name="NavigateUrl" type="xs:string" />
+              <xs:element minOccurs="0" name="IsLeaf" type="xs:boolean" />
+              <xs:element minOccurs="0" name="AvailableApplication" type="xs:short" />
+              <xs:element default="0" name="MenuType" type="xs:short" />
+              <xs:element minOccurs="0" name="ReportCode" type="xs:long" />
+              <xs:element minOccurs="0" name="ReportDescription" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique msdata:PrimaryKey="true" name="Constraint1">
+      <xs:selector xpath=".//mstns:Permission" />
+      <xs:field xpath="mstns:PermissionKey" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

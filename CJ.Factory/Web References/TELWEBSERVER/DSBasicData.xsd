@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns="http://tempuri.org/DSBasicData.xsd" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:mstns="http://tempuri.org/DSBasicData.xsd" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://tempuri.org/DSBasicData.xsd" id="DSBasicData" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element msdata:IsDataSet="true" msdata:UseCurrentLocale="true" name="DSBasicData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Bank">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="BankID" type="xs:int" />
+              <xs:element minOccurs="0" name="Code" type="xs:string" />
+              <xs:element minOccurs="0" name="Name" type="xs:string" />
+              <xs:element minOccurs="0" name="Description" type="xs:string" />
+              <xs:element minOccurs="0" name="IsEMI" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="BankBranch">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="BranchID" type="xs:int" />
+              <xs:element minOccurs="0" name="Code" type="xs:string" />
+              <xs:element minOccurs="0" name="Name" type="xs:string" />
+              <xs:element minOccurs="0" name="Address" type="xs:string" />
+              <xs:element minOccurs="0" name="Telephone" type="xs:string" />
+              <xs:element minOccurs="0" name="BankID" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Company">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="CompanyID" type="xs:int" />
+              <xs:element minOccurs="0" name="CompanyCode" type="xs:string" />
+              <xs:element minOccurs="0" name="CompanyName" type="xs:string" />
+              <xs:element minOccurs="0" name="Description" type="xs:string" />
+              <xs:element minOccurs="0" name="IsActive" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="InvoiceType">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="InvoiceTypeID" type="xs:int" />
+              <xs:element minOccurs="0" name="InvoiceTypeName" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="CustomerCreditLimit">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="CreditLimitID" type="xs:int" />
+              <xs:element minOccurs="0" name="CustomerID" type="xs:int" />
+              <xs:element minOccurs="0" name="MinCreditLimit" type="xs:double" />
+              <xs:element minOccurs="0" name="EffectiveDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="ExpiryDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="UserID" type="xs:int" />
+              <xs:element minOccurs="0" name="MaxCreditLimit" type="xs:double" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="CustomerTranType">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="TranTypeID" type="xs:int" />
+              <xs:element minOccurs="0" name="TranTypeCode" type="xs:string" />
+              <xs:element minOccurs="0" name="TranTypeName" type="xs:string" />
+              <xs:element minOccurs="0" name="TranSide" type="xs:int" />
+              <xs:element minOccurs="0" name="CollectionType" type="xs:int" />
+              <xs:element minOccurs="0" name="IsSystem" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="CustomerTypeWisePriceSetting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="PriceSettingID" type="xs:long" />
+              <xs:element minOccurs="0" name="PriceOptionID" type="xs:int" />
+              <xs:element minOccurs="0" name="DiscountPercent" type="xs:double" />
+              <xs:element minOccurs="0" name="EffectiveDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="IsCurrent" type="xs:int" />
+              <xs:element minOccurs="0" name="HaveAmountDiscount" type="xs:int" />
+              <xs:element minOccurs="0" name="CustTypeID" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="CustomerAccount">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="CustomerID" type="xs:int" />
+              <xs:element minOccurs="0" name="CurrentBalance" type="xs:double" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="NewVatActivation">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="ID" type="xs:int" />
+              <xs:element minOccurs="0" name="IsNewVat" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="OutletDailyProjection">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="ProjectionID" type="xs:int" />
+              <xs:element minOccurs="0" name="WarehouseID" type="xs:int" />
+              <xs:element minOccurs="0" name="ProjectionDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="DataType" type="xs:int" />
+              <xs:element minOccurs="0" name="DataID" type="xs:int" />
+              <xs:element minOccurs="0" name="Projection" type="xs:double" />
+              <xs:element minOccurs="0" name="Actual" type="xs:double" />
+              <xs:element minOccurs="0" name="CreateDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="CreateUserID" type="xs:int" />
+              <xs:element minOccurs="0" name="UpdateDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="UpdateUserID" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="TDActivation">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="ActivationID" type="xs:int" />
+              <xs:element minOccurs="0" name="ActivationName" type="xs:string" />
+              <xs:element minOccurs="0" name="StartDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="EndDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="CreateDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="CreateUserID" type="xs:int" />
+              <xs:element minOccurs="0" name="UpdateDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="UpdateUserID" type="xs:int" />
+              <xs:element minOccurs="0" name="IsActive" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="TDDeliveryShipment">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="ShipmentID" type="xs:int" />
+              <xs:element minOccurs="0" name="WHID" type="xs:int" />
+              <xs:element minOccurs="0" name="InvoiceNo" type="xs:string" />
+              <xs:element minOccurs="0" name="Remarks" type="xs:string" />
+              <xs:element minOccurs="0" name="Status" type="xs:int" />
+              <xs:element minOccurs="0" name="CreateDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="CreateUserID" type="xs:int" />
+              <xs:element minOccurs="0" name="UpdateDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="UpdateUserID" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="TDDeliveryShipmentItem">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="ShipmentID" type="xs:int" />
+              <xs:element minOccurs="0" name="ProductID" type="xs:int" />
+              <xs:element minOccurs="0" name="UnitPrice" type="xs:double" />
+              <xs:element minOccurs="0" name="Qty" type="xs:int" />
+              <xs:element minOccurs="0" name="ShipmentDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="ShipmentTime" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="ShipingAddress" type="xs:string" />
+              <xs:element minOccurs="0" name="ContactNo" type="xs:string" />
+              <xs:element minOccurs="0" name="InstallationRequired" type="xs:string" />
+              <xs:element minOccurs="0" name="ExpInstallationDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="ExpInstallationTime" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="DeliveryMode" type="xs:string" />
+              <xs:element minOccurs="0" name="VehicleNo" type="xs:string" />
+              <xs:element minOccurs="0" name="FreightCost" type="xs:double" />
+              <xs:element minOccurs="0" name="HDCompletionDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="HDCompletionTime" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="IsSafelyDelivered" type="xs:string" />
+              <xs:element minOccurs="0" name="Reason" type="xs:string" />
+              <xs:element minOccurs="0" name="ActionTaken" type="xs:string" />
+              <xs:element minOccurs="0" name="Remarks" type="xs:string" />
+              <xs:element minOccurs="0" name="JobNo" type="xs:string" />
+              <xs:element minOccurs="0" name="InstallationDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="InstallationTime" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="IsProperlyInstalled" type="xs:string" />
+              <xs:element minOccurs="0" name="CSDReason" type="xs:string" />
+              <xs:element minOccurs="0" name="CSDRemarks" type="xs:string" />
+              <xs:element minOccurs="0" name="WHID" type="xs:int" />
+              <xs:element minOccurs="0" name="LiftingCost" type="xs:double" />
+              <xs:element minOccurs="0" name="ApprovedLiftingCost" type="xs:double" />
+              <xs:element minOccurs="0" name="ApprovedFreightCost" type="xs:double" />
+              <xs:element minOccurs="0" name="ApprovedDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="ApprovedBy" type="xs:int" />
+              <xs:element minOccurs="0" name="FloorNo" type="xs:int" />
+              <xs:element minOccurs="0" name="DistanceKM" type="xs:double" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="PromoDiscountSpecialAuthority">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="AuthorityID" type="xs:int" />
+              <xs:element minOccurs="0" name="EmployeeID" type="xs:int" />
+              <xs:element minOccurs="0" name="EmployeeName" type="xs:string" />
+              <xs:element minOccurs="0" name="IsActive" type="xs:int" />
+              <xs:element minOccurs="0" name="CreateDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="CreateUserID" type="xs:int" />
+              <xs:element minOccurs="0" name="Sort" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="PettyCashExpenseHead">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="ExpenseHeadID" type="xs:int" />
+              <xs:element minOccurs="0" name="Description" type="xs:string" />
+              <xs:element minOccurs="0" name="CreateDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="CreateUserID" type="xs:int" />
+              <xs:element minOccurs="0" name="UpdateDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="UpdateUserID" type="xs:int" />
+              <xs:element minOccurs="0" name="IsActive" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="BillofEntryNo">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="BENo" type="xs:string" />
+              <xs:element minOccurs="0" name="BEDate" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSDayPlan" targetNamespace="http://tempuri.org/DSDayPlan.xsd" xmlns:mstns="http://tempuri.org/DSDayPlan.xsd" xmlns="http://tempuri.org/DSDayPlan.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSDayPlan" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DSDayPlan" msprop:Generator_UserDSName="DSDayPlan">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DayPlan" msprop:Generator_TableClassName="DayPlanDataTable" msprop:Generator_TableVarName="tableDayPlan" msprop:Generator_TablePropName="DayPlan" msprop:Generator_RowDeletingName="DayPlanRowDeleting" msprop:Generator_RowChangingName="DayPlanRowChanging" msprop:Generator_RowEvHandlerName="DayPlanRowChangeEventHandler" msprop:Generator_RowDeletedName="DayPlanRowDeleted" msprop:Generator_UserTableName="DayPlan" msprop:Generator_RowChangedName="DayPlanRowChanged" msprop:Generator_RowEvArgName="DayPlanRowChangeEvent" msprop:Generator_RowClassName="DayPlanRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PlanId" msprop:Generator_ColumnVarNameInTable="columnPlanId" msprop:Generator_ColumnPropNameInRow="PlanId" msprop:Generator_ColumnPropNameInTable="PlanIdColumn" msprop:Generator_UserColumnName="PlanId" type="xs:int" minOccurs="0" />
+              <xs:element name="PlanNo" msprop:Generator_ColumnVarNameInTable="columnPlanNo" msprop:Generator_ColumnPropNameInRow="PlanNo" msprop:Generator_ColumnPropNameInTable="PlanNoColumn" msprop:Generator_UserColumnName="PlanNo" type="xs:string" minOccurs="0" />
+              <xs:element name="EmployeeId" msprop:Generator_ColumnVarNameInTable="columnEmployeeId" msprop:Generator_ColumnPropNameInRow="EmployeeId" msprop:Generator_ColumnPropNameInTable="EmployeeIdColumn" msprop:Generator_UserColumnName="EmployeeId" type="xs:int" minOccurs="0" />
+              <xs:element name="LocationId" msprop:Generator_ColumnVarNameInTable="columnLocationId" msprop:Generator_ColumnPropNameInRow="LocationId" msprop:Generator_ColumnPropNameInTable="LocationIdColumn" msprop:Generator_UserColumnName="LocationId" type="xs:int" minOccurs="0" />
+              <xs:element name="Status" msprop:Generator_ColumnVarNameInTable="columnStatus" msprop:Generator_ColumnPropNameInRow="Status" msprop:Generator_ColumnPropNameInTable="StatusColumn" msprop:Generator_UserColumnName="Status" type="xs:int" minOccurs="0" />
+              <xs:element name="CreateUserId" msprop:Generator_ColumnVarNameInTable="columnCreateUserId" msprop:Generator_ColumnPropNameInRow="CreateUserId" msprop:Generator_ColumnPropNameInTable="CreateUserIdColumn" msprop:Generator_UserColumnName="CreateUserId" type="xs:int" minOccurs="0" />
+              <xs:element name="CreateDate" msprop:Generator_ColumnVarNameInTable="columnCreateDate" msprop:Generator_ColumnPropNameInRow="CreateDate" msprop:Generator_ColumnPropNameInTable="CreateDateColumn" msprop:Generator_UserColumnName="CreateDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="UpdateUserId" msprop:Generator_ColumnVarNameInTable="columnUpdateUserId" msprop:Generator_ColumnPropNameInRow="UpdateUserId" msprop:Generator_ColumnPropNameInTable="UpdateUserIdColumn" msprop:Generator_UserColumnName="UpdateUserId" type="xs:int" minOccurs="0" />
+              <xs:element name="UpdateDate" msprop:Generator_ColumnVarNameInTable="columnUpdateDate" msprop:Generator_ColumnPropNameInRow="UpdateDate" msprop:Generator_ColumnPropNameInTable="UpdateDateColumn" msprop:Generator_UserColumnName="UpdateDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="IsDownload" msprop:Generator_ColumnVarNameInTable="columnIsDownload" msprop:Generator_ColumnPropNameInRow="IsDownload" msprop:Generator_ColumnPropNameInTable="IsDownloadColumn" msprop:Generator_UserColumnName="IsDownload" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DayPlanDetails" msprop:Generator_TableClassName="DayPlanDetailsDataTable" msprop:Generator_TableVarName="tableDayPlanDetails" msprop:Generator_TablePropName="DayPlanDetails" msprop:Generator_RowDeletingName="DayPlanDetailsRowDeleting" msprop:Generator_RowChangingName="DayPlanDetailsRowChanging" msprop:Generator_RowEvHandlerName="DayPlanDetailsRowChangeEventHandler" msprop:Generator_RowDeletedName="DayPlanDetailsRowDeleted" msprop:Generator_UserTableName="DayPlanDetails" msprop:Generator_RowChangedName="DayPlanDetailsRowChanged" msprop:Generator_RowEvArgName="DayPlanDetailsRowChangeEvent" msprop:Generator_RowClassName="DayPlanDetailsRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_UserColumnName="ID" type="xs:int" minOccurs="0" />
+              <xs:element name="PlanId" msprop:Generator_ColumnVarNameInTable="columnPlanId" msprop:Generator_ColumnPropNameInRow="PlanId" msprop:Generator_ColumnPropNameInTable="PlanIdColumn" msprop:Generator_UserColumnName="PlanId" type="xs:int" minOccurs="0" />
+              <xs:element name="PlanDate" msprop:Generator_ColumnVarNameInTable="columnPlanDate" msprop:Generator_ColumnPropNameInRow="PlanDate" msprop:Generator_ColumnPropNameInTable="PlanDateColumn" msprop:Generator_UserColumnName="PlanDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="TimeFrom" msprop:Generator_ColumnVarNameInTable="columnTimeFrom" msprop:Generator_ColumnPropNameInRow="TimeFrom" msprop:Generator_ColumnPropNameInTable="TimeFromColumn" msprop:Generator_UserColumnName="TimeFrom" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="TimeTo" msprop:Generator_ColumnVarNameInTable="columnTimeTo" msprop:Generator_ColumnPropNameInRow="TimeTo" msprop:Generator_ColumnPropNameInTable="TimeToColumn" msprop:Generator_UserColumnName="TimeTo" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="PlanTo" msprop:Generator_ColumnVarNameInTable="columnPlanTo" msprop:Generator_ColumnPropNameInRow="PlanTo" msprop:Generator_ColumnPropNameInTable="PlanToColumn" msprop:Generator_UserColumnName="PlanTo" type="xs:int" minOccurs="0" />
+              <xs:element name="PurposeId" msprop:Generator_ColumnVarNameInTable="columnPurposeId" msprop:Generator_ColumnPropNameInRow="PurposeId" msprop:Generator_ColumnPropNameInTable="PurposeIdColumn" msprop:Generator_UserColumnName="PurposeId" type="xs:int" minOccurs="0" />
+              <xs:element name="ActionStatus" msprop:Generator_ColumnVarNameInTable="columnActionStatus" msprop:Generator_ColumnPropNameInRow="ActionStatus" msprop:Generator_ColumnPropNameInTable="ActionStatusColumn" msprop:Generator_UserColumnName="ActionStatus" type="xs:int" minOccurs="0" />
+              <xs:element name="Address" msprop:Generator_ColumnVarNameInTable="columnAddress" msprop:Generator_ColumnPropNameInRow="Address" msprop:Generator_ColumnPropNameInTable="AddressColumn" msprop:Generator_UserColumnName="Address" type="xs:string" minOccurs="0" />
+              <xs:element name="CustomerId" msprop:Generator_ColumnVarNameInTable="columnCustomerId" msprop:Generator_ColumnPropNameInRow="CustomerId" msprop:Generator_ColumnPropNameInTable="CustomerIdColumn" msprop:Generator_UserColumnName="CustomerId" type="xs:int" minOccurs="0" />
+              <xs:element name="Remarks" msprop:Generator_ColumnVarNameInTable="columnRemarks" msprop:Generator_ColumnPropNameInRow="Remarks" msprop:Generator_ColumnPropNameInTable="RemarksColumn" msprop:Generator_UserColumnName="Remarks" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DayPlanPurpose" msprop:Generator_TableClassName="DayPlanPurposeDataTable" msprop:Generator_TableVarName="tableDayPlanPurpose" msprop:Generator_RowChangedName="DayPlanPurposeRowChanged" msprop:Generator_TablePropName="DayPlanPurpose" msprop:Generator_RowDeletingName="DayPlanPurposeRowDeleting" msprop:Generator_RowChangingName="DayPlanPurposeRowChanging" msprop:Generator_RowEvHandlerName="DayPlanPurposeRowChangeEventHandler" msprop:Generator_RowDeletedName="DayPlanPurposeRowDeleted" msprop:Generator_RowClassName="DayPlanPurposeRow" msprop:Generator_UserTableName="DayPlanPurpose" msprop:Generator_RowEvArgName="DayPlanPurposeRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PurposeID" msprop:Generator_ColumnVarNameInTable="columnPurposeID" msprop:Generator_ColumnPropNameInRow="PurposeID" msprop:Generator_ColumnPropNameInTable="PurposeIDColumn" msprop:Generator_UserColumnName="PurposeID" type="xs:int" minOccurs="0" />
+              <xs:element name="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" msprop:Generator_UserColumnName="Description" type="xs:string" minOccurs="0" />
+              <xs:element name="IsActive" msprop:Generator_ColumnVarNameInTable="columnIsActive" msprop:Generator_ColumnPropNameInRow="IsActive" msprop:Generator_ColumnPropNameInTable="IsActiveColumn" msprop:Generator_UserColumnName="IsActive" type="xs:boolean" minOccurs="0" />
+              <xs:element name="Sort" msprop:Generator_ColumnVarNameInTable="columnSort" msprop:Generator_ColumnPropNameInRow="Sort" msprop:Generator_ColumnPropNameInTable="SortColumn" msprop:Generator_UserColumnName="Sort" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="VisitPlanType" msprop:Generator_TableClassName="VisitPlanTypeDataTable" msprop:Generator_TableVarName="tableVisitPlanType" msprop:Generator_TablePropName="VisitPlanType" msprop:Generator_RowDeletingName="VisitPlanTypeRowDeleting" msprop:Generator_RowChangingName="VisitPlanTypeRowChanging" msprop:Generator_RowEvHandlerName="VisitPlanTypeRowChangeEventHandler" msprop:Generator_RowDeletedName="VisitPlanTypeRowDeleted" msprop:Generator_UserTableName="VisitPlanType" msprop:Generator_RowChangedName="VisitPlanTypeRowChanged" msprop:Generator_RowEvArgName="VisitPlanTypeRowChangeEvent" msprop:Generator_RowClassName="VisitPlanTypeRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PlanId" msprop:Generator_ColumnVarNameInTable="columnPlanId" msprop:Generator_ColumnPropNameInRow="PlanId" msprop:Generator_ColumnPropNameInTable="PlanIdColumn" msprop:Generator_UserColumnName="PlanId" type="xs:int" minOccurs="0" />
+              <xs:element name="PlanDescription" msprop:Generator_ColumnVarNameInTable="columnPlanDescription" msprop:Generator_ColumnPropNameInRow="PlanDescription" msprop:Generator_ColumnPropNameInTable="PlanDescriptionColumn" msprop:Generator_UserColumnName="PlanDescription" type="xs:string" minOccurs="0" />
+              <xs:element name="CreatedBy" msprop:Generator_ColumnVarNameInTable="columnCreatedBy" msprop:Generator_ColumnPropNameInRow="CreatedBy" msprop:Generator_ColumnPropNameInTable="CreatedByColumn" msprop:Generator_UserColumnName="CreatedBy" type="xs:int" minOccurs="0" />
+              <xs:element name="CreatedDate" msprop:Generator_ColumnVarNameInTable="columnCreatedDate" msprop:Generator_ColumnPropNameInRow="CreatedDate" msprop:Generator_ColumnPropNameInTable="CreatedDateColumn" msprop:Generator_UserColumnName="CreatedDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="PlanTypeId" msprop:Generator_ColumnVarNameInTable="columnPlanTypeId" msprop:Generator_ColumnPropNameInRow="PlanTypeId" msprop:Generator_ColumnPropNameInTable="PlanTypeIdColumn" msprop:Generator_UserColumnName="PlanTypeId" type="xs:int" minOccurs="0" />
+              <xs:element name="Sort" msprop:Generator_ColumnVarNameInTable="columnSort" msprop:Generator_ColumnPropNameInRow="Sort" msprop:Generator_ColumnPropNameInTable="SortColumn" msprop:Generator_UserColumnName="Sort" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns="http://tempuri.org/DSDBBackupLog.xsd" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:mstns="http://tempuri.org/DSDBBackupLog.xsd" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://tempuri.org/DSDBBackupLog.xsd" id="DSDBBackupLog" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element msdata:IsDataSet="true" msdata:UseCurrentLocale="true" name="DSDBBackupLog">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DBBackupLog">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="BackupID" type="xs:int" />
+              <xs:element minOccurs="0" name="WarehouseID" type="xs:int" />
+              <xs:element minOccurs="0" name="OperationDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="BakcupDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="FileName" type="xs:string" />
+              <xs:element minOccurs="0" name="IsDownload" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

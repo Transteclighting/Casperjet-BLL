@@ -1,0 +1,66 @@
+D:\Local\TEL\Casper Jet\CJ.Report\bin\Debug\CJ.Report.dll
+D:\Local\TEL\Casper Jet\CJ.Report\bin\Debug\CJ.Report.pdb
+D:\Local\TEL\Casper Jet\CJ.Report\bin\Debug\CJ.Class.dll
+D:\Local\TEL\Casper Jet\CJ.Report\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\Local\TEL\Casper Jet\CJ.Report\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\Local\TEL\Casper Jet\CJ.Report\bin\Debug\CrystalDecisions.Shared.dll
+D:\Local\TEL\Casper Jet\CJ.Report\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\Local\TEL\Casper Jet\CJ.Report\bin\Debug\System.Web.Services.dll
+D:\Local\TEL\Casper Jet\CJ.Report\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\Local\TEL\Casper Jet\CJ.Report\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\Local\TEL\Casper Jet\CJ.Report\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\Local\TEL\Casper Jet\CJ.Report\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\Local\TEL\Casper Jet\CJ.Report\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\Local\TEL\Casper Jet\CJ.Report\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\Local\TEL\Casper Jet\CJ.Report\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\Local\TEL\Casper Jet\CJ.Report\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\Local\TEL\Casper Jet\CJ.Report\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\Local\TEL\Casper Jet\CJ.Report\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\Local\TEL\Casper Jet\CJ.Report\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\Local\TEL\Casper Jet\CJ.Report\bin\Debug\FlashControlV71.dll
+D:\Local\TEL\Casper Jet\CJ.Report\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\Local\TEL\Casper Jet\CJ.Report\bin\Debug\stdole.dll
+D:\Local\TEL\Casper Jet\CJ.Report\bin\Debug\ShockwaveFlashObjects.dll
+D:\Local\TEL\Casper Jet\CJ.Report\bin\Debug\CJ.Class.pdb
+D:\Local\TEL\Casper Jet\CJ.Report\obj\Debug\CJ.Report.csprojResolveAssemblyReference.cache
+D:\Local\TEL\Casper Jet\CJ.Report\obj\Debug\CJ.Report.frmPrintPreviewWithoutExport.resources
+D:\Local\TEL\Casper Jet\CJ.Report\obj\Debug\CJ.Report.frmPrintPreviewWithoutPrintExport.resources
+D:\Local\TEL\Casper Jet\CJ.Report\obj\Debug\CJ.Report.frmPrintPreview.resources
+D:\Local\TEL\Casper Jet\CJ.Report\obj\Debug\CJ.Report.frmSMSIndentingReport.resources
+D:\Local\TEL\Casper Jet\CJ.Report\obj\Debug\CJ.Report.Properties.Resources.resources
+D:\Local\TEL\Casper Jet\CJ.Report\obj\Debug\CJ.Report.csproj.GenerateResource.Cache
+D:\Local\TEL\Casper Jet\CJ.Report\obj\Debug\CJ.Report.dll
+D:\Local\TEL\Casper Jet\CJ.Report\obj\Debug\CJ.Report.pdb
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Report\bin\Debug\CJ.Report.dll
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Report\bin\Debug\CJ.Report.pdb
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Report\bin\Debug\CJ.Class.dll
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Report\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Report\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Report\bin\Debug\CrystalDecisions.Shared.dll
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Report\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Report\bin\Debug\System.Web.Services.dll
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Report\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Report\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Report\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Report\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Report\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Report\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Report\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Report\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Report\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Report\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Report\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Report\bin\Debug\FlashControlV71.dll
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Report\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Report\bin\Debug\stdole.dll
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Report\bin\Debug\ShockwaveFlashObjects.dll
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Report\bin\Debug\CJ.Class.pdb
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Report\obj\Debug\CJ.Report.csprojResolveAssemblyReference.cache
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Report\obj\Debug\CJ.Report.frmPrintPreviewWithoutExport.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Report\obj\Debug\CJ.Report.frmPrintPreviewWithoutPrintExport.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Report\obj\Debug\CJ.Report.frmPrintPreview.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Report\obj\Debug\CJ.Report.frmSMSIndentingReport.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Report\obj\Debug\CJ.Report.Properties.Resources.resources
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Report\obj\Debug\CJ.Report.csproj.GenerateResource.Cache
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Report\obj\Debug\CJ.Report.dll
+D:\Local\TEL\CJ\BLL CJ\Casper Jet\CJ.Report\obj\Debug\CJ.Report.pdb

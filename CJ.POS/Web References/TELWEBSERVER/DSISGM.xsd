@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns="http://tempuri.org/DSISGM.xsd" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:mstns="http://tempuri.org/DSISGM.xsd" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://tempuri.org/DSISGM.xsd" id="DSISGM" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element msdata:IsDataSet="true" msdata:UseCurrentLocale="true" name="DSISGM">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ProductISGM">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ISGMID" type="xs:int" />
+              <xs:element minOccurs="0" name="ISGMNo" type="xs:string" />
+              <xs:element minOccurs="0" name="ISGMDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="FromWHID" type="xs:int" />
+              <xs:element minOccurs="0" name="ToWHID" type="xs:int" />
+              <xs:element minOccurs="0" name="Status" type="xs:int" />
+              <xs:element minOccurs="0" name="Remarks" type="xs:string" />
+              <xs:element minOccurs="0" name="CreatedBy" type="xs:int" />
+              <xs:element minOccurs="0" name="AuthorizeBy" type="xs:int" />
+              <xs:element minOccurs="0" name="AuthorizeDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="ReceivedDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="ReceivedBy" type="xs:int" />
+              <xs:element minOccurs="0" name="StockTranID" type="xs:int" />
+              <xs:element minOccurs="0" name="Result" type="xs:string" />
+              <xs:element minOccurs="0" name="TransferStatus" type="xs:int" />
+              <xs:element minOccurs="0" name="FromWH" type="xs:string" />
+              <xs:element minOccurs="0" name="ToWH" type="xs:string" />
+              <xs:element minOccurs="0" name="StatusName" type="xs:string" />
+              <xs:element minOccurs="0" name="AuthorizeName" type="xs:string" />
+              <xs:element minOccurs="0" name="Barcode" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ProductISGMItem">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ISGMID" type="xs:int" />
+              <xs:element name="ProductID" type="xs:int" />
+              <xs:element minOccurs="0" name="Qty" type="xs:int" />
+              <xs:element minOccurs="0" name="ProductCode" type="xs:string" />
+              <xs:element minOccurs="0" name="ProductName" type="xs:string" />
+              <xs:element minOccurs="0" name="Model" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Barcode">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="WarehouseID" type="xs:int" />
+              <xs:element minOccurs="0" name="ProductID" type="xs:int" />
+              <xs:element minOccurs="0" name="Barcode" type="xs:string" />
+              <xs:element minOccurs="0" name="Status" type="xs:int" />
+              <xs:element minOccurs="0" name="InTranID" type="xs:int" />
+              <xs:element minOccurs="0" name="OutTranID" type="xs:int" />
+              <xs:element minOccurs="0" name="IsActive" type="xs:int" />
+              <xs:element minOccurs="0" name="TransferType" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

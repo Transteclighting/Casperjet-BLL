@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns="http://tempuri.org/DSUnsoldDefectiveProduct.xsd" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:mstns="http://tempuri.org/DSUnsoldDefectiveProduct.xsd" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://tempuri.org/DSUnsoldDefectiveProduct.xsd" id="DSUnsoldDefectiveProduct" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element msdata:IsDataSet="true" msdata:UseCurrentLocale="true" name="DSUnsoldDefectiveProduct">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="UnsoldDefectiveProduct">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="DefectiveID" type="xs:int" />
+              <xs:element minOccurs="0" name="DefectiveNo" type="xs:string" />
+              <xs:element minOccurs="0" name="WarehouseID" type="xs:int" />
+              <xs:element minOccurs="0" name="ProductID" type="xs:int" />
+              <xs:element minOccurs="0" name="BarcodeSL" type="xs:string" />
+              <xs:element minOccurs="0" name="DefectiveType" type="xs:int" />
+              <xs:element minOccurs="0" name="Fault" type="xs:string" />
+              <xs:element minOccurs="0" name="Reason" type="xs:string" />
+              <xs:element minOccurs="0" name="Remarks" type="xs:string" />
+              <xs:element minOccurs="0" name="ProposeDicAmount" type="xs:double" />
+              <xs:element minOccurs="0" name="Status" type="xs:int" />
+              <xs:element minOccurs="0" name="CreateUserID" type="xs:int" />
+              <xs:element minOccurs="0" name="CreateDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="RefTranNo" type="xs:string" />
+              <xs:element minOccurs="0" name="RefTranDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="JobNo" type="xs:string" />
+              <xs:element minOccurs="0" name="ApproveDicAmount" type="xs:double" />
+              <xs:element minOccurs="0" name="ApproveBy" type="xs:int" />
+              <xs:element minOccurs="0" name="ApproveDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="RefInvoiceNo" type="xs:string" />
+              <xs:element minOccurs="0" name="RefInvoiceDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="DefectiveCategory" type="xs:int" />
+              <xs:element minOccurs="0" name="AssessmentFindings" type="xs:string" />
+              <xs:element minOccurs="0" name="IsRepairable" type="xs:int" />
+              <xs:element minOccurs="0" name="Accessories" type="xs:string" />
+              <xs:element minOccurs="0" name="TechRecommandation" type="xs:int" />
+              <xs:element minOccurs="0" name="TechRemarks" type="xs:string" />
+              <xs:element minOccurs="0" name="IsLocallySaleable" type="xs:int" />
+              <xs:element minOccurs="0" name="PaneltyAmount" type="xs:double" />
+              <xs:element minOccurs="0" name="IsLocallyRepaired" type="xs:int" />
+              <xs:element minOccurs="0" name="RepairStatus" type="xs:string" />
+              <xs:element minOccurs="0" name="OriginalSL" type="xs:string" />
+              <xs:element minOccurs="0" name="IsPenaltyApplicable" type="xs:int" />
+              <xs:element minOccurs="0" name="IsDefectiveAcknowledged" type="xs:int" />
+              <xs:element minOccurs="0" name="AcknowledgmentRemarks" type="xs:string" />
+              <xs:element msdata:DataType="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" minOccurs="0" name="ExpSalesDate" type="xs:anyType" />
+              <xs:element minOccurs="0" name="FromWH" type="xs:int" />
+              <xs:element minOccurs="0" name="ToWH" type="xs:int" />
+              <xs:element minOccurs="0" name="IsDownload" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

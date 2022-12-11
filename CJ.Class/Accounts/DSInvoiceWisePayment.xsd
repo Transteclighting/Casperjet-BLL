@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSInvoiceWisePayment" targetNamespace="http://tempuri.org/DSInvoiceWisePayment.xsd" xmlns:mstns="http://tempuri.org/DSInvoiceWisePayment.xsd" xmlns="http://tempuri.org/DSInvoiceWisePayment.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSInvoiceWisePayment" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DSInvoiceWisePayment" msprop:Generator_DataSetName="DSInvoiceWisePayment">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="InvoiceWisePayment" msprop:Generator_UserTableName="InvoiceWisePayment" msprop:Generator_RowDeletedName="InvoiceWisePaymentRowDeleted" msprop:Generator_TableClassName="InvoiceWisePaymentDataTable" msprop:Generator_RowChangedName="InvoiceWisePaymentRowChanged" msprop:Generator_RowClassName="InvoiceWisePaymentRow" msprop:Generator_RowChangingName="InvoiceWisePaymentRowChanging" msprop:Generator_RowEvArgName="InvoiceWisePaymentRowChangeEvent" msprop:Generator_RowEvHandlerName="InvoiceWisePaymentRowChangeEventHandler" msprop:Generator_TablePropName="InvoiceWisePayment" msprop:Generator_TableVarName="tableInvoiceWisePayment" msprop:Generator_RowDeletingName="InvoiceWisePaymentRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="InvoiceID" msprop:Generator_UserColumnName="InvoiceID" msprop:Generator_ColumnPropNameInRow="InvoiceID" msprop:Generator_ColumnVarNameInTable="columnInvoiceID" msprop:Generator_ColumnPropNameInTable="InvoiceIDColumn" type="xs:long" minOccurs="0" />
+              <xs:element name="InvoiceNo" msprop:Generator_UserColumnName="InvoiceNo" msprop:Generator_ColumnPropNameInRow="InvoiceNo" msprop:Generator_ColumnVarNameInTable="columnInvoiceNo" msprop:Generator_ColumnPropNameInTable="InvoiceNoColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="InvoiceDate" msprop:Generator_UserColumnName="InvoiceDate" msprop:Generator_ColumnPropNameInRow="InvoiceDate" msprop:Generator_ColumnVarNameInTable="columnInvoiceDate" msprop:Generator_ColumnPropNameInTable="InvoiceDateColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="InvoiceAmount" msprop:Generator_UserColumnName="InvoiceAmount" msprop:Generator_ColumnPropNameInRow="InvoiceAmount" msprop:Generator_ColumnVarNameInTable="columnInvoiceAmount" msprop:Generator_ColumnPropNameInTable="InvoiceAmountColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="ReceivedAmount" msprop:Generator_UserColumnName="ReceivedAmount" msprop:Generator_ColumnPropNameInRow="ReceivedAmount" msprop:Generator_ColumnVarNameInTable="columnReceivedAmount" msprop:Generator_ColumnPropNameInTable="ReceivedAmountColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="DueAmount" msprop:Generator_UserColumnName="DueAmount" msprop:Generator_ColumnPropNameInRow="DueAmount" msprop:Generator_ColumnVarNameInTable="columnDueAmount" msprop:Generator_ColumnPropNameInTable="DueAmountColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="CurrentDue" msprop:Generator_UserColumnName="CurrentDue" msprop:Generator_ColumnPropNameInRow="CurrentDue" msprop:Generator_ColumnVarNameInTable="columnCurrentDue" msprop:Generator_ColumnPropNameInTable="CurrentDueColumn" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

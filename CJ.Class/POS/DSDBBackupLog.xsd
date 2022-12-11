@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSDBBackupLog" targetNamespace="http://tempuri.org/DSDBBackupLog.xsd" xmlns:mstns="http://tempuri.org/DSDBBackupLog.xsd" xmlns="http://tempuri.org/DSDBBackupLog.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSDBBackupLog" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DSDBBackupLog" msprop:Generator_DataSetName="DSDBBackupLog">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DBBackupLog" msprop:Generator_UserTableName="DBBackupLog" msprop:Generator_RowDeletedName="DBBackupLogRowDeleted" msprop:Generator_RowChangedName="DBBackupLogRowChanged" msprop:Generator_RowClassName="DBBackupLogRow" msprop:Generator_RowChangingName="DBBackupLogRowChanging" msprop:Generator_RowEvArgName="DBBackupLogRowChangeEvent" msprop:Generator_RowEvHandlerName="DBBackupLogRowChangeEventHandler" msprop:Generator_TableClassName="DBBackupLogDataTable" msprop:Generator_TableVarName="tableDBBackupLog" msprop:Generator_RowDeletingName="DBBackupLogRowDeleting" msprop:Generator_TablePropName="DBBackupLog">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="BackupID" msprop:Generator_UserColumnName="BackupID" msprop:Generator_ColumnVarNameInTable="columnBackupID" msprop:Generator_ColumnPropNameInRow="BackupID" msprop:Generator_ColumnPropNameInTable="BackupIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="WarehouseID" msprop:Generator_UserColumnName="WarehouseID" msprop:Generator_ColumnVarNameInTable="columnWarehouseID" msprop:Generator_ColumnPropNameInRow="WarehouseID" msprop:Generator_ColumnPropNameInTable="WarehouseIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="OperationDate" msprop:Generator_UserColumnName="OperationDate" msprop:Generator_ColumnVarNameInTable="columnOperationDate" msprop:Generator_ColumnPropNameInRow="OperationDate" msprop:Generator_ColumnPropNameInTable="OperationDateColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="BakcupDate" msprop:Generator_UserColumnName="BakcupDate" msprop:Generator_ColumnVarNameInTable="columnBakcupDate" msprop:Generator_ColumnPropNameInRow="BakcupDate" msprop:Generator_ColumnPropNameInTable="BakcupDateColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="FileName" msprop:Generator_UserColumnName="FileName" msprop:Generator_ColumnVarNameInTable="columnFileName" msprop:Generator_ColumnPropNameInRow="FileName" msprop:Generator_ColumnPropNameInTable="FileNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="IsDownload" msprop:Generator_UserColumnName="IsDownload" msprop:Generator_ColumnPropNameInRow="IsDownload" msprop:Generator_ColumnVarNameInTable="columnIsDownload" msprop:Generator_ColumnPropNameInTable="IsDownloadColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

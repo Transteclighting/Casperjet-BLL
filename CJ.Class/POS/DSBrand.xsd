@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSBrand" targetNamespace="http://tempuri.org/DSBrand.xsd" xmlns:mstns="http://tempuri.org/DSBrand.xsd" xmlns="http://tempuri.org/DSBrand.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSBrand" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DSBrand" msprop:Generator_DataSetName="DSBrand">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Brand" msprop:Generator_UserTableName="Brand" msprop:Generator_RowDeletedName="BrandRowDeleted" msprop:Generator_RowChangedName="BrandRowChanged" msprop:Generator_RowClassName="BrandRow" msprop:Generator_RowChangingName="BrandRowChanging" msprop:Generator_RowEvArgName="BrandRowChangeEvent" msprop:Generator_RowEvHandlerName="BrandRowChangeEventHandler" msprop:Generator_TableClassName="BrandDataTable" msprop:Generator_TableVarName="tableBrand" msprop:Generator_RowDeletingName="BrandRowDeleting" msprop:Generator_TablePropName="Brand">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="BrandID" msdata:Caption="Brand ID" msprop:Generator_UserColumnName="BrandID" msprop:Generator_ColumnVarNameInTable="columnBrandID" msprop:Generator_ColumnPropNameInRow="BrandID" msprop:Generator_ColumnPropNameInTable="BrandIDColumn" type="xs:long" minOccurs="0" />
+              <xs:element name="BrandCode" msdata:Caption="Brand Code" msprop:Generator_UserColumnName="BrandCode" msprop:Generator_ColumnVarNameInTable="columnBrandCode" msprop:Generator_ColumnPropNameInRow="BrandCode" msprop:Generator_ColumnPropNameInTable="BrandCodeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="BrandDesc" msdata:Caption="Brand Desc" msprop:Generator_UserColumnName="BrandDesc" msprop:Generator_ColumnVarNameInTable="columnBrandDesc" msprop:Generator_ColumnPropNameInRow="BrandDesc" msprop:Generator_ColumnPropNameInTable="BrandDescColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="BrandLevel" msprop:Generator_UserColumnName="BrandLevel" msprop:Generator_ColumnPropNameInRow="BrandLevel" msprop:Generator_ColumnVarNameInTable="columnBrandLevel" msprop:Generator_ColumnPropNameInTable="BrandLevelColumn" type="xs:long" minOccurs="0" />
+              <xs:element name="ParentID" msprop:Generator_UserColumnName="ParentID" msprop:Generator_ColumnPropNameInRow="ParentID" msprop:Generator_ColumnVarNameInTable="columnParentID" msprop:Generator_ColumnPropNameInTable="ParentIDColumn" type="xs:long" minOccurs="0" />
+              <xs:element name="BrandPos" msprop:Generator_UserColumnName="BrandPos" msprop:Generator_ColumnPropNameInRow="BrandPos" msprop:Generator_ColumnVarNameInTable="columnBrandPos" msprop:Generator_ColumnPropNameInTable="BrandPosColumn" type="xs:long" minOccurs="0" />
+              <xs:element name="RowStatus" msprop:Generator_UserColumnName="RowStatus" msprop:Generator_ColumnVarNameInTable="columnRowStatus" msprop:Generator_ColumnPropNameInRow="RowStatus" msprop:Generator_ColumnPropNameInTable="RowStatusColumn" type="xs:short" minOccurs="0" />
+              <xs:element name="UploadStatus" msprop:Generator_UserColumnName="UploadStatus" msprop:Generator_ColumnVarNameInTable="columnUploadStatus" msprop:Generator_ColumnPropNameInRow="UploadStatus" msprop:Generator_ColumnPropNameInTable="UploadStatusColumn" type="xs:short" minOccurs="0" />
+              <xs:element name="UploadDate" msdata:Caption="TUploadDate" msprop:Generator_UserColumnName="UploadDate" msprop:Generator_ColumnVarNameInTable="columnUploadDate" msprop:Generator_ColumnPropNameInRow="UploadDate" msprop:Generator_ColumnPropNameInTable="UploadDateColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="DownloadDate" msprop:Generator_UserColumnName="DownloadDate" msprop:Generator_ColumnVarNameInTable="columnDownloadDate" msprop:Generator_ColumnPropNameInRow="DownloadDate" msprop:Generator_ColumnPropNameInTable="DownloadDateColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="IsActive" msdata:Caption="Is Active" msprop:Generator_UserColumnName="IsActive" msprop:Generator_ColumnVarNameInTable="columnIsActive" msprop:Generator_ColumnPropNameInRow="IsActive" msprop:Generator_ColumnPropNameInTable="IsActiveColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="TransferType" msprop:Generator_UserColumnName="TransferType" msprop:Generator_ColumnPropNameInRow="TransferType" msprop:Generator_ColumnVarNameInTable="columnTransferType" msprop:Generator_ColumnPropNameInTable="TransferTypeColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

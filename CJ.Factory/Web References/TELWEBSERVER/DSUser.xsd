@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns="http://tempuri.org/DSUser.xsd" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:mstns="http://tempuri.org/DSUser.xsd" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://tempuri.org/DSUser.xsd" id="DSUser" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element msdata:IsDataSet="true" msdata:UseCurrentLocale="true" name="DSUser">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="User">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element msdata:Caption="User ID" minOccurs="0" name="UserID" type="xs:long" />
+              <xs:element msdata:Caption="User Full Name" minOccurs="0" name="UserFullName" type="xs:string" />
+              <xs:element msdata:Caption="User Name" minOccurs="0" name="UserName" type="xs:string" />
+              <xs:element minOccurs="0" name="Password" type="xs:string" />
+              <xs:element minOccurs="0" name="Salt" type="xs:string" />
+              <xs:element minOccurs="0" name="UserSBUs" type="xs:string" />
+              <xs:element minOccurs="0" name="EmployeeID" type="xs:long" />
+              <xs:element minOccurs="0" name="IsTrue" type="xs:string" />
+              <xs:element minOccurs="0" name="TransferType" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Permission">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element msdata:Caption="PermissionKey" name="UserID" type="xs:int" />
+              <xs:element msdata:Caption="PermissionName" minOccurs="0" name="PermissionKey" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

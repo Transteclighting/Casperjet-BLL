@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSDutyTranDetail" targetNamespace="http://tempuri.org/DSDutyTranDetail.xsd" xmlns:mstns="http://tempuri.org/DSDutyTranDetail.xsd" xmlns="http://tempuri.org/DSDutyTranDetail.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSDutyTranDetail" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DSDutyTranDetail" msprop:Generator_DataSetName="DSDutyTranDetail">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DutyTranDetail" msprop:Generator_UserTableName="DutyTranDetail" msprop:Generator_RowDeletedName="DutyTranDetailRowDeleted" msprop:Generator_RowChangedName="DutyTranDetailRowChanged" msprop:Generator_RowClassName="DutyTranDetailRow" msprop:Generator_RowChangingName="DutyTranDetailRowChanging" msprop:Generator_RowEvArgName="DutyTranDetailRowChangeEvent" msprop:Generator_RowEvHandlerName="DutyTranDetailRowChangeEventHandler" msprop:Generator_TableClassName="DutyTranDetailDataTable" msprop:Generator_TableVarName="tableDutyTranDetail" msprop:Generator_RowDeletingName="DutyTranDetailRowDeleting" msprop:Generator_TablePropName="DutyTranDetail">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DutyTranID" msprop:Generator_UserColumnName="DutyTranID" msprop:Generator_ColumnVarNameInTable="columnDutyTranID" msprop:Generator_ColumnPropNameInRow="DutyTranID" msprop:Generator_ColumnPropNameInTable="DutyTranIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="ProductName" msprop:Generator_UserColumnName="ProductName" msprop:Generator_ColumnVarNameInTable="columnProductName" msprop:Generator_ColumnPropNameInRow="ProductName" msprop:Generator_ColumnPropNameInTable="ProductNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Qty" msprop:Generator_UserColumnName="Qty" msprop:Generator_ColumnVarNameInTable="columnQty" msprop:Generator_ColumnPropNameInRow="Qty" msprop:Generator_ColumnPropNameInTable="QtyColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="DutyPrice" msprop:Generator_UserColumnName="DutyPrice" msprop:Generator_ColumnVarNameInTable="columnDutyPrice" msprop:Generator_ColumnPropNameInRow="DutyPrice" msprop:Generator_ColumnPropNameInTable="DutyPriceColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="DutyRate" msprop:Generator_UserColumnName="DutyRate" msprop:Generator_ColumnVarNameInTable="columnDutyRate" msprop:Generator_ColumnPropNameInRow="DutyRate" msprop:Generator_ColumnPropNameInTable="DutyRateColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="Counter" msprop:Generator_UserColumnName="Counter" msprop:Generator_ColumnPropNameInRow="Counter" msprop:Generator_ColumnVarNameInTable="columnCounter" msprop:Generator_ColumnPropNameInTable="CounterColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

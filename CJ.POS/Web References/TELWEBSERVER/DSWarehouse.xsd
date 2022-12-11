@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns="http://tempuri.org/DSWarehouse.xsd" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:mstns="http://tempuri.org/DSWarehouse.xsd" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://tempuri.org/DSWarehouse.xsd" id="DSWarehouse" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element msdata:IsDataSet="true" msdata:UseCurrentLocale="true" name="DSWarehouse">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Warehouse">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="WarehouseID" type="xs:int" />
+              <xs:element minOccurs="0" name="WarehouseCode" type="xs:string" />
+              <xs:element minOccurs="0" name="WarehouseName" type="xs:string" />
+              <xs:element minOccurs="0" name="WarehouseParentID" type="xs:int" />
+              <xs:element minOccurs="0" name="ChannelID" type="xs:int" />
+              <xs:element minOccurs="0" name="LocationID" type="xs:int" />
+              <xs:element minOccurs="0" name="ShortCode" type="xs:string" />
+              <xs:element minOccurs="0" name="TransferType" type="xs:int" />
+              <xs:element minOccurs="0" name="StockType" type="xs:int" />
+              <xs:element minOccurs="0" name="IsActive" type="xs:int" />
+              <xs:element minOccurs="0" name="WarehouseType" type="xs:int" />
+              <xs:element minOccurs="0" name="ViewPosition" type="xs:int" />
+              <xs:element minOccurs="0" name="ThanaID" type="xs:int" />
+              <xs:element minOccurs="0" name="Remark" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

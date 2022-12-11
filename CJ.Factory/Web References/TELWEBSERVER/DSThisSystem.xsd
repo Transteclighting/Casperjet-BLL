@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns="http://tempuri.org/DSThisSystem.xsd" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:mstns="http://tempuri.org/DSThisSystem.xsd" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://tempuri.org/DSThisSystem.xsd" id="DSThisSystem" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element msdata:IsDataSet="true" msdata:UseCurrentLocale="true" name="DSThisSystem">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ThisSystem">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="HCMobileNo" type="xs:string" />
+              <xs:element minOccurs="0" name="HCPhoneNo" type="xs:string" />
+              <xs:element minOccurs="0" name="HCEmail" type="xs:string" />
+              <xs:element minOccurs="0" name="VATRegistrationNo" type="xs:string" />
+              <xs:element minOccurs="0" name="POSVersionNo" type="xs:string" />
+              <xs:element minOccurs="0" name="IsNewVat" type="xs:int" />
+              <xs:element minOccurs="0" name="NewVatActivationDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="IsActiveSalesOrder" type="xs:int" />
+              <xs:element minOccurs="0" name="CentralRegisteredPersonAddress" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

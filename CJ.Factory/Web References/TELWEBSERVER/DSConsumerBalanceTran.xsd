@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns="http://tempuri.org/DSConsumerBalanceTran.xsd" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:mstns="http://tempuri.org/DSConsumerBalanceTran.xsd" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://tempuri.org/DSConsumerBalanceTran.xsd" id="DSConsumerBalanceTran" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element msdata:IsDataSet="true" msdata:UseCurrentLocale="true" name="DSConsumerBalanceTran">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ConsumerBalanceTran">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="BalanceTranID" type="xs:int" />
+              <xs:element minOccurs="0" name="ConsumerID" type="xs:int" />
+              <xs:element minOccurs="0" name="CustomerID" type="xs:int" />
+              <xs:element minOccurs="0" name="TranType" type="xs:int" />
+              <xs:element minOccurs="0" name="TranSide" type="xs:int" />
+              <xs:element minOccurs="0" name="AdvancePaymentNo" type="xs:string" />
+              <xs:element minOccurs="0" name="InvoiceNo" type="xs:string" />
+              <xs:element minOccurs="0" name="Amount" type="xs:double" />
+              <xs:element minOccurs="0" name="Purpose" type="xs:string" />
+              <xs:element minOccurs="0" name="ProductID" type="xs:int" />
+              <xs:element minOccurs="0" name="PaymentMode" type="xs:int" />
+              <xs:element minOccurs="0" name="Remarks" type="xs:string" />
+              <xs:element minOccurs="0" name="IsUpload" type="xs:int" />
+              <xs:element minOccurs="0" name="CreateUserID" type="xs:int" />
+              <xs:element minOccurs="0" name="CreateDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="IsDownload" type="xs:int" />
+              <xs:element minOccurs="0" name="BankID" type="xs:int" />
+              <xs:element minOccurs="0" name="POSMachineID" type="xs:int" />
+              <xs:element minOccurs="0" name="CardType" type="xs:int" />
+              <xs:element minOccurs="0" name="CardCategory" type="xs:int" />
+              <xs:element minOccurs="0" name="InstrumentNo" type="xs:string" />
+              <xs:element minOccurs="0" name="InstrumentDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="ApprovalNo" type="xs:string" />
+              <xs:element minOccurs="0" name="IsEMI" type="xs:int" />
+              <xs:element minOccurs="0" name="NoOfInstallment" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

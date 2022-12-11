@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns="http://tempuri.org/DSSalesLead.xsd" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:mstns="http://tempuri.org/DSSalesLead.xsd" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://tempuri.org/DSSalesLead.xsd" id="DSSalesLead" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element msdata:IsDataSet="true" msdata:UseCurrentLocale="true" name="DSSalesLead">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="SalesLead">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="LeadID" type="xs:int" />
+              <xs:element minOccurs="0" name="WarehouseID" type="xs:int" />
+              <xs:element minOccurs="0" name="LeadNo" type="xs:string" />
+              <xs:element minOccurs="0" name="LeadDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="ExpExecuteDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="CustomerType" type="xs:int" />
+              <xs:element minOccurs="0" name="CompanyName" type="xs:string" />
+              <xs:element minOccurs="0" name="Name" type="xs:string" />
+              <xs:element minOccurs="0" name="Address" type="xs:string" />
+              <xs:element minOccurs="0" name="ContactNo" type="xs:string" />
+              <xs:element minOccurs="0" name="Email" type="xs:string" />
+              <xs:element minOccurs="0" name="Profession" type="xs:string" />
+              <xs:element minOccurs="0" name="AgeLevel" type="xs:string" />
+              <xs:element minOccurs="0" name="IncomLevel" type="xs:string" />
+              <xs:element minOccurs="0" name="MAGID" type="xs:int" />
+              <xs:element minOccurs="0" name="BrandID" type="xs:int" />
+              <xs:element minOccurs="0" name="ModelName" type="xs:string" />
+              <xs:element minOccurs="0" name="NextFollowUpDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="LeadAmount" type="xs:double" />
+              <xs:element minOccurs="0" name="Status" type="xs:int" />
+              <xs:element minOccurs="0" name="Remarks" type="xs:string" />
+              <xs:element minOccurs="0" name="Reason" type="xs:string" />
+              <xs:element minOccurs="0" name="InvoiceNo" type="xs:string" />
+              <xs:element minOccurs="0" name="CreateDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="CreateUserID" type="xs:int" />
+              <xs:element minOccurs="0" name="UpdateDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="UpdateUserID" type="xs:int" />
+              <xs:element minOccurs="0" name="IsDownload" type="xs:int" />
+              <xs:element minOccurs="0" name="SalesPersonID" type="xs:int" />
+              <xs:element minOccurs="0" name="Terminal" type="xs:int" />
+              <xs:element minOccurs="0" name="ConversionPossibility" type="xs:int" />
+              <xs:element minOccurs="0" name="HistoryID" type="xs:int" />
+              <xs:element minOccurs="0" name="InvoiceDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="CancelDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="Qty" type="xs:int" />
+              <xs:element minOccurs="0" name="IsExistingConsumer" type="xs:int" />
+              <xs:element minOccurs="0" name="RefLeadNo" type="xs:string" />
+              <xs:element minOccurs="0" name="LeadSource" type="xs:int" />
+              <xs:element minOccurs="0" name="ActivationID" type="xs:int" />
+              <xs:element minOccurs="0" name="ProductID" type="xs:int" />
+              <xs:element minOccurs="0" name="ThanaID" type="xs:int" />
+              <xs:element minOccurs="0" name="ConsumerID" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSPSIOpeningStock" targetNamespace="http://tempuri.org/DSPSIOpeningStock.xsd" xmlns:mstns="http://tempuri.org/DSPSIOpeningStock.xsd" xmlns="http://tempuri.org/DSPSIOpeningStock.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSPSIOpeningStock" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DSPSIOpeningStock" msprop:Generator_UserDSName="DSPSIOpeningStock">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="OpeningStock" msprop:Generator_TableClassName="OpeningStockDataTable" msprop:Generator_TableVarName="tableOpeningStock" msprop:Generator_TablePropName="OpeningStock" msprop:Generator_RowDeletingName="OpeningStockRowDeleting" msprop:Generator_RowChangingName="OpeningStockRowChanging" msprop:Generator_RowEvHandlerName="OpeningStockRowChangeEventHandler" msprop:Generator_RowDeletedName="OpeningStockRowDeleted" msprop:Generator_UserTableName="OpeningStock" msprop:Generator_RowChangedName="OpeningStockRowChanged" msprop:Generator_RowEvArgName="OpeningStockRowChangeEvent" msprop:Generator_RowClassName="OpeningStockRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ProductID" msprop:Generator_ColumnVarNameInTable="columnProductID" msprop:Generator_ColumnPropNameInRow="ProductID" msprop:Generator_ColumnPropNameInTable="ProductIDColumn" msprop:Generator_UserColumnName="ProductID" type="xs:int" minOccurs="0" />
+              <xs:element name="OpeType" msprop:Generator_ColumnVarNameInTable="columnOpeType" msprop:Generator_ColumnPropNameInRow="OpeType" msprop:Generator_ColumnPropNameInTable="OpeTypeColumn" msprop:Generator_UserColumnName="OpeType" type="xs:string" minOccurs="0" />
+              <xs:element name="OpeningStock" msprop:Generator_ColumnVarNameInTable="columnOpeningStock" msprop:Generator_ColumnPropNameInRow="OpeningStock" msprop:Generator_ColumnPropNameInTable="OpeningStockColumn" msprop:Generator_UserColumnName="OpeningStock" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

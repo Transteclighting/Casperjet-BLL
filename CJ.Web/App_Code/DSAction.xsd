@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSAction" targetNamespace="http://tempuri.org/DSAction.xsd" xmlns:mstns="http://tempuri.org/DSAction.xsd" xmlns="http://tempuri.org/DSAction.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSAction" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="DSAction" msprop:Generator_UserDSName="DSAction">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Action" msprop:Generator_TableClassName="ActionDataTable" msprop:Generator_TableVarName="tableAction" msprop:Generator_TablePropName="Action" msprop:Generator_RowDeletingName="ActionRowDeleting" msprop:Generator_RowChangingName="ActionRowChanging" msprop:Generator_RowEvHandlerName="ActionRowChangeEventHandler" msprop:Generator_RowDeletedName="ActionRowDeleted" msprop:Generator_UserTableName="Action" msprop:Generator_RowChangedName="ActionRowChanged" msprop:Generator_RowEvArgName="ActionRowChangeEvent" msprop:Generator_RowClassName="ActionRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_UserColumnName="ID" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

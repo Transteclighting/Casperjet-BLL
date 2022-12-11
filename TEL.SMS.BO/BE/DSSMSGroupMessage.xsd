@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSSMSGroupMessage" targetNamespace="http://tempuri.org/DSSMSGroupMessage.xsd" xmlns:mstns="http://tempuri.org/DSSMSGroupMessage.xsd" xmlns="http://tempuri.org/DSSMSGroupMessage.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSSMSGroupMessage" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DSSMSGroupMessage" msprop:Generator_DataSetName="DSSMSGroupMessage">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="SMSGroupMessage" msprop:Generator_UserTableName="SMSGroupMessage" msprop:Generator_RowDeletedName="SMSGroupMessageRowDeleted" msprop:Generator_RowChangedName="SMSGroupMessageRowChanged" msprop:Generator_RowClassName="SMSGroupMessageRow" msprop:Generator_RowChangingName="SMSGroupMessageRowChanging" msprop:Generator_RowEvArgName="SMSGroupMessageRowChangeEvent" msprop:Generator_RowEvHandlerName="SMSGroupMessageRowChangeEventHandler" msprop:Generator_TableClassName="SMSGroupMessageDataTable" msprop:Generator_TableVarName="tableSMSGroupMessage" msprop:Generator_RowDeletingName="SMSGroupMessageRowDeleting" msprop:Generator_TablePropName="SMSGroupMessage">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="usergroupname" msprop:Generator_UserColumnName="usergroupname" msprop:Generator_ColumnVarNameInTable="columnusergroupname" msprop:Generator_ColumnPropNameInRow="usergroupname" msprop:Generator_ColumnPropNameInTable="usergroupnameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Messages" msprop:Generator_UserColumnName="Messages" msprop:Generator_ColumnVarNameInTable="columnMessages" msprop:Generator_ColumnPropNameInRow="Messages" msprop:Generator_ColumnPropNameInTable="MessagesColumn" type="xs:long" minOccurs="0" />
+              <xs:element name="Success" msprop:Generator_UserColumnName="Success" msprop:Generator_ColumnVarNameInTable="columnSuccess" msprop:Generator_ColumnPropNameInRow="Success" msprop:Generator_ColumnPropNameInTable="SuccessColumn" type="xs:long" minOccurs="0" />
+              <xs:element name="Fail" msprop:Generator_UserColumnName="Fail" msprop:Generator_ColumnVarNameInTable="columnFail" msprop:Generator_ColumnPropNameInRow="Fail" msprop:Generator_ColumnPropNameInTable="FailColumn" type="xs:long" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

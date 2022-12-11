@@ -1,0 +1,523 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="14.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1D676563-0E9E-4E69-BA16-C8B2933447E2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TEL.SMS.UI.Win</RootNamespace>
+    <AssemblyName>TEL.SMS.UI.Win</AssemblyName>
+    <SccProjectName>"%24/CasperJet", TBIAAAAA</SccProjectName>
+    <SccLocalPath>..</SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>MSSCCI:Microsoft Visual SourceSafe</SccProvider>
+    <ApplicationIcon>TELSMSServer.ico</ApplicationIcon>
+    <StartupObject>
+    </StartupObject>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\WINDOWS\assembly\GAC_MSIL\System.Web.Services\2.0.0.0__b03f5f7f11d50a3a\System.Web.Services.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TEL.BE">
+      <HintPath>bin\Debug\TEL.BE.dll</HintPath>
+    </Reference>
+    <Reference Include="TEL.BE.Reports">
+      <HintPath>bin\Debug\TEL.BE.Reports.dll</HintPath>
+    </Reference>
+    <Reference Include="TEL.BO">
+      <HintPath>bin\Debug\TEL.BO.dll</HintPath>
+    </Reference>
+    <Reference Include="TEL.BO.Reports">
+      <HintPath>bin\Debug\TEL.BO.Reports.dll</HintPath>
+    </Reference>
+    <Reference Include="TEL.Common">
+      <HintPath>bin\Debug\TEL.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="TEL.Library">
+      <HintPath>bin\Debug\TEL.Library.dll</HintPath>
+    </Reference>
+    <Reference Include="TEL.Report">
+      <HintPath>bin\Debug\TEL.Report.dll</HintPath>
+    </Reference>
+    <Reference Include="TEL.SMS.UI.Win, Version=1.0.0.9, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\TEL.SMS.UI.Win.dll</HintPath>
+    </Reference>
+    <Reference Include="TEL.UI.Win">
+      <HintPath>bin\Debug\TEL.UI.Win.dll</HintPath>
+    </Reference>
+    <Reference Include="TEL.UI.Win.Controls">
+      <HintPath>bin\Debug\TEL.UI.Win.Controls.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CrystalReport1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrystalReport1.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReport2.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrystalReport2.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ctlCustomer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ctlCustomer.Designer.cs">
+      <DependentUpon>ctlCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ctlProduct.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ctlProduct.Designer.cs">
+      <DependentUpon>ctlProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCollectionsThroughSMS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCollectionsThroughSMS.Designer.cs">
+      <DependentUpon>frmCollectionsThroughSMS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCustomers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCustomers.Designer.cs">
+      <DependentUpon>frmCustomers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDailySMSGroup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDailySMSGroup.Designer.cs">
+      <DependentUpon>frmDailySMSGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmITInvoice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmITInvoice.Designer.cs">
+      <DependentUpon>frmITInvoice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmITInvoiceItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmITInvoiceItem.Designer.cs">
+      <DependentUpon>frmITInvoiceItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmITInvoices.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmITInvoices.Designer.cs">
+      <DependentUpon>frmITInvoices.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmProducts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmProducts.Designer.cs">
+      <DependentUpon>frmProducts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmReportViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReportViewer.Designer.cs">
+      <DependentUpon>frmReportViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSMSDailySalesCollection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSMSDailySalesCollection.Designer.cs">
+      <DependentUpon>frmSMSDailySalesCollection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmWarrentyRegistrationSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWarrentyRegistrationSearch.Designer.cs">
+      <DependentUpon>frmWarrentyRegistrationSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Planning\frmRollingForecast.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Planning\frmRollingForecast.Designer.cs">
+      <DependentUpon>frmRollingForecast.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRptMarketVisit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRptMarketVisit.Designer.cs">
+      <DependentUpon>frmRptMarketVisit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRptShowroomStock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRptShowroomStock.Designer.cs">
+      <DependentUpon>frmRptShowroomStock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRptSMSUsage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRptSMSUsage.Designer.cs">
+      <DependentUpon>frmRptSMSUsage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRptWarrantyReg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRptWarrantyReg.Designer.cs">
+      <DependentUpon>frmRptWarrantyReg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Planning\frmSCMonthBudget.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Planning\frmSCMonthBudget.Designer.cs">
+      <DependentUpon>frmSCMonthBudget.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmWarrantyRegs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWarrantyRegs.Designer.cs">
+      <DependentUpon>frmWarrantyRegs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmWarrantyReg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWarrantyReg.Designer.cs">
+      <DependentUpon>frmWarrantyReg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSMSMessageForMany.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSMSMessageForMany.Designer.cs">
+      <DependentUpon>frmSMSMessageForMany.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDataImport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDataImport.Designer.cs">
+      <DependentUpon>frmDataImport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSMSMessageIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSMSMessageIn.Designer.cs">
+      <DependentUpon>frmSMSMessageIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSMSMessages.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSMSMessages.Designer.cs">
+      <DependentUpon>frmSMSMessages.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSMSMessageForSingle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSMSMessageForSingle.Designer.cs">
+      <DependentUpon>frmSMSMessageForSingle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSMSMessageForGroup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSMSMessageForGroup.Designer.cs">
+      <DependentUpon>frmSMSMessageForGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSMSGroupPerson.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSMSGroupPerson.Designer.cs">
+      <DependentUpon>frmSMSGroupPerson.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSMSGroup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSMSGroup.Designer.cs">
+      <DependentUpon>frmSMSGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSMSGroups.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSMSGroups.Designer.cs">
+      <DependentUpon>frmSMSGroups.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPerson.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPerson.Designer.cs">
+      <DependentUpon>frmPerson.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPersons.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPersons.Designer.cs">
+      <DependentUpon>frmPersons.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MarketVisitReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MarketVisitReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="CrystalReport1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalReport1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReport2.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalReport2.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ctlCustomer.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ctlCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ctlProduct.resx">
+      <DependentUpon>ctlProduct.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCollectionsThroughSMS.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmCollectionsThroughSMS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCustomers.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmCustomers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDailySMSGroup.resx">
+      <DependentUpon>frmDailySMSGroup.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmITInvoice.resx">
+      <DependentUpon>frmITInvoice.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmITInvoiceItem.resx">
+      <DependentUpon>frmITInvoiceItem.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmITInvoices.resx">
+      <DependentUpon>frmITInvoices.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmProducts.resx">
+      <DependentUpon>frmProducts.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReportViewer.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmReportViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSMSDailySalesCollection.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSMSDailySalesCollection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWarrentyRegistrationSearch.resx">
+      <DependentUpon>frmWarrentyRegistrationSearch.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planning\frmRollingForecast.resx">
+      <DependentUpon>frmRollingForecast.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRptMarketVisit.resx">
+      <DependentUpon>frmRptMarketVisit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRptShowroomStock.resx">
+      <DependentUpon>frmRptShowroomStock.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRptSMSUsage.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmRptSMSUsage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRptWarrantyReg.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmRptWarrantyReg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planning\frmSCMonthBudget.resx">
+      <DependentUpon>frmSCMonthBudget.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWarrantyRegs.resx">
+      <DependentUpon>frmWarrantyRegs.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWarrantyReg.resx">
+      <DependentUpon>frmWarrantyReg.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSMSMessageForMany.resx">
+      <DependentUpon>frmSMSMessageForMany.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDataImport.resx">
+      <DependentUpon>frmDataImport.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSMSMessageIn.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSMSMessageIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSMSMessages.resx">
+      <DependentUpon>frmSMSMessages.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSMSMessageForSingle.resx">
+      <DependentUpon>frmSMSMessageForSingle.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSMSMessageForGroup.resx">
+      <DependentUpon>frmSMSMessageForGroup.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSMSGroupPerson.resx">
+      <DependentUpon>frmSMSGroupPerson.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSMSGroup.resx">
+      <DependentUpon>frmSMSGroup.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSMSGroups.resx">
+      <DependentUpon>frmSMSGroups.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPerson.resx">
+      <DependentUpon>frmPerson.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPersons.resx">
+      <DependentUpon>frmPersons.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MarketVisitReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>MarketVisitReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShowroomStockReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ShowroomStockReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="App.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="ShowroomStockReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ShowroomStockReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TEL.SMS.BO\TEL.SMS.BO.csproj">
+      <Project>{FAD0B2F1-41AA-4BF8-9E48-A3BBD0813DD4}</Project>
+      <Name>TEL.SMS.BO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TEL.SMS.Reports\TEL.SMS.Reports.csproj">
+      <Project>{1A1F4500-EBB0-49BC-AB06-CEB9FA271E98}</Project>
+      <Name>TEL.SMS.Reports</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="TELSMSServer.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns="http://tempuri.org/DSFinishedGoodsPrice.xsd" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:mstns="http://tempuri.org/DSFinishedGoodsPrice.xsd" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://tempuri.org/DSFinishedGoodsPrice.xsd" id="DSFinishedGoodsPrice" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element msdata:IsDataSet="true" msdata:UseCurrentLocale="true" name="DSFinishedGoodsPrice">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Price">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="PriceID" type="xs:int" />
+              <xs:element minOccurs="0" name="ProductID" type="xs:int" />
+              <xs:element minOccurs="0" name="EffectiveDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="CostPrice" type="xs:double" />
+              <xs:element minOccurs="0" name="TradePrice" type="xs:double" />
+              <xs:element minOccurs="0" name="NSP" type="xs:double" />
+              <xs:element minOccurs="0" name="RSP" type="xs:double" />
+              <xs:element minOccurs="0" name="SpecialPrice" type="xs:double" />
+              <xs:element minOccurs="0" name="DistributorPrice" type="xs:double" />
+              <xs:element minOccurs="0" name="VAT" type="xs:double" />
+              <xs:element minOccurs="0" name="IsCurrent" type="xs:int" />
+              <xs:element minOccurs="0" name="MRP" type="xs:double" />
+              <xs:element minOccurs="0" name="EntryUserID" type="xs:int" />
+              <xs:element minOccurs="0" name="SmartWarrantyTenure" type="xs:int" />
+              <xs:element minOccurs="0" name="NetPrice" type="xs:double" />
+              <xs:element minOccurs="0" name="Commission" type="xs:double" />
+              <xs:element minOccurs="0" name="CreateDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="Remarks" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

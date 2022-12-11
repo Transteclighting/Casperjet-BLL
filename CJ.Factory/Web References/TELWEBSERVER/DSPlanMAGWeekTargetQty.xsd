@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns="http://tempuri.org/DSPlanMAGWeekTargetQty.xsd" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:mstns="http://tempuri.org/DSPlanMAGWeekTargetQty.xsd" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://tempuri.org/DSPlanMAGWeekTargetQty.xsd" id="DSPlanMAGWeekTargetQty" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element msdata:IsDataSet="true" msdata:UseCurrentLocale="true" name="DSPlanMAGWeekTargetQty">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="PlanMAGWeekTargetQty">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="VersionNo" type="xs:int" />
+              <xs:element name="TYear" type="xs:int" />
+              <xs:element name="TMonth" type="xs:int" />
+              <xs:element name="WeekNo" type="xs:int" />
+              <xs:element name="CustomerID" type="xs:int" />
+              <xs:element name="MAGID" type="xs:int" />
+              <xs:element name="BrandID" type="xs:int" />
+              <xs:element minOccurs="0" name="TargetQty" type="xs:int" />
+              <xs:element minOccurs="0" name="TargetValue" type="xs:double" />
+              <xs:element minOccurs="0" name="IsDownload" type="xs:int" />
+              <xs:element minOccurs="0" name="Channel" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="SPHeader">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="FileName" type="xs:string" />
+              <xs:element minOccurs="0" name="Description" type="xs:string" />
+              <xs:element minOccurs="0" name="WarehouseID" type="xs:int" />
+              <xs:element minOccurs="0" name="Type" type="xs:string" />
+              <xs:element minOccurs="0" name="TableName" type="xs:string" />
+              <xs:element minOccurs="0" name="CreateUserId" type="xs:int" />
+              <xs:element minOccurs="0" name="CreateDate" type="xs:dateTime" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

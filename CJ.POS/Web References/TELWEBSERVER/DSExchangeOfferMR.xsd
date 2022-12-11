@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns="http://tempuri.org/DSExchangeOfferMR.xsd" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:mstns="http://tempuri.org/DSExchangeOfferMR.xsd" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://tempuri.org/DSExchangeOfferMR.xsd" id="DSExchangeOfferMR" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element msdata:IsDataSet="true" msdata:UseCurrentLocale="true" name="DSExchangeOfferMR">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ExchangeOfferMR">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="MoneyReceiptID" type="xs:int" />
+              <xs:element minOccurs="0" name="MoneyReceiptNo" type="xs:string" />
+              <xs:element minOccurs="0" name="JobID" type="xs:int" />
+              <xs:element minOccurs="0" name="CreateWHID" type="xs:int" />
+              <xs:element minOccurs="0" name="TransferWHID" type="xs:int" />
+              <xs:element minOccurs="0" name="RedeemWHID" type="xs:int" />
+              <xs:element minOccurs="0" name="Amount" type="xs:double" />
+              <xs:element minOccurs="0" name="Remarks" type="xs:string" />
+              <xs:element minOccurs="0" name="CreateUserID" type="xs:int" />
+              <xs:element minOccurs="0" name="CreateDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="TransferUserID" type="xs:int" />
+              <xs:element minOccurs="0" name="TransferDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="UpdateUserID" type="xs:int" />
+              <xs:element minOccurs="0" name="UpdateDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="Status" type="xs:int" />
+              <xs:element minOccurs="0" name="VenderTranID" type="xs:int" />
+              <xs:element minOccurs="0" name="VenderTranNo" type="xs:string" />
+              <xs:element minOccurs="0" name="VenderTranDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="TranSide" type="xs:int" />
+              <xs:element minOccurs="0" name="Type" type="xs:int" />
+              <xs:element minOccurs="0" name="FromVenderID" type="xs:int" />
+              <xs:element minOccurs="0" name="ToVenderID" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

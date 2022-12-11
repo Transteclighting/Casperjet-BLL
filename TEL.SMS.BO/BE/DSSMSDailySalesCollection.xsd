@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSSMSDailySalesCollection" targetNamespace="http://tempuri.org/DSSMSDailySalesCollection.xsd" xmlns:mstns="http://tempuri.org/DSSMSDailySalesCollection.xsd" xmlns="http://tempuri.org/DSSMSDailySalesCollection.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSSMSDailySalesCollection" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DSSMSDailySalesCollection" msprop:Generator_DataSetName="DSSMSDailySalesCollection">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="SMSDailySalesCollection" msprop:Generator_UserTableName="SMSDailySalesCollection" msprop:Generator_RowDeletedName="SMSDailySalesCollectionRowDeleted" msprop:Generator_RowChangedName="SMSDailySalesCollectionRowChanged" msprop:Generator_RowClassName="SMSDailySalesCollectionRow" msprop:Generator_RowChangingName="SMSDailySalesCollectionRowChanging" msprop:Generator_RowEvArgName="SMSDailySalesCollectionRowChangeEvent" msprop:Generator_RowEvHandlerName="SMSDailySalesCollectionRowChangeEventHandler" msprop:Generator_TableClassName="SMSDailySalesCollectionDataTable" msprop:Generator_TableVarName="tableSMSDailySalesCollection" msprop:Generator_RowDeletingName="SMSDailySalesCollectionRowDeleting" msprop:Generator_TablePropName="SMSDailySalesCollection">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CustomerCode" msprop:Generator_UserColumnName="CustomerCode" msprop:Generator_ColumnPropNameInRow="CustomerCode" msprop:Generator_ColumnVarNameInTable="columnCustomerCode" msprop:Generator_ColumnPropNameInTable="CustomerCodeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CustomerName" msprop:Generator_UserColumnName="CustomerName" msprop:Generator_ColumnPropNameInRow="CustomerName" msprop:Generator_ColumnVarNameInTable="columnCustomerName" msprop:Generator_ColumnPropNameInTable="CustomerNameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PersonName" msprop:Generator_UserColumnName="PersonName" msprop:Generator_ColumnPropNameInRow="PersonName" msprop:Generator_ColumnVarNameInTable="columnPersonName" msprop:Generator_ColumnPropNameInTable="PersonNameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MobileNo" msprop:Generator_UserColumnName="MobileNo" msprop:Generator_ColumnPropNameInRow="MobileNo" msprop:Generator_ColumnVarNameInTable="columnMobileNo" msprop:Generator_ColumnPropNameInTable="MobileNoColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Sales" msdata:Caption="Target" msprop:Generator_UserColumnName="Sales" msprop:Generator_ColumnPropNameInRow="Sales" msprop:Generator_ColumnVarNameInTable="columnSales" msprop:Generator_ColumnPropNameInTable="SalesColumn" type="xs:double" />
+              <xs:element name="Collection" msdata:Caption="Sales" msprop:Generator_UserColumnName="Collection" msprop:Generator_ColumnPropNameInRow="Collection" msprop:Generator_ColumnVarNameInTable="columnCollection" msprop:Generator_ColumnPropNameInTable="CollectionColumn" type="xs:double" />
+              <xs:element name="TradePromotion" msdata:Caption="CollectionElectrical" msprop:Generator_UserColumnName="TradePromotion" msprop:Generator_ColumnPropNameInRow="TradePromotion" msprop:Generator_ColumnVarNameInTable="columnTradePromotion" msprop:Generator_ColumnPropNameInTable="TradePromotionColumn" type="xs:double" />
+              <xs:element name="SellingExpense" msdata:Caption="CollectionGrocery" msprop:Generator_UserColumnName="SellingExpense" msprop:Generator_ColumnPropNameInRow="SellingExpense" msprop:Generator_ColumnVarNameInTable="columnSellingExpense" msprop:Generator_ColumnPropNameInTable="SellingExpenseColumn" type="xs:double" />
+              <xs:element name="Replacement" msprop:Generator_UserColumnName="Replacement" msprop:Generator_ColumnPropNameInRow="Replacement" msprop:Generator_ColumnVarNameInTable="columnReplacement" msprop:Generator_ColumnPropNameInTable="ReplacementColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="TranDate" msdata:Caption="Date" msprop:Generator_UserColumnName="TranDate" msprop:Generator_ColumnPropNameInRow="TranDate" msprop:Generator_ColumnVarNameInTable="columnTranDate" msprop:Generator_ColumnPropNameInTable="TranDateColumn" type="xs:dateTime" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

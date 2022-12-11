@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<DSShowroom xmlns="http://tempuri.org/DSShowroom.xsd">
+  <Showroom>
+    <SRID> 104 </SRID>
+    <SRName> Gulshan Tower Shoowroom</SRName>
+  </Showroom>
+  <Showroom>
+    <SRID> 101 </SRID>
+    <SRName> Karwan Bazar Shoowroom </SRName>
+  </Showroom>
+  <Showroom>
+    <SRID> 102 </SRID>
+    <SRName> Gulshan Kintuki Showroom</SRName>
+  </Showroom>
+  <Showroom>
+    <SRID> 117 </SRID>
+    <SRName> Stadium Showroom </SRName>
+  </Showroom>
+  <Showroom>
+    <SRID> 116 </SRID>
+    <SRName> Uttara Showroom </SRName>
+  </Showroom>
+  <Showroom>
+    <SRID> 123 </SRID>
+    <SRName> Badda Showroom </SRName>
+  </Showroom>
+  <Showroom>
+    <SRID> 124 </SRID>
+    <SRName> Gazipur Showroom </SRName>
+  </Showroom>
+  <Showroom>
+    <SRID> 126 </SRID>
+    <SRName> Rokeya Saroni Showroom </SRName>
+  </Showroom>
+  <Showroom>
+    <SRID> 120 </SRID>
+    <SRName> Mohakhali Showroom </SRName>
+  </Showroom>
+  <Showroom>
+    <SRID> 119 </SRID>
+    <SRName> Savar Showroom </SRName>
+  </Showroom>
+  <Showroom>
+    <SRID> 201 </SRID>
+    <SRName> Sholoshohor Showroom </SRName>
+  </Showroom>
+  <Showroom>
+    <SRID> 202 </SRID>
+    <SRName> Dampara Showroom </SRName>
+  </Showroom>
+  <Showroom>
+    <SRID> 501 </SRID>
+    <SRName> Sylhet Showroom </SRName>
+  </Showroom>
+  <Showroom>
+    <SRID> 502 </SRID>
+    <SRName> Moulvibazar Showroom </SRName>
+  </Showroom>
+  <Showroom>
+    <SRID> 408 </SRID>
+    <SRName> Rajshahi Showroom </SRName>
+  </Showroom>
+  <Showroom>
+    <SRID> 407 </SRID>
+    <SRName> Saidpur Showroom </SRName>
+  </Showroom>
+  <Showroom>
+    <SRID> 305 </SRID>
+    <SRName> Jessore Showroom </SRName>
+  </Showroom>
+  <Showroom>
+    <SRID> 301 </SRID>
+    <SRName> Khulna Showroom </SRName>
+  </Showroom>
+  <Showroom>
+    <SRID> 401 </SRID>
+    <SRName> Bogra Showroom </SRName>
+  </Showroom>
+  <Showroom>
+    <SRID> 125 </SRID>
+    <SRName> Dhanmondi Showroom </SRName>
+  </Showroom>
+</DSShowroom>

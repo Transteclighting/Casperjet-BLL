@@ -1,0 +1,1997 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="14.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{ED2A13B5-195D-47B5-91F3-8C56CC15B353}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CJ.POS</RootNamespace>
+    <AssemblyName>CJ.POS</AssemblyName>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <ApplicationIcon>casperjet.ico</ApplicationIcon>
+    <ManifestCertificateThumbprint>4BC8712C33CB6E17271B262AE74C0F4F4FDC0F46</ManifestCertificateThumbprint>
+    <ManifestKeyFile>CJ.POS_TemporaryKey.pfx</ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <TargetZone>LocalIntranet</TargetZone>
+    <SignManifests>false</SignManifests>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <MinimumRequiredVersion>1.0.0.2</MinimumRequiredVersion>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="circle_progressbar, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\CircleProgressBar.1.0.1\lib\circle_progressbar.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="CircularProgressBar, Version=2.6.6823.24527, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\CircularProgressBar.2.6.6823.24527\lib\net35-client\CircularProgressBar.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine">
+      <HintPath>c:\program files (x86)\sap businessobjects\crystal reports for .net framework 4.0\common\sap businessobjects enterprise xi 4.0\win32_x86\dotnet\CrystalDecisions.CrystalReports.Engine.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportSource">
+      <HintPath>c:\program files (x86)\sap businessobjects\crystal reports for .net framework 4.0\common\sap businessobjects enterprise xi 4.0\win32_x86\dotnet\CrystalDecisions.ReportSource.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.Shared">
+      <HintPath>c:\program files (x86)\sap businessobjects\crystal reports for .net framework 4.0\common\sap businessobjects enterprise xi 4.0\win32_x86\dotnet\CrystalDecisions.Shared.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.Web">
+      <HintPath>c:\program files (x86)\sap businessobjects\crystal reports for .net framework 4.0\common\sap businessobjects enterprise xi 4.0\win32_x86\dotnet\CrystalDecisions.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.Windows.Forms">
+      <HintPath>c:\program files (x86)\sap businessobjects\crystal reports for .net framework 4.0\common\sap businessobjects enterprise xi 4.0\win32_x86\dotnet\CrystalDecisions.Windows.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Graph, Version=1.11.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Graph.1.11.0\lib\net45\Microsoft.Graph.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Graph.Core, Version=1.11.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Graph.Core.1.11.0\lib\net45\Microsoft.Graph.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ProgressBar, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ProgressBar.1.0.10\lib\ProgressBar.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ProgressRing.Forms.Plugin, Version=1.0.6460.16364, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xam.Plugins.Forms.ProgressRing.0.1.2\lib\portable-net45+wp80+win8+wpa81\ProgressRing.Forms.Plugin.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Net, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TEL.BE">
+      <HintPath>..\TEL.SMS.UI.Win\bin\Debug\TEL.BE.dll</HintPath>
+    </Reference>
+    <Reference Include="TEL.BE.Reports">
+      <HintPath>..\TEL.SMS.UI.Win\bin\Debug\TEL.BE.Reports.dll</HintPath>
+    </Reference>
+    <Reference Include="TEL.BO">
+      <HintPath>..\TEL.SMS.UI.Win\bin\Debug\TEL.BO.dll</HintPath>
+    </Reference>
+    <Reference Include="TEL.Common">
+      <HintPath>..\TEL.SMS.UI.Win\bin\Debug\TEL.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="TEL.Report">
+      <HintPath>..\TEL.SMS.UI.Win\bin\Debug\TEL.Report.dll</HintPath>
+    </Reference>
+    <Reference Include="TEL.SMS.BO">
+      <HintPath>..\TEL.SMS.BO\bin\Debug\TEL.SMS.BO.dll</HintPath>
+    </Reference>
+    <Reference Include="TEL.SMS.Reports">
+      <HintPath>..\TEL.SMS.Reports\bin\Debug\TEL.SMS.Reports.dll</HintPath>
+    </Reference>
+    <Reference Include="TEL.UI.Win">
+      <HintPath>..\TEL.SMS.UI.Win\bin\Debug\TEL.UI.Win.dll</HintPath>
+    </Reference>
+    <Reference Include="WinFormAnimation, Version=1.5.6298.3372, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\WinFormAnimation.1.5.6298.3372\lib\net35-client\WinFormAnimation.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Xamarin.Forms.Core, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xamarin.Forms.2.3.4.247\lib\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Xamarin.Forms.Platform, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xamarin.Forms.2.3.4.247\lib\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.Platform.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Xamarin.Forms.Xaml, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xamarin.Forms.2.3.4.247\lib\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.Xaml.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ZAM.QRCode, Version=1.0.5140.18143, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\ZAM.QRCode.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAbout.Designer.cs">
+      <DependentUpon>frmAbout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAdvancePayment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAdvancePayment.Designer.cs">
+      <DependentUpon>frmAdvancePayment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAdvancePayments.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAdvancePayments.Designer.cs">
+      <DependentUpon>frmAdvancePayments.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmConsumerDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConsumerDetail.Designer.cs">
+      <DependentUpon>frmConsumerDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCurrentPromotions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCurrentPromotions.Designer.cs">
+      <DependentUpon>frmCurrentPromotions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCustomerCredit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCustomerCredit.Designer.cs">
+      <DependentUpon>frmCustomerCredit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCustomerCreditApprovalHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCustomerCreditApprovalHistory.Designer.cs">
+      <DependentUpon>frmCustomerCreditApprovalHistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCustomerCreditCollection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCustomerCreditCollection.Designer.cs">
+      <DependentUpon>frmCustomerCreditCollection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCustomerCreditCollectionMoneyReceipt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCustomerCreditCollectionMoneyReceipt.Designer.cs">
+      <DependentUpon>frmCustomerCreditCollectionMoneyReceipt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCustomerTemp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCustomerTemp.Designer.cs">
+      <DependentUpon>frmCustomerTemp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCustomerTemps.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCustomerTemps.Designer.cs">
+      <DependentUpon>frmCustomerTemps.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCustomerTGTvsACH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCustomerTGTvsACH.Designer.cs">
+      <DependentUpon>frmCustomerTGTvsACH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDashboard.Designer.cs">
+      <DependentUpon>frmDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDatabaseBackup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDatabaseBackup.Designer.cs">
+      <DependentUpon>frmDatabaseBackup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDayPlan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDayPlan.Designer.cs">
+      <DependentUpon>frmDayPlan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDayPlanDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDayPlanDetail.Designer.cs">
+      <DependentUpon>frmDayPlanDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDayPlans.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDayPlans.Designer.cs">
+      <DependentUpon>frmDayPlans.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDCS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDCS.Designer.cs">
+      <DependentUpon>frmDCS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDCSs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDCSs.Designer.cs">
+      <DependentUpon>frmDCSs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDMSSalesOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDMSSalesOrder.Designer.cs">
+      <DependentUpon>frmDMSSalesOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDMSSalesOrders.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDMSSalesOrders.Designer.cs">
+      <DependentUpon>frmDMSSalesOrders.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDMSSalesOrderSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDMSSalesOrderSearch.Designer.cs">
+      <DependentUpon>frmDMSSalesOrderSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDownloadVersion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDownloadVersion.Designer.cs">
+      <DependentUpon>frmDownloadVersion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmECommerceOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmECommerceOrder.Designer.cs">
+      <DependentUpon>frmECommerceOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmECommerceOrders.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmECommerceOrders.Designer.cs">
+      <DependentUpon>frmECommerceOrders.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmECommerceOrderView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmECommerceOrderView.Designer.cs">
+      <DependentUpon>frmECommerceOrderView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEmployeeAttendance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEmployeeAttendance.Designer.cs">
+      <DependentUpon>frmEmployeeAttendance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEmployeeAttendances.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEmployeeAttendances.Designer.cs">
+      <DependentUpon>frmEmployeeAttendances.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEmpTGTvsAchSearch.cs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEmpTGTvsAchSearch.cs.Designer.cs">
+      <DependentUpon>frmEmpTGTvsAchSearch.cs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmExchangeOfferMoneyReceipt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmExchangeOfferMoneyReceipt.Designer.cs">
+      <DependentUpon>frmExchangeOfferMoneyReceipt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmExchangeOfferMoneyReceipts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmExchangeOfferMoneyReceipts.Designer.cs">
+      <DependentUpon>frmExchangeOfferMoneyReceipts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmGetHOStock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGetHOStock.Designer.cs">
+      <DependentUpon>frmGetHOStock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmImportXML.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmImportXML.Designer.cs">
+      <DependentUpon>frmImportXML.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmImportXMLs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmImportXMLs.Designer.cs">
+      <DependentUpon>frmImportXMLs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmInvoiceRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInvoiceRegister.Designer.cs">
+      <DependentUpon>frmInvoiceRegister.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmInvoiceReverseApply.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInvoiceReverseApply.Designer.cs">
+      <DependentUpon>frmInvoiceReverseApply.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmInvoiceReverseApplys.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInvoiceReverseApplys.Designer.cs">
+      <DependentUpon>frmInvoiceReverseApplys.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMAGWeekPositionTargetVsActual.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMAGWeekPositionTargetVsActual.Designer.cs">
+      <DependentUpon>frmMAGWeekPositionTargetVsActual.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMAGWeekTargetVsActual.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMAGWeekTargetVsActual.Designer.cs">
+      <DependentUpon>frmMAGWeekTargetVsActual.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmOfficeItemSarch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOfficeItemSarch.Designer.cs">
+      <DependentUpon>frmOfficeItemSarch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmOutletAttendanceFilter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOutletAttendanceFilter.Designer.cs">
+      <DependentUpon>frmOutletAttendanceFilter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmOutletDeliveryShipment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOutletDeliveryShipment.Designer.cs">
+      <DependentUpon>frmOutletDeliveryShipment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmOutletDeliveryShipments.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOutletDeliveryShipments.Designer.cs">
+      <DependentUpon>frmOutletDeliveryShipments.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmOutletDisplayPositionRackView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOutletDisplayPositionRackView.Designer.cs">
+      <DependentUpon>frmOutletDisplayPositionRackView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmOutletProjection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOutletProjection.Designer.cs">
+      <DependentUpon>frmOutletProjection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPettyCashExpense.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPettyCashExpense.Designer.cs">
+      <DependentUpon>frmPettyCashExpense.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPettyCashExpenses.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPettyCashExpenses.Designer.cs">
+      <DependentUpon>frmPettyCashExpenses.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPOSCustomerHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPOSCustomerHistory.Designer.cs">
+      <DependentUpon>frmPOSCustomerHistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPOSDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPOSDashboard.Designer.cs">
+      <DependentUpon>frmPOSDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPOSDashboardBrand.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPOSDashboardBrand.Designer.cs">
+      <DependentUpon>frmPOSDashboardBrand.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPOSDashboardChannelSales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPOSDashboardChannelSales.Designer.cs">
+      <DependentUpon>frmPOSDashboardChannelSales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPOSDashboardEmplLead.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPOSDashboardEmplLead.Designer.cs">
+      <DependentUpon>frmPOSDashboardEmplLead.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPOSDashboardEmplSales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPOSDashboardEmplSales.Designer.cs">
+      <DependentUpon>frmPOSDashboardEmplSales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPOSDashboardMAG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPOSDashboardMAG.Designer.cs">
+      <DependentUpon>frmPOSDashboardMAG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPOSDashboardMonth.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPOSDashboardMonth.Designer.cs">
+      <DependentUpon>frmPOSDashboardMonth.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPOSDashboardWeek.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPOSDashboardWeek.Designer.cs">
+      <DependentUpon>frmPOSDashboardWeek.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPOSOfficeItemTran.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPOSOfficeItemTran.Designer.cs">
+      <DependentUpon>frmPOSOfficeItemTran.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPOSOfficeItemTrans.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPOSOfficeItemTrans.Designer.cs">
+      <DependentUpon>frmPOSOfficeItemTrans.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPOSOutletDisplayPosition.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPOSOutletDisplayPosition.Designer.cs">
+      <DependentUpon>frmPOSOutletDisplayPosition.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPOSOutletDisplayPositions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPOSOutletDisplayPositions.Designer.cs">
+      <DependentUpon>frmPOSOutletDisplayPositions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPotentialCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPotentialCustomer.Designer.cs">
+      <DependentUpon>frmPotentialCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPotentialCustomers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPotentialCustomers.Designer.cs">
+      <DependentUpon>frmPotentialCustomers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmProductReceive.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmProductReceive.Designer.cs">
+      <DependentUpon>frmProductReceive.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmProductTransfer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmProductTransfer.Designer.cs">
+      <DependentUpon>frmProductTransfer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAvailableBarcode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAvailableBarcode.Designer.cs">
+      <DependentUpon>frmAvailableBarcode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmConsumer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConsumer.Designer.cs">
+      <DependentUpon>frmConsumer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmConsumers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConsumers.Designer.cs">
+      <DependentUpon>frmConsumers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCustomerPaymentReceive.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCustomerPaymentReceive.Designer.cs">
+      <DependentUpon>frmCustomerPaymentReceive.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCustomerPaymentReceives.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCustomerPaymentReceives.Designer.cs">
+      <DependentUpon>frmCustomerPaymentReceives.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDataDownload.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDataDownload.Designer.cs">
+      <DependentUpon>frmDataDownload.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDataSend.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDataSend.Designer.cs">
+      <DependentUpon>frmDataSend.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDayEnd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDayEnd.Designer.cs">
+      <DependentUpon>frmDayEnd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDayStart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDayStart.Designer.cs">
+      <DependentUpon>frmDayStart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEmployeeList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEmployeeList.Designer.cs">
+      <DependentUpon>frmEmployeeList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmProductRequisition.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmProductRequisition.Designer.cs">
+      <DependentUpon>frmProductRequisition.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmProductRequisitions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmProductRequisitions.Designer.cs">
+      <DependentUpon>frmProductRequisitions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmProductSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmProductSearch.Designer.cs">
+      <DependentUpon>frmProductSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRequisitionAuthorize.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRequisitionAuthorize.Designer.cs">
+      <DependentUpon>frmRequisitionAuthorize.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRequisitions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRequisitions.Designer.cs">
+      <DependentUpon>frmRequisitions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRequisitionTransfer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRequisitionTransfer.Designer.cs">
+      <DependentUpon>frmRequisitionTransfer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRequisiton.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRequisiton.Designer.cs">
+      <DependentUpon>frmRequisiton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSaleQtyNValue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSaleQtyNValue.Designer.cs">
+      <DependentUpon>frmSaleQtyNValue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSalesLeadConsumerSarch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSalesLeadConsumerSarch.Designer.cs">
+      <DependentUpon>frmSalesLeadConsumerSarch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSalesLeads.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSalesLeads.Designer.cs">
+      <DependentUpon>frmSalesLeads.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSalesLeadStatusUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSalesLeadStatusUpdate.Designer.cs">
+      <DependentUpon>frmSalesLeadStatusUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSalesPromotion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSalesPromotion.Designer.cs">
+      <DependentUpon>frmSalesPromotion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSalesStatement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSalesStatement.Designer.cs">
+      <DependentUpon>frmSalesStatement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSalesTrandReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSalesTrandReport.Designer.cs">
+      <DependentUpon>frmSalesTrandReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSearchProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSearchProduct.Designer.cs">
+      <DependentUpon>frmSearchProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSmartWarranty.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSmartWarranty.Designer.cs">
+      <DependentUpon>frmSmartWarranty.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSmartWarrantyPayment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSmartWarrantyPayment.Designer.cs">
+      <DependentUpon>frmSmartWarrantyPayment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSmartWarrantys.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSmartWarrantys.Designer.cs">
+      <DependentUpon>frmSmartWarrantys.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSpecialDiscount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSpecialDiscount.Designer.cs">
+      <DependentUpon>frmSpecialDiscount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSpecialDiscounts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSpecialDiscounts.Designer.cs">
+      <DependentUpon>frmSpecialDiscounts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmStockLedger.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmStockLedger.Designer.cs">
+      <DependentUpon>frmStockLedger.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmStockMovement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmStockMovement.Designer.cs">
+      <DependentUpon>frmStockMovement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmStockReportFilter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmStockReportFilter.Designer.cs">
+      <DependentUpon>frmStockReportFilter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSystemInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSystemInfo.Designer.cs">
+      <DependentUpon>frmSystemInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTargetView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTargetView.Designer.cs">
+      <DependentUpon>frmTargetView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTDDeliveryShipment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTDDeliveryShipment.Designer.cs">
+      <DependentUpon>frmTDDeliveryShipment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTDDeliveryShipmentBill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTDDeliveryShipmentBill.Designer.cs">
+      <DependentUpon>frmTDDeliveryShipmentBill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTDDeliveryShipments.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTDDeliveryShipments.Designer.cs">
+      <DependentUpon>frmTDDeliveryShipments.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUnsoldDefectiveProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUnsoldDefectiveProduct.Designer.cs">
+      <DependentUpon>frmUnsoldDefectiveProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUnsoldDefectiveProductList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUnsoldDefectiveProductList.Designer.cs">
+      <DependentUpon>frmUnsoldDefectiveProductList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUnsoldDefectiveProducts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUnsoldDefectiveProducts.Designer.cs">
+      <DependentUpon>frmUnsoldDefectiveProducts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmVATLedgerPOS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVATLedgerPOS.Designer.cs">
+      <DependentUpon>frmVATLedgerPOS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmWebBrowser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWebBrowser.Designer.cs">
+      <DependentUpon>frmWebBrowser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Invoice\frmDealerInvoice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Invoice\frmDealerInvoice.Designer.cs">
+      <DependentUpon>frmDealerInvoice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Invoice\frmDealerInvoices.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Invoice\frmDealerInvoices.Designer.cs">
+      <DependentUpon>frmDealerInvoices.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Invoice\frmInvoice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Invoice\frmInvoice.Designer.cs">
+      <DependentUpon>frmInvoice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Invoice\frmInvoicePayment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Invoice\frmInvoicePayment.Designer.cs">
+      <DependentUpon>frmInvoicePayment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Invoice\frmPromotionalOffer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Invoice\frmPromotionalOffer.Designer.cs">
+      <DependentUpon>frmPromotionalOffer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Invoice\frmRetailInvoice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Invoice\frmRetailInvoice.Designer.cs">
+      <DependentUpon>frmRetailInvoice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Invoice\frmRetailInvoiceReverse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Invoice\frmRetailInvoiceReverse.Designer.cs">
+      <DependentUpon>frmRetailInvoiceReverse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Invoice\frmRetailInvoices.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Invoice\frmRetailInvoices.Designer.cs">
+      <DependentUpon>frmRetailInvoices.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Invoice\frmSalesInvoiceDiscount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Invoice\frmSalesInvoiceDiscount.Designer.cs">
+      <DependentUpon>frmSalesInvoiceDiscount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Invoice\frmSinglePayment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Invoice\frmSinglePayment.Designer.cs">
+      <DependentUpon>frmSinglePayment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ISGM\frmISGM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ISGM\frmISGM.Designer.cs">
+      <DependentUpon>frmISGM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ISGM\frmISGMList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ISGM\frmISGMList.Designer.cs">
+      <DependentUpon>frmISGMList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ISGM\frmSendReceiveISGM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ISGM\frmSendReceiveISGM.Designer.cs">
+      <DependentUpon>frmSendReceiveISGM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmAbout.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAdvancePayment.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmAdvancePayment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAdvancePayments.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmAdvancePayments.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConsumerDetail.resx">
+      <DependentUpon>frmConsumerDetail.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCurrentPromotions.resx">
+      <DependentUpon>frmCurrentPromotions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCustomerCredit.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmCustomerCredit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCustomerCreditApprovalHistory.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmCustomerCreditApprovalHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCustomerCreditCollection.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmCustomerCreditCollection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCustomerCreditCollectionMoneyReceipt.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmCustomerCreditCollectionMoneyReceipt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCustomerTemp.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmCustomerTemp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCustomerTemps.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmCustomerTemps.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCustomerTGTvsACH.resx">
+      <DependentUpon>frmCustomerTGTvsACH.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDashboard.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDatabaseBackup.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmDatabaseBackup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDayPlan.resx">
+      <DependentUpon>frmDayPlan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDayPlanDetail.resx">
+      <DependentUpon>frmDayPlanDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDayPlans.resx">
+      <DependentUpon>frmDayPlans.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDCS.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmDCS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDCSs.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmDCSs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDMSSalesOrder.resx">
+      <DependentUpon>frmDMSSalesOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDMSSalesOrders.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmDMSSalesOrders.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDMSSalesOrderSearch.resx">
+      <DependentUpon>frmDMSSalesOrderSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDownloadVersion.resx">
+      <DependentUpon>frmDownloadVersion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmECommerceOrder.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmECommerceOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmECommerceOrders.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmECommerceOrders.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmECommerceOrderView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmECommerceOrderView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEmployeeAttendance.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmEmployeeAttendance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEmployeeAttendances.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmEmployeeAttendances.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEmpTGTvsAchSearch.cs.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmEmpTGTvsAchSearch.cs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmExchangeOfferMoneyReceipt.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmExchangeOfferMoneyReceipt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmExchangeOfferMoneyReceipts.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmExchangeOfferMoneyReceipts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGetHOStock.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmGetHOStock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmImportXML.resx">
+      <DependentUpon>frmImportXML.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmImportXMLs.resx">
+      <DependentUpon>frmImportXMLs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInvoiceRegister.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmInvoiceRegister.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInvoiceReverseApply.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmInvoiceReverseApply.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInvoiceReverseApplys.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmInvoiceReverseApplys.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMAGWeekPositionTargetVsActual.resx">
+      <DependentUpon>frmMAGWeekPositionTargetVsActual.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMAGWeekTargetVsActual.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmMAGWeekTargetVsActual.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOfficeItemSarch.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmOfficeItemSarch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOutletAttendanceFilter.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmOutletAttendanceFilter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOutletDeliveryShipments.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmOutletDeliveryShipments.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOutletDisplayPositionRackView.resx">
+      <DependentUpon>frmOutletDisplayPositionRackView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOutletProjection.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmOutletProjection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPettyCashExpense.resx">
+      <DependentUpon>frmPettyCashExpense.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPettyCashExpenses.resx">
+      <DependentUpon>frmPettyCashExpenses.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPOSCustomerHistory.resx">
+      <DependentUpon>frmPOSCustomerHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPOSDashboard.resx">
+      <DependentUpon>frmPOSDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPOSDashboardBrand.resx">
+      <DependentUpon>frmPOSDashboardBrand.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPOSDashboardChannelSales.resx">
+      <DependentUpon>frmPOSDashboardChannelSales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPOSDashboardEmplLead.resx">
+      <DependentUpon>frmPOSDashboardEmplLead.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPOSDashboardEmplSales.resx">
+      <DependentUpon>frmPOSDashboardEmplSales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPOSDashboardMAG.resx">
+      <DependentUpon>frmPOSDashboardMAG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPOSDashboardMonth.resx">
+      <DependentUpon>frmPOSDashboardMonth.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPOSDashboardWeek.resx">
+      <DependentUpon>frmPOSDashboardWeek.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPOSOfficeItemTran.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmPOSOfficeItemTran.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPOSOfficeItemTrans.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmPOSOfficeItemTrans.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPOSOutletDisplayPosition.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmPOSOutletDisplayPosition.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPOSOutletDisplayPositions.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmPOSOutletDisplayPositions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPotentialCustomer.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmPotentialCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPotentialCustomers.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmPotentialCustomers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmProductReceive.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmProductReceive.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmProductTransfer.resx">
+      <DependentUpon>frmProductTransfer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAvailableBarcode.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmAvailableBarcode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConsumer.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmConsumer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConsumers.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmConsumers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCustomerPaymentReceive.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmCustomerPaymentReceive.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCustomerPaymentReceives.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmCustomerPaymentReceives.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDataDownload.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmDataDownload.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDataSend.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmDataSend.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDayEnd.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmDayEnd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDayStart.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmDayStart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEmployeeList.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmEmployeeList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmProductRequisition.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmProductRequisition.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmProductRequisitions.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmProductRequisitions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmProductSearch.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmProductSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRequisitionAuthorize.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmRequisitionAuthorize.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRequisitions.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmRequisitions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRequisitionTransfer.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmRequisitionTransfer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRequisiton.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmRequisiton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSaleQtyNValue.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSaleQtyNValue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSalesLeadConsumerSarch.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSalesLeadConsumerSarch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSalesLeads.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSalesLeads.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSalesLeadStatusUpdate.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSalesLeadStatusUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSalesPromotion.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSalesPromotion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSalesStatement.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSalesStatement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSalesTrandReport.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSalesTrandReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSearchProduct.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSearchProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSmartWarranty.resx">
+      <DependentUpon>frmSmartWarranty.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSmartWarrantyPayment.resx">
+      <DependentUpon>frmSmartWarrantyPayment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSmartWarrantys.resx">
+      <DependentUpon>frmSmartWarrantys.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSpecialDiscount.resx">
+      <DependentUpon>frmSpecialDiscount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSpecialDiscounts.resx">
+      <DependentUpon>frmSpecialDiscounts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmStockLedger.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmStockLedger.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmStockMovement.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmStockMovement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmStockReportFilter.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmStockReportFilter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSystemInfo.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSystemInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTargetView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmTargetView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTDDeliveryShipment.resx">
+      <DependentUpon>frmTDDeliveryShipment.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTDDeliveryShipmentBill.resx">
+      <DependentUpon>frmTDDeliveryShipmentBill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTDDeliveryShipments.resx">
+      <DependentUpon>frmTDDeliveryShipments.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUnsoldDefectiveProduct.resx">
+      <DependentUpon>frmUnsoldDefectiveProduct.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUnsoldDefectiveProductList.resx">
+      <DependentUpon>frmUnsoldDefectiveProductList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUnsoldDefectiveProducts.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmUnsoldDefectiveProducts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVATLedgerPOS.resx">
+      <DependentUpon>frmVATLedgerPOS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWebBrowser.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmWebBrowser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Invoice\frmDealerInvoice.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmDealerInvoice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Invoice\frmDealerInvoices.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmDealerInvoices.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Invoice\frmInvoice.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmInvoice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Invoice\frmInvoicePayment.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmInvoicePayment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Invoice\frmPromotionalOffer.resx">
+      <DependentUpon>frmPromotionalOffer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Invoice\frmRetailInvoice.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmRetailInvoice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Invoice\frmRetailInvoiceReverse.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmRetailInvoiceReverse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Invoice\frmRetailInvoices.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmRetailInvoices.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Invoice\frmSalesInvoiceDiscount.resx">
+      <DependentUpon>frmSalesInvoiceDiscount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Invoice\frmSinglePayment.resx">
+      <DependentUpon>frmSinglePayment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ISGM\frmISGM.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmISGM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ISGM\frmISGMList.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmISGMList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ISGM\frmSendReceiveISGM.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSendReceiveISGM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSalesLead.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSalesLead.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Security\frmLogin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="frmSalesLead.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSalesLead.Designer.cs">
+      <DependentUpon>frmSalesLead.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Security\frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Security\frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\TELWEBSERVER\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSBasicData.xsc">
+      <DependentUpon>DSBasicData.xsd</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSBasicData.xss">
+      <DependentUpon>DSBasicData.xsd</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSConsumerBalanceTran.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSDayPlan.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSDayPlan.xsd" />
+    <None Include="Web References\TELWEBSERVER\DSExtendedWarranty.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSExtendedWarranty.xsd" />
+    <None Include="Web References\TELWEBSERVER\DSPettyCash.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSPettyCash.xsd" />
+    <None Include="Web References\TELWEBSERVER\DSPosCustomerHostory.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSPosCustomerHostory.xsd" />
+    <None Include="Web References\TELWEBSERVER\DSProductComponent.xsd" />
+    <None Include="Web References\TELWEBSERVER\DSPromoDiscount.xsd" />
+    <None Include="Web References\TELWEBSERVER\DSPromoDiscount1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSPromoExchgangeOffer.xsd" />
+    <None Include="Web References\TELWEBSERVER\DSPromoWarranty.xsd" />
+    <None Include="Web References\TELWEBSERVER\DSSalesInvoice.xsd">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="casperjet.ico" />
+    <Content Include="CJ.ico" />
+    <Content Include="logo.ico" />
+    <Content Include="res\image003.png" />
+    <None Include="CJ.POS_TemporaryKey.pfx" />
+    <BaseApplicationManifest Include="Properties\app.manifest" />
+    <None Include="Web References\TELWEBSERVER\DSBank.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSBank.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSBarcode.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSBarcode.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSBarcodeDetail.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSBarcodeDetail.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSBasicData.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSBasicData.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSBrand.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSBrand.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSCalendarWeek.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSCalendarWeek.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSChannel.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSChannel.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSCLP.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSCLP.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSConsumerBalanceTran.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSConsumerBalanceTran1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSCustmerCreditApprval.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSCustmerCreditApprval.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSCustomer.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSCustomer.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSCustomerCreditApprovalCollection.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSCustomerCreditApprovalCollection.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSCustomerTemp.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSCustomerTemp.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSCustomerTransaction.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSCustomerTransaction.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSCustomerType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSCustomerType.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSDataMonitoring.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSDataMonitoring.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSDataRange.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSDataRange.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSDayStartEndLog.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSDayStartEndLog.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSDBBackupLog.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSDBBackupLog.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSDCSs.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSDCSs.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSDiscountReason.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSDiscountReason.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSDutyTranISGM.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSDutyTranISGM.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSEcommerceOrder.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSEcommerceOrder.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSEmployee.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSEmployee.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSExchangeOfferJob.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSExchangeOfferJob.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSExchangeOfferMR.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSExchangeOfferMR.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSExchangeOfferVender.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSExchangeOfferVender.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSExchangeOfferVenderTran.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSExchangeOfferVenderTran.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSFinishedGoodsPrice.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSFinishedGoodsPrice.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSGeoLocation.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSGeoLocation.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSInitialTransaction.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSInitialTransaction.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSInvoiceReverse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSInvoiceReverse.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSISGM.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSISGM.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSMarketGroup.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSMarketGroup.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSOfficeItem.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSOfficeItem.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSOfficeItemTran.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSOfficeItemTran.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSOutletAttendanceInfo.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSOutletAttendanceInfo.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSOutletDisplayPosition.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSOutletDisplayPosition.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSPaymentMode.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSPaymentMode.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSPBLLAndroidDashboard.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSPBLLAndroidDashboard.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSPBLLAreaWiseAndroidDashboard.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSPBLLAreaWiseAndroidDashboard.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSPBLLTerritoryWiseAndroidDashboard.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSPBLLTerritoryWiseAndroidDashboard.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSPerformanceUI.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSPerformanceUI.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSPermission.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSPermission.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSPlanCustomerTarget.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSPlanCustomerTarget.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSPlanExecutiveWeekTarget.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSPlanExecutiveWeekTarget.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSPlanMAGWeekTargetQty.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSPlanMAGWeekTargetQty.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSPotentialCustomer.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSPotentialCustomer.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSProduct.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSProduct.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSProductGroups.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSProductGroups.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSProductPrice.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSProductPrice.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSProductStock.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSProductStock.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSProductStockDMS.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSProductStockDMS.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSProductTransaction.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSProductTransaction.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSProductTransactionType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSProductTransactionType.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSPromotion.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSPromotion.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSPSalesTarget.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSPSalesTarget.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSPTerritorySalesTarget.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSPTerritorySalesTarget.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSPTOBLL.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSPTOBLL.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSReceivableData.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSReceivableData.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSReceivableOutletData.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSReceivableOutletData.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSRequisition.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSRequisition.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSRetailConsumer.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSRetailConsumer.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSSalesInvoice.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSSalesInvoiceEcommerce.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSSalesInvoiceEcommerce.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSSalesLead.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSSalesLead.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSSalesOrder.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSSalesOrder.xsd" />
+    <None Include="Web References\TELWEBSERVER\DSSalesPromotionType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSSalesPromotionType.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSSBU.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSSBU.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSShowroom.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSShowroom.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSStock.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSStock.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSTargetvsActual.xsd" />
+    <None Include="Web References\TELWEBSERVER\DSThisSystem.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSThisSystem.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSTPVatProduct.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSTPVatProduct.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSUnsoldDefectiveProduct.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSUnsoldDefectiveProduct.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSUser.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSUser.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSWarehouse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSWarehouse.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSWarranty.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TELWEBSERVER\DSWarranty.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\TELWEBSERVER\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\TELWEBSERVER\Service.disco" />
+    <None Include="Web References\TELWEBSERVER\Service.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CJ.Class\CJ.Class.csproj">
+      <Project>{2344AC43-0FA4-41BB-8416-B9C875FB491C}</Project>
+      <Name>CJ.Class</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CJ.Control\CJ.Control.csproj">
+      <Project>{15559F63-7594-4E28-A3AD-F1AFFC12D431}</Project>
+      <Name>CJ.Control</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CJ.Report.Mini\CJ.Report.Mini.csproj">
+      <Project>{8736f688-68ce-428d-b08b-59d6b9bb0c36}</Project>
+      <Name>CJ.Report.Mini</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CJ.Report\CJ.Report.csproj">
+      <Project>{1CB1D426-DDE5-47D8-8AA5-D82EE3B70EF3}</Project>
+      <Name>CJ.Report</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TEL.SMS.UI.Win\TEL.SMS.UI.Win.csproj">
+      <Project>{1D676563-0E9E-4E69-BA16-C8B2933447E2}</Project>
+      <Name>TEL.SMS.UI.Win</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://localhost:53002/Service.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\TELWEBSERVER\</RelPath>
+      <UpdateFromURL>http://localhost:53002/Service.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>CJ_POS_TELWEBSERVER_Service</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\Xamarin.Forms.2.3.4.247\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.2.3.4.247\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Xamarin.Forms.2.3.4.247\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Xamarin.Forms.2.3.4.247\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSError" targetNamespace="http://tempuri.org/DSError.xsd" xmlns:mstns="http://tempuri.org/DSError.xsd" xmlns="http://tempuri.org/DSError.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSError" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DSError" msprop:Generator_DataSetName="DSError">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ErrorMessage" msprop:Generator_UserTableName="ErrorMessage" msprop:Generator_RowDeletedName="ErrorMessageRowDeleted" msprop:Generator_TableClassName="ErrorMessageDataTable" msprop:Generator_RowChangedName="ErrorMessageRowChanged" msprop:Generator_RowClassName="ErrorMessageRow" msprop:Generator_RowChangingName="ErrorMessageRowChanging" msprop:Generator_RowEvArgName="ErrorMessageRowChangeEvent" msprop:Generator_RowEvHandlerName="ErrorMessageRowChangeEventHandler" msprop:Generator_TablePropName="ErrorMessage" msprop:Generator_TableVarName="tableErrorMessage" msprop:Generator_RowDeletingName="ErrorMessageRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Segment" msprop:Generator_UserColumnName="Segment" msprop:Generator_ColumnPropNameInRow="Segment" msprop:Generator_ColumnVarNameInTable="columnSegment" msprop:Generator_ColumnPropNameInTable="SegmentColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ErrorMessageForUser" msprop:Generator_UserColumnName="ErrorMessageForUser" msprop:Generator_ColumnPropNameInRow="ErrorMessageForUser" msprop:Generator_ColumnVarNameInTable="columnErrorMessageForUser" msprop:Generator_ColumnPropNameInTable="ErrorMessageForUserColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ActualErrorMessage" msprop:Generator_UserColumnName="ActualErrorMessage" msprop:Generator_ColumnPropNameInRow="ActualErrorMessage" msprop:Generator_ColumnVarNameInTable="columnActualErrorMessage" msprop:Generator_ColumnPropNameInTable="ActualErrorMessageColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

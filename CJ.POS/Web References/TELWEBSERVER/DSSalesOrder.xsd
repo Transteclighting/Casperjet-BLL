@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns="http://tempuri.org/DSSalesOrder.xsd" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:mstns="http://tempuri.org/DSSalesOrder.xsd" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://tempuri.org/DSSalesOrder.xsd" id="DSSalesOrder" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element msdata:IsDataSet="true" msdata:UseCurrentLocale="true" name="DSSalesOrder">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DMSSecondarySalesOrder">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="OrderID" type="xs:int" />
+              <xs:element minOccurs="0" name="OrderNo" type="xs:string" />
+              <xs:element minOccurs="0" name="WarehouseID" type="xs:int" />
+              <xs:element minOccurs="0" name="SalesType" type="xs:int" />
+              <xs:element minOccurs="0" name="CustomerID" type="xs:int" />
+              <xs:element minOccurs="0" name="ParentCustomerID" type="xs:int" />
+              <xs:element minOccurs="0" name="EDD" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="OrderAmount" type="xs:double" />
+              <xs:element minOccurs="0" name="Status" type="xs:int" />
+              <xs:element minOccurs="0" name="CreateUserID" type="xs:int" />
+              <xs:element minOccurs="0" name="CreateDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="RefInvoiceNo" type="xs:string" />
+              <xs:element minOccurs="0" name="RefInvoiceDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="UpdateUserID" type="xs:int" />
+              <xs:element minOccurs="0" name="UpdateDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="Remarks" type="xs:string" />
+              <xs:element minOccurs="0" name="AuthorizedBy" type="xs:int" />
+              <xs:element minOccurs="0" name="AuthorizeDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="AuthorizeRemarks" type="xs:string" />
+              <xs:element minOccurs="0" name="OrderType" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DMSSecondarySalesOrderDetail">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="OrderID" type="xs:int" />
+              <xs:element minOccurs="0" name="WarehouseID" type="xs:int" />
+              <xs:element minOccurs="0" name="ProductID" type="xs:int" />
+              <xs:element minOccurs="0" name="UnitPrice" type="xs:double" />
+              <xs:element minOccurs="0" name="OrderQty" type="xs:int" />
+              <xs:element minOccurs="0" name="ConfirmedQty" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

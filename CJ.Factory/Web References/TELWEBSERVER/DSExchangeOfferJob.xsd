@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns="http://tempuri.org/DSExchangeOfferJob.xsd" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:mstns="http://tempuri.org/DSExchangeOfferJob.xsd" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://tempuri.org/DSExchangeOfferJob.xsd" id="DSExchangeOfferJob" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element msdata:IsDataSet="true" msdata:UseCurrentLocale="true" name="DSExchangeOfferJob">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ExchangeOfferJob">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="JobID" type="xs:int" />
+              <xs:element minOccurs="0" name="JobNo" type="xs:string" />
+              <xs:element minOccurs="0" name="ContactMode" type="xs:int" />
+              <xs:element minOccurs="0" name="ContactDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="CustomerName" type="xs:string" />
+              <xs:element minOccurs="0" name="Address" type="xs:string" />
+              <xs:element minOccurs="0" name="ContactNo" type="xs:string" />
+              <xs:element minOccurs="0" name="Email" type="xs:string" />
+              <xs:element minOccurs="0" name="AssignedVenderID" type="xs:int" />
+              <xs:element minOccurs="0" name="ParentCustomerID" type="xs:int" />
+              <xs:element minOccurs="0" name="AssignDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="ExpectedVisitDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="Remarks" type="xs:string" />
+              <xs:element minOccurs="0" name="RefInvoiceNo" type="xs:string" />
+              <xs:element minOccurs="0" name="SalesExecuteDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="CancelNote" type="xs:string" />
+              <xs:element minOccurs="0" name="CancelDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="CreateUserID" type="xs:int" />
+              <xs:element minOccurs="0" name="CreateDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="UpdateUserID" type="xs:int" />
+              <xs:element minOccurs="0" name="UpdateDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="Status" type="xs:int" />
+              <xs:element minOccurs="0" name="Terminal" type="xs:int" />
+              <xs:element minOccurs="0" name="HappyCallStatus" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ExchangeOfferJobDetail">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="JobID" type="xs:int" />
+              <xs:element minOccurs="0" name="ProductDetail" type="xs:string" />
+              <xs:element minOccurs="0" name="ProductType" type="xs:int" />
+              <xs:element minOccurs="0" name="Quantity" type="xs:int" />
+              <xs:element minOccurs="0" name="ProductSize" type="xs:string" />
+              <xs:element minOccurs="0" name="BrandName" type="xs:string" />
+              <xs:element minOccurs="0" name="HaveRemortCtrl" type="xs:int" />
+              <xs:element minOccurs="0" name="Condition" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique msdata:PrimaryKey="true" name="Constraint1">
+      <xs:selector xpath=".//mstns:ExchangeOfferJob" />
+      <xs:field xpath="mstns:JobID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

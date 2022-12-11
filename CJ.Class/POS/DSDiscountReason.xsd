@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSDiscountReason" targetNamespace="http://tempuri.org/DSDiscountReason.xsd" xmlns:mstns="http://tempuri.org/DSDiscountReason.xsd" xmlns="http://tempuri.org/DSDiscountReason.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSDiscountReason" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DSDiscountReason" msprop:Generator_DataSetName="DSDiscountReason">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DiscountReason" msprop:Generator_UserTableName="DiscountReason" msprop:Generator_RowDeletedName="DiscountReasonRowDeleted" msprop:Generator_TableClassName="DiscountReasonDataTable" msprop:Generator_RowChangedName="DiscountReasonRowChanged" msprop:Generator_RowClassName="DiscountReasonRow" msprop:Generator_RowChangingName="DiscountReasonRowChanging" msprop:Generator_RowEvArgName="DiscountReasonRowChangeEvent" msprop:Generator_RowEvHandlerName="DiscountReasonRowChangeEventHandler" msprop:Generator_TablePropName="DiscountReason" msprop:Generator_TableVarName="tableDiscountReason" msprop:Generator_RowDeletingName="DiscountReasonRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DiscountReasonID" msdata:Caption="PaymentModeID" msprop:Generator_UserColumnName="DiscountReasonID" msprop:Generator_ColumnPropNameInRow="DiscountReasonID" msprop:Generator_ColumnVarNameInTable="columnDiscountReasonID" msprop:Generator_ColumnPropNameInTable="DiscountReasonIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Discription" msdata:Caption="PaymentModeName" msprop:Generator_UserColumnName="Discription" msprop:Generator_ColumnPropNameInRow="Discription" msprop:Generator_ColumnVarNameInTable="columnDiscription" msprop:Generator_ColumnPropNameInTable="DiscriptionColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="IsActive" msprop:Generator_UserColumnName="IsActive" msprop:Generator_ColumnPropNameInRow="IsActive" msprop:Generator_ColumnVarNameInTable="columnIsActive" msprop:Generator_ColumnPropNameInTable="IsActiveColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="CreateUserID" msprop:Generator_UserColumnName="CreateUserID" msprop:Generator_ColumnPropNameInRow="CreateUserID" msprop:Generator_ColumnVarNameInTable="columnCreateUserID" msprop:Generator_ColumnPropNameInTable="CreateUserIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="CreateDate" msprop:Generator_UserColumnName="CreateDate" msprop:Generator_ColumnPropNameInRow="CreateDate" msprop:Generator_ColumnVarNameInTable="columnCreateDate" msprop:Generator_ColumnPropNameInTable="CreateDateColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="IsDownload" msprop:Generator_UserColumnName="IsDownload" msprop:Generator_ColumnPropNameInRow="IsDownload" msprop:Generator_ColumnVarNameInTable="columnIsDownload" msprop:Generator_ColumnPropNameInTable="IsDownloadColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="TransferType" msprop:Generator_UserColumnName="TransferType" msprop:Generator_ColumnPropNameInRow="TransferType" msprop:Generator_ColumnVarNameInTable="columnTransferType" msprop:Generator_ColumnPropNameInTable="TransferTypeColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

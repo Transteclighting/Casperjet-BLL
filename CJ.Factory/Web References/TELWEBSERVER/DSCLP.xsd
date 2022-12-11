@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns="http://tempuri.org/DSCLP.xsd" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:mstns="http://tempuri.org/DSCLP.xsd" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://tempuri.org/DSCLP.xsd" id="DSCLP" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element msdata:IsDataSet="true" msdata:UseCurrentLocale="true" name="DSCLP">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="CLPEligibility">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="EligibilityID" type="xs:int" />
+              <xs:element minOccurs="0" name="Amount" type="xs:double" />
+              <xs:element minOccurs="0" name="EffectDate" type="xs:dateTime" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="CLPPoint">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="PointID" type="xs:int" />
+              <xs:element minOccurs="0" name="Description" type="xs:string" />
+              <xs:element minOccurs="0" name="EffectDate" type="xs:dateTime" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="CLPPointSlab">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="SlabID" type="xs:int" />
+              <xs:element minOccurs="0" name="PointID" type="xs:int" />
+              <xs:element minOccurs="0" name="SlabAmount" type="xs:double" />
+              <xs:element minOccurs="0" name="Point" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="CLPTran">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="TranID" type="xs:int" />
+              <xs:element minOccurs="0" name="TranNo" type="xs:string" />
+              <xs:element minOccurs="0" name="TranDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="CustomerID" type="xs:int" />
+              <xs:element minOccurs="0" name="ConsumerID" type="xs:int" />
+              <xs:element minOccurs="0" name="PreviousPoint" type="xs:int" />
+              <xs:element minOccurs="0" name="CurrentPoint" type="xs:int" />
+              <xs:element minOccurs="0" name="EncashmentPoint" type="xs:int" />
+              <xs:element minOccurs="0" name="UserID" type="xs:int" />
+              <xs:element minOccurs="0" name="TransferType" type="xs:int" />
+              <xs:element minOccurs="0" name="IsDownload" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

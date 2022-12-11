@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns="http://tempuri.org/DSExchangeOfferVender.xsd" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:mstns="http://tempuri.org/DSExchangeOfferVender.xsd" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://tempuri.org/DSExchangeOfferVender.xsd" id="DSExchangeOfferVender" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element msdata:IsDataSet="true" msdata:UseCurrentLocale="true" name="DSExchangeOfferVender">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ExchangeOfferVender">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="VenderID" type="xs:int" />
+              <xs:element minOccurs="0" name="Code" type="xs:string" />
+              <xs:element minOccurs="0" name="Name" type="xs:string" />
+              <xs:element minOccurs="0" name="Address" type="xs:string" />
+              <xs:element minOccurs="0" name="ContactNo" type="xs:string" />
+              <xs:element minOccurs="0" name="ContactPerson" type="xs:string" />
+              <xs:element minOccurs="0" name="ParentCustomerID" type="xs:int" />
+              <xs:element minOccurs="0" name="Remarks" type="xs:string" />
+              <xs:element minOccurs="0" name="IsActive" type="xs:int" />
+              <xs:element minOccurs="0" name="CreateUserID" type="xs:int" />
+              <xs:element minOccurs="0" name="CreateDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="UpdateUserID" type="xs:int" />
+              <xs:element minOccurs="0" name="UpdateDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="Balance" type="xs:double" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique msdata:PrimaryKey="true" name="ExchangeOfferVenderKey1">
+      <xs:selector xpath=".//mstns:ExchangeOfferVender" />
+      <xs:field xpath="mstns:VenderID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

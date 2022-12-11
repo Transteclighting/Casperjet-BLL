@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSPlanCustomerTarget" targetNamespace="http://tempuri.org/DSPlanCustomerTarget.xsd" xmlns:mstns="http://tempuri.org/DSPlanCustomerTarget.xsd" xmlns="http://tempuri.org/DSPlanCustomerTarget.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSPlanCustomerTarget" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DSPlanCustomerTarget" msprop:Generator_DataSetName="DSPlanCustomerTarget">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="PlanCustomerTarget" msprop:Generator_UserTableName="PlanCustomerTarget" msprop:Generator_RowDeletedName="PlanCustomerTargetRowDeleted" msprop:Generator_TableClassName="PlanCustomerTargetDataTable" msprop:Generator_RowChangedName="PlanCustomerTargetRowChanged" msprop:Generator_RowClassName="PlanCustomerTargetRow" msprop:Generator_RowChangingName="PlanCustomerTargetRowChanging" msprop:Generator_RowEvArgName="PlanCustomerTargetRowChangeEvent" msprop:Generator_RowEvHandlerName="PlanCustomerTargetRowChangeEventHandler" msprop:Generator_TablePropName="PlanCustomerTarget" msprop:Generator_TableVarName="tablePlanCustomerTarget" msprop:Generator_RowDeletingName="PlanCustomerTargetRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="VersionNo" msprop:Generator_UserColumnName="VersionNo" msprop:Generator_ColumnPropNameInRow="VersionNo" msprop:Generator_ColumnVarNameInTable="columnVersionNo" msprop:Generator_ColumnPropNameInTable="VersionNoColumn" type="xs:int" />
+              <xs:element name="TYear" msprop:Generator_UserColumnName="TYear" msprop:Generator_ColumnPropNameInRow="TYear" msprop:Generator_ColumnVarNameInTable="columnTYear" msprop:Generator_ColumnPropNameInTable="TYearColumn" type="xs:int" />
+              <xs:element name="TMonth" msprop:Generator_UserColumnName="TMonth" msprop:Generator_ColumnPropNameInRow="TMonth" msprop:Generator_ColumnVarNameInTable="columnTMonth" msprop:Generator_ColumnPropNameInTable="TMonthColumn" type="xs:int" />
+              <xs:element name="WeekNo" msprop:Generator_UserColumnName="WeekNo" msprop:Generator_ColumnPropNameInRow="WeekNo" msprop:Generator_ColumnVarNameInTable="columnWeekNo" msprop:Generator_ColumnPropNameInTable="WeekNoColumn" type="xs:int" />
+              <xs:element name="CustomerID" msprop:Generator_UserColumnName="CustomerID" msprop:Generator_ColumnPropNameInRow="CustomerID" msprop:Generator_ColumnVarNameInTable="columnCustomerID" msprop:Generator_ColumnPropNameInTable="CustomerIDColumn" type="xs:int" />
+              <xs:element name="OldCustomer" msprop:Generator_UserColumnName="OldCustomer" msprop:Generator_ColumnPropNameInRow="OldCustomer" msprop:Generator_ColumnVarNameInTable="columnOldCustomer" msprop:Generator_ColumnPropNameInTable="OldCustomerColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="NewCustomer" msprop:Generator_UserColumnName="NewCustomer" msprop:Generator_ColumnPropNameInRow="NewCustomer" msprop:Generator_ColumnVarNameInTable="columnNewCustomer" msprop:Generator_ColumnPropNameInTable="NewCustomerColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="IsDownload" msprop:Generator_UserColumnName="IsDownload" msprop:Generator_ColumnPropNameInRow="IsDownload" msprop:Generator_ColumnVarNameInTable="columnIsDownload" msprop:Generator_ColumnPropNameInTable="IsDownloadColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:PlanCustomerTarget" />
+      <xs:field xpath="mstns:VersionNo" />
+      <xs:field xpath="mstns:CustomerID" />
+      <xs:field xpath="mstns:WeekNo" />
+      <xs:field xpath="mstns:TMonth" />
+      <xs:field xpath="mstns:TYear" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

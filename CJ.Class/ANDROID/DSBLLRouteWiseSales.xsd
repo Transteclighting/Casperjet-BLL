@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSBLLRouteWiseSales" targetNamespace="http://tempuri.org/DSBLLRouteWiseSales.xsd" xmlns:mstns="http://tempuri.org/DSBLLRouteWiseSales.xsd" xmlns="http://tempuri.org/DSBLLRouteWiseSales.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSBLLRouteWiseSales" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DSBLLRouteWiseSales" msprop:Generator_DataSetName="DSBLLRouteWiseSales">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="RouteSales" msprop:Generator_UserTableName="RouteSales" msprop:Generator_RowDeletedName="RouteSalesRowDeleted" msprop:Generator_RowChangedName="RouteSalesRowChanged" msprop:Generator_RowClassName="RouteSalesRow" msprop:Generator_RowChangingName="RouteSalesRowChanging" msprop:Generator_RowEvArgName="RouteSalesRowChangeEvent" msprop:Generator_RowEvHandlerName="RouteSalesRowChangeEventHandler" msprop:Generator_TableClassName="RouteSalesDataTable" msprop:Generator_TableVarName="tableRouteSales" msprop:Generator_RowDeletingName="RouteSalesRowDeleting" msprop:Generator_TablePropName="RouteSales">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DistributorID" msprop:Generator_UserColumnName="DistributorID" msprop:Generator_ColumnVarNameInTable="columnDistributorID" msprop:Generator_ColumnPropNameInRow="DistributorID" msprop:Generator_ColumnPropNameInTable="DistributorIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="CustomerCode" msprop:Generator_UserColumnName="CustomerCode" msprop:Generator_ColumnVarNameInTable="columnCustomerCode" msprop:Generator_ColumnPropNameInRow="CustomerCode" msprop:Generator_ColumnPropNameInTable="CustomerCodeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CustomerName" msprop:Generator_UserColumnName="CustomerName" msprop:Generator_ColumnVarNameInTable="columnCustomerName" msprop:Generator_ColumnPropNameInRow="CustomerName" msprop:Generator_ColumnPropNameInTable="CustomerNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="RouteID" msprop:Generator_UserColumnName="RouteID" msprop:Generator_ColumnVarNameInTable="columnRouteID" msprop:Generator_ColumnPropNameInRow="RouteID" msprop:Generator_ColumnPropNameInTable="RouteIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="RouteName" msprop:Generator_UserColumnName="RouteName" msprop:Generator_ColumnVarNameInTable="columnRouteName" msprop:Generator_ColumnPropNameInRow="RouteName" msprop:Generator_ColumnPropNameInTable="RouteNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="RouteType" msprop:Generator_UserColumnName="RouteType" msprop:Generator_ColumnVarNameInTable="columnRouteType" msprop:Generator_ColumnPropNameInRow="RouteType" msprop:Generator_ColumnPropNameInTable="RouteTypeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="DayID" msprop:Generator_UserColumnName="DayID" msprop:Generator_ColumnVarNameInTable="columnDayID" msprop:Generator_ColumnPropNameInRow="DayID" msprop:Generator_ColumnPropNameInTable="DayIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="DeliveryDay" msprop:Generator_UserColumnName="DeliveryDay" msprop:Generator_ColumnVarNameInTable="columnDeliveryDay" msprop:Generator_ColumnPropNameInRow="DeliveryDay" msprop:Generator_ColumnPropNameInTable="DeliveryDayColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="OrderType" msprop:Generator_UserColumnName="OrderType" msprop:Generator_ColumnVarNameInTable="columnOrderType" msprop:Generator_ColumnPropNameInRow="OrderType" msprop:Generator_ColumnPropNameInTable="OrderTypeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="MTDTO" msprop:Generator_UserColumnName="MTDTO" msprop:Generator_ColumnVarNameInTable="columnMTDTO" msprop:Generator_ColumnPropNameInRow="MTDTO" msprop:Generator_ColumnPropNameInTable="MTDTOColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="LMTO" msprop:Generator_UserColumnName="LMTO" msprop:Generator_ColumnVarNameInTable="columnLMTO" msprop:Generator_ColumnPropNameInRow="LMTO" msprop:Generator_ColumnPropNameInTable="LMTOColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="BalTO" msprop:Generator_UserColumnName="BalTO" msprop:Generator_ColumnVarNameInTable="columnBalTO" msprop:Generator_ColumnPropNameInRow="BalTO" msprop:Generator_ColumnPropNameInTable="BalTOColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="TGTTO" msprop:Generator_UserColumnName="TGTTO" msprop:Generator_ColumnVarNameInTable="columnTGTTO" msprop:Generator_ColumnPropNameInRow="TGTTO" msprop:Generator_ColumnPropNameInTable="TGTTOColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="LMTGLS" msprop:Generator_UserColumnName="LMTGLS" msprop:Generator_ColumnPropNameInRow="LMTGLS" msprop:Generator_ColumnVarNameInTable="columnLMTGLS" msprop:Generator_ColumnPropNameInTable="LMTGLSColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="TGTTGLS" msprop:Generator_UserColumnName="TGTTGLS" msprop:Generator_ColumnPropNameInRow="TGTTGLS" msprop:Generator_ColumnVarNameInTable="columnTGTTGLS" msprop:Generator_ColumnPropNameInTable="TGTTGLSColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="MTDTGLS" msprop:Generator_UserColumnName="MTDTGLS" msprop:Generator_ColumnPropNameInRow="MTDTGLS" msprop:Generator_ColumnVarNameInTable="columnMTDTGLS" msprop:Generator_ColumnPropNameInTable="MTDTGLSColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="LMPGLS" msprop:Generator_UserColumnName="LMPGLS" msprop:Generator_ColumnPropNameInRow="LMPGLS" msprop:Generator_ColumnVarNameInTable="columnLMPGLS" msprop:Generator_ColumnPropNameInTable="LMPGLSColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="TGTPGLS" msprop:Generator_UserColumnName="TGTPGLS" msprop:Generator_ColumnPropNameInRow="TGTPGLS" msprop:Generator_ColumnVarNameInTable="columnTGTPGLS" msprop:Generator_ColumnPropNameInTable="TGTPGLSColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="MTDPGLS" msprop:Generator_UserColumnName="MTDPGLS" msprop:Generator_ColumnPropNameInRow="MTDPGLS" msprop:Generator_ColumnVarNameInTable="columnMTDPGLS" msprop:Generator_ColumnPropNameInTable="MTDPGLSColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="LMCFL" msprop:Generator_UserColumnName="LMCFL" msprop:Generator_ColumnPropNameInRow="LMCFL" msprop:Generator_ColumnVarNameInTable="columnLMCFL" msprop:Generator_ColumnPropNameInTable="LMCFLColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="TGTCFL" msprop:Generator_UserColumnName="TGTCFL" msprop:Generator_ColumnPropNameInRow="TGTCFL" msprop:Generator_ColumnVarNameInTable="columnTGTCFL" msprop:Generator_ColumnPropNameInTable="TGTCFLColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="MTDCFL" msprop:Generator_UserColumnName="MTDCFL" msprop:Generator_ColumnPropNameInRow="MTDCFL" msprop:Generator_ColumnVarNameInTable="columnMTDCFL" msprop:Generator_ColumnPropNameInTable="MTDCFLColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="LMTL" msprop:Generator_UserColumnName="LMTL" msprop:Generator_ColumnPropNameInRow="LMTL" msprop:Generator_ColumnVarNameInTable="columnLMTL" msprop:Generator_ColumnPropNameInTable="LMTLColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="TGTTL" msprop:Generator_UserColumnName="TGTTL" msprop:Generator_ColumnPropNameInRow="TGTTL" msprop:Generator_ColumnVarNameInTable="columnTGTTL" msprop:Generator_ColumnPropNameInTable="TGTTLColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="MTDTL" msprop:Generator_UserColumnName="MTDTL" msprop:Generator_ColumnPropNameInRow="MTDTL" msprop:Generator_ColumnVarNameInTable="columnMTDTL" msprop:Generator_ColumnPropNameInTable="MTDTLColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="STKVal" msprop:Generator_UserColumnName="STKVal" msprop:Generator_ColumnPropNameInRow="STKVal" msprop:Generator_ColumnVarNameInTable="columnSTKVal" msprop:Generator_ColumnPropNameInTable="STKValColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="Visit" msprop:Generator_UserColumnName="Visit" msprop:Generator_ColumnPropNameInRow="Visit" msprop:Generator_ColumnVarNameInTable="columnVisit" msprop:Generator_ColumnPropNameInTable="VisitColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="VisitPlan" msprop:Generator_UserColumnName="VisitPlan" msprop:Generator_ColumnPropNameInRow="VisitPlan" msprop:Generator_ColumnVarNameInTable="columnVisitPlan" msprop:Generator_ColumnPropNameInTable="VisitPlanColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Visited" msprop:Generator_UserColumnName="Visited" msprop:Generator_ColumnPropNameInRow="Visited" msprop:Generator_ColumnVarNameInTable="columnVisited" msprop:Generator_ColumnPropNameInTable="VisitedColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="PGLSQty" msprop:Generator_UserColumnName="PGLSQty" msprop:Generator_ColumnPropNameInRow="PGLSQty" msprop:Generator_ColumnVarNameInTable="columnPGLSQty" msprop:Generator_ColumnPropNameInTable="PGLSQtyColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="PGLSVal" msprop:Generator_UserColumnName="PGLSVal" msprop:Generator_ColumnPropNameInRow="PGLSVal" msprop:Generator_ColumnVarNameInTable="columnPGLSVal" msprop:Generator_ColumnPropNameInTable="PGLSValColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="TGLSQty" msprop:Generator_UserColumnName="TGLSQty" msprop:Generator_ColumnPropNameInRow="TGLSQty" msprop:Generator_ColumnVarNameInTable="columnTGLSQty" msprop:Generator_ColumnPropNameInTable="TGLSQtyColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="TGLSVal" msprop:Generator_UserColumnName="TGLSVal" msprop:Generator_ColumnPropNameInRow="TGLSVal" msprop:Generator_ColumnVarNameInTable="columnTGLSVal" msprop:Generator_ColumnPropNameInTable="TGLSValColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="CFLQty" msprop:Generator_UserColumnName="CFLQty" msprop:Generator_ColumnPropNameInRow="CFLQty" msprop:Generator_ColumnVarNameInTable="columnCFLQty" msprop:Generator_ColumnPropNameInTable="CFLQtyColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="CFLVal" msprop:Generator_UserColumnName="CFLVal" msprop:Generator_ColumnPropNameInRow="CFLVal" msprop:Generator_ColumnVarNameInTable="columnCFLVal" msprop:Generator_ColumnPropNameInTable="CFLValColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="TLQty" msprop:Generator_UserColumnName="TLQty" msprop:Generator_ColumnPropNameInRow="TLQty" msprop:Generator_ColumnVarNameInTable="columnTLQty" msprop:Generator_ColumnPropNameInTable="TLQtyColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="TLVal" msprop:Generator_UserColumnName="TLVal" msprop:Generator_ColumnPropNameInRow="TLVal" msprop:Generator_ColumnVarNameInTable="columnTLVal" msprop:Generator_ColumnPropNameInTable="TLValColumn" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

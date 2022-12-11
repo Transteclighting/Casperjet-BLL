@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns="http://tempuri.org/DSProductGroups.xsd" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:mstns="http://tempuri.org/DSProductGroups.xsd" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://tempuri.org/DSProductGroups.xsd" id="DSProductGroups" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element msdata:IsDataSet="true" msdata:UseCurrentLocale="true" name="DSProductGroups">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="PGGroup">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="PdtGroupId" type="xs:long" />
+              <xs:element minOccurs="0" name="PdtGroupCode" type="xs:string" />
+              <xs:element minOccurs="0" name="PdtGroupName" type="xs:string" />
+              <xs:element minOccurs="0" name="PdtGroupType" type="xs:short" />
+              <xs:element minOccurs="0" name="ParentId" type="xs:short" />
+              <xs:element minOccurs="0" name="IsActive" type="xs:short" />
+              <xs:element minOccurs="0" name="ProductName" type="xs:string" />
+              <xs:element minOccurs="0" name="ProductCode" type="xs:string" />
+              <xs:element minOccurs="0" name="ProductID" type="xs:long" />
+              <xs:element minOccurs="0" name="Pos" type="xs:short" />
+              <xs:element minOccurs="0" name="ParentCode" type="xs:string" />
+              <xs:element minOccurs="0" name="ParentName" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="MAGGroup">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="PdtGroupId" type="xs:long" />
+              <xs:element minOccurs="0" name="PdtGroupCode" type="xs:string" />
+              <xs:element minOccurs="0" name="PdtGroupName" type="xs:string" />
+              <xs:element minOccurs="0" name="PdtGroupType" type="xs:short" />
+              <xs:element minOccurs="0" name="ParentId" type="xs:short" />
+              <xs:element minOccurs="0" name="IsActive" type="xs:short" />
+              <xs:element minOccurs="0" name="ProductName" type="xs:string" />
+              <xs:element minOccurs="0" name="ProductCode" type="xs:string" />
+              <xs:element minOccurs="0" name="ProductID" type="xs:long" />
+              <xs:element minOccurs="0" name="Pos" type="xs:short" />
+              <xs:element minOccurs="0" name="ParentCode" type="xs:string" />
+              <xs:element minOccurs="0" name="ParentName" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ASGGroup">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="PdtGroupId" type="xs:long" />
+              <xs:element minOccurs="0" name="PdtGroupCode" type="xs:string" />
+              <xs:element minOccurs="0" name="PdtGroupName" type="xs:string" />
+              <xs:element minOccurs="0" name="PdtGroupType" type="xs:short" />
+              <xs:element minOccurs="0" name="ParentId" type="xs:short" />
+              <xs:element minOccurs="0" name="IsActive" type="xs:short" />
+              <xs:element minOccurs="0" name="ProductName" type="xs:string" />
+              <xs:element minOccurs="0" name="ProductCode" type="xs:string" />
+              <xs:element minOccurs="0" name="ProductID" type="xs:long" />
+              <xs:element minOccurs="0" name="Pos" type="xs:short" />
+              <xs:element minOccurs="0" name="ParentCode" type="xs:string" />
+              <xs:element minOccurs="0" name="ParentName" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="AGGroup">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="PdtGroupId" type="xs:long" />
+              <xs:element minOccurs="0" name="PdtGroupCode" type="xs:string" />
+              <xs:element minOccurs="0" name="PdtGroupName" type="xs:string" />
+              <xs:element minOccurs="0" name="PdtGroupType" type="xs:short" />
+              <xs:element minOccurs="0" name="ParentId" type="xs:short" />
+              <xs:element minOccurs="0" name="IsActive" type="xs:short" />
+              <xs:element minOccurs="0" name="ProductName" type="xs:string" />
+              <xs:element minOccurs="0" name="ProductCode" type="xs:string" />
+              <xs:element minOccurs="0" name="ProductID" type="xs:long" />
+              <xs:element minOccurs="0" name="Pos" type="xs:short" />
+              <xs:element minOccurs="0" name="ParentCode" type="xs:string" />
+              <xs:element minOccurs="0" name="ParentName" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ProductGroup">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="PdtGroupId" type="xs:long" />
+              <xs:element minOccurs="0" name="PdtGroupCode" type="xs:string" />
+              <xs:element minOccurs="0" name="PdtGroupName" type="xs:string" />
+              <xs:element minOccurs="0" name="PdtGroupType" type="xs:short" />
+              <xs:element minOccurs="0" name="ParentId" type="xs:short" />
+              <xs:element minOccurs="0" name="IsActive" type="xs:short" />
+              <xs:element minOccurs="0" name="ProductName" type="xs:string" />
+              <xs:element minOccurs="0" name="ProductCode" type="xs:string" />
+              <xs:element minOccurs="0" name="ProductID" type="xs:long" />
+              <xs:element minOccurs="0" name="Pos" type="xs:short" />
+              <xs:element minOccurs="0" name="ParentCode" type="xs:string" />
+              <xs:element minOccurs="0" name="ParentName" type="xs:string" />
+              <xs:element minOccurs="0" name="TransferType" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

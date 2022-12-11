@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSSBU" targetNamespace="http://tempuri.org/DSSBU.xsd" xmlns:mstns="http://tempuri.org/DSSBU.xsd" xmlns="http://tempuri.org/DSSBU.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSSBU" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DSSBU" msprop:Generator_DataSetName="DSSBU">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="SBU" msprop:Generator_UserTableName="SBU" msprop:Generator_RowDeletedName="SBURowDeleted" msprop:Generator_RowChangedName="SBURowChanged" msprop:Generator_RowClassName="SBURow" msprop:Generator_RowChangingName="SBURowChanging" msprop:Generator_RowEvArgName="SBURowChangeEvent" msprop:Generator_RowEvHandlerName="SBURowChangeEventHandler" msprop:Generator_TableClassName="SBUDataTable" msprop:Generator_TableVarName="tableSBU" msprop:Generator_RowDeletingName="SBURowDeleting" msprop:Generator_TablePropName="SBU">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SBUID" msprop:Generator_UserColumnName="SBUID" msprop:Generator_ColumnPropNameInRow="SBUID" msprop:Generator_ColumnVarNameInTable="columnSBUID" msprop:Generator_ColumnPropNameInTable="SBUIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="SBUCode" msprop:Generator_UserColumnName="SBUCode" msprop:Generator_ColumnPropNameInRow="SBUCode" msprop:Generator_ColumnVarNameInTable="columnSBUCode" msprop:Generator_ColumnPropNameInTable="SBUCodeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SBUName" msprop:Generator_UserColumnName="SBUName" msprop:Generator_ColumnPropNameInRow="SBUName" msprop:Generator_ColumnVarNameInTable="columnSBUName" msprop:Generator_ColumnPropNameInTable="SBUNameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="256" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IsSystem" msprop:Generator_UserColumnName="IsSystem" msprop:Generator_ColumnPropNameInRow="IsSystem" msprop:Generator_ColumnVarNameInTable="columnIsSystem" msprop:Generator_ColumnPropNameInTable="IsSystemColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="CompanyID" msprop:Generator_UserColumnName="CompanyID" msprop:Generator_ColumnPropNameInRow="CompanyID" msprop:Generator_ColumnVarNameInTable="columnCompanyID" msprop:Generator_ColumnPropNameInTable="CompanyIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="IsActive" msprop:Generator_UserColumnName="IsActive" msprop:Generator_ColumnPropNameInRow="IsActive" msprop:Generator_ColumnVarNameInTable="columnIsActive" msprop:Generator_ColumnPropNameInTable="IsActiveColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

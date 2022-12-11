@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSPromotionAllocate" targetNamespace="http://tempuri.org/DSPromotionAllocate.xsd" xmlns:mstns="http://tempuri.org/DSPromotionAllocate.xsd" xmlns="http://tempuri.org/DSPromotionAllocate.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSPromotionAllocate" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DSPromotionAllocate" msprop:Generator_UserDSName="DSPromotionAllocate">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="PromotionAllocate" msprop:Generator_TableClassName="PromotionAllocateDataTable" msprop:Generator_TableVarName="tablePromotionAllocate" msprop:Generator_TablePropName="PromotionAllocate" msprop:Generator_RowDeletingName="PromotionAllocateRowDeleting" msprop:Generator_RowChangingName="PromotionAllocateRowChanging" msprop:Generator_RowEvHandlerName="PromotionAllocateRowChangeEventHandler" msprop:Generator_RowDeletedName="PromotionAllocateRowDeleted" msprop:Generator_UserTableName="PromotionAllocate" msprop:Generator_RowChangedName="PromotionAllocateRowChanged" msprop:Generator_RowEvArgName="PromotionAllocateRowChangeEvent" msprop:Generator_RowClassName="PromotionAllocateRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SalesTypeID" msprop:Generator_ColumnVarNameInTable="columnSalesTypeID" msprop:Generator_ColumnPropNameInRow="SalesTypeID" msprop:Generator_ColumnPropNameInTable="SalesTypeIDColumn" msprop:Generator_UserColumnName="SalesTypeID" type="xs:int" minOccurs="0" />
+              <xs:element name="TargetQty" msprop:Generator_ColumnVarNameInTable="columnTargetQty" msprop:Generator_ColumnPropNameInRow="TargetQty" msprop:Generator_ColumnPropNameInTable="TargetQtyColumn" msprop:Generator_UserColumnName="TargetQty" type="xs:int" minOccurs="0" />
+              <xs:element name="TargetValue" msprop:Generator_ColumnVarNameInTable="columnTargetValue" msprop:Generator_ColumnPropNameInRow="TargetValue" msprop:Generator_ColumnPropNameInTable="TargetValueColumn" msprop:Generator_UserColumnName="TargetValue" type="xs:double" minOccurs="0" />
+              <xs:element name="PromoCostVal" msprop:Generator_ColumnVarNameInTable="columnPromoCostVal" msprop:Generator_ColumnPropNameInRow="PromoCostVal" msprop:Generator_ColumnPropNameInTable="PromoCostValColumn" msprop:Generator_UserColumnName="PromoCostVal" type="xs:double" minOccurs="0" />
+              <xs:element name="NetSalesVal" msprop:Generator_ColumnVarNameInTable="columnNetSalesVal" msprop:Generator_ColumnPropNameInRow="NetSalesVal" msprop:Generator_ColumnPropNameInTable="NetSalesValColumn" msprop:Generator_UserColumnName="NetSalesVal" type="xs:double" minOccurs="0" />
+              <xs:element name="RegularSalesQty" msprop:Generator_ColumnVarNameInTable="columnRegularSalesQty" msprop:Generator_ColumnPropNameInRow="RegularSalesQty" msprop:Generator_ColumnPropNameInTable="RegularSalesQtyColumn" msprop:Generator_UserColumnName="RegularSalesQty" type="xs:int" minOccurs="0" />
+              <xs:element name="TargetMC" msprop:Generator_ColumnVarNameInTable="columnTargetMC" msprop:Generator_ColumnPropNameInRow="TargetMC" msprop:Generator_ColumnPropNameInTable="TargetMCColumn" msprop:Generator_UserColumnName="TargetMC" type="xs:double" minOccurs="0" />
+              <xs:element name="ProductID" msprop:Generator_ColumnVarNameInTable="columnProductID" msprop:Generator_ColumnPropNameInRow="ProductID" msprop:Generator_ColumnPropNameInTable="ProductIDColumn" msprop:Generator_UserColumnName="ProductID" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

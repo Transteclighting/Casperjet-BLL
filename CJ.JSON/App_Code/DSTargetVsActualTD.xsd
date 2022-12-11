@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSTargetVsActualTD" targetNamespace="http://tempuri.org/DSTargetVsActualTD.xsd" xmlns:mstns="http://tempuri.org/DSTargetVsActualTD.xsd" xmlns="http://tempuri.org/DSTargetVsActualTD.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSTargetVsActualTD" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="DSTargetVsActualTD" msprop:Generator_UserDSName="DSTargetVsActualTD">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="TargetVaActualTD" msprop:Generator_TableClassName="TargetVaActualTDDataTable" msprop:Generator_TableVarName="tableTargetVaActualTD" msprop:Generator_RowChangedName="TargetVaActualTDRowChanged" msprop:Generator_TablePropName="TargetVaActualTD" msprop:Generator_RowDeletingName="TargetVaActualTDRowDeleting" msprop:Generator_RowChangingName="TargetVaActualTDRowChanging" msprop:Generator_RowEvHandlerName="TargetVaActualTDRowChangeEventHandler" msprop:Generator_RowDeletedName="TargetVaActualTDRowDeleted" msprop:Generator_RowClassName="TargetVaActualTDRow" msprop:Generator_UserTableName="TargetVaActualTD" msprop:Generator_RowEvArgName="TargetVaActualTDRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Category" msprop:Generator_ColumnVarNameInTable="columnCategory" msprop:Generator_ColumnPropNameInRow="Category" msprop:Generator_ColumnPropNameInTable="CategoryColumn" msprop:Generator_UserColumnName="Category" type="xs:string" minOccurs="0" />
+              <xs:element name="PGName" msprop:Generator_ColumnVarNameInTable="columnPGName" msprop:Generator_ColumnPropNameInRow="PGName" msprop:Generator_ColumnPropNameInTable="PGNameColumn" msprop:Generator_UserColumnName="PGName" type="xs:string" minOccurs="0" />
+              <xs:element name="TargetQty" msprop:Generator_ColumnVarNameInTable="columnTargetQty" msprop:Generator_ColumnPropNameInRow="TargetQty" msprop:Generator_ColumnPropNameInTable="TargetQtyColumn" msprop:Generator_UserColumnName="TargetQty" type="xs:int" minOccurs="0" />
+              <xs:element name="ActualQty" msprop:Generator_ColumnVarNameInTable="columnActualQty" msprop:Generator_ColumnPropNameInRow="ActualQty" msprop:Generator_ColumnPropNameInTable="ActualQtyColumn" msprop:Generator_UserColumnName="ActualQty" type="xs:int" minOccurs="0" />
+              <xs:element name="TargetValue" msprop:Generator_ColumnVarNameInTable="columnTargetValue" msprop:Generator_ColumnPropNameInRow="TargetValue" msprop:Generator_ColumnPropNameInTable="TargetValueColumn" msprop:Generator_UserColumnName="TargetValue" type="xs:double" minOccurs="0" />
+              <xs:element name="ActualValue" msprop:Generator_ColumnVarNameInTable="columnActualValue" msprop:Generator_ColumnPropNameInRow="ActualValue" msprop:Generator_ColumnPropNameInTable="ActualValueColumn" msprop:Generator_UserColumnName="ActualValue" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Parameter" msprop:Generator_TableClassName="ParameterDataTable" msprop:Generator_TableVarName="tableParameter" msprop:Generator_TablePropName="Parameter" msprop:Generator_RowDeletingName="ParameterRowDeleting" msprop:Generator_RowChangingName="ParameterRowChanging" msprop:Generator_RowEvHandlerName="ParameterRowChangeEventHandler" msprop:Generator_RowDeletedName="ParameterRowDeleted" msprop:Generator_UserTableName="Parameter" msprop:Generator_RowChangedName="ParameterRowChanged" msprop:Generator_RowEvArgName="ParameterRowChangeEvent" msprop:Generator_RowClassName="ParameterRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TYear" msprop:Generator_ColumnVarNameInTable="columnTYear" msprop:Generator_ColumnPropNameInRow="TYear" msprop:Generator_ColumnPropNameInTable="TYearColumn" msprop:Generator_UserColumnName="TYear" type="xs:string" minOccurs="0" />
+              <xs:element name="TMonth" msprop:Generator_ColumnVarNameInTable="columnTMonth" msprop:Generator_ColumnPropNameInRow="TMonth" msprop:Generator_ColumnPropNameInTable="TMonthColumn" msprop:Generator_UserColumnName="TMonth" type="xs:string" minOccurs="0" />
+              <xs:element name="TWeek" msprop:Generator_ColumnVarNameInTable="columnTWeek" msprop:Generator_ColumnPropNameInRow="TWeek" msprop:Generator_ColumnPropNameInTable="TWeekColumn" msprop:Generator_UserColumnName="TWeek" type="xs:string" minOccurs="0" />
+              <xs:element name="Region" msprop:Generator_ColumnVarNameInTable="columnRegion" msprop:Generator_ColumnPropNameInRow="Region" msprop:Generator_ColumnPropNameInTable="RegionColumn" msprop:Generator_UserColumnName="Region" type="xs:string" minOccurs="0" />
+              <xs:element name="Area" msprop:Generator_ColumnVarNameInTable="columnArea" msprop:Generator_ColumnPropNameInRow="Area" msprop:Generator_ColumnPropNameInTable="AreaColumn" msprop:Generator_UserColumnName="Area" type="xs:string" minOccurs="0" />
+              <xs:element name="Outlet" msprop:Generator_ColumnVarNameInTable="columnOutlet" msprop:Generator_ColumnPropNameInRow="Outlet" msprop:Generator_ColumnPropNameInTable="OutletColumn" msprop:Generator_UserColumnName="Outlet" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

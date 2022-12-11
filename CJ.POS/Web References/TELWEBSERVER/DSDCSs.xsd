@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns="http://tempuri.org/DSDCSs.xsd" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:mstns="http://tempuri.org/DSDCSs.xsd" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://tempuri.org/DSDCSs.xsd" id="DSDCSs" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element msdata:IsDataSet="true" msdata:UseCurrentLocale="true" name="DSDCSs">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DCS">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="DCSID" type="xs:int" />
+              <xs:element minOccurs="0" name="CustomerID" type="xs:int" />
+              <xs:element minOccurs="0" name="DCSNo" type="xs:string" />
+              <xs:element minOccurs="0" name="DCSDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="CollectionAmount" type="xs:double" />
+              <xs:element minOccurs="0" name="AdditionalAmount" type="xs:double" />
+              <xs:element minOccurs="0" name="Other_Amount_Debit" type="xs:double" />
+              <xs:element minOccurs="0" name="Remarks" type="xs:string" />
+              <xs:element minOccurs="0" name="CreateUserID" type="xs:int" />
+              <xs:element minOccurs="0" name="CreateDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="IsDownload" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DCSDetail">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="DCSID" type="xs:int" />
+              <xs:element minOccurs="0" name="DCSType" type="xs:int" />
+              <xs:element minOccurs="0" name="InvoiceID" type="xs:int" />
+              <xs:element minOccurs="0" name="InstrumentID" type="xs:int" />
+              <xs:element minOccurs="0" name="Amount" type="xs:double" />
+              <xs:element minOccurs="0" name="BankAccountID" type="xs:int" />
+              <xs:element minOccurs="0" name="BankBranch" type="xs:string" />
+              <xs:element minOccurs="0" name="InstrumentNo" type="xs:string" />
+              <xs:element minOccurs="0" name="InstrumentDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="Status" type="xs:int" />
+              <xs:element minOccurs="0" name="Remarks" type="xs:string" />
+              <xs:element minOccurs="0" name="InvoiceNo" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

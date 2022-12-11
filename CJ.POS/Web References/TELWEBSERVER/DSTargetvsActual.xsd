@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns="http://tempuri.org/DSTargetvsActual.xsd" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:mstns="http://tempuri.org/DSTargetvsActual.xsd" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://tempuri.org/DSTargetvsActual.xsd" id="DSTargetvsActual" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element msdata:IsDataSet="true" msdata:UseCurrentLocale="true" name="DSTargetvsActual">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="MAGWeekPositionTargetvsActual">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="SEName" type="xs:string" />
+              <xs:element minOccurs="0" name="SECode" type="xs:string" />
+              <xs:element minOccurs="0" name="ABMCode" type="xs:string" />
+              <xs:element minOccurs="0" name="ABMName" type="xs:string" />
+              <xs:element minOccurs="0" name="BMCode" type="xs:string" />
+              <xs:element minOccurs="0" name="BMName" type="xs:string" />
+              <xs:element minOccurs="0" name="PGName" type="xs:string" />
+              <xs:element minOccurs="0" name="MAGName" type="xs:string" />
+              <xs:element minOccurs="0" name="BrandName" type="xs:string" />
+              <xs:element minOccurs="0" name="ChannelName" type="xs:string" />
+              <xs:element minOccurs="0" name="TargetQty" type="xs:int" />
+              <xs:element minOccurs="0" name="SalesQty" type="xs:int" />
+              <xs:element minOccurs="0" name="TargetValue" type="xs:double" />
+              <xs:element minOccurs="0" name="NetSales" type="xs:double" />
+              <xs:element minOccurs="0" name="Week" type="xs:int" />
+              <xs:element minOccurs="0" name="Month" type="xs:int" />
+              <xs:element minOccurs="0" name="Year" type="xs:int" />
+              <xs:element minOccurs="0" name="ShowroomCode" type="xs:string" />
+              <xs:element minOccurs="0" name="PGCategory" type="xs:string" />
+              <xs:element minOccurs="0" name="SystemDate" type="xs:dateTime" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

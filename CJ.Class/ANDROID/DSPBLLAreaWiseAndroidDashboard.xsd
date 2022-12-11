@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSPBLLAreaWiseAndroidDashboard" targetNamespace="http://tempuri.org/DSPBLLAreaWiseAndroidDashboard.xsd" xmlns:mstns="http://tempuri.org/DSPBLLAreaWiseAndroidDashboard.xsd" xmlns="http://tempuri.org/DSPBLLAreaWiseAndroidDashboard.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSPBLLAreaWiseAndroidDashboard" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DSPBLLAreaWiseAndroidDashboard" msprop:Generator_DataSetName="DSPBLLAreaWiseAndroidDashboard">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="BLLAreaWiseAndroidDashboard" msprop:Generator_UserTableName="BLLAreaWiseAndroidDashboard" msprop:Generator_RowDeletedName="BLLAreaWiseAndroidDashboardRowDeleted" msprop:Generator_TableClassName="BLLAreaWiseAndroidDashboardDataTable" msprop:Generator_RowChangedName="BLLAreaWiseAndroidDashboardRowChanged" msprop:Generator_RowClassName="BLLAreaWiseAndroidDashboardRow" msprop:Generator_RowChangingName="BLLAreaWiseAndroidDashboardRowChanging" msprop:Generator_RowEvArgName="BLLAreaWiseAndroidDashboardRowChangeEvent" msprop:Generator_RowEvHandlerName="BLLAreaWiseAndroidDashboardRowChangeEventHandler" msprop:Generator_TablePropName="BLLAreaWiseAndroidDashboard" msprop:Generator_TableVarName="tableBLLAreaWiseAndroidDashboard" msprop:Generator_RowDeletingName="BLLAreaWiseAndroidDashboardRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Area" msprop:Generator_UserColumnName="Area" msprop:Generator_ColumnPropNameInRow="Area" msprop:Generator_ColumnVarNameInTable="columnArea" msprop:Generator_ColumnPropNameInTable="AreaColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CurrentOutstanding" msprop:Generator_UserColumnName="CurrentOutstanding" msprop:Generator_ColumnPropNameInRow="CurrentOutstanding" msprop:Generator_ColumnVarNameInTable="columnCurrentOutstanding" msprop:Generator_ColumnPropNameInTable="CurrentOutstandingColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="TGTPrimaryValue" msprop:Generator_UserColumnName="TGTPrimaryValue" msprop:Generator_ColumnPropNameInRow="TGTPrimaryValue" msprop:Generator_ColumnVarNameInTable="columnTGTPrimaryValue" msprop:Generator_ColumnPropNameInTable="TGTPrimaryValueColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="MTDPriSalesValue" msprop:Generator_UserColumnName="MTDPriSalesValue" msprop:Generator_ColumnPropNameInRow="MTDPriSalesValue" msprop:Generator_ColumnVarNameInTable="columnMTDPriSalesValue" msprop:Generator_ColumnPropNameInTable="MTDPriSalesValueColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Ach" msprop:Generator_UserColumnName="Ach" msprop:Generator_ColumnPropNameInRow="Ach" msprop:Generator_ColumnVarNameInTable="columnAch" msprop:Generator_ColumnPropNameInTable="AchColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="TGTSecondaryValue" msprop:Generator_UserColumnName="TGTSecondaryValue" msprop:Generator_ColumnPropNameInRow="TGTSecondaryValue" msprop:Generator_ColumnVarNameInTable="columnTGTSecondaryValue" msprop:Generator_ColumnPropNameInTable="TGTSecondaryValueColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="MTDSecSalesValue" msprop:Generator_UserColumnName="MTDSecSalesValue" msprop:Generator_ColumnPropNameInRow="MTDSecSalesValue" msprop:Generator_ColumnVarNameInTable="columnMTDSecSalesValue" msprop:Generator_ColumnPropNameInTable="MTDSecSalesValueColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CurrentStockValue" msprop:Generator_UserColumnName="CurrentStockValue" msprop:Generator_ColumnPropNameInRow="CurrentStockValue" msprop:Generator_ColumnVarNameInTable="columnCurrentStockValue" msprop:Generator_ColumnPropNameInTable="CurrentStockValueColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Ach1" msprop:Generator_UserColumnName="Ach1" msprop:Generator_ColumnPropNameInRow="Ach1" msprop:Generator_ColumnVarNameInTable="columnAch1" msprop:Generator_ColumnPropNameInTable="Ach1Column" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

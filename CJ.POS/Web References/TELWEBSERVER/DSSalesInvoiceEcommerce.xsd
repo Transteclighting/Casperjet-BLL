@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns="http://tempuri.org/DSSalesInvoiceEcommerce.xsd" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:mstns="http://tempuri.org/DSSalesInvoiceEcommerce.xsd" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://tempuri.org/DSSalesInvoiceEcommerce.xsd" id="DSSalesInvoiceEcommerce" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element msdata:IsDataSet="true" msdata:UseCurrentLocale="true" name="DSSalesInvoiceEcommerce">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="SalesInvoiceEcommerce">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="EComOrderID" type="xs:int" />
+              <xs:element minOccurs="0" name="LeadType" type="xs:int" />
+              <xs:element minOccurs="0" name="OrderNo" type="xs:string" />
+              <xs:element minOccurs="0" name="OrderDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="Outlet" type="xs:string" />
+              <xs:element minOccurs="0" name="Amount" type="xs:double" />
+              <xs:element minOccurs="0" name="DeliveryCharge" type="xs:double" />
+              <xs:element minOccurs="0" name="Discount" type="xs:double" />
+              <xs:element minOccurs="0" name="CopunNo" type="xs:string" />
+              <xs:element minOccurs="0" name="ConsumerID" type="xs:int" />
+              <xs:element minOccurs="0" name="ConsumerName" type="xs:string" />
+              <xs:element minOccurs="0" name="Addrress" type="xs:string" />
+              <xs:element minOccurs="0" name="DeliveryAddress" type="xs:string" />
+              <xs:element minOccurs="0" name="ContactNo" type="xs:string" />
+              <xs:element minOccurs="0" name="Email" type="xs:string" />
+              <xs:element minOccurs="0" name="Remarks" type="xs:string" />
+              <xs:element minOccurs="0" name="Status" type="xs:int" />
+              <xs:element minOccurs="0" name="PaymentType" type="xs:int" />
+              <xs:element minOccurs="0" name="SalesPersonID" type="xs:int" />
+              <xs:element minOccurs="0" name="BankID" type="xs:int" />
+              <xs:element minOccurs="0" name="BankName" type="xs:string" />
+              <xs:element minOccurs="0" name="CardTypeID" type="xs:int" />
+              <xs:element minOccurs="0" name="CardType" type="xs:string" />
+              <xs:element minOccurs="0" name="IsEMI" type="xs:int" />
+              <xs:element minOccurs="0" name="NoOfInstallment" type="xs:int" />
+              <xs:element minOccurs="0" name="InstrumentNo" type="xs:string" />
+              <xs:element minOccurs="0" name="InstrumentDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="CardCategoryID" type="xs:int" />
+              <xs:element minOccurs="0" name="CardCategory" type="xs:string" />
+              <xs:element minOccurs="0" name="ApprovalNo" type="xs:string" />
+              <xs:element minOccurs="0" name="RefInvoiceNo" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="SalesInvoiceEcommerceDetail">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="EcomOrderID" type="xs:int" />
+              <xs:element minOccurs="0" name="ProductCode" type="xs:string" />
+              <xs:element minOccurs="0" name="ProductName" type="xs:string" />
+              <xs:element minOccurs="0" name="UnitPrice" type="xs:double" />
+              <xs:element minOccurs="0" name="DiscountAmount" type="xs:double" />
+              <xs:element minOccurs="0" name="Quantity" type="xs:int" />
+              <xs:element minOccurs="0" name="IsFreeQty" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

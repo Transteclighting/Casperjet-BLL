@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSPTOBLL" targetNamespace="http://tempuri.org/DSPTOBLL.xsd" xmlns:mstns="http://tempuri.org/DSPTOBLL.xsd" xmlns="http://tempuri.org/DSPTOBLL.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSPTOBLL" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DSPTOBLL" msprop:Generator_DataSetName="DSPTOBLL">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="TOBLL" msprop:Generator_UserTableName="TOBLL" msprop:Generator_RowDeletedName="TOBLLRowDeleted" msprop:Generator_TableClassName="TOBLLDataTable" msprop:Generator_RowChangedName="TOBLLRowChanged" msprop:Generator_RowClassName="TOBLLRow" msprop:Generator_RowChangingName="TOBLLRowChanging" msprop:Generator_RowEvArgName="TOBLLRowChangeEvent" msprop:Generator_RowEvHandlerName="TOBLLRowChangeEventHandler" msprop:Generator_TablePropName="TOBLL" msprop:Generator_TableVarName="tableTOBLL" msprop:Generator_RowDeletingName="TOBLLRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CurrentMonthSS" msprop:Generator_UserColumnName="CurrentMonthSS" msprop:Generator_ColumnPropNameInRow="CurrentMonthSS" msprop:Generator_ColumnVarNameInTable="columnCurrentMonthSS" msprop:Generator_ColumnPropNameInTable="CurrentMonthSSColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="MTDSales" msprop:Generator_UserColumnName="MTDSales" msprop:Generator_ColumnPropNameInRow="MTDSales" msprop:Generator_ColumnVarNameInTable="columnMTDSales" msprop:Generator_ColumnPropNameInTable="MTDSalesColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="LMMTDSales" msprop:Generator_UserColumnName="LMMTDSales" msprop:Generator_ColumnPropNameInRow="LMMTDSales" msprop:Generator_ColumnVarNameInTable="columnLMMTDSales" msprop:Generator_ColumnPropNameInTable="LMMTDSalesColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Areaid" msprop:Generator_UserColumnName="Areaid" msprop:Generator_ColumnPropNameInRow="Areaid" msprop:Generator_ColumnVarNameInTable="columnAreaid" msprop:Generator_ColumnPropNameInTable="AreaidColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="AreaName" msprop:Generator_UserColumnName="AreaName" msprop:Generator_ColumnPropNameInRow="AreaName" msprop:Generator_ColumnVarNameInTable="columnAreaName" msprop:Generator_ColumnPropNameInTable="AreaNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PriGth" msprop:Generator_UserColumnName="PriGth" msprop:Generator_ColumnPropNameInRow="PriGth" msprop:Generator_ColumnVarNameInTable="columnPriGth" msprop:Generator_ColumnPropNameInTable="PriGthColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PMTarget" msprop:Generator_UserColumnName="PMTarget" msprop:Generator_ColumnPropNameInRow="PMTarget" msprop:Generator_ColumnVarNameInTable="columnPMTarget" msprop:Generator_ColumnPropNameInTable="PMTargetColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PriAch" msprop:Generator_UserColumnName="PriAch" msprop:Generator_ColumnPropNameInRow="PriAch" msprop:Generator_ColumnVarNameInTable="columnPriAch" msprop:Generator_ColumnPropNameInTable="PriAchColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SecAch" msprop:Generator_UserColumnName="SecAch" msprop:Generator_ColumnPropNameInRow="SecAch" msprop:Generator_ColumnVarNameInTable="columnSecAch" msprop:Generator_ColumnPropNameInTable="SecAchColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="LMMTDSec" msprop:Generator_UserColumnName="LMMTDSec" msprop:Generator_ColumnPropNameInRow="LMMTDSec" msprop:Generator_ColumnVarNameInTable="columnLMMTDSec" msprop:Generator_ColumnPropNameInTable="LMMTDSecColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SecGth" msprop:Generator_UserColumnName="SecGth" msprop:Generator_ColumnPropNameInRow="SecGth" msprop:Generator_ColumnVarNameInTable="columnSecGth" msprop:Generator_ColumnPropNameInTable="SecGthColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

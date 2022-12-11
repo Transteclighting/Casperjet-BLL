@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns="http://tempuri.org/DSExchangeOfferVenderTran.xsd" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:mstns="http://tempuri.org/DSExchangeOfferVenderTran.xsd" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://tempuri.org/DSExchangeOfferVenderTran.xsd" id="DSExchangeOfferVenderTran" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element msdata:IsDataSet="true" msdata:UseCurrentLocale="true" name="DSExchangeOfferVenderTran">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ExchangeOfferVenderTran">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="VenderTranID" type="xs:int" />
+              <xs:element minOccurs="0" name="VenderTranNo" type="xs:string" />
+              <xs:element minOccurs="0" name="VenderTranDate" type="xs:dateTime" />
+              <xs:element name="TranSide" type="xs:int" />
+              <xs:element minOccurs="0" name="VenderID" type="xs:int" />
+              <xs:element minOccurs="0" name="Amount" type="xs:double" />
+              <xs:element minOccurs="0" name="InstrumentType" type="xs:int" />
+              <xs:element minOccurs="0" name="InstrumentNo" type="xs:string" />
+              <xs:element minOccurs="0" name="InstrumentDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="BankID" type="xs:int" />
+              <xs:element minOccurs="0" name="BranchName" type="xs:string" />
+              <xs:element minOccurs="0" name="Remarks" type="xs:string" />
+              <xs:element minOccurs="0" name="CreateUserID" type="xs:int" />
+              <xs:element minOccurs="0" name="CreateDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="UpdateUserID" type="xs:int" />
+              <xs:element minOccurs="0" name="UpdateDate" type="xs:string" />
+              <xs:element minOccurs="0" name="Balance" type="xs:double" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique msdata:PrimaryKey="true" name="Constraint1">
+      <xs:selector xpath=".//mstns:ExchangeOfferVenderTran" />
+      <xs:field xpath="mstns:VenderTranID" />
+      <xs:field xpath="mstns:TranSide" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

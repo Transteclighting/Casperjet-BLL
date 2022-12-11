@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSDayStartEndLog" targetNamespace="http://tempuri.org/DSDayStartEndLog.xsd" xmlns:mstns="http://tempuri.org/DSDayStartEndLog.xsd" xmlns="http://tempuri.org/DSDayStartEndLog.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSDayStartEndLog" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DSDayStartEndLog" msprop:Generator_DataSetName="DSDayStartEndLog">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DayStartEndLog" msprop:Generator_UserTableName="DayStartEndLog" msprop:Generator_RowDeletedName="DayStartEndLogRowDeleted" msprop:Generator_TableClassName="DayStartEndLogDataTable" msprop:Generator_RowChangedName="DayStartEndLogRowChanged" msprop:Generator_RowClassName="DayStartEndLogRow" msprop:Generator_RowChangingName="DayStartEndLogRowChanging" msprop:Generator_RowEvArgName="DayStartEndLogRowChangeEvent" msprop:Generator_RowEvHandlerName="DayStartEndLogRowChangeEventHandler" msprop:Generator_TablePropName="DayStartEndLog" msprop:Generator_TableVarName="tableDayStartEndLog" msprop:Generator_RowDeletingName="DayStartEndLogRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="LogID" msprop:Generator_UserColumnName="LogID" msprop:Generator_ColumnPropNameInRow="LogID" msprop:Generator_ColumnVarNameInTable="columnLogID" msprop:Generator_ColumnPropNameInTable="LogIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="WarehouseID" msprop:Generator_UserColumnName="WarehouseID" msprop:Generator_ColumnPropNameInRow="WarehouseID" msprop:Generator_ColumnVarNameInTable="columnWarehouseID" msprop:Generator_ColumnPropNameInTable="WarehouseIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Type" msprop:Generator_UserColumnName="Type" msprop:Generator_ColumnPropNameInRow="Type" msprop:Generator_ColumnVarNameInTable="columnType" msprop:Generator_ColumnPropNameInTable="TypeColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="OperationDate" msprop:Generator_UserColumnName="OperationDate" msprop:Generator_ColumnPropNameInRow="OperationDate" msprop:Generator_ColumnVarNameInTable="columnOperationDate" msprop:Generator_ColumnPropNameInTable="OperationDateColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="CreateUserID" msprop:Generator_UserColumnName="CreateUserID" msprop:Generator_ColumnPropNameInRow="CreateUserID" msprop:Generator_ColumnVarNameInTable="columnCreateUserID" msprop:Generator_ColumnPropNameInTable="CreateUserIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="IsDownload" msprop:Generator_UserColumnName="IsDownload" msprop:Generator_ColumnPropNameInRow="IsDownload" msprop:Generator_ColumnVarNameInTable="columnIsDownload" msprop:Generator_ColumnPropNameInTable="IsDownloadColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

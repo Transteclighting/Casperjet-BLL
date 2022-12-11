@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSBOM" targetNamespace="http://tempuri.org/DSBOM.xsd" xmlns:mstns="http://tempuri.org/DSBOM.xsd" xmlns="http://tempuri.org/DSBOM.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSBOM" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DSBOM" msprop:Generator_DataSetName="DSBOM">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="BOMItem" msprop:Generator_UserTableName="BOMItem" msprop:Generator_RowDeletedName="BOMItemRowDeleted" msprop:Generator_RowChangedName="BOMItemRowChanged" msprop:Generator_RowClassName="BOMItemRow" msprop:Generator_RowChangingName="BOMItemRowChanging" msprop:Generator_RowEvArgName="BOMItemRowChangeEvent" msprop:Generator_RowEvHandlerName="BOMItemRowChangeEventHandler" msprop:Generator_TableClassName="BOMItemDataTable" msprop:Generator_TableVarName="tableBOMItem" msprop:Generator_RowDeletingName="BOMItemRowDeleting" msprop:Generator_TablePropName="BOMItem">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="OrderId" msprop:Generator_UserColumnName="OrderId" msprop:Generator_ColumnVarNameInTable="columnOrderId" msprop:Generator_ColumnPropNameInRow="OrderId" msprop:Generator_ColumnPropNameInTable="OrderIdColumn" type="xs:long" minOccurs="0" />
+              <xs:element name="ProductID" msprop:Generator_UserColumnName="ProductID" msprop:Generator_ColumnVarNameInTable="columnProductID" msprop:Generator_ColumnPropNameInRow="ProductID" msprop:Generator_ColumnPropNameInTable="ProductIDColumn" type="xs:long" minOccurs="0" />
+              <xs:element name="ProductCode" msprop:Generator_UserColumnName="ProductCode" msprop:Generator_ColumnVarNameInTable="columnProductCode" msprop:Generator_ColumnPropNameInRow="ProductCode" msprop:Generator_ColumnPropNameInTable="ProductCodeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ProductName" msprop:Generator_UserColumnName="ProductName" msprop:Generator_ColumnVarNameInTable="columnProductName" msprop:Generator_ColumnPropNameInRow="ProductName" msprop:Generator_ColumnPropNameInTable="ProductNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="BOMID" msprop:Generator_UserColumnName="BOMID" msprop:Generator_ColumnVarNameInTable="columnBOMID" msprop:Generator_ColumnPropNameInRow="BOMID" msprop:Generator_ColumnPropNameInTable="BOMIDColumn" type="xs:long" minOccurs="0" />
+              <xs:element name="BOMQty" msprop:Generator_UserColumnName="BOMQty" msprop:Generator_ColumnVarNameInTable="columnBOMQty" msprop:Generator_ColumnPropNameInRow="BOMQty" msprop:Generator_ColumnPropNameInTable="BOMQtyColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

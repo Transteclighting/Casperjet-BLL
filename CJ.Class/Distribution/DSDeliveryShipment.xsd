@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSDeliveryShipment" targetNamespace="http://tempuri.org/DSDeliveryShipment.xsd" xmlns:mstns="http://tempuri.org/DSDeliveryShipment.xsd" xmlns="http://tempuri.org/DSDeliveryShipment.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSDeliveryShipment" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DSDeliveryShipment" msprop:Generator_UserDSName="DSDeliveryShipment">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Vendor" msprop:Generator_TableClassName="VendorDataTable" msprop:Generator_TableVarName="tableVendor" msprop:Generator_TablePropName="Vendor" msprop:Generator_RowDeletingName="VendorRowDeleting" msprop:Generator_RowChangingName="VendorRowChanging" msprop:Generator_RowEvHandlerName="VendorRowChangeEventHandler" msprop:Generator_RowDeletedName="VendorRowDeleted" msprop:Generator_UserTableName="Vendor" msprop:Generator_RowChangedName="VendorRowChanged" msprop:Generator_RowEvArgName="VendorRowChangeEvent" msprop:Generator_RowClassName="VendorRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="VendorID" msprop:Generator_ColumnVarNameInTable="columnVendorID" msprop:Generator_ColumnPropNameInRow="VendorID" msprop:Generator_ColumnPropNameInTable="VendorIDColumn" msprop:Generator_UserColumnName="VendorID" type="xs:int" minOccurs="0" />
+              <xs:element name="VendorName" msprop:Generator_ColumnVarNameInTable="columnVendorName" msprop:Generator_ColumnPropNameInRow="VendorName" msprop:Generator_ColumnPropNameInTable="VendorNameColumn" msprop:Generator_UserColumnName="VendorName" type="xs:string" minOccurs="0" />
+              <xs:element name="VendorType" msprop:Generator_ColumnVarNameInTable="columnVendorType" msprop:Generator_ColumnPropNameInRow="VendorType" msprop:Generator_ColumnPropNameInTable="VendorTypeColumn" msprop:Generator_UserColumnName="VendorType" type="xs:int" minOccurs="0" />
+              <xs:element name="IsActive" msprop:Generator_ColumnVarNameInTable="columnIsActive" msprop:Generator_ColumnPropNameInRow="IsActive" msprop:Generator_ColumnPropNameInTable="IsActiveColumn" msprop:Generator_UserColumnName="IsActive" type="xs:int" minOccurs="0" />
+              <xs:element name="DeliveryMode" msprop:Generator_ColumnVarNameInTable="columnDeliveryMode" msprop:Generator_ColumnPropNameInRow="DeliveryMode" msprop:Generator_ColumnPropNameInTable="DeliveryModeColumn" msprop:Generator_UserColumnName="DeliveryMode" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

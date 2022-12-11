@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSWarranty" targetNamespace="http://tempuri.org/DSWarranty.xsd" xmlns:mstns="http://tempuri.org/DSWarranty.xsd" xmlns="http://tempuri.org/DSWarranty.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSWarranty" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="DSWarranty" msprop:Generator_UserDSName="DSWarranty">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="WarrantyCategory" msprop:Generator_UserTableName="WarrantyCategory" msprop:Generator_RowEvArgName="WarrantyCategoryRowChangeEvent" msprop:Generator_TableVarName="tableWarrantyCategory" msprop:Generator_TablePropName="WarrantyCategory" msprop:Generator_RowDeletingName="WarrantyCategoryRowDeleting" msprop:Generator_RowChangingName="WarrantyCategoryRowChanging" msprop:Generator_RowDeletedName="WarrantyCategoryRowDeleted" msprop:Generator_RowEvHandlerName="WarrantyCategoryRowChangeEventHandler" msprop:Generator_TableClassName="WarrantyCategoryDataTable" msprop:Generator_RowChangedName="WarrantyCategoryRowChanged" msprop:Generator_RowClassName="WarrantyCategoryRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="WarrantyCategoryID" msprop:Generator_ColumnVarNameInTable="columnWarrantyCategoryID" msprop:Generator_ColumnPropNameInRow="WarrantyCategoryID" msprop:Generator_ColumnPropNameInTable="WarrantyCategoryIDColumn" msprop:Generator_UserColumnName="WarrantyCategoryID" type="xs:int" minOccurs="0" />
+              <xs:element name="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnPropNameInTable="NameColumn" msprop:Generator_UserColumnName="Name" type="xs:string" minOccurs="0" />
+              <xs:element name="TransferType" msprop:Generator_ColumnVarNameInTable="columnTransferType" msprop:Generator_ColumnPropNameInRow="TransferType" msprop:Generator_ColumnPropNameInTable="TransferTypeColumn" msprop:Generator_UserColumnName="TransferType" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="WarrantyCategoryProduct" msprop:Generator_UserTableName="WarrantyCategoryProduct" msprop:Generator_RowEvArgName="WarrantyCategoryProductRowChangeEvent" msprop:Generator_TableVarName="tableWarrantyCategoryProduct" msprop:Generator_TablePropName="WarrantyCategoryProduct" msprop:Generator_RowDeletingName="WarrantyCategoryProductRowDeleting" msprop:Generator_RowChangingName="WarrantyCategoryProductRowChanging" msprop:Generator_RowDeletedName="WarrantyCategoryProductRowDeleted" msprop:Generator_RowEvHandlerName="WarrantyCategoryProductRowChangeEventHandler" msprop:Generator_TableClassName="WarrantyCategoryProductDataTable" msprop:Generator_RowChangedName="WarrantyCategoryProductRowChanged" msprop:Generator_RowClassName="WarrantyCategoryProductRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="WarrantyCategoryID" msprop:Generator_ColumnVarNameInTable="columnWarrantyCategoryID" msprop:Generator_ColumnPropNameInRow="WarrantyCategoryID" msprop:Generator_ColumnPropNameInTable="WarrantyCategoryIDColumn" msprop:Generator_UserColumnName="WarrantyCategoryID" type="xs:int" minOccurs="0" />
+              <xs:element name="ProductID" msprop:Generator_ColumnVarNameInTable="columnProductID" msprop:Generator_ColumnPropNameInRow="ProductID" msprop:Generator_ColumnPropNameInTable="ProductIDColumn" msprop:Generator_UserColumnName="ProductID" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="WarrantyParameter" msprop:Generator_UserTableName="WarrantyParameter" msprop:Generator_RowEvArgName="WarrantyParameterRowChangeEvent" msprop:Generator_TableVarName="tableWarrantyParameter" msprop:Generator_TablePropName="WarrantyParameter" msprop:Generator_RowDeletingName="WarrantyParameterRowDeleting" msprop:Generator_RowChangingName="WarrantyParameterRowChanging" msprop:Generator_RowDeletedName="WarrantyParameterRowDeleted" msprop:Generator_RowEvHandlerName="WarrantyParameterRowChangeEventHandler" msprop:Generator_TableClassName="WarrantyParameterDataTable" msprop:Generator_RowChangedName="WarrantyParameterRowChanged" msprop:Generator_RowClassName="WarrantyParameterRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="WarrantyParameterID" msprop:Generator_ColumnVarNameInTable="columnWarrantyParameterID" msprop:Generator_ColumnPropNameInRow="WarrantyParameterID" msprop:Generator_ColumnPropNameInTable="WarrantyParameterIDColumn" msprop:Generator_UserColumnName="WarrantyParameterID" type="xs:int" minOccurs="0" />
+              <xs:element name="WarrantyCategoryID" msprop:Generator_ColumnVarNameInTable="columnWarrantyCategoryID" msprop:Generator_ColumnPropNameInRow="WarrantyCategoryID" msprop:Generator_ColumnPropNameInTable="WarrantyCategoryIDColumn" msprop:Generator_UserColumnName="WarrantyCategoryID" type="xs:int" minOccurs="0" />
+              <xs:element name="ServiceValidity" msprop:Generator_ColumnVarNameInTable="columnServiceValidity" msprop:Generator_ColumnPropNameInRow="ServiceValidity" msprop:Generator_ColumnPropNameInTable="ServiceValidityColumn" msprop:Generator_UserColumnName="ServiceValidity" type="xs:int" minOccurs="0" />
+              <xs:element name="SpareValidity" msprop:Generator_ColumnVarNameInTable="columnSpareValidity" msprop:Generator_ColumnPropNameInRow="SpareValidity" msprop:Generator_ColumnPropNameInTable="SpareValidityColumn" msprop:Generator_UserColumnName="SpareValidity" type="xs:int" minOccurs="0" />
+              <xs:element name="SpecialPartValidity" msprop:Generator_ColumnVarNameInTable="columnSpecialPartValidity" msprop:Generator_ColumnPropNameInRow="SpecialPartValidity" msprop:Generator_ColumnPropNameInTable="SpecialPartValidityColumn" msprop:Generator_UserColumnName="SpecialPartValidity" type="xs:int" minOccurs="0" />
+              <xs:element name="EffectiveFrom" msprop:Generator_ColumnVarNameInTable="columnEffectiveFrom" msprop:Generator_ColumnPropNameInRow="EffectiveFrom" msprop:Generator_ColumnPropNameInTable="EffectiveFromColumn" msprop:Generator_UserColumnName="EffectiveFrom" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="WarrantyParam" msprop:Generator_UserTableName="WarrantyParam" msprop:Generator_RowEvArgName="WarrantyParamRowChangeEvent" msprop:Generator_TableVarName="tableWarrantyParam" msprop:Generator_TablePropName="WarrantyParam" msprop:Generator_RowDeletingName="WarrantyParamRowDeleting" msprop:Generator_RowChangingName="WarrantyParamRowChanging" msprop:Generator_RowDeletedName="WarrantyParamRowDeleted" msprop:Generator_RowEvHandlerName="WarrantyParamRowChangeEventHandler" msprop:Generator_TableClassName="WarrantyParamDataTable" msprop:Generator_RowChangedName="WarrantyParamRowChanged" msprop:Generator_RowClassName="WarrantyParamRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="WarrantyParamID" msprop:Generator_ColumnVarNameInTable="columnWarrantyParamID" msprop:Generator_ColumnPropNameInRow="WarrantyParamID" msprop:Generator_ColumnPropNameInTable="WarrantyParamIDColumn" msprop:Generator_UserColumnName="WarrantyParamID" type="xs:int" minOccurs="0" />
+              <xs:element name="ProductID" msprop:Generator_ColumnVarNameInTable="columnProductID" msprop:Generator_ColumnPropNameInRow="ProductID" msprop:Generator_ColumnPropNameInTable="ProductIDColumn" msprop:Generator_UserColumnName="ProductID" type="xs:int" minOccurs="0" />
+              <xs:element name="ServiceWarranty" msprop:Generator_ColumnVarNameInTable="columnServiceWarranty" msprop:Generator_ColumnPropNameInRow="ServiceWarranty" msprop:Generator_ColumnPropNameInTable="ServiceWarrantyColumn" msprop:Generator_UserColumnName="ServiceWarranty" type="xs:int" minOccurs="0" />
+              <xs:element name="PartsWarranty" msprop:Generator_ColumnVarNameInTable="columnPartsWarranty" msprop:Generator_ColumnPropNameInRow="PartsWarranty" msprop:Generator_ColumnPropNameInTable="PartsWarrantyColumn" msprop:Generator_UserColumnName="PartsWarranty" type="xs:int" minOccurs="0" />
+              <xs:element name="SpecialComponentWarranty" msprop:Generator_ColumnVarNameInTable="columnSpecialComponentWarranty" msprop:Generator_ColumnPropNameInRow="SpecialComponentWarranty" msprop:Generator_ColumnPropNameInTable="SpecialComponentWarrantyColumn" msprop:Generator_UserColumnName="SpecialComponentWarranty" type="xs:int" minOccurs="0" />
+              <xs:element name="IsCurrent" msprop:Generator_ColumnVarNameInTable="columnIsCurrent" msprop:Generator_ColumnPropNameInRow="IsCurrent" msprop:Generator_ColumnPropNameInTable="IsCurrentColumn" msprop:Generator_UserColumnName="IsCurrent" type="xs:int" minOccurs="0" />
+              <xs:element name="IsPrintWarrantyCard" msprop:Generator_ColumnVarNameInTable="columnIsPrintWarrantyCard" msprop:Generator_ColumnPropNameInRow="IsPrintWarrantyCard" msprop:Generator_ColumnPropNameInTable="IsPrintWarrantyCardColumn" msprop:Generator_UserColumnName="IsPrintWarrantyCard" type="xs:int" minOccurs="0" />
+              <xs:element name="IsStoreBarcode" msprop:Generator_ColumnVarNameInTable="columnIsStoreBarcode" msprop:Generator_ColumnPropNameInRow="IsStoreBarcode" msprop:Generator_ColumnPropNameInTable="IsStoreBarcodeColumn" msprop:Generator_UserColumnName="IsStoreBarcode" type="xs:int" minOccurs="0" />
+              <xs:element name="EffectDate" msprop:Generator_ColumnVarNameInTable="columnEffectDate" msprop:Generator_ColumnPropNameInRow="EffectDate" msprop:Generator_ColumnPropNameInTable="EffectDateColumn" msprop:Generator_UserColumnName="EffectDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="CreateDate" msprop:Generator_ColumnVarNameInTable="columnCreateDate" msprop:Generator_ColumnPropNameInRow="CreateDate" msprop:Generator_ColumnPropNameInTable="CreateDateColumn" msprop:Generator_UserColumnName="CreateDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="CreateUserID" msprop:Generator_ColumnVarNameInTable="columnCreateUserID" msprop:Generator_ColumnPropNameInRow="CreateUserID" msprop:Generator_ColumnPropNameInTable="CreateUserIDColumn" msprop:Generator_UserColumnName="CreateUserID" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="WarrantyCard" msprop:Generator_TableClassName="WarrantyCardDataTable" msprop:Generator_RowEvArgName="WarrantyCardRowChangeEvent" msprop:Generator_TableVarName="tableWarrantyCard" msprop:Generator_TablePropName="WarrantyCard" msprop:Generator_RowDeletingName="WarrantyCardRowDeleting" msprop:Generator_RowChangingName="WarrantyCardRowChanging" msprop:Generator_RowEvHandlerName="WarrantyCardRowChangeEventHandler" msprop:Generator_RowDeletedName="WarrantyCardRowDeleted" msprop:Generator_RowChangedName="WarrantyCardRowChanged" msprop:Generator_UserTableName="WarrantyCard" msprop:Generator_RowClassName="WarrantyCardRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_UserColumnName="ID" type="xs:int" minOccurs="0" />
+              <xs:element name="OutletID" msprop:Generator_ColumnVarNameInTable="columnOutletID" msprop:Generator_ColumnPropNameInRow="OutletID" msprop:Generator_ColumnPropNameInTable="OutletIDColumn" msprop:Generator_UserColumnName="OutletID" type="xs:int" minOccurs="0" />
+              <xs:element name="InvoiceID" msprop:Generator_ColumnVarNameInTable="columnInvoiceID" msprop:Generator_ColumnPropNameInRow="InvoiceID" msprop:Generator_ColumnPropNameInTable="InvoiceIDColumn" msprop:Generator_UserColumnName="InvoiceID" type="xs:int" minOccurs="0" />
+              <xs:element name="ProductID" msprop:Generator_ColumnVarNameInTable="columnProductID" msprop:Generator_ColumnPropNameInRow="ProductID" msprop:Generator_ColumnPropNameInTable="ProductIDColumn" msprop:Generator_UserColumnName="ProductID" type="xs:int" minOccurs="0" />
+              <xs:element name="WarrantyCardNo" msprop:Generator_ColumnVarNameInTable="columnWarrantyCardNo" msprop:Generator_ColumnPropNameInRow="WarrantyCardNo" msprop:Generator_ColumnPropNameInTable="WarrantyCardNoColumn" msprop:Generator_UserColumnName="WarrantyCardNo" type="xs:string" minOccurs="0" />
+              <xs:element name="ProductSerialNo" msprop:Generator_ColumnVarNameInTable="columnProductSerialNo" msprop:Generator_ColumnPropNameInRow="ProductSerialNo" msprop:Generator_ColumnPropNameInTable="ProductSerialNoColumn" msprop:Generator_UserColumnName="ProductSerialNo" type="xs:string" minOccurs="0" />
+              <xs:element name="WarrantyParameterID" msprop:Generator_ColumnVarNameInTable="columnWarrantyParameterID" msprop:Generator_ColumnPropNameInRow="WarrantyParameterID" msprop:Generator_ColumnPropNameInTable="WarrantyParameterIDColumn" msprop:Generator_UserColumnName="WarrantyParameterID" type="xs:int" minOccurs="0" />
+              <xs:element name="InvoiceNo" msprop:Generator_ColumnVarNameInTable="columnInvoiceNo" msprop:Generator_ColumnPropNameInRow="InvoiceNo" msprop:Generator_ColumnPropNameInTable="InvoiceNoColumn" msprop:Generator_UserColumnName="InvoiceNo" type="xs:string" minOccurs="0" />
+              <xs:element name="IsDownload" msprop:Generator_ColumnVarNameInTable="columnIsDownload" msprop:Generator_ColumnPropNameInRow="IsDownload" msprop:Generator_ColumnPropNameInTable="IsDownloadColumn" msprop:Generator_UserColumnName="IsDownload" type="xs:int" minOccurs="0" />
+              <xs:element name="ExtendedWarrantyDescription" msprop:Generator_ColumnVarNameInTable="columnExtendedWarrantyDescription" msprop:Generator_ColumnPropNameInRow="ExtendedWarrantyDescription" msprop:Generator_ColumnPropNameInTable="ExtendedWarrantyDescriptionColumn" msprop:Generator_UserColumnName="ExtendedWarrantyDescription" type="xs:string" minOccurs="0" />
+              <xs:element name="ExtendedWarrantyID" msprop:Generator_ColumnVarNameInTable="columnExtendedWarrantyID" msprop:Generator_ColumnPropNameInRow="ExtendedWarrantyID" msprop:Generator_ColumnPropNameInTable="ExtendedWarrantyIDColumn" msprop:Generator_UserColumnName="ExtendedWarrantyID" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

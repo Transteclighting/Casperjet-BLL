@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSGeoLocation" targetNamespace="http://tempuri.org/DSGeoLocation.xsd" xmlns:mstns="http://tempuri.org/DSGeoLocation.xsd" xmlns="http://tempuri.org/DSGeoLocation.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSGeoLocation" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DSGeoLocation" msprop:Generator_DataSetName="DSGeoLocation">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="GeoLocation" msprop:Generator_UserTableName="GeoLocation" msprop:Generator_RowDeletedName="GeoLocationRowDeleted" msprop:Generator_RowChangedName="GeoLocationRowChanged" msprop:Generator_RowClassName="GeoLocationRow" msprop:Generator_RowChangingName="GeoLocationRowChanging" msprop:Generator_RowEvArgName="GeoLocationRowChangeEvent" msprop:Generator_RowEvHandlerName="GeoLocationRowChangeEventHandler" msprop:Generator_TableClassName="GeoLocationDataTable" msprop:Generator_TableVarName="tableGeoLocation" msprop:Generator_RowDeletingName="GeoLocationRowDeleting" msprop:Generator_TablePropName="GeoLocation">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="GeoLocationID" msprop:Generator_UserColumnName="GeoLocationID" msprop:Generator_ColumnPropNameInRow="GeoLocationID" msprop:Generator_ColumnVarNameInTable="columnGeoLocationID" msprop:Generator_ColumnPropNameInTable="GeoLocationIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="GeoLocationCode" msprop:Generator_UserColumnName="GeoLocationCode" msprop:Generator_ColumnPropNameInRow="GeoLocationCode" msprop:Generator_ColumnVarNameInTable="columnGeoLocationCode" msprop:Generator_ColumnPropNameInTable="GeoLocationCodeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="GeoLocationName" msprop:Generator_UserColumnName="GeoLocationName" msprop:Generator_ColumnPropNameInRow="GeoLocationName" msprop:Generator_ColumnVarNameInTable="columnGeoLocationName" msprop:Generator_ColumnPropNameInTable="GeoLocationNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="GeoLocationTypeID" msprop:Generator_UserColumnName="GeoLocationTypeID" msprop:Generator_ColumnPropNameInRow="GeoLocationTypeID" msprop:Generator_ColumnVarNameInTable="columnGeoLocationTypeID" msprop:Generator_ColumnPropNameInTable="GeoLocationTypeIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="ParentID" msprop:Generator_UserColumnName="ParentID" msprop:Generator_ColumnPropNameInRow="ParentID" msprop:Generator_ColumnVarNameInTable="columnParentID" msprop:Generator_ColumnPropNameInTable="ParentIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="ParentCode" msprop:Generator_UserColumnName="ParentCode" msprop:Generator_ColumnPropNameInRow="ParentCode" msprop:Generator_ColumnVarNameInTable="columnParentCode" msprop:Generator_ColumnPropNameInTable="ParentCodeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ParentName" msprop:Generator_UserColumnName="ParentName" msprop:Generator_ColumnPropNameInRow="ParentName" msprop:Generator_ColumnVarNameInTable="columnParentName" msprop:Generator_ColumnPropNameInTable="ParentNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="GeoLocationCategory" msprop:Generator_UserColumnName="GeoLocationCategory" msprop:Generator_ColumnPropNameInRow="GeoLocationCategory" msprop:Generator_ColumnVarNameInTable="columnGeoLocationCategory" msprop:Generator_ColumnPropNameInTable="GeoLocationCategoryColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

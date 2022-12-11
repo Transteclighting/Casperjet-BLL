@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns="http://tempuri.org/DSStock.xsd" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:mstns="http://tempuri.org/DSStock.xsd" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://tempuri.org/DSStock.xsd" id="DSStock" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element msdata:IsDataSet="true" msdata:UseCurrentLocale="true" name="DSStock">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Stock">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="CurrentStock" type="xs:string" />
+              <xs:element minOccurs="0" name="UOM" type="xs:string" />
+              <xs:element minOccurs="0" name="TransitStock" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ProductStock">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="ProductID" type="xs:int" />
+              <xs:element minOccurs="0" name="WarehouseID" type="xs:int" />
+              <xs:element minOccurs="0" name="StockType" type="xs:int" />
+              <xs:element minOccurs="0" name="CurrentStock" type="xs:long" />
+              <xs:element minOccurs="0" name="CurrentStockValue" type="xs:double" />
+              <xs:element minOccurs="0" name="BookingStock" type="xs:int" />
+              <xs:element minOccurs="0" name="TransitStock" type="xs:int" />
+              <xs:element minOccurs="0" name="ChannelID" type="xs:int" />
+              <xs:element minOccurs="0" name="Status" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ProdStock">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="AGID" type="xs:int" />
+              <xs:element minOccurs="0" name="AGName" type="xs:string" />
+              <xs:element minOccurs="0" name="ASGID" type="xs:int" />
+              <xs:element minOccurs="0" name="ASGName" type="xs:string" />
+              <xs:element minOccurs="0" name="MAGID" type="xs:int" />
+              <xs:element minOccurs="0" name="MAGName" type="xs:string" />
+              <xs:element minOccurs="0" name="BrandID" type="xs:int" />
+              <xs:element minOccurs="0" name="BrandDesc" type="xs:string" />
+              <xs:element minOccurs="0" name="ProductCode" type="xs:string" />
+              <xs:element minOccurs="0" name="ProductName" type="xs:string" />
+              <xs:element minOccurs="0" name="SelableStock" type="xs:int" />
+              <xs:element minOccurs="0" name="WarehouseID" type="xs:int" />
+              <xs:element minOccurs="0" name="ShortCode" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="HOStockUpdateDate">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="Date" type="xs:dateTime" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

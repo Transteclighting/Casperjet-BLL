@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns="http://tempuri.org/DSPaymentMode.xsd" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:mstns="http://tempuri.org/DSPaymentMode.xsd" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://tempuri.org/DSPaymentMode.xsd" id="DSPaymentMode" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element msdata:IsDataSet="true" msdata:UseCurrentLocale="true" name="DSPaymentMode">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="PaymentMode">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="PaymentModeID" type="xs:int" />
+              <xs:element minOccurs="0" name="PaymentModeName" type="xs:string" />
+              <xs:element minOccurs="0" name="IsActive" type="xs:int" />
+              <xs:element minOccurs="0" name="CreateUserID" type="xs:int" />
+              <xs:element minOccurs="0" name="CreateDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="IsDownload" type="xs:int" />
+              <xs:element minOccurs="0" name="TransferType" type="xs:int" />
+              <xs:element minOccurs="0" name="SalesType" type="xs:string" />
+              <xs:element minOccurs="0" name="IsReceivableItem" type="xs:int" />
+              <xs:element minOccurs="0" name="IsFinancialInstitution" type="xs:int" />
+              <xs:element minOccurs="0" name="BankID" type="xs:int" />
+              <xs:element minOccurs="0" name="IsMandatoryInstrumentNo" type="xs:int" />
+              <xs:element minOccurs="0" name="IsEligableforAdvance" type="xs:int" />
+              <xs:element minOccurs="0" name="PaymentModeType" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

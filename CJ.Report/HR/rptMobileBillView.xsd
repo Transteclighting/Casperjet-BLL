@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="rptMobileBillView" targetNamespace="http://tempuri.org/rptMobileBillView.xsd" xmlns:mstns="http://tempuri.org/rptMobileBillView.xsd" xmlns="http://tempuri.org/rptMobileBillView.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="rptMobileBillView" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="rptMobileBillView" msprop:Generator_UserDSName="rptMobileBillView">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="MobileNumberAssign" msprop:Generator_UserTableName="MobileNumberAssign" msprop:Generator_RowEvArgName="MobileNumberAssignRowChangeEvent" msprop:Generator_TableVarName="tableMobileNumberAssign" msprop:Generator_TablePropName="MobileNumberAssign" msprop:Generator_RowDeletingName="MobileNumberAssignRowDeleting" msprop:Generator_RowChangingName="MobileNumberAssignRowChanging" msprop:Generator_RowDeletedName="MobileNumberAssignRowDeleted" msprop:Generator_RowEvHandlerName="MobileNumberAssignRowChangeEventHandler" msprop:Generator_TableClassName="MobileNumberAssignDataTable" msprop:Generator_RowChangedName="MobileNumberAssignRowChanged" msprop:Generator_RowClassName="MobileNumberAssignRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="EmployeeCode" msprop:Generator_ColumnVarNameInTable="columnEmployeeCode" msprop:Generator_ColumnPropNameInRow="EmployeeCode" msprop:Generator_ColumnPropNameInTable="EmployeeCodeColumn" msprop:Generator_UserColumnName="EmployeeCode" type="xs:string" minOccurs="0" />
+              <xs:element name="UserName" msprop:Generator_ColumnVarNameInTable="columnUserName" msprop:Generator_ColumnPropNameInRow="UserName" msprop:Generator_ColumnPropNameInTable="UserNameColumn" msprop:Generator_UserColumnName="UserName" type="xs:string" minOccurs="0" />
+              <xs:element name="DesignationName" msprop:Generator_ColumnVarNameInTable="columnDesignationName" msprop:Generator_ColumnPropNameInRow="DesignationName" msprop:Generator_ColumnPropNameInTable="DesignationNameColumn" msprop:Generator_UserColumnName="DesignationName" type="xs:string" minOccurs="0" />
+              <xs:element name="DepartmentName" msprop:Generator_ColumnVarNameInTable="columnDepartmentName" msprop:Generator_ColumnPropNameInRow="DepartmentName" msprop:Generator_ColumnPropNameInTable="DepartmentNameColumn" msprop:Generator_UserColumnName="DepartmentName" type="xs:string" minOccurs="0" />
+              <xs:element name="MobileNumber" msprop:Generator_ColumnVarNameInTable="columnMobileNumber" msprop:Generator_ColumnPropNameInRow="MobileNumber" msprop:Generator_ColumnPropNameInTable="MobileNumberColumn" msprop:Generator_UserColumnName="MobileNumber" type="xs:string" minOccurs="0" />
+              <xs:element name="BillAmount" msprop:Generator_ColumnVarNameInTable="columnBillAmount" msprop:Generator_ColumnPropNameInRow="BillAmount" msprop:Generator_ColumnPropNameInTable="BillAmountColumn" msprop:Generator_UserColumnName="BillAmount" type="xs:double" minOccurs="0" />
+              <xs:element name="CreditLimit" msprop:Generator_ColumnVarNameInTable="columnCreditLimit" msprop:Generator_ColumnPropNameInRow="CreditLimit" msprop:Generator_ColumnPropNameInTable="CreditLimitColumn" msprop:Generator_UserColumnName="CreditLimit" type="xs:double" minOccurs="0" />
+              <xs:element name="EdgePackageAmount" msprop:Generator_ColumnVarNameInTable="columnEdgePackageAmount" msprop:Generator_ColumnPropNameInRow="EdgePackageAmount" msprop:Generator_ColumnPropNameInTable="EdgePackageAmountColumn" msprop:Generator_UserColumnName="EdgePackageAmount" type="xs:double" minOccurs="0" />
+              <xs:element name="DeductFromSalary" msprop:Generator_ColumnVarNameInTable="columnDeductFromSalary" msprop:Generator_ColumnPropNameInRow="DeductFromSalary" msprop:Generator_ColumnPropNameInTable="DeductFromSalaryColumn" msprop:Generator_UserColumnName="DeductFromSalary" type="xs:double" minOccurs="0" />
+              <xs:element name="TMonth" msprop:Generator_ColumnVarNameInTable="columnTMonth" msprop:Generator_ColumnPropNameInRow="TMonth" msprop:Generator_ColumnPropNameInTable="TMonthColumn" msprop:Generator_UserColumnName="TMonth" type="xs:string" minOccurs="0" />
+              <xs:element name="TYear" msprop:Generator_ColumnVarNameInTable="columnTYear" msprop:Generator_ColumnPropNameInRow="TYear" msprop:Generator_ColumnPropNameInTable="TYearColumn" msprop:Generator_UserColumnName="TYear" type="xs:string" minOccurs="0" />
+              <xs:element name="CreditLimitTypeName" msprop:Generator_ColumnVarNameInTable="columnCreditLimitTypeName" msprop:Generator_ColumnPropNameInRow="CreditLimitTypeName" msprop:Generator_ColumnPropNameInTable="CreditLimitTypeNameColumn" msprop:Generator_UserColumnName="CreditLimitTypeName" type="xs:string" minOccurs="0" />
+              <xs:element name="BillWithDiscount" msprop:Generator_ColumnVarNameInTable="columnBillWithDiscount" msprop:Generator_ColumnPropNameInRow="BillWithDiscount" msprop:Generator_ColumnPropNameInTable="BillWithDiscountColumn" msprop:Generator_UserColumnName="BillWithDiscount" type="xs:double" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

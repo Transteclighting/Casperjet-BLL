@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns="http://tempuri.org/DSCustomerTemp.xsd" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:mstns="http://tempuri.org/DSCustomerTemp.xsd" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://tempuri.org/DSCustomerTemp.xsd" id="DSCustomerTemp" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element msdata:IsDataSet="true" msdata:UseCurrentLocale="true" name="DSCustomerTemp">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="CustomerTemp">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CustomerID" type="xs:int" />
+              <xs:element name="WarehouseID" type="xs:int" />
+              <xs:element minOccurs="0" name="ParentCustomerID" type="xs:int" />
+              <xs:element minOccurs="0" name="CustomerShortName" type="xs:string" />
+              <xs:element minOccurs="0" name="CustomerCode" type="xs:string" />
+              <xs:element minOccurs="0" name="CustomerName" type="xs:string" />
+              <xs:element minOccurs="0" name="CustomerAddress" type="xs:string" />
+              <xs:element minOccurs="0" name="CustomerTelephone" type="xs:string" />
+              <xs:element minOccurs="0" name="CustomerFax" type="xs:string" />
+              <xs:element minOccurs="0" name="CellPhoneNumber" type="xs:string" />
+              <xs:element minOccurs="0" name="ContactPerson" type="xs:string" />
+              <xs:element minOccurs="0" name="ContactDesignation" type="xs:string" />
+              <xs:element minOccurs="0" name="IsActive" type="xs:int" />
+              <xs:element minOccurs="0" name="CustTypeID" type="xs:int" />
+              <xs:element minOccurs="0" name="MarketGroupID" type="xs:int" />
+              <xs:element minOccurs="0" name="GeoLocationID" type="xs:int" />
+              <xs:element minOccurs="0" name="EmailAddress" type="xs:string" />
+              <xs:element minOccurs="0" name="EnrollmentDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="Terminal" type="xs:int" />
+              <xs:element minOccurs="0" name="CreateDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="CreateUserID" type="xs:int" />
+              <xs:element minOccurs="0" name="UpdateDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="UpdateUserID" type="xs:int" />
+              <xs:element minOccurs="0" name="ApprovedDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="ApprovedUserID" type="xs:int" />
+              <xs:element minOccurs="0" name="Status" type="xs:int" />
+              <xs:element minOccurs="0" name="IsDownload" type="xs:int" />
+              <xs:element minOccurs="0" name="TaxNumber" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique msdata:PrimaryKey="true" name="CustomerTempKey1">
+      <xs:selector xpath=".//mstns:CustomerTemp" />
+      <xs:field xpath="mstns:CustomerID" />
+      <xs:field xpath="mstns:WarehouseID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

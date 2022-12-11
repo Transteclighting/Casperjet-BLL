@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns="http://tempuri.org/DSRetailConsumer.xsd" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:mstns="http://tempuri.org/DSRetailConsumer.xsd" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://tempuri.org/DSRetailConsumer.xsd" id="DSRetailConsumer" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element msdata:IsDataSet="true" msdata:UseCurrentLocale="true" name="DSRetailConsumer">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="RetailConsumer">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element msdata:Caption="SundryCustomerID" minOccurs="0" name="ConsumerID" type="xs:int" />
+              <xs:element msdata:Caption="SundryCustomerName" minOccurs="0" name="ConsumerCode" type="xs:string" />
+              <xs:element msdata:Caption="Address" minOccurs="0" name="ConsumerName" type="xs:string" />
+              <xs:element msdata:Caption="PhoneNo" minOccurs="0" name="ConsumerType" type="xs:int" />
+              <xs:element minOccurs="0" name="CustomerID" type="xs:int" />
+              <xs:element minOccurs="0" name="ParentCustomerID" type="xs:int" />
+              <xs:element minOccurs="0" name="WarehouseID" type="xs:int" />
+              <xs:element minOccurs="0" name="Address" type="xs:string" />
+              <xs:element minOccurs="0" name="CellNo" type="xs:string" />
+              <xs:element minOccurs="0" name="PhoneNo" type="xs:string" />
+              <xs:element minOccurs="0" name="Email" type="xs:string" />
+              <xs:element minOccurs="0" name="EmployeeCode" type="xs:string" />
+              <xs:element minOccurs="0" name="NationalID" type="xs:string" />
+              <xs:element minOccurs="0" name="DateofBirth" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="VatRegNo" type="xs:string" />
+              <xs:element minOccurs="0" name="ShortName" type="xs:string" />
+              <xs:element minOccurs="0" name="FatherName" type="xs:string" />
+              <xs:element minOccurs="0" name="MotherName" type="xs:string" />
+              <xs:element minOccurs="0" name="SpouseName" type="xs:string" />
+              <xs:element minOccurs="0" name="PermanentAddress" type="xs:string" />
+              <xs:element minOccurs="0" name="Nationality" type="xs:string" />
+              <xs:element minOccurs="0" name="PassportNo" type="xs:string" />
+              <xs:element minOccurs="0" name="IsCLP" type="xs:int" />
+              <xs:element minOccurs="0" name="CurrentCLP" type="xs:int" />
+              <xs:element minOccurs="0" name="IsRegister" type="xs:int" />
+              <xs:element minOccurs="0" name="IsAuthorized" type="xs:int" />
+              <xs:element minOccurs="0" name="TransferType" type="xs:int" />
+              <xs:element minOccurs="0" name="IsDownload" type="xs:int" />
+              <xs:element minOccurs="0" name="SalesType" type="xs:int" />
+              <xs:element minOccurs="0" name="IsVerifiedEmail" type="xs:int" />
+              <xs:element minOccurs="0" name="SecondaryConsumer" type="xs:string" />
+              <xs:element minOccurs="0" name="SecondaryMobileNo" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

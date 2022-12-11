@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns="http://tempuri.org/DSPromoWarranty.xsd" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:mstns="http://tempuri.org/DSPromoWarranty.xsd" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://tempuri.org/DSPromoWarranty.xsd" id="DSPromoWarranty" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element msdata:IsDataSet="true" msdata:UseCurrentLocale="true" name="DSPromoWarranty">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="PromoWarranty">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="WarrantyId" type="xs:int" />
+              <xs:element name="FromDate" type="xs:dateTime" />
+              <xs:element name="ToDate" type="xs:dateTime" />
+              <xs:element name="Description" type="xs:string" />
+              <xs:element minOccurs="0" name="IsActive" type="xs:boolean" />
+              <xs:element minOccurs="0" name="Status" type="xs:int" />
+              <xs:element name="CreateUserId" type="xs:int" />
+              <xs:element name="CreateDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="ExtendedWarranty" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="PromoWarrntyDetail">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="WarrantyId" type="xs:int" />
+              <xs:element name="WarrantyDetailId" type="xs:int" />
+              <xs:element name="ProductId" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1">
+      <xs:selector xpath=".//mstns:PromoWarranty" />
+      <xs:field xpath="mstns:WarrantyId" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
